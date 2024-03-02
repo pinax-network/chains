@@ -5,7 +5,7 @@ import BLOCKTYPE from "../blocktypes";
 const chain: Chain = {
   id: "arbsepolia",
   index: 4,
-  graph_id: "arbsepolia",
+  graph_id: "arbitrum-sepolia",
   name: "Arbitrum Sepolia",
   alt_names: [],
   released_at: new Date("2024-01-18"),

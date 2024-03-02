@@ -12,8 +12,9 @@
   "types": "./index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "npm run generate && tsc",
     "generate": "node ./scripts/generate.js && npm run format",
+    "fetch-graph-ids": "node ./scripts/fetchGraphIDs.js",
     "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {

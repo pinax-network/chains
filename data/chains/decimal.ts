@@ -5,7 +5,7 @@ import BLOCKTYPE from "../blocktypes";
 const chain: Chain = {
   id: "decimal",
   index: 3,
-  graph_id: "decimal",
+  graph_id: undefined,
   name: "Decimal",
   alt_names: [],
   released_at: new Date("2024-01-18"),

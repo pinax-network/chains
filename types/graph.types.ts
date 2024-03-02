@@ -12,7 +12,17 @@ export type GraphId =
   | "sepolia"
   | "near-mainnet"
   | "near-testnet"
+  | "base"
   | "osmosis-1"
   | "optimism"
+  | "avalanche"
   | "matic"
-  | "mumbai";
+  | "mumbai"
+  | "arbitrum-sepolia"
+  | "arbitrum-one"
+  | "arbitrum-goerli"
+  | "celo"
+  | "fantom"
+  | "gnosis"
+  | "moonbeam"
+  | "scroll";
