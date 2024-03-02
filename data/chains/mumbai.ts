@@ -1,31 +1,28 @@
-import { Chain } from "@/utils/pinax/types";
-import GraphId from "../graphids";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
-import {
-  polygonMumbai as polygonMumbaiMeta,
-} from "wagmi/chains";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
+import { polygonMumbai as polygonMumbaiMeta } from "wagmi/chains";
 
 const chain: Chain = {
   id: "mumbai",
   index: 3,
-  graph_id: GraphId.MUMBAI,
+  graph_id: "mumbai",
   name: "Mumbai",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "polygon",
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/polygon`),
+  is_img_dt_invert: false,
+  mainnet: "polygon",
   is_testnet: true,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ERC20,
-  mainnet: Mainnet.POLYGON,
-  img_invert_color_dt: false,
+  standard: "erc20",
+  block_type: BLOCKTYPE.erc20,
   supported_services: {
     firehose: true,
     substreams: true,
     rpc: true,
   },
-  metadata: polygonMumbaiMeta
+  metadata: polygonMumbaiMeta,
 };
 
 export default chain;

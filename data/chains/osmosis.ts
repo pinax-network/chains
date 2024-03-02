@@ -1,22 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import Mainnet from "../mainnets";
-import GraphId from "../graphids";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
-  id: Mainnet.OSMOSIS,
+  id: "osmosis",
   index: 4,
-  graph_id: GraphId.OSMOSIS,
+  graph_id: "osmosis-1",
   name: "Osmosis",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "osmosis",
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/osmosis`),
+  is_img_dt_invert: false,
+  mainnet: "osmosis",
   is_testnet: false,
-  standard: Standard.COSMOS,
-  block_type: BLOCKTYPE.COSMOS,
-  mainnet: Mainnet.OSMOSIS,
-  img_invert_color_dt: false,
+  standard: "cosmos",
+  block_type: BLOCKTYPE.cosmos,
   supported_services: {
     firehose: true,
     substreams: false,

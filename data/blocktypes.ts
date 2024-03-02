@@ -1,7 +1,7 @@
 import { BlockType } from "../types/block.types";
 import { Standard } from "../types/standard.types";
 
-const BLOCKTYPE: { [standard in Standard]: BlockType } = {
+const BLOCKTYPES: { [standard in Standard]: BlockType } = {
   antelope: {
     label: "sf.antelope.type.v1.Block",
     url: "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1",
@@ -27,4 +27,4 @@ const BLOCKTYPE: { [standard in Standard]: BlockType } = {
     url: "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1",
   },
 };
-export default BLOCKTYPE;
+export default BLOCKTYPES;

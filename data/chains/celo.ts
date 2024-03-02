@@ -1,21 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
-import Standard from "../standards";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
-  id: Mainnet.CELO,
+  id: "celo",
   index: 2,
   graph_id: "celo",
   name: "Celo",
   alt_names: [],
-  released_at: "2024-01-18",
-  img: "celo",
-  img_invert_color_dt: true,
+  released_at: new Date("2024-01-18"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/celo`),
+  is_img_dt_invert: true,
+  mainnet: "celo",
   is_testnet: false,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ERC20,
-  mainnet: Mainnet.CELO,
+  standard: "erc20",
+  block_type: BLOCKTYPE.erc20,
   supported_services: {
     firehose: false,
     substreams: false,

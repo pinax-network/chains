@@ -1,22 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import GraphId from "../graphids";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
   id: "theta",
   index: 4,
-  graph_id: GraphId.THETA,
+  graph_id: "theta-testnet-001",
   name: "Theta",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "cosmoshub",
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/cosmoshub`),
+  is_img_dt_invert: false,
+  mainnet: "cosmoshub",
   is_testnet: true,
-  standard: Standard.COSMOS,
-  block_type: BLOCKTYPE.COSMOS,
-  mainnet: Mainnet.COSMOS,
-  img_invert_color_dt: false,
+  standard: "cosmos",
+  block_type: BLOCKTYPE.cosmos,
   supported_services: {
     firehose: true,
     substreams: false,

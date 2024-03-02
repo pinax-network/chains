@@ -1,23 +1,22 @@
-import { Chain } from "@/utils/pinax/types";
-import BLOCKTYPE from "../../types/block.types";
-import GraphId from "../graphids";
-import Mainnet from "../mainnets";
-import Standard from "../standards";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 import { bsc as bscMeta } from "wagmi/chains";
 
 const chain: Chain = {
-  id: Mainnet.BSC,
+  id: "bsc",
   index: 2,
-  graph_id: GraphId.BSC,
+  graph_id: "bsc",
   name: "BNB",
   alt_names: ["bsc", "binance"],
-  released_at: "2023-12-01",
-  img: "bsc",
-  img_invert_color_dt: false,
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/bsc`),
+  is_img_dt_invert: false,
+  mainnet: "bsc",
   is_testnet: false,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ERC20,
-  mainnet: Mainnet.BSC,
+  standard: "erc20",
+  block_type: BLOCKTYPE.erc20,
   supported_services: {
     firehose: true,
     substreams: true,

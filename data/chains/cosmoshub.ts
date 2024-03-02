@@ -1,21 +1,21 @@
-import BLOCKTYPE from "../../types/block.types";
-import GraphId from "../graphids";
-import Mainnet from "../mainnets";
-import Standard from "../standards";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
-const chain = {
-  id: Mainnet.COSMOS,
+const chain: Chain = {
+  id: "cosmoshub",
   index: 4,
-  graph_id: GraphId.COSMOS,
+  graph_id: "cosmoshub-4",
   name: "Cosmos Hub",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "cosmoshub",
-  img_invert_color_dt: false,
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/cosmoshub`),
+  is_img_dt_invert: false,
+  mainnet: "cosmoshub",
   is_testnet: false,
-  standard: Standard.COSMOS,
-  block_type: BLOCKTYPE.COSMOS,
-  mainnet: Mainnet.COSMOS,
+  standard: "cosmos",
+  block_type: BLOCKTYPE.cosmos,
   supported_services: {
     firehose: true,
     substreams: false,

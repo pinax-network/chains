@@ -1,23 +1,22 @@
-import { Chain } from "@/utils/pinax/types";
-import GraphId from "../graphids";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 import { sepolia as sepoliaMeta } from "wagmi/chains";
 
 const chain: Chain = {
   id: "sepolia",
   index: 1,
-  graph_id: GraphId.SEPOLIA,
+  graph_id: "sepolia",
   name: "Sepolia",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "eth",
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/eth`),
+  is_img_dt_invert: true,
+  mainnet: "eth",
   is_testnet: true,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ERC20,
-  mainnet: Mainnet.ETHEREUM,
-  img_invert_color_dt: true,
+  standard: "erc20",
+  block_type: BLOCKTYPE.erc20,
   supported_services: {
     firehose: true,
     substreams: true,

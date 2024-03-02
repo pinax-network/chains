@@ -1,22 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import GraphId from "../graphids";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
   id: "neartest",
   index: 4,
-  graph_id: GraphId.NEARTEST,
+  graph_id: "near-testnet",
   name: "Near-testnet",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "near",
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/near`),
+  is_img_dt_invert: true,
+  mainnet: "near",
   is_testnet: true,
-  standard: Standard.NEAR,
-  block_type: BLOCKTYPE.NEAR,
-  mainnet: Mainnet.NEAR,
-  img_invert_color_dt: true,
+  standard: "near",
+  block_type: BLOCKTYPE.near,
   supported_services: {
     firehose: true,
     substreams: true,

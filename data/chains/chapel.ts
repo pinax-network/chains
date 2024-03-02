@@ -1,22 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import GraphId from "../graphids";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
   id: "chapel",
   index: 2,
-  graph_id: GraphId.CHAPEL,
+  graph_id: "chapel",
   name: "Chapel",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "bsc",
-  img_invert_color_dt: false,
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/bsc`),
+  is_img_dt_invert: false,
+  mainnet: "bsc",
   is_testnet: true,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ERC20,
-  mainnet: Mainnet.BSC,
+  standard: "erc20",
+  block_type: BLOCKTYPE.erc20,
   supported_services: {
     firehose: true,
     substreams: true,

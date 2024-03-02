@@ -3,23 +3,29 @@ import { GraphId } from "./graph.types";
 import { Mainnet } from "./mainnet.types";
 import { PinaxId } from "./pinax.types";
 import { SupportedServices } from "./service.types";
+import { NoExtraProperties } from "./util.types";
 import { Standard } from "./standard.types";
+
+export type NoExtraPropertiesChain = NoExtraProperties<Chain>;
 
 export type Chain = {
   // Pinax ID
-  id: PinaxId;
-
-  // Display Priority
-  index: number;
+  id: PinaxId; // TODO: CIRCULAR DEPENDENCY UNTIL PINAXID IS GENERATED
 
   // Verbose Name
   name: string;
+
+  // Display Priority
+  index: number;
 
   // Alternative Names
   alt_names: string[];
 
   // Official Pinax Release Date
   released_at: Date;
+
+  // Deprecated Date (if applicable)
+  deprecated_at?: Date;
 
   // Logo URL
   img: URL;

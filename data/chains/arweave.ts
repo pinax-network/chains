@@ -1,22 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
-import Standard from "../standards";
-import GraphId from "../graphids";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
-  id: Mainnet.ARWEAVE,
+  id: "arweave",
   index: 4,
-  graph_id: GraphId.ARWEAVE,
+  graph_id: "arweave-mainnet",
   name: "Arweave",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "arweave",
-  img_invert_color_dt: true,
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/arweave`),
+  is_img_dt_invert: true,
+  mainnet: "arweave",
   is_testnet: false,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ARWEAVE,
-  mainnet: Mainnet.ARWEAVE,
+  standard: "erc20",
+  block_type: BLOCKTYPE.arweave,
   supported_services: {
     firehose: true,
     substreams: false,

@@ -1,0 +1,34 @@
+{
+  "name": "@pinax/chain-metadata",
+  "version": "1.0.0",
+  "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
+  "keywords": [
+    "chains",
+    "metadata",
+    "ssot"
+  ],
+  "author": "Dominic <dominic@pinax.network>",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "generate": "node ./scripts/generate.js && npm run format",
+    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\""
+  },
+  "dependencies": {
+    "wagmi": "^2.5.7"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinax-network/chains-metadata.git"
+  },
+  "homepage": "https://github.com/pinax-network/chains-metadata#readme",
+  "bugs": {
+    "url": "https://github.com/pinax-network/chains-metadata/issues"
+  }
+}

@@ -1,22 +1,22 @@
-import { Chain } from "@/utils/pinax/types";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
-import Standard from "../standards";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 import { mainnet as ethMeta } from "wagmi/chains";
 
 const chain: Chain = {
-  id: Mainnet.GNOSIS,
+  id: "gnosis",
   index: 4,
   graph_id: "gnosis",
   name: "Gnosis",
   alt_names: [],
-  released_at: "2024-01-18",
-  img: "gnosis",
+  released_at: new Date("2024-01-18"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/gnosis`),
+  is_img_dt_invert: true,
+  mainnet: "gnosis",
   is_testnet: false,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ERC20,
-  mainnet: Mainnet.GNOSIS,
-  img_invert_color_dt: true,
+  standard: "erc20",
+  block_type: BLOCKTYPE.erc20,
   supported_services: {
     firehose: false,
     substreams: false,

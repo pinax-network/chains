@@ -1,23 +1,22 @@
-import { Chain } from "@/utils/pinax/types";
-import BLOCKTYPE from "../../types/block.types";
-import GraphId from "../graphids";
-import Mainnet from "../mainnets";
-import Standard from "../standards";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 import { mainnet as ethMeta } from "wagmi/chains";
 
 const chain: Chain = {
-  id: Mainnet.ETHEREUM,
+  id: "eth",
   index: 1,
-  graph_id: GraphId.ETHEREUM,
+  graph_id: "mainnet",
   name: "Ethereum",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "eth",
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/eth`),
+  is_img_dt_invert: true,
+  mainnet: "eth",
   is_testnet: false,
-  standard: Standard.ERC20,
-  block_type: BLOCKTYPE.ERC20,
-  mainnet: Mainnet.ETHEREUM,
-  img_invert_color_dt: true,
+  standard: "erc20",
+  block_type: BLOCKTYPE.erc20,
   supported_services: {
     firehose: true,
     substreams: true,

@@ -1,21 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import Mainnet from "../mainnets";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
-  id: Mainnet.BITCOIN,
+  id: "bitcoin",
   index: 2,
-  graph_id: null,
+  graph_id: undefined,
   name: "Bitcoin",
   alt_names: ["btc"],
-  released_at: "2023-12-21",
-  img: "bitcoin",
-  img_invert_color_dt: false,
+  released_at: new Date("2023-12-21"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/bitcoin`),
+  is_img_dt_invert: false,
+  mainnet: "bitcoin",
   is_testnet: false,
-  standard: Standard.BRC20,
-  block_type: BLOCKTYPE.BRC20,
-  mainnet: Mainnet.BITCOIN,
+  standard: "brc20",
+  block_type: BLOCKTYPE.brc20,
   supported_services: {
     firehose: true,
     substreams: true,

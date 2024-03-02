@@ -36,6 +36,12 @@ If you're unsure about the fields you need to fill, you can have a look at the [
 
 To update an existing chain, you can simply open a PR with the changes you want to make to the chain's metadata.
 
+### Updating the Chain Type
+
+If you want to add a new field to the chain type, you can simply open a PR with the changes you want to make to the chain type and make sure every chain's metadata is updated to include the new field if required.
+
+Removing a field from the chain type is not recommended, as it may break the metadata of the chains. If you want to remove a field, please open an issue to discuss it first.
+
 ### Removing a chain
 
 If a chain is no longer supported, simply set the `deprecated_at` field as the date of the deprecation. This allows the different services to know when to stop supporting the chain, and enables us to keep track of the chains we've supported in the past for proper redirects and such.

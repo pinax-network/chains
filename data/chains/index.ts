@@ -1,83 +1,43 @@
-import alfajores from "./alfajores";
-import arbgoerli from "./arbgoerli";
-import arbone from "./arbone";
-import arbsepolia from "./arbsepolia";
-import arweave from "./arweave";
-import avalanche from "./avalanche";
-import base from "./base";
-import bitcoin from "./bitcoin";
-import bsc from "./bsc";
-import celo from "./celo";
-import chapel from "./chapel";
-import chiado from "./chiado";
-import cosmoshub from "./cosmoshub";
-import decimal from "./decimal";
-import eos from "./eos";
-import eth from "./eth";
-import fantom from "./fantom";
-import gnosis from "./gnosis";
-import goerli from "./goerli";
-import holesky from "./holesky";
-import jungle4 from "./jungle4";
-import kava from "./kava";
-import kylin from "./kylin";
-import moonbeam from "./moonbeam";
-import mumbai from "./mumbai";
-import near from "./near";
-import neartest from "./neartest";
-import optimism from "./optimism";
-import osmosis from "./osmosis";
-import polygon from "./polygon";
-import scroll from "./scroll";
-import sepolia from "./sepolia";
-import starknet from "./starknet";
-import telos from "./telos";
-import telostest from "./telostest";
-import theta from "./theta";
-import wax from "./wax";
-import waxtest from "./waxtest";
-import zkatana from "./zkatana";
+// This file is auto-generated on pre-commit to avoid maintaining it.
+// Do not modify manually as it will be overwritten.
+// Last generation on 2024-03-01, 9:32:23 p.m..
 
-const chains = [
-  alfajores,
-  arbgoerli,
-  arbone,
-  arbsepolia,
-  arweave,
-  avalanche,
-  base,
-  bitcoin,
-  bsc,
-  celo,
-  chapel,
-  chiado,
-  cosmoshub,
-  decimal,
-  eos,
-  eth,
-  fantom,
-  gnosis,
-  goerli,
-  holesky,
-  jungle4,
-  kava,
-  kylin,
-  moonbeam,
-  mumbai,
-  near,
-  neartest,
-  optimism,
-  osmosis,
-  polygon,
-  scroll,
-  sepolia,
-  starknet,
-  telos,
-  telostest,
-  theta,
-  wax,
-  waxtest,
-  zkatana,
-];
-
-export default chains;
+export * from "./alfajores";
+export * from "./arbgoerli";
+export * from "./arbone";
+export * from "./arbsepolia";
+export * from "./arweave";
+export * from "./avalanche";
+export * from "./base";
+export * from "./bitcoin";
+export * from "./bsc";
+export * from "./celo";
+export * from "./chapel";
+export * from "./chiado";
+export * from "./cosmoshub";
+export * from "./decimal";
+export * from "./eos";
+export * from "./eth";
+export * from "./fantom";
+export * from "./gnosis";
+export * from "./goerli";
+export * from "./holesky";
+export * from "./jungle4";
+export * from "./kava";
+export * from "./kylin";
+export * from "./moonbeam";
+export * from "./mumbai";
+export * from "./near";
+export * from "./neartest";
+export * from "./optimism";
+export * from "./osmosis";
+export * from "./polygon";
+export * from "./scroll";
+export * from "./sepolia";
+export * from "./starknet";
+export * from "./telos";
+export * from "./telostest";
+export * from "./theta";
+export * from "./wax";
+export * from "./waxtest";
+export * from "./zkatana";

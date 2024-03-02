@@ -1,21 +1,21 @@
-import { Chain } from "@/utils/pinax/types";
-import Standard from "../standards";
-import BLOCKTYPE from "../../types/block.types";
-import Mainnet from "../mainnets";
+import { IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
+import BLOCKTYPE from "../blocktypes";
 
 const chain: Chain = {
-  id: "waxtest",
+  id: "wax",
   index: 4,
-  graph_id: null,
+  graph_id: undefined,
   name: "WAX Test",
   alt_names: [],
-  released_at: "2023-12-01",
-  img: "wax",
+  released_at: new Date("2023-12-01"),
+  deprecated_at: undefined,
+  img: new URL(`${IMG_BASE_URL}/wax`),
+  is_img_dt_invert: false,
+  mainnet: "wax",
   is_testnet: true,
-  standard: Standard.ANTELOPE,
-  block_type: BLOCKTYPE.ANTELOPE,
-  mainnet: Mainnet.WAX,
-  img_invert_color_dt: false,
+  standard: "antelope",
+  block_type: BLOCKTYPE.antelope,
   supported_services: {
     firehose: true,
     substreams: true,
