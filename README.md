@@ -1,7 +1,5 @@
 # Pinax Chains Metadata
 
-> ⚠️ This single source of truth is currently (2024-03-01) being implemented. Breaking changes may still occur in the metadata. Please use with caution.
-
 This repository is the single-source-of-truth for the metadata of chains supported by Pinax. To make it more accessible, we've published it as a private npm package ([See below](#install_from_npm)) and created a public endpoint to fetch publicly available chains metadata ([See below](#public_endpoint)).
 
 You can have a look at the [Chain Type](/types/chain.types.ts) and at our [list of supported, to-be-supported, or once-supported chains](/data/chains/index.ts). 
