@@ -13,7 +13,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run generate && tsc",
-    "generate": "node ./scripts/generate.js && npm run format",
+    "generate": "npm run generate_chain_index && npm run generate_pinaxid_type && npm run generate_fill_chains_data && npm run format",
+    "generate_chain_index": "node ./scripts/generate/chain_index.js",
+    "generate_fill_chains_data": "node ./scripts/generate/fill_chains_data.js",
+    "generate_pinaxid_type": "node ./scripts/generate/pinaxid_type.js",
     "fetch-graph-ids": "node ./scripts/fetchGraphIDs.js",
     "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\""
   },

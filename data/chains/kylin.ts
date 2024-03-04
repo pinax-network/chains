@@ -1,25 +1,31 @@
-import { IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
+import { ChainFill } from "../../types/chain.types";
+import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 
-const chain: Chain = {
-  id: "kylin",
+const id: PinaxId = "kylin";
+
+const chain: ChainFill = {
+  id,
   index: 4,
   graph_id: undefined,
   name: "Kylin",
   alt_names: [],
-  released_at: new Date("2023-12-01"),
-  deprecated_at: undefined,
-  img: new URL(`${IMG_BASE_URL}/eos`),
-  is_img_dt_invert: true,
   mainnet: "eos",
-  is_testnet: true,
   standard: "antelope",
   block_type: BLOCKTYPE.antelope,
   supported_services: {
-    firehose: true,
-    substreams: true,
-    rpc: false,
+    firehose: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    substreams: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    rpc: {
+      released_at: undefined,
+      deprecated_at: undefined,
+    },
   },
 };
 

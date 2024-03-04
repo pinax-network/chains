@@ -1,25 +1,31 @@
-import { IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
+import { ChainFill } from "../../types/chain.types";
+import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 
-const chain: Chain = {
-  id: "scroll",
+const id: PinaxId = "scroll";
+
+const chain: ChainFill = {
+  id,
   index: 5,
-  graph_id: "scroll",
+  graph_id: id,
   name: "Scroll",
   alt_names: [],
-  released_at: new Date("2024-01-18"),
-  deprecated_at: undefined,
-  img: new URL(`${IMG_BASE_URL}/scroll`),
-  is_img_dt_invert: true,
-  mainnet: "scroll",
-  is_testnet: false,
+  mainnet: id,
   standard: "erc20",
   block_type: BLOCKTYPE.erc20,
   supported_services: {
-    firehose: false,
-    substreams: false,
-    rpc: false,
+    firehose: {
+      released_at: undefined,
+      deprecated_at: undefined,
+    },
+    substreams: {
+      released_at: undefined,
+      deprecated_at: undefined,
+    },
+    rpc: {
+      released_at: undefined,
+      deprecated_at: undefined,
+    },
   },
 };
 

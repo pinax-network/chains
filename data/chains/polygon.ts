@@ -1,26 +1,32 @@
-import { IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
+import { ChainFill } from "../../types/chain.types";
+import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 import { polygon as polygonMeta } from "wagmi/chains";
 
-const chain: Chain = {
-  id: "polygon",
+const id: PinaxId = "polygon";
+
+const chain: ChainFill = {
+  id,
   index: 3,
   graph_id: "matic",
   name: "Polygon",
   alt_names: ["matic"],
-  released_at: new Date("2023-12-01"),
-  deprecated_at: undefined,
-  img: new URL(`${IMG_BASE_URL}/polygon`),
-  is_img_dt_invert: false,
-  mainnet: "polygon",
-  is_testnet: false,
+  mainnet: id,
   standard: "erc20",
   block_type: BLOCKTYPE.erc20,
   supported_services: {
-    firehose: true,
-    substreams: true,
-    rpc: true,
+    firehose: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    substreams: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    rpc: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
   },
   metadata: polygonMeta,
 };

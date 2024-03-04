@@ -1,25 +1,31 @@
-import { IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
+import { ChainFill } from "../../types/chain.types";
+import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 
-const chain: Chain = {
-  id: "osmosis",
+const id: PinaxId = "osmosis";
+
+const chain: ChainFill = {
+  id,
   index: 4,
   graph_id: "osmosis-1",
   name: "Osmosis",
   alt_names: [],
-  released_at: new Date("2023-12-01"),
-  deprecated_at: undefined,
-  img: new URL(`${IMG_BASE_URL}/osmosis`),
-  is_img_dt_invert: false,
-  mainnet: "osmosis",
-  is_testnet: false,
+  mainnet: id,
   standard: "cosmos",
   block_type: BLOCKTYPE.cosmos,
   supported_services: {
-    firehose: true,
-    substreams: false,
-    rpc: false,
+    firehose: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    substreams: {
+      released_at: undefined,
+      deprecated_at: undefined,
+    },
+    rpc: {
+      released_at: undefined,
+      deprecated_at: undefined,
+    },
   },
 };
 

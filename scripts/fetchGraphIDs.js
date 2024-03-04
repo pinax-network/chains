@@ -14,7 +14,7 @@ const fetchGraphIDs = () => {
     .then((res) => res.json())
     .then((res) => {
       let graphIds = res.result.studio;
-      console.log(graphIds.sort((a, b) => a < b ? -1 : 1));
+      console.log(graphIds.sort((a, b) => (a < b ? -1 : 1)));
     });
 };
 

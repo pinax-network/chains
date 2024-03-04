@@ -1,26 +1,32 @@
-import { IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
+import { ChainFill } from "../../types/chain.types";
+import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 import { sepolia as sepoliaMeta } from "wagmi/chains";
 
-const chain: Chain = {
-  id: "sepolia",
+const id: PinaxId = "sepolia";
+
+const chain: ChainFill = {
+  id,
   index: 1,
-  graph_id: "sepolia",
+  graph_id: id,
   name: "Sepolia",
   alt_names: [],
-  released_at: new Date("2023-12-01"),
-  deprecated_at: undefined,
-  img: new URL(`${IMG_BASE_URL}/eth`),
-  is_img_dt_invert: true,
   mainnet: "eth",
-  is_testnet: true,
   standard: "erc20",
   block_type: BLOCKTYPE.erc20,
   supported_services: {
-    firehose: true,
-    substreams: true,
-    rpc: true,
+    firehose: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    substreams: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    rpc: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
   },
   metadata: sepoliaMeta,
 };

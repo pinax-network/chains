@@ -1,26 +1,32 @@
-import { IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
+import { ChainFill } from "../../types/chain.types";
+import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 import { mainnet as ethMeta } from "wagmi/chains";
 
-const chain: Chain = {
-  id: "eth",
+const id: PinaxId = "eth";
+
+const chain: ChainFill = {
+  id,
   index: 1,
   graph_id: "mainnet",
   name: "Ethereum",
   alt_names: [],
-  released_at: new Date("2023-12-01"),
-  deprecated_at: undefined,
-  img: new URL(`${IMG_BASE_URL}/eth`),
-  is_img_dt_invert: true,
-  mainnet: "eth",
-  is_testnet: false,
+  mainnet: id,
   standard: "erc20",
   block_type: BLOCKTYPE.erc20,
   supported_services: {
-    firehose: true,
-    substreams: true,
-    rpc: true,
+    firehose: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    substreams: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
+    rpc: {
+      released_at: new Date("2023-12-01"),
+      deprecated_at: undefined,
+    },
   },
   metadata: ethMeta,
 };
