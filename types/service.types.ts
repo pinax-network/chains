@@ -1,4 +1,4 @@
-export type Service = "substreams" | "firehose" | "rpc";
+export type Service = 'substreams' | 'firehose' | 'rpc';
 
 export type ServiceEndpoint = {
   released_at?: Date;

@@ -1,26 +1,26 @@
-import { DEFAULT_IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
-import { PinaxId } from "../../types/pinax.types";
-import BLOCKTYPE from "../blocktypes";
+import { DEFAULT_IMG_BASE_URL } from '../../configs';
+import { Chain } from '../../types/chain.types';
+import { PinaxId } from '../../types/pinax.types';
+import BLOCKTYPE from '../blocktypes';
 
 // Getting a type error? Run `npm run generate_pinaxid_type`
-const id: PinaxId = "osmosis";
+const id: PinaxId = 'osmosis';
 
 const chain: Chain = {
   id,
   index: 4,
-  graph_id: "osmosis-1",
-  name: "Osmosis",
+  graph_id: 'osmosis-1',
+  name: 'Osmosis',
   alt_names: [],
   mainnet: id,
-  standard: "cosmos",
+  standard: 'cosmos',
   block_type: BLOCKTYPE.cosmos,
   img: new URL(`${DEFAULT_IMG_BASE_URL}/${id}.svg`),
   is_img_dt_invert: false,
   is_testnet: false,
   supported_services: {
     firehose: {
-      released_at: new Date("2023-12-01"),
+      released_at: new Date('2023-12-01'),
       deprecated_at: undefined,
     },
     substreams: {

@@ -1,13 +1,13 @@
 const fetchGraphIDs = () => {
-  console.log("Fetching graph IDs...");
-  fetch("https://api.studio.thegraph.com/deploy", {
-    method: "POST",
+  console.log('Fetching graph IDs...');
+  fetch('https://api.studio.thegraph.com/deploy', {
+    method: 'POST',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify({
-      jsonrpc: "2.0",
-      method: "chain_list",
+      jsonrpc: '2.0',
+      method: 'chain_list',
       id: 1,
     }),
   })

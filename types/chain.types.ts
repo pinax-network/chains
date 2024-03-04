@@ -1,9 +1,9 @@
-import { BlockType } from "./block.types";
-import { GraphId } from "./graph.types";
-import { Mainnet } from "./mainnet.types";
-import { PinaxId } from "./pinax.types";
-import { SupportedServices } from "./service.types";
-import { Standard } from "./standard.types";
+import { BlockType } from './block.types';
+import { GraphId } from './graph.types';
+import { Mainnet } from './mainnet.types';
+import { PinaxId } from './pinax.types';
+import { SupportedServices } from './service.types';
+import { Standard } from './standard.types';
 
 /**
  * Describes the Data that needs to be provided for a Chain.

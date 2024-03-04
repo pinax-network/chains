@@ -1,19 +1,19 @@
-import { DEFAULT_IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
-import { PinaxId } from "../../types/pinax.types";
-import BLOCKTYPE from "../blocktypes";
+import { DEFAULT_IMG_BASE_URL } from '../../configs';
+import { Chain } from '../../types/chain.types';
+import { PinaxId } from '../../types/pinax.types';
+import BLOCKTYPE from '../blocktypes';
 
 // Getting a type error? Run `npm run generate_pinaxid_type`
-const id: PinaxId = "arbone";
+const id: PinaxId = 'arbone';
 
 const chain: Chain = {
   id,
   index: 4,
-  graph_id: "arbitrum-one",
-  name: "Arbitrum One",
+  graph_id: 'arbitrum-one',
+  name: 'Arbitrum One',
   alt_names: [],
-  mainnet: "arbitrum",
-  standard: "erc20",
+  mainnet: 'arbitrum',
+  standard: 'erc20',
   block_type: BLOCKTYPE.erc20,
   img: new URL(`${DEFAULT_IMG_BASE_URL}/${id}.svg`),
   is_img_dt_invert: false,

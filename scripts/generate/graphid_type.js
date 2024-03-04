@@ -1,20 +1,20 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
-const typesDir = path.join(__dirname, "../../types");
+const typesDir = path.join(__dirname, '../../types');
 
-const graphTypesFile = path.join(typesDir, "graph.types.ts");
+const graphTypesFile = path.join(typesDir, 'graph.types.ts');
 
-console.log("Generating GraphId type...");
+console.log('Generating GraphId type...');
 
-fetch("https://api.studio.thegraph.com/deploy", {
-  method: "POST",
+fetch('https://api.studio.thegraph.com/deploy', {
+  method: 'POST',
   headers: {
-    "Content-Type": "application/json",
+    'Content-Type': 'application/json',
   },
   body: JSON.stringify({
-    jsonrpc: "2.0",
-    method: "chain_list",
+    jsonrpc: '2.0',
+    method: 'chain_list',
     id: 1,
   }),
 })
@@ -29,10 +29,10 @@ fetch("https://api.studio.thegraph.com/deploy", {
     // Write the GraphId type definition to the types directory
     fs.writeFile(graphTypesFile, graphIdType, (err) => {
       if (err) {
-        console.error("Error writing graph.types.ts file:", err);
+        console.error('Error writing graph.types.ts file:', err);
         return;
       }
 
-      console.log("✅ Generating GraphId type");
+      console.log('✅ Generating GraphId type');
     });
   });

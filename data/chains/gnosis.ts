@@ -1,20 +1,20 @@
-import { DEFAULT_IMG_BASE_URL } from "../../configs";
-import { Chain } from "../../types/chain.types";
-import { PinaxId } from "../../types/pinax.types";
-import BLOCKTYPE from "../blocktypes";
-import { mainnet as ethMeta } from "wagmi/chains";
+import { DEFAULT_IMG_BASE_URL } from '../../configs';
+import { Chain } from '../../types/chain.types';
+import { PinaxId } from '../../types/pinax.types';
+import BLOCKTYPE from '../blocktypes';
+import { mainnet as ethMeta } from 'wagmi/chains';
 
 // Getting a type error? Run `npm run generate_pinaxid_type`
-const id: PinaxId = "gnosis";
+const id: PinaxId = 'gnosis';
 
 const chain: Chain = {
   id: id,
   index: 4,
   graph_id: id,
-  name: "Gnosis",
+  name: 'Gnosis',
   alt_names: [],
   mainnet: id,
-  standard: "erc20",
+  standard: 'erc20',
   block_type: BLOCKTYPE.erc20,
   img: new URL(`${DEFAULT_IMG_BASE_URL}/${id}.svg`),
   is_img_dt_invert: true,

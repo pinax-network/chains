@@ -1,18 +1,18 @@
-const fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
 
-const chainsDir = path.join(__dirname, "../../data/chains");
-const typesDir = path.join(__dirname, "../../types");
+const chainsDir = path.join(__dirname, '../../data/chains');
+const typesDir = path.join(__dirname, '../../types');
 
-const excludedFile = "index.ts";
-const pinaxTypesFile = path.join(typesDir, "pinax.types.ts");
+const excludedFile = 'index.ts';
+const pinaxTypesFile = path.join(typesDir, 'pinax.types.ts');
 
-console.log("Generating PinaxId type...");
+console.log('Generating PinaxId type...');
 
 // Scan the chains directory
 fs.readdir(chainsDir, (err, files) => {
   if (err) {
-    console.error("Error reading chains directory:", err);
+    console.error('Error reading chains directory:', err);
     return;
   }
 
@@ -28,10 +28,10 @@ fs.readdir(chainsDir, (err, files) => {
   // Write the PinaxId type definition to the types directory
   fs.writeFile(pinaxTypesFile, pinaxIdType, (err) => {
     if (err) {
-      console.error("Error writing pinax.types.ts file:", err);
+      console.error('Error writing pinax.types.ts file:', err);
       return;
     }
 
-    console.log("✅ Generating PinaxId type");
+    console.log('✅ Generating PinaxId type');
   });
 });
