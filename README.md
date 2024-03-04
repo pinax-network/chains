@@ -36,6 +36,10 @@ If you're unsure about the fields you need to fill, you can have a look at the [
 
 To update an existing chain, you can simply open a PR with the changes you want to make to the chain's metadata.
 
+### Adding / Validating Graph IDs
+
+We use the `graph_id` field to match our chains to The Graph's. You can check the available graph IDs in the [Graphs](/types/graph.types.ts) file, which is [generated automatically](/scripts/generate/graphid_type.js) by fetching supported chains from The Graph's API. You can run `npm run generate:graphid` to update the graph IDs.
+
 ### Updating the Chain Type
 
 If you want to add a new field to the chain type, you can simply open a PR with the changes you want to make to the chain type and make sure every chain's metadata is updated to include the new field if required.

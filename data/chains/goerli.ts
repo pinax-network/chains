@@ -4,6 +4,7 @@ import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 import { goerli as goerliMeta } from "wagmi/chains";
 
+// Getting a type error? Run `npm run generate_pinaxid_type`
 const id: PinaxId = "goerli";
 
 const chain: Chain = {

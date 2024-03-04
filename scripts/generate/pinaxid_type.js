@@ -7,7 +7,7 @@ const typesDir = path.join(__dirname, "../../types");
 const excludedFile = "index.ts";
 const pinaxTypesFile = path.join(typesDir, "pinax.types.ts");
 
-process.stdout.write("Generating PinaxId type...");
+console.log("Generating PinaxId type...");
 
 // Scan the chains directory
 fs.readdir(chainsDir, (err, files) => {
@@ -32,8 +32,6 @@ fs.readdir(chainsDir, (err, files) => {
       return;
     }
 
-    process.stdout.clearLine(0);
-    process.stdout.cursorTo(0);
-    process.stdout.write("✅ Generating PinaxId type");
+    console.log("✅ Generating PinaxId type");
   });
 });

@@ -11,19 +11,21 @@
   "main": "index.js",
   "types": "./index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run generate && tsc",
-    "generate": "npm run generate_chain_index && npm run generate_pinaxid_type && npm run generate_fill_chains_data && npm run format",
-    "generate_chain_index": "node ./scripts/generate/chain_index.js",
-    "generate_fill_chains_data": "node ./scripts/generate/fill_chains_data.js",
-    "generate_pinaxid_type": "node ./scripts/generate/pinaxid_type.js",
     "fetch-graph-ids": "node ./scripts/fetchGraphIDs.js",
-    "format": "prettier --write \"./**/*.{js,jsx,ts,tsx}\""
+    "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
+    "generate": "npm run generate:pinaxid && npm run generate:graphid && npm run generate:index && npm run format",
+    "generate:index": "node ./scripts/generate/chain_index.js",
+    "generate:graphid": "node ./scripts/generate/graphid_type.js",
+    "generate:pinaxid": "node ./scripts/generate/pinaxid_type.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "dependencies": {
     "wagmi": "^2.5.7"
   },
   "devDependencies": {
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "typescript": "^5.3.3"
   },
