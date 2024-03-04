@@ -1,10 +1,11 @@
-import { ChainFill } from "../../types/chain.types";
+import { DEFAULT_IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
 import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 
 const id: PinaxId = "wax";
 
-const chain: ChainFill = {
+const chain: Chain = {
   id,
   index: 4,
   graph_id: undefined,
@@ -13,6 +14,9 @@ const chain: ChainFill = {
   mainnet: id,
   standard: "antelope",
   block_type: BLOCKTYPE.antelope,
+  img: new URL(`${DEFAULT_IMG_BASE_URL}/${id}.svg`),
+  is_img_dt_invert: false,
+  is_testnet: false,
   supported_services: {
     firehose: {
       released_at: new Date("2023-12-01"),

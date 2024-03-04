@@ -2,13 +2,13 @@ import { BlockType } from "./block.types";
 import { GraphId } from "./graph.types";
 import { Mainnet } from "./mainnet.types";
 import { PinaxId } from "./pinax.types";
-import { SupportedServicesFill } from "./service.types";
+import { SupportedServices } from "./service.types";
 import { Standard } from "./standard.types";
 
 /**
  * Describes the Data that needs to be provided for a Chain.
  *
- * The Chain type theb extends the ChainFill type to include
+ * The Chain type theb extends the Chain type to include
  * the generated fields.
  */
 export type Chain = {
@@ -37,21 +37,18 @@ export type Chain = {
   // Block Type
   block_type: BlockType;
 
+  // Image URL
+  img: URL;
+
+  // Whether or not the image should be inverted
+  is_img_dt_invert: boolean;
+
+  // Whether or not the chain is a testnet
+  is_testnet: boolean;
+
   // Whether or not the chain supports our existing services
-  supported_services?: SupportedServicesFill;
+  supported_services: SupportedServices;
 
   // Any additional metadata we want to store (ie. Wagmi)
   metadata?: any;
 };
-
-export interface ChainFill extends Chain {
-  // GENERATED: Logo URL
-  img?: URL;
-
-  // GENERATED: Whether or not to
-  // invert logo color on dark theme
-  is_img_dt_invert?: boolean;
-
-  // GENERATED: Whether or not the chain is a testnet
-  is_testnet?: boolean;
-}

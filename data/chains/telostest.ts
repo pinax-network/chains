@@ -1,11 +1,12 @@
-import { ChainFill } from "../../types/chain.types";
+import { DEFAULT_IMG_BASE_URL } from "../../configs";
+import { Chain } from "../../types/chain.types";
 import { PinaxId } from "../../types/pinax.types";
 import BLOCKTYPE from "../blocktypes";
 import { telosTestnet as telosTestnetMeta } from "wagmi/chains";
 
 const id: PinaxId = "telostest";
 
-const chain: ChainFill = {
+const chain: Chain = {
   id,
   index: 4,
   graph_id: undefined,
@@ -14,6 +15,9 @@ const chain: ChainFill = {
   mainnet: "telos",
   standard: "antelope",
   block_type: BLOCKTYPE.antelope,
+  img: new URL(`${DEFAULT_IMG_BASE_URL}/${id}.svg`),
+  is_img_dt_invert: false,
+  is_testnet: true,
   supported_services: {
     firehose: {
       released_at: new Date("2023-12-01"),
