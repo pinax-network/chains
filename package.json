@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -12,7 +12,8 @@
   "types": "data.d.ts",
   "files": [
     "data.json",
-    "data.d.ts"
+    "data.d.ts",
+    "types/**.ts"
   ],
   "scripts": {
     "fetch-graph-ids": "node ./scripts/fetchGraphIDs.js",
