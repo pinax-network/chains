@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains-metadata",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -8,7 +8,7 @@
     "ssot"
   ],
   "author": "Dominic <dominic@pinax.network>",
-  "main": "index.js",
+  "main": "build/index.js",
   "types": "./index.d.ts",
   "scripts": {
     "build": "npm run generate && tsc",
