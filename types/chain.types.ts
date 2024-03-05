@@ -20,7 +20,7 @@ export type Chain = {
 
   // The Graph ID
   // See graph.types.ts for instructions on how to retrieve Graph IDs
-  graph_id?: GraphId;
+  graph_id: GraphId | null;
 
   // Display Priority
   index: number;
@@ -32,7 +32,7 @@ export type Chain = {
   mainnet: Mainnet;
 
   // Chain Standard (ie. ERC20)
-  standard?: Standard;
+  standard: Standard | null;
 
   // Block Type
   block_type: BlockType;
@@ -50,5 +50,5 @@ export type Chain = {
   supported_services: SupportedServices;
 
   // Any additional metadata we want to store (ie. Wagmi)
-  metadata?: any;
+  // metadata: any | null;
 };
