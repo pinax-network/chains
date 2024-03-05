@@ -38,7 +38,7 @@ export type Chain = {
   block_type: BlockType;
 
   // Image URL
-  img: URL;
+  img: string;
 
   // Whether or not the image should be inverted
   is_img_dt_invert: boolean;
