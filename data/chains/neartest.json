@@ -10,7 +10,7 @@
     "label": "sf.near.type.v1.Block",
     "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
   },
-  "img": "https://pinax.network/vectors/chains/neartest.svg",
+  "img": "https://pinax.network/vector/chain/neartest.svg",
   "is_img_dt_invert": true,
   "is_testnet": true,
   "supported_services": {

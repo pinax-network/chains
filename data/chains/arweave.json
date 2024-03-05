@@ -10,7 +10,7 @@
     "label": "sf.arweave.type.v1.Block",
     "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
   },
-  "img": "https://pinax.network/vectors/chains/arweave.svg",
+  "img": "https://pinax.network/vector/chain/arweave.svg",
   "is_img_dt_invert": true,
   "is_testnet": false,
   "supported_services": {
