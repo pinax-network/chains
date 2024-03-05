@@ -1,3 +1,4 @@
 // Export everything from the data folder.
-export * from './data/blocktypes';
-export * from './data/chains';
+import * as data from './data';
+
+export default data;
