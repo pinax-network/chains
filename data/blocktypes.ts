@@ -1,7 +1,9 @@
 import { BlockType } from '../types/block.types';
 import { Standard } from '../types/standard.types';
 
-const BLOCKTYPES: { [standard in Standard]: BlockType } = {
+type BlockTypes = { [key in Standard]: BlockType };
+
+const BLOCKTYPES: BlockTypes = {
   antelope: {
     label: 'sf.antelope.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',
