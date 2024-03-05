@@ -26,7 +26,7 @@ If you want to contribute to the metadata of chains, please open a PR with the c
 
 ### Adding a new chain
 
-Adding a new chain is as simple as adding a new file to the `data/chains` directory. The file should be named after the chain's official Pinax ID and should contain the metadata of the chain. Also make sure to run the `generate:type_pinaxid` and `generate:data_json` commands to update the related types and index.
+Adding a new chain is as simple as adding a new file to the `data/chains` directory. The file should be named after the chain's official Pinax ID and should contain the metadata of the chain. Also make sure to run the `npm run generate:type_pinaxid` and `npm run generate:data_json` commands to update the related types and index.
 
 If you're unsure about the fields you need to fill, you can have a look at the [Chain Type](/types/chain.types.ts) to learn more about the fields you need to fill.
 
