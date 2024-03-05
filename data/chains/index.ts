@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 2024-03-04, 7:47:04 p.m..
+// Last generation on 2024-03-04, 7:56:34 p.m..
 
 import alfajores from './alfajores';
 import arbgoerli from './arbgoerli';
