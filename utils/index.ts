@@ -1,3 +1,13 @@
-import * as chain from './chains.util';
+import {
+  isChainSupported,
+  isFirehoseSupported,
+  isRpcSupported,
+  isSubstreamsSupported,
+} from './chains.util';
 
-export default { chain };
+export {
+  isChainSupported,
+  isFirehoseSupported,
+  isRpcSupported,
+  isSubstreamsSupported,
+};
