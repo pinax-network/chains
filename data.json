@@ -316,7 +316,7 @@
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
-    "img": "https://pinax.network/vector/chain/chapel.svg",
+    "img": "https://pinax.network/vector/chain/bsc.svg",
     "is_img_dt_invert": false,
     "is_testnet": true,
     "supported_services": {
@@ -556,7 +556,7 @@
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
-    "img": "https://pinax.network/vector/chain/goerli.svg",
+    "img": "https://pinax.network/vector/chain/eth.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -586,7 +586,7 @@
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
-    "img": "https://pinax.network/vector/chain/holesky.svg",
+    "img": "https://pinax.network/vector/chain/eth.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -630,6 +630,36 @@
       },
       "rpc": {
         "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "juno",
+    "index": 4,
+    "graph_id": null,
+    "name": "Juno",
+    "alt_names": [],
+    "mainnet": "juno",
+    "standard": "cosmos",
+    "block_type": {
+      "label": "sf.cosmos.type.v1.Block",
+      "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
+    },
+    "img": "https://pinax.network/vector/chain/juno.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": "2024-01-15T00:00:00.000Z"
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
         "deprecated_at": null
       }
     }
@@ -736,7 +766,7 @@
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
-    "img": "https://pinax.network/vector/chain/mumbai.svg",
+    "img": "https://pinax.network/vector/chain/polygon.svg",
     "is_img_dt_invert": false,
     "is_testnet": true,
     "supported_services": {
@@ -796,7 +826,7 @@
       "label": "sf.near.type.v1.Block",
       "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
     },
-    "img": "https://pinax.network/vector/chain/neartest.svg",
+    "img": "https://pinax.network/vector/chain/near.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -837,6 +867,66 @@
       "substreams": {
         "released_at": "2024-01-01T00:00:00.000Z",
         "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "ore",
+    "index": 5,
+    "graph_id": null,
+    "name": "Ore",
+    "alt_names": [],
+    "mainnet": "ore",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vector/chain/ore.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": "2024-01-15T00:00:00.000Z"
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": "2024-01-15T00:00:00.000Z"
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "orestage",
+    "index": 5,
+    "graph_id": null,
+    "name": "Ore Stage",
+    "alt_names": [],
+    "mainnet": "ore",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vector/chain/ore.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": "2024-01-15T00:00:00.000Z"
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": "2024-01-15T00:00:00.000Z"
       },
       "rpc": {
         "released_at": null,
@@ -948,7 +1038,7 @@
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
-    "img": "https://pinax.network/vector/chain/sepolia.svg",
+    "img": "https://pinax.network/vector/chain/eth.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -1038,7 +1128,7 @@
       "label": "sf.antelope.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
-    "img": "https://pinax.network/vector/chain/telostest.svg",
+    "img": "https://pinax.network/vector/chain/telos.svg",
     "is_img_dt_invert": false,
     "is_testnet": true,
     "supported_services": {
@@ -1068,7 +1158,7 @@
       "label": "sf.cosmos.type.v1.Block",
       "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
     },
-    "img": "https://pinax.network/vector/chain/theta.svg",
+    "img": "https://pinax.network/vector/chain/cosmoshub.svg",
     "is_img_dt_invert": false,
     "is_testnet": true,
     "supported_services": {
@@ -1079,6 +1169,36 @@
       "substreams": {
         "released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "ux",
+    "index": 5,
+    "graph_id": null,
+    "name": "UX",
+    "alt_names": [],
+    "mainnet": "ux",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vector/chain/ux.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": "2024-01-15T00:00:00.000Z"
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": "2024-01-15T00:00:00.000Z"
       },
       "rpc": {
         "released_at": null,
@@ -1128,7 +1248,7 @@
       "label": "sf.antelope.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
-    "img": "https://pinax.network/vector/chain/waxtest.svg",
+    "img": "https://pinax.network/vector/chain/wax.svg",
     "is_img_dt_invert": false,
     "is_testnet": true,
     "supported_services": {
