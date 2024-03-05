@@ -1,15 +1,15 @@
-# Pinax Chains Metadata
+# Pinax Chains
 
 This repository is the single-source-of-truth for the metadata of chains supported by Pinax. To make it more accessible, we've published it as a private npm package ([See below](#install_from_npm)) and created a public endpoint to fetch publicly available chains metadata ([See below](#public_endpoint)).
 
-You can have a look at the [Chain Type](/types/chain.types.ts) and at our [list of supported, to-be-supported, or once-supported chains](/data/chains/index.ts). 
+You can have a look at the [Chain Type](/types/chain.types.ts) and at our [list of supported, to-be-supported, or once-supported chains](/data/chains). 
 
 **Note**: Some chains may be listed but won't have any service supported or may have been deprecated, see each chain's metadata to ensure the chain is truly supported.
 
 ## Install from npm
 
 ```bash
-npm install @pinax/chains-metadata
+npm install @pinax/chains
 ```
 
 ## Public Endpoint
@@ -26,7 +26,7 @@ If you want to contribute to the metadata of chains, please open a PR with the c
 
 ### Adding a new chain
 
-Adding a new chain is as simple as adding a new file to the `data/chains` directory. The file should be named after the chain's official Pinax ID and should contain the metadata of the chain.
+Adding a new chain is as simple as adding a new file to the `data/chains` directory. The file should be named after the chain's official Pinax ID and should contain the metadata of the chain. Also make sure to run the `generate:type_pinaxid` and `generate:data_json` commands to update the related types and index.
 
 If you're unsure about the fields you need to fill, you can have a look at the [Chain Type](/types/chain.types.ts) to learn more about the fields you need to fill.
 
@@ -36,7 +36,7 @@ To update an existing chain, you can simply open a PR with the changes you want 
 
 ### Adding / Validating Graph IDs
 
-We use the `graph_id` field to match our chains to The Graph's. You can check the available graph IDs in the [Graphs](/types/graph.types.ts) file, which is [generated automatically](/scripts/generate/graphid_type.js) by fetching supported chains from The Graph's API. You can run `npm run generate:graphid` to update the graph IDs.
+We use the `graph_id` field to match our chains to The Graph's. You can check the available graph IDs in the [Graphs](/types/graph.types.ts) file, which is [generated automatically](/scripts/generate/graphid_type.js) by fetching supported chains from The Graph's API. You can run `npm run generate:type_graphid` to update the graph IDs.
 
 ### Updating the Chain Type
 
