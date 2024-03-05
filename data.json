@@ -755,18 +755,18 @@
     }
   },
   {
-    "id": "optimism",
+    "id": "near",
     "index": 4,
-    "graph_id": "optimism",
-    "name": "Optimism",
+    "graph_id": "near-mainnet",
+    "name": "Near",
     "alt_names": [],
-    "mainnet": "optimism",
-    "standard": "erc20",
+    "mainnet": "near",
+    "standard": "near",
     "block_type": {
-      "label": "sf.ethereum.type.v2.Block",
-      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+      "label": "sf.near.type.v1.Block",
+      "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
     },
-    "img": "https://pinax.network/vector/chain/optimism.svg",
+    "img": "https://pinax.network/vector/chain/near.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
