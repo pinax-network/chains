@@ -1,4 +1,3 @@
-// Export everything from the data folder.
 import * as data from './data';
-
-export default data;
+import utils from './utils';
+export default { data, utils };
