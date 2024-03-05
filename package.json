@@ -1,6 +1,6 @@
 {
-  "name": "@pinax/chains-metadata",
-  "version": "1.0.11",
+  "name": "@pinax/chains",
+  "version": "1.1.0",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -8,33 +8,33 @@
     "ssot"
   ],
   "author": "Dominic <dominic@pinax.network>",
-  "main": "build/index.js",
-  "types": "./index.d.ts",
+  "main": "data.json",
+  "types": "data.d.ts",
+  "files": [
+    "data.json",
+    "data.d.ts"
+  ],
   "scripts": {
-    "build": "npm run generate && tsc",
     "fetch-graph-ids": "node ./scripts/fetchGraphIDs.js",
     "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
-    "generate": "npm run generate:pinaxid && npm run generate:graphid && npm run generate:index && npm run format",
-    "generate:index": "node ./scripts/generate/chain_index.js",
-    "generate:graphid": "node ./scripts/generate/graphid_type.js",
-    "generate:pinaxid": "node ./scripts/generate/pinaxid_type.js",
+    "generate": "npm run generate:data",
+    "generate:data": "node ./scripts/generate/data_json.js",
+    "generate:types": "npm run generate:type_graphid && npm run generate:type_pinaxid && npm run format",
+    "generate:type_graphid": "node ./scripts/generate/type_graphid.js",
+    "generate:type_pinaxid": "node ./scripts/generate/type_pinaxid.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
-  "dependencies": {
-    "wagmi": "^2.5.7"
-  },
   "devDependencies": {
     "husky": "^9.0.11",
-    "prettier": "^3.2.5",
-    "typescript": "^5.3.3"
+    "prettier": "^3.2.5"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pinax-network/chains-metadata.git"
+    "url": "git+https://github.com/pinax-network/chains.git"
   },
-  "homepage": "https://github.com/pinax-network/chains-metadata#readme",
+  "homepage": "https://github.com/pinax-network/chains#readme",
   "bugs": {
-    "url": "https://github.com/pinax-network/chains-metadata/issues"
+    "url": "https://github.com/pinax-network/chains/issues"
   }
 }

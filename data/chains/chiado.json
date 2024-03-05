@@ -1,0 +1,30 @@
+{
+  "id": "chiado",
+  "index": 10,
+  "graph_id": null,
+  "name": "Chiado",
+  "alt_names": [],
+  "mainnet": "arbitrum",
+  "standard": "erc20",
+  "block_type": {
+    "label": "sf.ethereum.type.v2.Block",
+    "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+  },
+  "img": "https://pinax.network/vectors/chains/chiado.svg",
+  "is_img_dt_invert": false,
+  "is_testnet": true,
+  "supported_services": {
+    "firehose": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}

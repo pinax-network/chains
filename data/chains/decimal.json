@@ -1,0 +1,30 @@
+{
+  "id": "decimal",
+  "index": 3,
+  "graph_id": null,
+  "name": "Decimal",
+  "alt_names": [],
+  "mainnet": "decimal",
+  "standard": "erc20",
+  "block_type": {
+    "label": "sf.ethereum.type.v2.Block",
+    "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+  },
+  "img": "https://pinax.network/vectors/chains/decimal.svg",
+  "is_img_dt_invert": false,
+  "is_testnet": true,
+  "supported_services": {
+    "firehose": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}

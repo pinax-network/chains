@@ -1,0 +1,1179 @@
+[
+  {
+    "id": "alfajores",
+    "index": 4,
+    "graph_id": null,
+    "name": "Alfajores",
+    "alt_names": [],
+    "mainnet": "celo",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/celo.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "arbgoerli",
+    "index": 4,
+    "graph_id": "arbitrum-goerli",
+    "name": "Arbitrum Goerli",
+    "alt_names": [],
+    "mainnet": "arbitrum",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/arbitrum.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "arbone",
+    "index": 4,
+    "graph_id": "arbitrum-one",
+    "name": "Arbitrum One",
+    "alt_names": [],
+    "mainnet": "arbitrum",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/arbone.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "arbsepolia",
+    "index": 4,
+    "graph_id": "arbitrum-sepolia",
+    "name": "Arbitrum Sepolia",
+    "alt_names": [],
+    "mainnet": "arbitrum",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/arbsepolia.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "arweave",
+    "index": 4,
+    "graph_id": "arweave-mainnet",
+    "name": "Arweave",
+    "alt_names": [],
+    "mainnet": "arweave",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.arweave.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/arweave.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2024-03-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "avalanche",
+    "index": 3,
+    "graph_id": "avalanche",
+    "name": "Avalanche",
+    "alt_names": [],
+    "mainnet": "avalanche",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/avalanche.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "base",
+    "index": 4,
+    "graph_id": "base",
+    "name": "Base",
+    "alt_names": [],
+    "mainnet": "base",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/base.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "bitcoin",
+    "index": 2,
+    "graph_id": null,
+    "name": "Bitcoin",
+    "alt_names": [
+      "btc"
+    ],
+    "mainnet": "bitcoin",
+    "standard": "brc20",
+    "block_type": {
+      "label": "sf.bitcoin.type.v1.Block",
+      "url": "https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/bitcoin.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-21T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-21T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "bsc",
+    "index": 2,
+    "graph_id": "bsc",
+    "name": "BNB",
+    "alt_names": [
+      "bsc",
+      "binance"
+    ],
+    "mainnet": "bsc",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/bsc.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "celo",
+    "index": 2,
+    "graph_id": "celo",
+    "name": "Celo",
+    "alt_names": [],
+    "mainnet": "celo",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/celo.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "chapel",
+    "index": 2,
+    "graph_id": "chapel",
+    "name": "Chapel",
+    "alt_names": [],
+    "mainnet": "bsc",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/chapel.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "chiado",
+    "index": 10,
+    "graph_id": null,
+    "name": "Chiado",
+    "alt_names": [],
+    "mainnet": "arbitrum",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/chiado.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "cosmoshub",
+    "index": 4,
+    "graph_id": "cosmoshub-4",
+    "name": "Cosmos Hub",
+    "alt_names": [],
+    "mainnet": "cosmoshub",
+    "standard": "cosmos",
+    "block_type": {
+      "label": "sf.cosmos.type.v1.Block",
+      "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
+    },
+    "img": "https://pinax.network/vectors/chains/cosmoshub.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "decimal",
+    "index": 3,
+    "graph_id": null,
+    "name": "Decimal",
+    "alt_names": [],
+    "mainnet": "decimal",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/decimal.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "eos",
+    "index": 4,
+    "graph_id": null,
+    "name": "EOS",
+    "alt_names": [],
+    "mainnet": "eos",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/eos.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "eth",
+    "index": 1,
+    "graph_id": "mainnet",
+    "name": "Ethereum",
+    "alt_names": [],
+    "mainnet": "eth",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/eth.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "fantom",
+    "index": 4,
+    "graph_id": "fantom",
+    "name": "Fantom",
+    "alt_names": [],
+    "mainnet": "fantom",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/fantom.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "gnosis",
+    "index": 4,
+    "graph_id": "gnosis",
+    "name": "Gnosis",
+    "alt_names": [],
+    "mainnet": "gnosis",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/gnosis.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "goerli",
+    "index": 1,
+    "graph_id": "goerli",
+    "name": "Goerli",
+    "alt_names": [],
+    "mainnet": "eth",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/goerli.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "holesky",
+    "index": 1,
+    "graph_id": null,
+    "name": "Holesky",
+    "alt_names": [],
+    "mainnet": "eth",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/holesky.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "jungle4",
+    "index": 4,
+    "graph_id": null,
+    "name": "Jungle4",
+    "alt_names": [],
+    "mainnet": "eos",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/jungle4.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "kava",
+    "index": 4,
+    "graph_id": null,
+    "name": "Kava",
+    "alt_names": [],
+    "mainnet": "kava",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/kava.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "kylin",
+    "index": 4,
+    "graph_id": null,
+    "name": "Kylin",
+    "alt_names": [],
+    "mainnet": "eos",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/kylin.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "moonbeam",
+    "index": 5,
+    "graph_id": "moonbeam",
+    "name": "Moonbeam",
+    "alt_names": [],
+    "mainnet": "moonbeam",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/moonbeam.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "mumbai",
+    "index": 3,
+    "graph_id": "mumbai",
+    "name": "Mumbai",
+    "alt_names": [],
+    "mainnet": "polygon",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/mumbai.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "optimism",
+    "index": 4,
+    "graph_id": "optimism",
+    "name": "Optimism",
+    "alt_names": [],
+    "mainnet": "optimism",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/optimism.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "neartest",
+    "index": 4,
+    "graph_id": "near-testnet",
+    "name": "Near-testnet",
+    "alt_names": [],
+    "mainnet": "near",
+    "standard": "near",
+    "block_type": {
+      "label": "sf.near.type.v1.Block",
+      "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/neartest.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "optimism",
+    "index": 4,
+    "graph_id": "optimism",
+    "name": "Optimism",
+    "alt_names": [],
+    "mainnet": "optimism",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/optimism.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2024-01-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2024-01-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "osmosis",
+    "index": 4,
+    "graph_id": "osmosis-1",
+    "name": "Osmosis",
+    "alt_names": [],
+    "mainnet": "osmosis",
+    "standard": "cosmos",
+    "block_type": {
+      "label": "sf.cosmos.type.v1.Block",
+      "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
+    },
+    "img": "https://pinax.network/vectors/chains/osmosis.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "polygon",
+    "index": 3,
+    "graph_id": "matic",
+    "name": "Polygon",
+    "alt_names": [
+      "matic"
+    ],
+    "mainnet": "polygon",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/polygon.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "scroll",
+    "index": 5,
+    "graph_id": "scroll",
+    "name": "Scroll",
+    "alt_names": [],
+    "mainnet": "scroll",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/scroll.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "sepolia",
+    "index": 1,
+    "graph_id": "sepolia",
+    "name": "Sepolia",
+    "alt_names": [],
+    "mainnet": "eth",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/sepolia.svg",
+    "is_img_dt_invert": true,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "starknet",
+    "index": 4,
+    "graph_id": null,
+    "name": "Starknet",
+    "alt_names": [],
+    "mainnet": "starknet",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/starknet.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "telos",
+    "index": 4,
+    "graph_id": null,
+    "name": "Telos",
+    "alt_names": [],
+    "mainnet": "telos",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/telos.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "telostest",
+    "index": 4,
+    "graph_id": null,
+    "name": "Telos Test",
+    "alt_names": [],
+    "mainnet": "telos",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/telostest.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "theta",
+    "index": 4,
+    "graph_id": "theta-testnet-001",
+    "name": "Theta",
+    "alt_names": [],
+    "mainnet": "cosmoshub",
+    "standard": "cosmos",
+    "block_type": {
+      "label": "sf.cosmos.type.v1.Block",
+      "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
+    },
+    "img": "https://pinax.network/vectors/chains/theta.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "wax",
+    "index": 4,
+    "graph_id": null,
+    "name": "WAX",
+    "alt_names": [],
+    "mainnet": "wax",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/wax.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "waxtest",
+    "index": 4,
+    "graph_id": null,
+    "name": "WAX Test",
+    "alt_names": [],
+    "mainnet": "wax",
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "img": "https://pinax.network/vectors/chains/waxtest.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": true,
+    "supported_services": {
+      "firehose": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  },
+  {
+    "id": "zkatana",
+    "index": 5,
+    "graph_id": null,
+    "name": "Zkatana",
+    "alt_names": [],
+    "mainnet": "zkatana",
+    "standard": "erc20",
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "img": "https://pinax.network/vectors/chains/zkatana.svg",
+    "is_img_dt_invert": false,
+    "is_testnet": false,
+    "supported_services": {
+      "firehose": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "released_at": null,
+        "deprecated_at": null
+      }
+    }
+  }
+]
