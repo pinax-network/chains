@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 2024-03-04, 6:36:56 p.m..
+// Last generation on 2024-03-04, 6:41:01 p.m..
 
 export * from './alfajores';
 export * from './arbgoerli';
