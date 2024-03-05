@@ -1,4 +1,4 @@
-import chains from './chains';
+import CHAINS from './chains';
 import BLOCKTYPES from './blocktypes';
 
-export { chains, BLOCKTYPES };
+export { CHAINS, BLOCKTYPES };
