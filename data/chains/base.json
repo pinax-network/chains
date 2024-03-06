@@ -11,6 +11,7 @@
     "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
   },
   "img": "https://pinax.network/vector/chain/base.svg",
+  "img_invert": "https://pinax.network/vector/chain/base_dark.svg",
   "is_img_dt_invert": true,
   "is_testnet": false,
   "supported_services": {

@@ -40,6 +40,9 @@ export type Chain = {
   // Image URL
   img: string;
 
+  // Image URL (Inverted) if is_img_dt_invert is true
+  img_invert?: string;
+
   // Whether or not the image should be inverted
   is_img_dt_invert: boolean;
 

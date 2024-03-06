@@ -11,6 +11,7 @@
     "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
   },
   "img": "https://pinax.network/vector/chain/eos.svg",
+  "img_invert": "https://pinax.network/vector/chain/eos_dark.svg",
   "is_img_dt_invert": true,
   "is_testnet": false,
   "supported_services": {

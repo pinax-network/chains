@@ -11,6 +11,7 @@
     "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
   },
   "img": "https://pinax.network/vector/chain/juno.svg",
+  "img_invert": "https://pinax.network/vector/chain/juno_dark.svg",
   "is_img_dt_invert": true,
   "is_testnet": false,
   "supported_services": {

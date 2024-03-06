@@ -12,6 +12,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/celo.svg",
+    "img_invert": "https://pinax.network/vector/chain/celo_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -132,6 +133,7 @@
       "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
     },
     "img": "https://pinax.network/vector/chain/arweave.svg",
+    "img_invert": "https://pinax.network/vector/chain/arweave_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -162,6 +164,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/avalanche.svg",
+    "img_invert": "https://pinax.network/vector/chain/avalanche_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -192,6 +195,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/base.svg",
+    "img_invert": "https://pinax.network/vector/chain/base_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -287,6 +291,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/celo.svg",
+    "img_invert": "https://pinax.network/vector/chain/celo_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -437,6 +442,7 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "img": "https://pinax.network/vector/chain/eos.svg",
+    "img_invert": "https://pinax.network/vector/chain/eos_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -467,6 +473,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/eth.svg",
+    "img_invert": "https://pinax.network/vector/chain/eth_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -497,6 +504,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/fantom.svg",
+    "img_invert": "https://pinax.network/vector/chain/fantom_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -527,6 +535,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/gnosis.svg",
+    "img_invert": "https://pinax.network/vector/chain/gnosis_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -557,6 +566,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/eth.svg",
+    "img_invert": "https://pinax.network/vector/chain/eth_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -587,6 +597,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/eth.svg",
+    "img_invert": "https://pinax.network/vector/chain/eth_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -647,6 +658,7 @@
       "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
     },
     "img": "https://pinax.network/vector/chain/juno.svg",
+    "img_invert": "https://pinax.network/vector/chain/juno_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -707,7 +719,7 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "img": "https://pinax.network/vector/chain/kylin.svg",
-    "is_img_dt_invert": true,
+    "is_img_dt_invert": false,
     "is_testnet": true,
     "supported_services": {
       "firehose": {
@@ -797,6 +809,7 @@
       "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
     },
     "img": "https://pinax.network/vector/chain/near.svg",
+    "img_invert": "https://pinax.network/vector/chain/near_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -827,6 +840,7 @@
       "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
     },
     "img": "https://pinax.network/vector/chain/near.svg",
+    "img_invert": "https://pinax.network/vector/chain/near_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {
@@ -1009,6 +1023,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/scroll.svg",
+    "img_invert": "https://pinax.network/vector/chain/scroll_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": false,
     "supported_services": {
@@ -1039,6 +1054,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "img": "https://pinax.network/vector/chain/eth.svg",
+    "img_invert": "https://pinax.network/vector/chain/eth_dark.svg",
     "is_img_dt_invert": true,
     "is_testnet": true,
     "supported_services": {

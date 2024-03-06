@@ -11,6 +11,7 @@
     "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
   },
   "img": "https://pinax.network/vector/chain/near.svg",
+  "img_invert": "https://pinax.network/vector/chain/near_dark.svg",
   "is_img_dt_invert": true,
   "is_testnet": true,
   "supported_services": {
