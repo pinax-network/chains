@@ -340,7 +340,7 @@
     }
   },
   {
-    "id": "chiado",
+    "id": "chiado-cl",
     "index": 10,
     "graph_id": null,
     "name": "Chiado Consensus Layer",
@@ -491,7 +491,7 @@
     }
   },
   {
-    "id": "eth",
+    "id": "eth-cl",
     "index": 1,
     "graph_id": null,
     "name": "Ethereum Consensus Layer",
@@ -584,7 +584,7 @@
     }
   },
   {
-    "id": "gnosis",
+    "id": "gnosis-cl",
     "index": 4,
     "graph_id": null,
     "name": "Gnosis Consensus Layer",
@@ -646,7 +646,7 @@
     }
   },
   {
-    "id": "goerli",
+    "id": "goerli-cl",
     "index": 1,
     "graph_id": null,
     "name": "Goerli Consensus Layer",
@@ -708,7 +708,7 @@
     }
   },
   {
-    "id": "holesky",
+    "id": "holesky-cl",
     "index": 1,
     "graph_id": null,
     "name": "Holesky Consensus Layer",
@@ -1196,7 +1196,7 @@
     }
   },
   {
-    "id": "sepolia",
+    "id": "sepolia-cl",
     "index": 1,
     "graph_id": null,
     "name": "Sepolia Consensus Layer",
