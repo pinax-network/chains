@@ -13,7 +13,7 @@
   "img": "https://pinax.network/vector/chain/eth.svg",
   "img_invert": "https://pinax.network/vector/chain/eth_dark.svg",
   "is_img_dt_invert": true,
-  "is_testnet": false,
+  "is_testnet": true,
   "supported_services": {
     "firehose": {
       "released_at": null,
