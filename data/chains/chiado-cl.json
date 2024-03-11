@@ -12,7 +12,7 @@
   },
   "img": "https://pinax.network/vector/chain/chiado.svg",
   "is_img_dt_invert": false,
-  "is_testnet": true,
+  "is_testnet": false,
   "supported_services": {
     "firehose": {
       "released_at": null,

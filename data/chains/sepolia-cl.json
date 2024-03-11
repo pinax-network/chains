@@ -1,6 +1,6 @@
 {
   "id": "sepolia-cl",
-  "index": 1,
+  "index": 10,
   "graph_id": null,
   "name": "Sepolia Consensus Layer",
   "alt_names": [],
@@ -13,7 +13,7 @@
   "img": "https://pinax.network/vector/chain/eth.svg",
   "img_invert": "https://pinax.network/vector/chain/eth_dark.svg",
   "is_img_dt_invert": true,
-  "is_testnet": true,
+  "is_testnet": false,
   "supported_services": {
     "firehose": {
       "released_at": null,
