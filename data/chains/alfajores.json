@@ -10,8 +10,8 @@
     "label": "sf.ethereum.type.v2.Block",
     "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
   },
-  "img": "https://pinax.network/vector/chain/celo.svg",
-  "img_invert": "https://pinax.network/vector/chain/celo_dark.svg",
+  "img": "https://pinax.network/assets/chains/celo.svg",
+  "img_invert": "https://pinax.network/assets/chains/celo_dark.svg",
   "is_img_dt_invert": true,
   "is_testnet": true,
   "supported_services": {

@@ -10,7 +10,7 @@
     "label": "sf.cosmos.type.v1.Block",
     "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
   },
-  "img": "https://pinax.network/vector/chain/cosmoshub.svg",
+  "img": "https://pinax.network/assets/chains/cosmoshub.svg",
   "is_img_dt_invert": false,
   "is_testnet": true,
   "supported_services": {

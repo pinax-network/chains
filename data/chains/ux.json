@@ -10,7 +10,7 @@
     "label": "sf.antelope.type.v1.Block",
     "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
   },
-  "img": "https://pinax.network/vector/chain/ux.svg",
+  "img": "https://pinax.network/assets/chains/ux.svg",
   "is_img_dt_invert": false,
   "is_testnet": true,
   "supported_services": {
