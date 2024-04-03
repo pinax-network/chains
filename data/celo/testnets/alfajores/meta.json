@@ -1,0 +1,39 @@
+{
+  "id": "alfajores",
+  "name": "Alfajores",
+  "alt_names": [],
+  "graph_id": null,
+  "supported_services": {
+    "firehose": {
+      "block_type": {
+        "label": "sf.ethereum.type.v2.Block",
+        "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+      },
+      "endpoints": [
+        {
+          "id": "default",
+          "released_at": null,
+          "deprecated_at": null
+        }
+      ]
+    },
+    "substreams": {
+      "endpoints": [
+        {
+          "id": "default",
+          "released_at": null,
+          "deprecated_at": null
+        }
+      ]
+    },
+    "rpc": {
+      "endpoints": [
+        {
+          "id": "default",
+          "released_at": null,
+          "deprecated_at": null
+        }
+      ]
+    }
+  }
+}
