@@ -3,7 +3,7 @@ name: Chain Added / Updated / Deprecated
 about: Let us know of any change in supported chains or their data services.
 title: Added/Update/Deprecate [CHAIN]
 labels: ''
-assignees: SoA432, DominicF96
+assignees: DominicF96, SoA432
 
 ---
 
