@@ -9,8 +9,8 @@
     "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
   },
   "icon": {
-    "id": "networks/eos",
-    "brand_theme": "TBD"
+    "id": "tokens/eos",
+    "brand_theme": "light"
   },
   "supported_services": {
     "firehose": {

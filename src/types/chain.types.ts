@@ -55,7 +55,7 @@ export interface Chain extends ChainBase {
 
   // Merged by ./scripts/generate/data_json.js
   testnets: Array<Testnet>;
-  
+
   // Merged by ./scripts/generate/data_json.js
   consensus_layers: Array<ConsensusLayer>;
 

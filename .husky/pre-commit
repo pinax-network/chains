@@ -1,2 +1,3 @@
 npm run generate
-git add data.json
+npm run generate:types
+git add .

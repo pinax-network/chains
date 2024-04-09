@@ -14,12 +14,5 @@
   "osmosis": [],
   "eos": ["jungle4", "kylin"],
   "wax": ["waxtest"],
-  "telos": ["telostest"],
-  "avalanche": [],
-  "fantom": [],
-  "moonbeam": [],
-  "scroll": [],
-  "decimal": [],
-  "kava": [],
-  "starknet": []
+  "telos": ["telostest"]
 }

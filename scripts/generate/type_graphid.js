@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const typesDir = path.join(__dirname, '../../types');
+const typesDir = path.join(__dirname, '../../src/types');
 
 const graphTypesFile = path.join(typesDir, 'graph.types.ts');
 

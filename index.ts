@@ -1,4 +1,4 @@
-import * as data from './data';
-import * as utils from './utils';
+import * as data from './dist/data';
+import * as utils from './src/utils';
 
 export default { data, utils };
