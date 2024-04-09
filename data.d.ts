@@ -1,5 +1,5 @@
 import { BlockType } from './types/block.types';
-import { Chain } from './types/chain.types';
+import { Chain, Testnet, ConsensusLayer } from './types/chain.types';
 import { GraphId } from './types/graph.types';
 import { Mainnet } from './types/mainnet.types';
 import { PinaxId } from './types/pinax.types';
@@ -8,9 +8,11 @@ import { Standard } from './types/standard.types';
 
 export {
   BlockType,
-  Chain,
+  Chain as Mainnet,
+  Testnet,
+  ConsensusLayer,
   GraphId,
-  Mainnet,
+  Chain as Mainnet,
   PinaxId,
   SupportedServices,
   Standard,

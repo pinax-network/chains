@@ -1,9 +1,33 @@
 import { BlockType } from './block.types';
 import { GraphId } from './graph.types';
-import { Mainnet } from './mainnet.types';
 import { PinaxId } from './pinax.types';
 import { SupportedServices } from './service.types';
 import { Standard } from './standard.types';
+
+export type ChainBase = {
+  // Testnet ID
+  id: PinaxId;
+
+  // Testnet Name
+  name: string;
+
+  // The Graph ID
+  // See docs/retrieve_graph_ids.md
+  graph_id: GraphId | null;
+
+  // Display Priority, lower is higher
+  index: number;
+
+  // Alternative Names
+  alt_names: string[];
+
+  // Whether or not the chain supports our existing services
+  supported_services: SupportedServices;
+};
+
+// Consensus Layers handled like Testnets for now
+export type ConsensusLayer = ChainBase;
+export type Testnet = ChainBase;
 
 /**
  * Describes the Data that needs to be provided for a Chain.
@@ -11,47 +35,25 @@ import { Standard } from './standard.types';
  * The Chain type theb extends the Chain type to include
  * the generated fields.
  */
-export type Chain = {
-  // Pinax ID
-  id: PinaxId;
-
-  // Verbose Name
-  name: string;
-
-  // The Graph ID
-  // See graph.types.ts for instructions on how to retrieve Graph IDs
-  graph_id: GraphId | null;
-
-  // Display Priority
-  index: number;
-
-  // Alternative Names
-  alt_names: string[];
-
-  // Mainnet ID
-  mainnet: Mainnet;
-
+export interface Chain extends ChainBase {
   // Chain Standard (ie. ERC20)
   standard: Standard | null;
 
   // Block Type
   block_type: BlockType;
 
-  // Image URL
-  img: string;
+  icon: {
+    // Token Icon ID
+    id: string;
 
-  // Image URL (Inverted) if is_img_dt_invert is true
-  img_invert?: string;
+    // Theme of the Icon brand
+    brand_theme: 'light' | 'dark' | 'both';
+  };
 
-  // Whether or not the image should be inverted
-  is_img_dt_invert: boolean;
+  testnets: Array<Testnet>;
 
-  // Whether or not the chain is a testnet
-  is_testnet: boolean;
-
-  // Whether or not the chain supports our existing services
-  supported_services: SupportedServices;
+  consensus_layers: Array<ConsensusLayer>;
 
   // Any additional metadata we want to store (ie. Wagmi)
   // metadata: any | null;
-};
+}

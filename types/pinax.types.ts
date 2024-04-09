@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 2024-03-05, 4:08:07 p.m..
+// Last generation on 2024-04-08, 11:39:43 p.m..
 export type PinaxId =
   | 'alfajores'
   | 'arbgoerli'
@@ -13,14 +13,17 @@ export type PinaxId =
   | 'bsc'
   | 'celo'
   | 'chapel'
+  | 'chiado-cl'
   | 'chiado'
   | 'cosmoshub'
   | 'decimal'
   | 'eos'
+  | 'eth-cl'
   | 'eth'
   | 'fantom'
+  | 'gnosis-cl'
   | 'gnosis'
-  | 'goerli'
+  | 'holesky-cl'
   | 'holesky'
   | 'jungle4'
   | 'kava'
@@ -33,6 +36,7 @@ export type PinaxId =
   | 'osmosis'
   | 'polygon'
   | 'scroll'
+  | 'sepolia-cl'
   | 'sepolia'
   | 'starknet'
   | 'telos'

@@ -1,7 +1,7 @@
 {
-  "id": "celo",
-  "graph_id": "celo",
-  "name": "Celo",
+  "id": "decimal",
+  "graph_id": null,
+  "name": "Decimal",
   "alt_names": [],
   "standard": "erc20",
   "block_type": {
@@ -9,8 +9,8 @@
     "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
   },
   "icon": {
-    "id": "networks/celo",
-    "brand_theme": "light"
+    "id": "tokens/decimal",
+    "brand_theme": "both"
   },
   "supported_services": {
     "firehose": {

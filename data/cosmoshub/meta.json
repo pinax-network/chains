@@ -1,15 +1,15 @@
 {
-  "id": "arweave",
-  "graph_id": "arweave-mainnet",
-  "name": "Arweave",
+  "id": "cosmoshub",
+  "graph_id": "cosmoshub-4",
+  "name": "Cosmos Hub",
   "alt_names": [],
-  "standard": "erc20",
+  "standard": "cosmos",
   "block_type": {
-    "label": "sf.arweave.type.v1.Block",
-    "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
+    "label": "sf.cosmos.type.v1.Block",
+    "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
   },
   "icon": {
-    "id": "tokens/arweave",
+    "id": "networks/cosmos",
     "brand_theme": "dark"
   },
   "supported_services": {
@@ -18,7 +18,7 @@
       "deprecated_at": null
     },
     "substreams": {
-      "released_at": "2024-03-03T00:00:00.000Z",
+      "released_at": null,
       "deprecated_at": null
     },
     "rpc": {

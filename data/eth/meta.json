@@ -1,7 +1,7 @@
 {
-  "id": "celo",
-  "graph_id": "celo",
-  "name": "Celo",
+  "id": "eth",
+  "graph_id": "mainnet",
+  "name": "Ethereum",
   "alt_names": [],
   "standard": "erc20",
   "block_type": {
@@ -9,20 +9,20 @@
     "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
   },
   "icon": {
-    "id": "networks/celo",
-    "brand_theme": "light"
+    "id": "networks/ethereum",
+    "brand_theme": "both"
   },
   "supported_services": {
     "firehose": {
-      "released_at": null,
+      "released_at": "2023-12-01T00:00:00.000Z",
       "deprecated_at": null
     },
     "substreams": {
-      "released_at": null,
+      "released_at": "2023-12-01T00:00:00.000Z",
       "deprecated_at": null
     },
     "rpc": {
-      "released_at": null,
+      "released_at": "2023-12-01T00:00:00.000Z",
       "deprecated_at": null
     }
   }

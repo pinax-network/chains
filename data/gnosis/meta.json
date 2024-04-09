@@ -1,7 +1,7 @@
 {
-  "id": "celo",
-  "graph_id": "celo",
-  "name": "Celo",
+  "id": "gnosis",
+  "graph_id": "gnosis",
+  "name": "Gnosis",
   "alt_names": [],
   "standard": "erc20",
   "block_type": {
@@ -9,8 +9,8 @@
     "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
   },
   "icon": {
-    "id": "networks/celo",
-    "brand_theme": "light"
+    "id": "tokens/gnosis",
+    "brand_theme": "dark"
   },
   "supported_services": {
     "firehose": {

@@ -1,16 +1,16 @@
 {
-  "id": "arweave",
-  "graph_id": "arweave-mainnet",
-  "name": "Arweave",
+  "id": "eos",
+  "graph_id": null,
+  "name": "EOS",
   "alt_names": [],
-  "standard": "erc20",
+  "standard": "antelope",
   "block_type": {
-    "label": "sf.arweave.type.v1.Block",
-    "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
+    "label": "sf.antelope.type.v1.Block",
+    "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
   },
   "icon": {
-    "id": "tokens/arweave",
-    "brand_theme": "dark"
+    "id": "networks/eos",
+    "brand_theme": "TBD"
   },
   "supported_services": {
     "firehose": {
@@ -18,7 +18,7 @@
       "deprecated_at": null
     },
     "substreams": {
-      "released_at": "2024-03-03T00:00:00.000Z",
+      "released_at": "2023-12-01T00:00:00.000Z",
       "deprecated_at": null
     },
     "rpc": {

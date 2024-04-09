@@ -1,7 +1,7 @@
 {
-  "id": "celo",
-  "graph_id": "celo",
-  "name": "Celo",
+  "id": "fantom",
+  "graph_id": "fantom",
+  "name": "Fantom",
   "alt_names": [],
   "standard": "erc20",
   "block_type": {
@@ -9,7 +9,7 @@
     "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
   },
   "icon": {
-    "id": "networks/celo",
+    "id": "networks/fantom",
     "brand_theme": "light"
   },
   "supported_services": {

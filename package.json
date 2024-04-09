@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "1.1.16",
+  "version": "2.0.0-rc",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -27,6 +27,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@token-icons/core": "^2.0.4",
     "husky": "^9.0.11",
     "prettier": "^3.2.5"
   },

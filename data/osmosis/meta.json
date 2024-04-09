@@ -1,20 +1,20 @@
 {
-  "id": "avalanche",
-  "graph_id": "avalanche",
-  "name": "Avalanche",
+  "id": "osmosis",
+  "graph_id": "osmosis-1",
+  "name": "Osmosis",
   "alt_names": [],
-  "standard": "erc20",
+  "standard": "cosmos",
   "block_type": {
-    "label": "sf.ethereum.type.v2.Block",
-    "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    "label": "sf.cosmos.type.v1.Block",
+    "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
   },
   "icon": {
-    "id": "networks/avalanche",
+    "id": "tokens/osmosis",
     "brand_theme": "both"
   },
   "supported_services": {
     "firehose": {
-      "released_at": null,
+      "released_at": "2023-12-01T00:00:00.000Z",
       "deprecated_at": null
     },
     "substreams": {
