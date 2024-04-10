@@ -2,23 +2,25 @@ name: Update Graph IDs
 
 on:
   schedule:
-    - cron: '0/5 * * * *'
+    - cron: '*/5 * * * *'
 
 jobs:
   sync-graph-ids:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
+      - uses: oven-sh/setup-bun@v1
+      - run: bun install
+      
       - name: Every Day
-        run: npm run generate:type_graphid
+        run: bun run generate:type_graphid
+        
       - uses: stefanzweifel/git-auto-commit-action@v2.3.0
         with:
           commit_message: Apply automatic changes
           branch: ${{ github.head_ref }}
 
-          # Optional git params
-          commit_options: '--no-verify --signoff'
-
           # Optional glob pattern of files which should be added to the commit
-          file_pattern: src/\*.js
+          file_pattern: src/types/graph.types.ts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
