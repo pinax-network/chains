@@ -1,6 +1,6 @@
 # Retrieve The Graph Chain IDs
 
-This process is useful to add a supported chain to the app, as we need to make sure that the chain is available on The Graph to provide a valid TOML quickstart config.
+This process is useful to add a supported chain to the app, as we need to make sure that the chain is available on The Graph to provide a valid TOML quickstart config. GraphID type is automatically updated daily by a GitHub Action, so in most cases you don't need to worry about it.
 
 In the case that the chain is not available on The Graph, we set its `graph_id` to null, so that the TOML config shows `This chain is not supported by The Graph Network`.
 
