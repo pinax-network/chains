@@ -1,3 +1,2 @@
 npm run generate
-npm run generate:types
 git add .
