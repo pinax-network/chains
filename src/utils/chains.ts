@@ -1,7 +1,5 @@
 import { ChainBase } from '../types/chain.types';
 
-// Copied over form website, probably worth moving to @pinax/chains repo.
-
 const isFirehoseSupported = (chain: ChainBase): boolean => {
   return (
     chain?.supported_services?.firehose?.released_at !== null &&

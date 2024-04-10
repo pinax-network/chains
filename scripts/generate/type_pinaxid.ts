@@ -6,7 +6,7 @@ const typesDir = path.join(__dirname, '../../src/types');
 
 const pinaxTypesFile = path.join(typesDir, 'pinax.types.ts');
 
-console.log('🕑 Generating PinaxId type...');
+console.log('🕑 Generating PinaxID type...');
 
 // Function to recursively read directories and subdirectories
 function readDir(directory: string): string[] {
@@ -36,7 +36,7 @@ function readDir(directory: string): string[] {
 const fileNames = readDir(chainsDir);
 
 // Generate the PinaxId type definition
-const pinaxIdType = `// This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type PinaxId = '${fileNames.join("' | '")}'`;
+const pinaxIdType = `// This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type PinaxID = '${fileNames.join("' | '")}'`;
 
 // Write the PinaxId type definition to the types directory
 fs.writeFile(pinaxTypesFile, pinaxIdType, (err) => {
@@ -45,5 +45,5 @@ fs.writeFile(pinaxTypesFile, pinaxIdType, (err) => {
     return;
   }
 
-  console.log('✅ Successfully generating PinaxId type!');
+  console.log('✅ Successfully generating PinaxID type!');
 });

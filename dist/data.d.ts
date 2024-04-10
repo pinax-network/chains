@@ -5,10 +5,14 @@ import {
   Testnet,
   ConsensusLayer,
 } from '../src/types/chain.types';
-import { GraphId } from '../src/types/graph.types';
-import { Mainnet } from './types/mainnet.types';
-import { PinaxId } from '../src/types/pinax.types';
-import { SupportedServices } from '../src/types/service.types';
+import { GraphID } from '../src/types/graph.types';
+import { PinaxID } from '../src/types/pinax.types';
+import {
+  ServiceID,
+  ServiceEndpoint,
+  ServiceEndpointStatus,
+  SupportedServices,
+} from '../src/types/service.types';
 import { Standard } from '../src/types/standard.types';
 
 export {
@@ -17,8 +21,11 @@ export {
   Chain,
   Testnet,
   ConsensusLayer,
-  GraphId,
-  PinaxId,
+  GraphID as GraphId,
+  PinaxID as PinaxId,
+  ServiceID,
+  ServiceEndpoint,
+  ServiceEndpointStatus,
   SupportedServices,
   Standard,
 };

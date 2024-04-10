@@ -1,19 +1,19 @@
 import { BlockType } from './block.types';
-import { GraphId } from './graph.types';
-import { PinaxId } from './pinax.types';
+import { GraphID } from './graph.types';
+import { PinaxID } from './pinax.types';
 import { SupportedServices } from './service.types';
 import { Standard } from './standard.types';
 
 export type ChainBase = {
   // Testnet ID
-  id: PinaxId;
+  id: PinaxID;
 
   // Testnet Name
   name: string;
 
   // The Graph ID
   // See docs/retrieve_graph_ids.md
-  graph_id: GraphId | null;
+  graph_id: GraphID | null;
 
   // Display Priority, lower is higher
   index?: number;

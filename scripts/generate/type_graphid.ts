@@ -4,7 +4,7 @@ import path from 'path';
 const typesDir = path.join(__dirname, '../../src/types');
 const graphTypesFile = path.join(typesDir, 'graph.types.ts');
 
-console.log('🕑 Generating GraphId type...');
+console.log('🕑 Generating GraphID type...');
 
 const fetchGraphIDs = async (): Promise<void> => {
   try {
@@ -27,7 +27,7 @@ const fetchGraphIDs = async (): Promise<void> => {
     );
 
     // Generate the GraphId type definition
-    const graphIdType = `// This file is auto-generated on pre-commit to avoid maintaining it.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type GraphId = '${sortedGraphIds.join("' | '")}'`;
+    const graphIdType = `// This file is auto-generated on pre-commit to avoid maintaining it.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type GraphID = '${sortedGraphIds.join("' | '")}'`;
 
     // Write the GraphId type definition to the types directory
     fs.writeFile(graphTypesFile, graphIdType, (err) => {
@@ -36,7 +36,7 @@ const fetchGraphIDs = async (): Promise<void> => {
         return;
       }
 
-      console.log('✅ Successfully generated GraphId type!');
+      console.log('✅ Successfully generated GraphID type!');
     });
   } catch (error) {
     console.error('Error fetching graph IDs:', error);

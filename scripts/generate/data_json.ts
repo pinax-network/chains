@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import bun from 'bun';
-import * as chainData from '../../src/data/index';
+import * as chainData from '../../src/data/chains/index';
 import { toCamelCase } from '../../src/utils/case';
 interface Icon {
   id: string;

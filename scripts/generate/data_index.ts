@@ -4,7 +4,7 @@ import { toCamelCase } from '../../src/utils/case';
 
 console.log('🕑 Generating data index...');
 
-const dataDir = path.join(__dirname, '../../src', 'data');
+const dataDir = path.join(__dirname, '../../src', 'data/chains');
 let indexContent = '';
 
 fs.readdirSync(dataDir).forEach((mainnetDir) => {
