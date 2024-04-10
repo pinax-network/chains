@@ -8,11 +8,11 @@ This document is a proposal for syncing the OPS and Product teams. The goal is t
 
 The OPS team maintains a private list (in a YAML file in the OPS Github organization) of chains supported or to-be-supported by Pinax. This list needs to be maintained as it triggers a series of automations on the ops side.
 
-The OPS team also maintains a Notion page on The Graph's side, which contains the list of chains supported by Pinax products.
-
 The Product team maintains this repository, which acts as the single-source-of-truth for Pinax products. It contains extra metadata that is not present in the OPS list, such as chain icons, __chain services__, and other product-specific information.
 
 Those two lists are already necessary for their respective teams.
+
+The OPS team also maintains a Notion page on The Graph's side, which contains the list of chains supported by Pinax products.
 
 ### Data duplication
 
