@@ -13,11 +13,13 @@ With the 2.0 release, we've done massive changes to improve QoL for developers a
 - ✅ Easier sort of chains while keeping mainnets, testnets and consensus layer together ( Closes #5 )
 - ✅ Easier to manage chain indexes (priority order)
 - ✅ No more desync of chain icons metadata and source
-- ✅ Easier to understand relationship between networks as a newcomer
+- ✅ No more need to copy-paste the chains utils between multiple projects, it's packaged here
+- ✅ No more need to copy-paste the service configs between multiple projects, it's packaged here
+- ✅ Easier to understand relationship between networks (mainnets, testnets, consensus layers, ...) as a newcomer
 - ✅ No more need to maintain a bunch of flags that can be extrapolated from data
 - ✅ No more duplicated information in mainnets and subnets
 - ✅ Enabling chain icons to work on local environments (no longer loading from prod)
-- ✅ No more need to copy-paste the chains utils between multiple projects, it's packaged here
+- ✅ Github Action automations making sure certain parts of the data is always up-to-date
 
 ## Installation
 
