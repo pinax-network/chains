@@ -16,20 +16,23 @@
     "types/**.ts"
   ],
   "scripts": {
-    "fetch-graph-ids": "node ./scripts/fetchGraphIDs.js",
+    "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",
     "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
-    "generate": "npm run generate:data",
-    "generate:data": "node ./scripts/generate/data_json.js",
+    "generate": "npm run generate:data && npm run generate:types",
+    "generate:data": "npm run generate:data_index && npm run generate:data_json",
+    "generate:data_index": "bun ./scripts/generate/data_index.ts",
+    "generate:data_json": "bun ./scripts/generate/data_json.ts",
     "generate:types": "npm run generate:type_graphid && npm run generate:type_pinaxid && npm run format",
-    "generate:type_graphid": "node ./scripts/generate/type_graphid.js",
-    "generate:type_pinaxid": "node ./scripts/generate/type_pinaxid.js",
+    "generate:type_graphid": "bun ./scripts/generate/type_graphid.ts",
+    "generate:type_pinaxid": "bun ./scripts/generate/type_pinaxid.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
   "devDependencies": {
     "@token-icons/core": "^2.1.0",
     "husky": "^9.0.11",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "@types/bun": "latest"
   },
   "bundledDependencies": [
     "@token-icons/core"
@@ -41,5 +44,8 @@
   "homepage": "https://github.com/pinax-network/chains#readme",
   "bugs": {
     "url": "https://github.com/pinax-network/chains/issues"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
   }
 }

@@ -332,7 +332,7 @@
     "testnets": [
       {
         "id": "arbgoerli",
-        "graph_id": "arbitrum-goerli",
+        "graph_id": null,
         "name": "Arbitrum Goerli",
         "alt_names": [],
         "supported_services": {
