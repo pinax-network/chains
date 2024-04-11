@@ -10,6 +10,8 @@ You can have a look at the [Chain Type](/src/types/chain.types.ts) and at our [l
 
 With the 2.0 release, we've done massive changes to improve QoL for developers and maintainers. The most important changes are;
 
+- ✅ Enabling chain icons to work on local environments (no longer loading from prod)
+- ✅ Github Action automations making sure certain parts of the data is always up-to-date
 - ✅ Easier sort of chains while keeping mainnets, testnets and consensus layer together
 - ✅ Easier to understand relationship between networks (mainnets, testnets, consensus layers, ...) as a newcomer
 - ✅ Easier to manage chain indexes (priority order)
@@ -18,8 +20,6 @@ With the 2.0 release, we've done massive changes to improve QoL for developers a
 - ✅ No more need to copy-paste the service configs between multiple projects, it's packaged here
 - ✅ No more need to maintain a bunch of flags that can be extrapolated from data
 - ✅ No more duplicated information in mainnets and subnets
-- ✅ Enabling chain icons to work on local environments (no longer loading from prod)
-- ✅ Github Action automations making sure certain parts of the data is always up-to-date
 
 ## Installation
 
