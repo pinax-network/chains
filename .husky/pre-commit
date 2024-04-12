@@ -1,2 +1,2 @@
-npm run generate
+bun run generate
 git add .
