@@ -4,6 +4,24 @@
 
 This document is a proposal for syncing the OPS and Product teams. The goal is to ensure that the metadata of chains supported by Pinax products is up-to-date and accurate. This process is crucial in ensuring that the product team has the necessary information to maintain the products.
 
+> WIP: This document is a work in progress and is subject to change.
+>
+> exact schedule for blockchain to be deployed exists
+There are different sources
+Jonathan prioritizes chains on 'easy' wins
+YAML/JSON doesn't mean its ready
+>
+> -->> Once a blockchain is ready, DNS record (another yaml file in repo) <<--
+Doesn't mean blockchain is backuped, stable, etc. Maybe OK for use by The Graph.
+>
+> Automation might not be as straightforward
+>
+> Requirements for The Graph are different than requirements from public use.
+>
+> Fully operationnal chains tracked in Google Sheets
+>
+> Sajjad handles backups
+
 ## Background
 
 The OPS team maintains a private list (in a YAML file in the OPS Github organization) of chains supported or to-be-supported by Pinax. This list needs to be maintained as it triggers a series of automations on the ops side.
