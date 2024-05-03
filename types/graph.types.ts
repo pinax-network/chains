@@ -1,12 +1,11 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 4/17/2024, 10:51:14 PM.
+// Last generation on 2024-05-03, 3:03:14 p.m..
 export type GraphId =
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
   | 'arweave-mainnet'
   | 'astar-zkevm-mainnet'
-  | 'astar-zkevm-sepolia'
   | 'aurora'
   | 'aurora-testnet'
   | 'avalanche'
