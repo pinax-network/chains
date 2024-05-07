@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-const chainsDir = path.join(__dirname, '../../src/data');
-const typesDir = path.join(__dirname, '../../src/types');
+const chainsDir = path.join(__dirname, '../../../src/data');
+const typesDir = path.join(__dirname, '../../../src/types');
 
 const pinaxTypesFile = path.join(typesDir, 'pinax.types.ts');
 

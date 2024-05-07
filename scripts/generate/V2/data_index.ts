@@ -1,10 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { toCamelCase } from '../../src/utils/case';
+import { toCamelCase } from '../../../src/utils/case';
 
 console.log('🕑 Generating data index...');
 
-const dataDir = path.join(__dirname, '../../src', 'data/chains');
+const dataDir = path.join(__dirname, '../../../src', 'data/chains/V2');
 let indexContent = '';
 
 fs.readdirSync(dataDir).forEach((mainnetDir) => {

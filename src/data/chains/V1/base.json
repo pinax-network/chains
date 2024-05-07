@@ -1,0 +1,31 @@
+{
+  "id": "base",
+  "index": 4,
+  "graph_id": "base",
+  "name": "Base",
+  "alt_names": [],
+  "mainnet": "base",
+  "standard": "erc20",
+  "block_type": {
+    "label": "sf.ethereum.type.v2.Block",
+    "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+  },
+  "img": "https://pinax.network/assets/chains/base.svg",
+  "img_invert": "https://pinax.network/assets/chains/base_dark.svg",
+  "is_img_dt_invert": true,
+  "is_testnet": false,
+  "supported_services": {
+    "firehose": {
+      "released_at": "2024-03-06T00:00:00.000Z",
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": "2024-03-06T00:00:00.000Z",
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}

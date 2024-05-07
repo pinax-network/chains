@@ -1,0 +1,31 @@
+{
+  "id": "neartest",
+  "index": 4,
+  "graph_id": "near-testnet",
+  "name": "Near-testnet",
+  "alt_names": [],
+  "mainnet": "near",
+  "standard": "near",
+  "block_type": {
+    "label": "sf.near.type.v1.Block",
+    "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
+  },
+  "img": "https://pinax.network/assets/chains/near.svg",
+  "img_invert": "https://pinax.network/assets/chains/near_dark.svg",
+  "is_img_dt_invert": true,
+  "is_testnet": true,
+  "supported_services": {
+    "firehose": {
+      "released_at": "2023-12-01T00:00:00.000Z",
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": "2023-12-01T00:00:00.000Z",
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}

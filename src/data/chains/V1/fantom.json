@@ -1,0 +1,31 @@
+{
+  "id": "fantom",
+  "index": 4,
+  "graph_id": "fantom",
+  "name": "Fantom",
+  "alt_names": [],
+  "mainnet": "fantom",
+  "standard": "erc20",
+  "block_type": {
+    "label": "sf.ethereum.type.v2.Block",
+    "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+  },
+  "img": "https://pinax.network/assets/chains/fantom.svg",
+  "img_invert": "https://pinax.network/assets/chains/fantom_dark.svg",
+  "is_img_dt_invert": true,
+  "is_testnet": false,
+  "supported_services": {
+    "firehose": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}

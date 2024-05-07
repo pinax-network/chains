@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import bun from 'bun';
-import * as chainData from '../../src/data/chains/index';
-import { toCamelCase } from '../../src/utils/case';
+import * as chainData from '../../../src/data/chains/V2/index';
+import { toCamelCase } from '../../../src/utils/case';
 interface Icon {
   id: string;
   variants: string[];
@@ -48,7 +48,7 @@ const networks: Network[] = JSON.parse(
 
 const indexConfigPath = path.join(
   __dirname,
-  '../../src/configs/index.config.json',
+  '../../../src/configs/index.config.json',
 );
 
 const indexConf: { [key: string]: string[] } = JSON.parse(
@@ -106,7 +106,7 @@ Object.keys(indexConf).forEach((mainnet, mainnetIndex) => {
   data.push(mainnetData);
 });
 
-const distFolderPath = path.join(__dirname, '../../dist');
+const distFolderPath = path.join(__dirname, '../../../dist');
 if (!fs.existsSync(distFolderPath)) {
   fs.mkdirSync(distFolderPath);
 }
