@@ -25,6 +25,7 @@
     "generate:types": "bun run generate:type_graphid && bun run generate:type_pinaxid && bun run format",
     "generate:type_graphid": "bun ./scripts/generate/V2/type_graphid.ts",
     "generate:type_pinaxid": "bun ./scripts/generate/V2/type_pinaxid.ts",
+    "generate:match_legacy_check": "bun ./scripts/generate/V2/match_legacy_data.ts",
     "generate_v1": "npm run generate_v1:data",
     "generate_v1:data": "node ./scripts/generate/V1/data_json.js",
     "generate_v1:types": "npm run generate_v1:type_graphid && npm run generate_v1:type_pinaxid && npm run format",
