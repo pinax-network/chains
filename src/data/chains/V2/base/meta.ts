@@ -1,4 +1,4 @@
-import { Chain } from '../../../types/chain.types';
+import { Chain } from '../../../../types/chain.types';
 
 const meta: Chain = {
   id: 'base',

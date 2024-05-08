@@ -1,4 +1,5 @@
-export type ServiceID = 'substreams' | 'firehose' | 'rpc';
+export type ConsensusLayerServiceID = 'substreams' | 'firehose';
+export type ServiceID = ConsensusLayerServiceID | 'rpc';
 
 export type ServiceEndpoint = {
   name: string;
@@ -9,5 +10,9 @@ export type ServiceEndpoint = {
 export type ServiceEndpointStatus = {
   released_at: string | null;
   deprecated_at: string | null;
+};
+
+export type ConsensusLayerServices = {
+  [key in ConsensusLayerServiceID]: ServiceEndpointStatus;
 };
 export type SupportedServices = { [key in ServiceID]: ServiceEndpointStatus };

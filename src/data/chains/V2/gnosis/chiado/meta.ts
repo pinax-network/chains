@@ -1,9 +1,9 @@
-import { Testnet } from '../../../../types/chain.types';
+import { Testnet } from '../../../../../types/chain.types';
 
 const meta: Testnet = {
-  id: 'chiado-cl',
+  id: 'chiado',
   graph_id: null,
-  name: 'Chiado Consensus Layer',
+  name: 'Chiado',
   alt_names: [],
   supported_services: {
     firehose: {
@@ -11,7 +11,7 @@ const meta: Testnet = {
       deprecated_at: null,
     },
     substreams: {
-      released_at: '2023-03-08T00:00:00.000Z',
+      released_at: null,
       deprecated_at: null,
     },
     rpc: {

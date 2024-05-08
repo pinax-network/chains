@@ -1,4 +1,4 @@
-import { Testnet } from '../../../../types/chain.types';
+import { Testnet } from '../../../../../types/chain.types';
 
 const meta: Testnet = {
   id: 'kylin',

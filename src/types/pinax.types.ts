@@ -1,11 +1,9 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 5/7/2024, 4:50:22 PM.
+// Last generation on 5/8/2024, 3:08:44 PM.
 export type PinaxID =
   | 'arbgoerli'
   | 'arbsepolia'
-  | 'chiado'
-  | 'chiado-cl'
   | 'arbone'
   | 'arweave'
   | 'avalanche'
@@ -31,6 +29,8 @@ export type PinaxID =
   | 'sepolia'
   | 'sepolia-cl'
   | 'fantom'
+  | 'chiado'
+  | 'chiado-cl'
   | 'gnosis-cl'
   | 'gnosis'
   | 'kava'
@@ -39,6 +39,7 @@ export type PinaxID =
   | 'neartest'
   | 'optimism'
   | 'osmosis'
+  | 'amoy'
   | 'polygon'
   | 'mumbai'
   | 'scroll'
