@@ -1,14 +1,15 @@
 import fs from 'fs';
 import path from 'path';
-import { toCamelCase } from '../../../src/utils/case';
+import { toCamelCase } from '../../../utils/case';
 
 console.log('🕑 Generating data index...');
 
-const dataDir = path.join(__dirname, '../../../src', 'data/chains/V2');
+const dataDir = path.join(__dirname, '../../../', 'data/chains/V2');
 let indexContent = '';
 
 fs.readdirSync(dataDir).forEach((mainnetDir) => {
-  if (mainnetDir === 'index.ts') return; // Ignore index.ts file
+  // Ignore index.ts and chains.json files
+  if (mainnetDir === 'index.ts' || mainnetDir === 'chains.json') return;
 
   const mainnetPath = path.join(dataDir, mainnetDir);
   const mainnetMetaPath = path.join(mainnetPath, 'meta.ts');

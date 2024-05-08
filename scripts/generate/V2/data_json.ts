@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
 import bun from 'bun';
-import * as chainData from '../../../src/data/chains/V2/index';
-import { toCamelCase } from '../../../src/utils/case';
+import * as chainData from '../../../data/chains/V2/index';
+import { toCamelCase } from '../../../utils/case';
+import indexConf from '../../../data/index.config';
+import { IndexConfig } from './index_config_check';
 interface Icon {
   id: string;
   variants: string[];
@@ -32,6 +34,13 @@ interface SubnetData {
 
 console.log('🕑 Generating data.json...');
 
+if (indexConf.missing.length > 0) {
+  console.log(
+    '⚠️  Missing chains detected. Please add them to the ./data/index.config.ts file.',
+  );
+  process.exit(1);
+}
+
 const tokens: Token[] = JSON.parse(
   fs.readFileSync(
     path.resolve('node_modules/@token-icons/core/dist/metadata/tokens.json'),
@@ -46,19 +55,10 @@ const networks: Network[] = JSON.parse(
   ),
 );
 
-const indexConfigPath = path.join(
-  __dirname,
-  '../../../src/configs/index.config.json',
-);
-
-const indexConf: { [key: string]: string[] } = JSON.parse(
-  fs.readFileSync(indexConfigPath, 'utf8'),
-);
-
 const data: MainnetData[] = [];
 const warnings: string[] = [];
 
-Object.keys(indexConf).forEach((mainnet, mainnetIndex) => {
+Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
   // @ts-ignore
   const mainnetData: MainnetData = chainData[toCamelCase(mainnet)];
 
@@ -89,30 +89,32 @@ Object.keys(indexConf).forEach((mainnet, mainnetIndex) => {
     }
   }
 
-  indexConf[mainnet].forEach((subnet, subnetIndex) => {
-    // @ts-ignore
-    const subnetData: SubnetData = chainData[toCamelCase(subnet)];
+  (indexConf as IndexConfig).ordered[mainnet].forEach(
+    (subnet: any, subnetIndex: any) => {
+      // @ts-ignore
+      const subnetData: SubnetData = chainData[toCamelCase(subnet)];
 
-    subnetData.index = mainnetData.index + subnetIndex + 1;
+      subnetData.index = mainnetData.index + subnetIndex + 1;
 
-    if (subnetData.id.indexOf('-cl') !== -1) {
-      if (!mainnetData.consensus_layers) mainnetData.consensus_layers = [];
-      mainnetData.consensus_layers.push(subnetData);
-    } else {
-      if (!mainnetData.testnets) mainnetData.testnets = [];
-      mainnetData.testnets.push(subnetData);
-    }
-  });
+      if (subnetData.id.indexOf('-cl') !== -1) {
+        if (!mainnetData.consensus_layers) mainnetData.consensus_layers = [];
+        mainnetData.consensus_layers.push(subnetData);
+      } else {
+        if (!mainnetData.testnets) mainnetData.testnets = [];
+        mainnetData.testnets.push(subnetData);
+      }
+    },
+  );
   data.push(mainnetData);
 });
 
-const distFolderPath = path.join(__dirname, '../../../dist');
-if (!fs.existsSync(distFolderPath)) {
-  fs.mkdirSync(distFolderPath);
+const dataFolderPath = path.join(__dirname, '../../../data/chains/V2');
+if (!fs.existsSync(dataFolderPath)) {
+  fs.mkdirSync(dataFolderPath);
 }
 
 fs.writeFileSync(
-  path.join(distFolderPath, 'data.json'),
+  path.join(dataFolderPath, 'chains.json'),
   JSON.stringify(data, null, 2),
 );
 
@@ -120,5 +122,5 @@ if (warnings.length) {
   console.log(warnings.join('\n'));
   console.log(`☑️ Generated 'data.json' with ${warnings.length} warnings`);
 } else {
-  console.log(`✅ Successfully generated 'data.json'!`);
+  console.log(`✅ Successfully generated 'chains.json'! (V2)`);
 }

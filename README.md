@@ -2,7 +2,7 @@
 
 This is the single-source-of-truth for the metadata of chains supported by Pinax **_products_** (we have a separate, private list for internal ops). To make it more accessible, we've published it as a [npm package](#install_from_npm) and created a [public endpoint to fetch chains metadata](#public_endpoint).
 
-You can have a look at the [Chain Type](/src/types/chain.types.ts) and at our [list of supported, to-be-supported, or once-supported chains](/src/types/pinax.types.ts). 
+You can have a look at the [Chain Type](/types/chain.types.ts) and at our [list of supported, to-be-supported, or once-supported chains](/types/pinax.types.ts). 
 
 > **Note**: Some chains may be listed but won't have any service supported or may have been deprecated, see each chain's metadata to ensure the chain is truly supported.
 

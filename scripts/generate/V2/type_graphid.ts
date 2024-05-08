@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 
-const typesDir = path.join(__dirname, '../../../src/types');
+const typesDir = path.join(__dirname, '../../../types');
 const graphTypesFile = path.join(typesDir, 'graph.types.ts');
 
 console.log('🕑 Generating GraphID type...');

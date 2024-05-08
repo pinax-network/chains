@@ -1,10 +1,10 @@
 ### Adding a new chain
 
-Adding a new chain is as simple as adding a new file to the `src/data/chains` directory. The file should be named after the chain's official Pinax ID and should contain the metadata of the chain. The chain files are in Typescript, so make sure to cast them to the appropriate type to get the proper validations.
+Adding a new chain is as simple as adding a new file to the `data/chains` directory. The file should be named after the chain's official Pinax ID and should contain the metadata of the chain. The chain files are in Typescript, so make sure to cast them to the appropriate type to get the proper validations.
 
 Also make sure to run the `npm run generate:type_pinaxid` and `npm run generate:data_json` commands to update the related types and index if you're encountering any type issue there.
 
-If you're unsure about the fields you need to fill, you can have a look at the [Chain Type](/src/types/chain.types.ts) to learn more about the fields you need to fill.
+If you're unsure about the fields you need to fill, you can have a look at the [Chain Type](/types/chain.types.ts) to learn more about the fields you need to fill.
 
 ### Updating an existing chain
 
@@ -12,7 +12,7 @@ To update an existing chain, you can simply open a PR with the changes you want 
 
 ### Adding / Validating Graph IDs
 
-We use the `graph_id` field to match our chains to The Graph's. You can check the available graph IDs in the [Graphs](/src/types/graph.types.ts) file, which is [generated automatically](/scripts/generate/graphid_type.js) by fetching supported chains from The Graph's API. You can run `npm run generate:type_graphid` to update the graph IDs.
+We use the `graph_id` field to match our chains to The Graph's. You can check the available graph IDs in the [Graphs](/types/graph.types.ts) file, which is [generated automatically](/scripts/generate/graphid_type.js) by fetching supported chains from The Graph's API. You can run `npm run generate:type_graphid` to update the graph IDs.
 
 ### Updating the Chain Type
 

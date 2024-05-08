@@ -1,4 +1,6 @@
-import * as data from './dist/types';
-import * as utils from './src/utils';
+import * as chains from './data/chains/V2/index';
+import * as services from './data/services';
+import * as types from './types';
+import * as utils from './utils';
 
-export default { data, utils };
+export default { chains, services, types, utils };

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the directory containing the JSON files
-const directoryPath = path.join(__dirname, '../../../src/data/chains/V1');
+const directoryPath = path.join(__dirname, '../../../data/chains/V1');
 
 // Read the directory
 fs.readdir(directoryPath, (err, files) => {
@@ -14,6 +14,9 @@ fs.readdir(directoryPath, (err, files) => {
 
   // Loop through all the files in the directory
   files.forEach((file) => {
+    // Skip the chains.json file
+    if (file === 'chains.json') return;
+
     // Only process .json files
     if (path.extname(file) === '.json') {
       // Read the JSON file
@@ -25,7 +28,7 @@ fs.readdir(directoryPath, (err, files) => {
 
   // Write the combined data to a new JSON file
   fs.writeFileSync(
-    path.join('./dist/', 'data_legacy.json'),
+    path.join(directoryPath, 'chains.json'),
     JSON.stringify(data, null, 2),
   );
 });
