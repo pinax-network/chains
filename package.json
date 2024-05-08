@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "2.0.3-rc1",
+  "version": "2.0.4-rc1",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -16,6 +16,7 @@
     "/types/**.ts",
     "/data/services.ts",
     "/data/chains/V1/chains.json",
+    "/data/chains/V2/index.ts",
     "/data/chains/V2/chains.json",
     "/data/chains/V2/**/meta.ts"
   ],
