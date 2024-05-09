@@ -73,7 +73,7 @@
             "deprecated_at": null
           }
         },
-        "index": 4
+        "index": 2
       },
       {
         "id": "goerli",
@@ -113,7 +113,7 @@
             "deprecated_at": null
           }
         },
-        "index": 2
+        "index": 3
       },
       {
         "id": "holesky-cl",
@@ -130,7 +130,7 @@
             "deprecated_at": null
           }
         },
-        "index": 3
+        "index": 4
       },
       {
         "id": "sepolia-cl",

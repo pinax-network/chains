@@ -16,9 +16,7 @@
     "/types/**.ts",
     "/data/services.ts",
     "/data/chains/V1/chains.json",
-    "/data/chains/V2/index.ts",
-    "/data/chains/V2/chains.json",
-    "/data/chains/V2/**/meta.ts"
+    "/data/chains/V2/chains.json"
   ],
   "scripts": {
     "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",

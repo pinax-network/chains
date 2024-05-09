@@ -2,15 +2,15 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 5/8/2024, 7:22:32 PM.
+// Last generation on 5/8/2024, 8:07:08 PM.
 
 export default {
   ordered: {
     eth: [
       'holesky',
+      'sepolia',
       'eth-cl',
       'holesky-cl',
-      'sepolia',
       'sepolia-cl',
       'goerli',
       'goerli-cl',
