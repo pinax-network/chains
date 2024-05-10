@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 5/8/2024, 8:12:35 PM.
+// Last generation on 5/10/2024, 4:41:53 PM.
 
 export default {
   ordered: {
@@ -33,7 +33,7 @@ export default {
     moonbeam: [],
     scroll: [],
     starknet: [],
-    eos: ['jungle4', 'kylin'],
+    eos: ['eosevm', 'jungle4', 'kylin'],
     wax: ['waxtest'],
     telos: ['telostest'],
     kava: [],

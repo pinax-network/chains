@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 5/8/2024, 8:12:35 PM.
+// Last generation on 5/10/2024, 4:41:54 PM.
 export type GraphID =
   | 'arbitrum-one'
   | 'arbitrum-sepolia'

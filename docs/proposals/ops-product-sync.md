@@ -89,9 +89,12 @@ TBD
     "testnets": [
       // Array of simplified chain objects
     ],
-    "consensus_layers": [
+    "consensus": [
       // Array of simplified chain objects
-    ]
+    ],
+    "evms": [
+      // Array of simplified chain objects
+    ],
   }
 ```
 

@@ -11,6 +11,9 @@ export type ChainBase = {
   // Testnet Name
   name: string;
 
+  // Alternative Names
+  alt_names: string[];
+
   // The Graph ID
   // See docs/retrieve_graph_ids.md
   graph_id: GraphID | null;
@@ -18,8 +21,16 @@ export type ChainBase = {
   // Display Priority, lower is higher
   index?: number;
 
-  // Alternative Names
-  alt_names: string[];
+  // Chain Standard (ie. ERC20)
+  standard: Standard | null;
+
+  // Block Type
+  block_type: BlockType;
+};
+
+export type Testnet = ChainBase & {
+  // Whether or not the chain supports our existing services
+  supported_services: SupportedServices;
 };
 
 export type ConsensusLayer = ChainBase & {
@@ -28,7 +39,8 @@ export type ConsensusLayer = ChainBase & {
   // (Firehose, Substreams), and not for the RPC service itself.
   supported_services: ConsensusLayerServices;
 };
-export type Testnet = ChainBase & {
+
+export type EVM = ChainBase & {
   // Whether or not the chain supports our existing services
   supported_services: SupportedServices;
 };
@@ -40,12 +52,6 @@ export type Testnet = ChainBase & {
  * the generated fields.
  */
 export interface Chain extends ChainBase {
-  // Chain Standard (ie. ERC20)
-  standard: Standard | null;
-
-  // Block Type
-  block_type: BlockType;
-
   icon: {
     // Token Icon ID
     id: string;
@@ -64,8 +70,18 @@ export interface Chain extends ChainBase {
   testnets?: Array<Testnet>;
 
   // Merged by ./scripts/generate/data_json.js
-  consensus_layers?: Array<ConsensusLayer>;
+  consensus?: Array<ConsensusLayer>;
+
+  // Merge by ./scripts/generate/data_json.js
+  evms?: Array<EVM>;
 
   // Any additional metadata we want to store (ie. Wagmi)
-  // metadata: any | null;
+  metadata?: {
+    // Layer of the chain
+    layer?: 'L0' | 'L1' | 'L2' | 'L3';
+
+    // Mainchain ID, if the chain is a sidechain
+    // Either a PinaxID or a string, as the mainchain may not be in the list of chains
+    mainchain_id?: PinaxID | string;
+  };
 }

@@ -33,7 +33,20 @@ function readDir(directory: string): string[] {
 }
 
 // Read the directory and subdirectories
-const fileNames = readDir(chainsDir);
+const mainnetNames = readDir(chainsDir);
+
+// Read the subnets directories
+const subnetTypes = ['testnets', 'consensus', 'evms'];
+let subnetNames: string[] = [];
+subnetTypes.forEach((subnetType) => {
+  const subnetDir = path.join(chainsDir, subnetType);
+  if (fs.existsSync(subnetDir)) {
+    subnetNames = subnetNames.concat(readDir(subnetDir));
+  }
+});
+
+// Combine mainnet and subnet names
+const fileNames = mainnetNames.concat(subnetNames);
 
 // Generate the PinaxId type definition
 const pinaxIdType = `// This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type PinaxID = '${fileNames.join("' | '")}'`;

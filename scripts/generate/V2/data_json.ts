@@ -5,6 +5,7 @@ import * as chainData from '../../../data/chains/V2/index';
 import { toCamelCase } from '../../../utils/case';
 import indexConf from '../../../data/index.config';
 import { IndexConfig } from './index_config_check';
+
 interface Icon {
   id: string;
   variants: string[];
@@ -23,8 +24,9 @@ interface Token {
 interface MainnetData {
   index: number;
   icon: Icon;
-  consensus_layers?: SubnetData[];
+  consensus?: SubnetData[];
   testnets?: SubnetData[];
+  evms?: SubnetData[];
 }
 
 interface SubnetData {
@@ -58,11 +60,13 @@ const networks: Network[] = JSON.parse(
 const data: MainnetData[] = [];
 const warnings: string[] = [];
 
+let indexCounter = 0;
+
 Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
   // @ts-ignore
   const mainnetData: MainnetData = chainData[toCamelCase(mainnet)];
 
-  mainnetData.index = mainnetIndex * 1000;
+  mainnetData.index = indexCounter++;
 
   if (mainnetData.icon.id.indexOf('tokens') !== -1) {
     const iconMeta = tokens.find(
@@ -89,22 +93,23 @@ Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
     }
   }
 
-  (indexConf as IndexConfig).ordered[mainnet].forEach(
-    (subnet: any, subnetIndex: any) => {
-      // @ts-ignore
-      const subnetData: SubnetData = chainData[toCamelCase(subnet)];
+  (indexConf as IndexConfig).ordered[mainnet].forEach((subnet: any) => {
+    // @ts-ignore
+    const subnetData: SubnetData = chainData[toCamelCase(subnet)];
 
-      subnetData.index = mainnetData.index + subnetIndex + 1;
+    subnetData.index = indexCounter++;
 
-      if (subnetData.id.indexOf('-cl') !== -1) {
-        if (!mainnetData.consensus_layers) mainnetData.consensus_layers = [];
-        mainnetData.consensus_layers.push(subnetData);
-      } else {
-        if (!mainnetData.testnets) mainnetData.testnets = [];
-        mainnetData.testnets.push(subnetData);
-      }
-    },
-  );
+    if (subnetData.id.indexOf('-cl') !== -1) {
+      if (!mainnetData.consensus) mainnetData.consensus = [];
+      mainnetData.consensus.push(subnetData);
+    } else if (subnetData.id.indexOf('evm') !== -1) {
+      if (!mainnetData.evms) mainnetData.evms = [];
+      mainnetData.evms.push(subnetData);
+    } else {
+      if (!mainnetData.testnets) mainnetData.testnets = [];
+      mainnetData.testnets.push(subnetData);
+    }
+  });
   data.push(mainnetData);
 });
 

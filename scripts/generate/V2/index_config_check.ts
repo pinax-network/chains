@@ -12,17 +12,19 @@ console.log('🕑 Checking integrity of index.config.ts...');
 const configCast: IndexConfig = config;
 
 // Function to get directories recursively
-const getDirectories = (basePath: string): Array<string> => {
+const getDirectories = (basePath: string, depth: number = 0): Array<string> => {
   const directories: Array<string> = [];
   const files = fs.readdirSync(basePath, { withFileTypes: true });
 
   for (const file of files) {
     if (file.isDirectory()) {
       const dirPath = path.join(basePath, file.name);
-      directories.push(dirPath.split(path.sep).pop() || '');
+      if (depth === 0 || depth === 2) {
+        directories.push(dirPath.split(path.sep).pop() || '');
+      }
 
       // Get subdirectories
-      const subdirectories: Array<string> = getDirectories(dirPath);
+      const subdirectories: Array<string> = getDirectories(dirPath, depth + 1);
       directories.push(...subdirectories);
     }
   }

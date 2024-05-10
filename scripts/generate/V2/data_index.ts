@@ -18,12 +18,17 @@ fs.readdirSync(dataDir).forEach((mainnetDir) => {
     indexContent += `export { default as ${toCamelCase(mainnetDir)} } from './${mainnetDir}/meta';\n`;
   }
 
-  fs.readdirSync(mainnetPath).forEach((testnetDir) => {
-    const testnetPath = path.join(mainnetPath, testnetDir);
-    const testnetMetaPath = path.join(testnetPath, 'meta.ts');
+  ['testnets', 'consensus', 'evms'].forEach((subnetType) => {
+    const subnetPath = path.join(mainnetPath, subnetType);
 
-    if (fs.existsSync(testnetMetaPath)) {
-      indexContent += `export { default as ${toCamelCase(testnetDir)} } from './${mainnetDir}/${testnetDir}/meta';\n`;
+    if (fs.existsSync(subnetPath)) {
+      fs.readdirSync(subnetPath).forEach((subnetDir) => {
+        const subnetMetaPath = path.join(subnetPath, subnetDir, 'meta.ts');
+
+        if (fs.existsSync(subnetMetaPath)) {
+          indexContent += `export { default as ${toCamelCase(subnetDir)} } from './${mainnetDir}/${subnetType}/${subnetDir}/meta';\n`;
+        }
+      });
     }
   });
 });

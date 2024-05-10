@@ -18,7 +18,7 @@ for (let legacyChain of dataLegacy) {
   if (!chain) {
     let mainnetChain = data.find((c: any) => c.id === legacyChain.mainnet);
     if (mainnetChain) {
-      // Check both testnets and consensus_layers arrays within that mainnet
+      // Check both testnets and consensus arrays within that mainnet
       if (
         mainnetChain.testnets?.find((t: any) => t.id === legacyChain.id) !==
         undefined
@@ -26,9 +26,8 @@ for (let legacyChain of dataLegacy) {
         continue;
       }
       if (
-        mainnetChain.consensus_layers?.find(
-          (c: any) => c.id === legacyChain.id,
-        ) !== undefined
+        mainnetChain.consensus?.find((c: any) => c.id === legacyChain.id) !==
+        undefined
       ) {
         continue;
       }
