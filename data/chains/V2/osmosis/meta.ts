@@ -11,7 +11,7 @@ const meta: Chain = {
     url: 'https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto',
   },
   icon: {
-    id: 'tokens/osmosis',
+    id: 'networks/osmosis',
     brand_theme: 'both',
   },
   supported_services: {

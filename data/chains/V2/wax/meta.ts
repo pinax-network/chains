@@ -11,7 +11,7 @@ const meta: Chain = {
     url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',
   },
   icon: {
-    id: 'tokens/wax',
+    id: 'tokens/waxp',
     brand_theme: 'both',
   },
   supported_services: {

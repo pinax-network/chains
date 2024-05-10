@@ -11,7 +11,7 @@ const meta: Chain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'tokens/gnosis',
+    id: 'tokens/gno',
     brand_theme: 'dark',
   },
   supported_services: {

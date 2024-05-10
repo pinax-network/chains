@@ -11,7 +11,7 @@ const meta: Chain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'tokens/arbitrum',
+    id: 'tokens/arbi',
     brand_theme: 'both',
   },
   supported_services: {

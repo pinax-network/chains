@@ -216,12 +216,8 @@
       "url": "https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1"
     },
     "icon": {
-      "id": "tokens/bitcoin",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "id": "tokens/btc",
+      "brand_theme": "both"
     },
     "supported_services": {
       "firehose": {
@@ -252,12 +248,8 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/matic-network",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "id": "networks/polygon",
+      "brand_theme": "both"
     },
     "supported_services": {
       "firehose": {
@@ -405,11 +397,8 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/arbitrum",
-      "brand_theme": "both",
-      "variants": [
-        "mono"
-      ]
+      "id": "tokens/arbi",
+      "brand_theme": "both"
     },
     "supported_services": {
       "firehose": {
@@ -576,12 +565,8 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/optimism",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "id": "networks/optimism",
+      "brand_theme": "both"
     },
     "supported_services": {
       "firehose": {
@@ -644,12 +629,8 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/decimal",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "id": "tokens/del",
+      "brand_theme": "both"
     },
     "supported_services": {
       "firehose": {
@@ -678,12 +659,8 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/gnosis",
-      "brand_theme": "dark",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "id": "tokens/gno",
+      "brand_theme": "dark"
     },
     "supported_services": {
       "firehose": {
@@ -894,12 +871,8 @@
       "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
     },
     "icon": {
-      "id": "tokens/arweave",
-      "brand_theme": "dark",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "id": "tokens/ar",
+      "brand_theme": "dark"
     },
     "supported_services": {
       "firehose": {
@@ -1016,7 +989,7 @@
       "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
     },
     "icon": {
-      "id": "tokens/osmosis",
+      "id": "networks/osmosis",
       "brand_theme": "both",
       "variants": [
         "branded",
@@ -1267,12 +1240,8 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "icon": {
-      "id": "tokens/wax",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "id": "tokens/waxp",
+      "brand_theme": "both"
     },
     "supported_services": {
       "firehose": {

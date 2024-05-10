@@ -11,7 +11,7 @@ const meta: Chain = {
     url: 'https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1',
   },
   icon: {
-    id: 'tokens/arweave',
+    id: 'tokens/ar',
     brand_theme: 'dark',
   },
   supported_services: {

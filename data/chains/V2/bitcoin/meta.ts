@@ -11,7 +11,7 @@ const meta: Chain = {
     url: 'https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1',
   },
   icon: {
-    id: 'tokens/bitcoin',
+    id: 'tokens/btc',
     brand_theme: 'both',
   },
   supported_services: {
