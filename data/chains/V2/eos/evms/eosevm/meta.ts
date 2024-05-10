@@ -5,10 +5,10 @@ const meta: EVM = {
   graph_id: null,
   name: 'EOS EVM',
   alt_names: [],
-  standard: 'antelope',
+  standard: 'erc20',
   block_type: {
-    label: 'sf.antelope.type.v1.Block',
-    url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',
+    label: 'sf.ethereum.type.v2.Block',
+    url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   supported_services: {
     firehose: {
