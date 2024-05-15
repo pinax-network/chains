@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 5/10/2024, 5:37:56 PM.
+// Last generation on 5/15/2024, 6:13:14 PM.
 export type PinaxID =
   | 'arbone'
   | 'arbgoerli'
@@ -9,6 +9,8 @@ export type PinaxID =
   | 'avalanche'
   | 'base'
   | 'bitcoin'
+  | 'blast'
+  | 'boba'
   | 'bsc'
   | 'chapel'
   | 'celo'
@@ -16,6 +18,7 @@ export type PinaxID =
   | 'cosmoshub'
   | 'juno'
   | 'theta'
+  | 'cronos'
   | 'decimal'
   | 'eosevm'
   | 'eos'
@@ -30,11 +33,15 @@ export type PinaxID =
   | 'holesky'
   | 'sepolia'
   | 'fantom'
+  | 'fuse'
   | 'chiado-cl'
   | 'gnosis-cl'
   | 'gnosis'
   | 'chiado'
   | 'kava'
+  | 'linea'
+  | 'litecoin'
+  | 'mode'
   | 'moonbeam'
   | 'near'
   | 'neartest'
@@ -48,4 +55,8 @@ export type PinaxID =
   | 'telos'
   | 'telostest'
   | 'wax'
-  | 'waxtest';
+  | 'waxtest'
+  | 'xai'
+  | 'zkevm'
+  | 'zkyoto'
+  | 'zora';

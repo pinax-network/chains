@@ -12,16 +12,34 @@ const meta: Testnet = {
   },
   supported_services: {
     firehose: {
-      released_at: '2023-12-01T00:00:00.000Z',
-      deprecated_at: '2024-04-12T00:00:00.000Z',
+      beta: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-04-12T00:00:00.000Z',
+      },
+      full: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-04-12T00:00:00.000Z',
+      },
     },
     substreams: {
-      released_at: '2023-12-01T00:00:00.000Z',
-      deprecated_at: '2024-04-12T00:00:00.000Z',
+      beta: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-04-12T00:00:00.000Z',
+      },
+      full: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-04-12T00:00:00.000Z',
+      },
     },
     rpc: {
-      released_at: '2023-12-01T00:00:00.000Z',
-      deprecated_at: '2024-04-12T00:00:00.000Z',
+      beta: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-04-12T00:00:00.000Z',
+      },
+      full: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-04-12T00:00:00.000Z',
+      },
     },
   },
 };

@@ -36,11 +36,11 @@
     "generate_v1:types": "npm run generate_v1:type_graphid && npm run generate_v1:type_pinaxid && npm run format",
     "generate_v1:type_graphid": "node ./scripts/generate/V1/type_graphid.js",
     "generate_v1:type_pinaxid": "node ./scripts/generate/V1/type_pinaxid.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "bun test",
     "prepare": "husky"
   },
   "devDependencies": {
-    "@token-icons/core": "^2.1.0",
+    "@token-icons/core": "^2.6.1",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
     "@types/bun": "latest"

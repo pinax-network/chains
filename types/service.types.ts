@@ -8,8 +8,14 @@ export type ServiceEndpoint = {
 };
 
 export type ServiceEndpointStatus = {
-  released_at: string | null;
-  deprecated_at: string | null;
+  beta: {
+    released_at: string | null;
+    deprecated_at: string | null;
+  };
+  full: {
+    released_at: string | null;
+    deprecated_at: string | null;
+  };
 };
 
 export type ConsensusLayerServices = {

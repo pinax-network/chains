@@ -12,16 +12,34 @@ const meta: Testnet = {
   },
   supported_services: {
     firehose: {
-      released_at: '2023-12-01T00:00:00.000Z',
-      deprecated_at: '2024-01-15T00:00:00.000Z',
+      beta: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-01-15T00:00:00.000Z',
+      },
+      full: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: '2024-01-15T00:00:00.000Z',
+      },
     },
     substreams: {
-      released_at: null,
-      deprecated_at: null,
+      beta: {
+        released_at: null,
+        deprecated_at: null,
+      },
+      full: {
+        released_at: null,
+        deprecated_at: null,
+      },
     },
     rpc: {
-      released_at: null,
-      deprecated_at: null,
+      beta: {
+        released_at: null,
+        deprecated_at: null,
+      },
+      full: {
+        released_at: null,
+        deprecated_at: null,
+      },
     },
   },
 };

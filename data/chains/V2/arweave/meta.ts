@@ -13,19 +13,38 @@ const meta: Chain = {
   icon: {
     id: 'tokens/ar',
     brand_theme: 'dark',
+    variants: ['branded', 'mono'],
   },
   supported_services: {
     firehose: {
-      released_at: '2023-12-01T00:00:00.000Z',
-      deprecated_at: null,
+      beta: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: null,
+      },
+      full: {
+        released_at: '2023-12-01T00:00:00.000Z',
+        deprecated_at: null,
+      },
     },
     substreams: {
-      released_at: '2024-03-03T00:00:00.000Z',
-      deprecated_at: null,
+      beta: {
+        released_at: '2024-03-03T00:00:00.000Z',
+        deprecated_at: null,
+      },
+      full: {
+        released_at: '2024-03-03T00:00:00.000Z',
+        deprecated_at: null,
+      },
     },
     rpc: {
-      released_at: null,
-      deprecated_at: null,
+      beta: {
+        released_at: null,
+        deprecated_at: null,
+      },
+      full: {
+        released_at: null,
+        deprecated_at: null,
+      },
     },
   },
 };

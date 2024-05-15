@@ -39,6 +39,8 @@ for (const chain of chains) {
     destDir,
     `${chain.id}.branded.svg`,
   );
+  const destLightIconPath: string = path.join(destDir, `${chain.id}.light.svg`);
+  const destDarkIconPath: string = path.join(destDir, `${chain.id}.dark.svg`);
   const destMonoIconPath: string = path.join(destDir, `${chain.id}.mono.svg`);
 
   // Copy the branded icon to the destination directory
@@ -46,8 +48,22 @@ for (const chain of chains) {
     fs.copyFileSync(brandedIconPath, destBrandedIconPath);
   }
 
-  // Copy the mono icon to the destination directory
+  // Create the light icon by replacing '#fff' with '#fffffe' in the mono icon
   if (fs.existsSync(monoIconPath)) {
-    fs.copyFileSync(monoIconPath, destMonoIconPath);
+    let monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
+    let lightIconContent = monoIconContent.replace(/#fff/g, '#fffffe');
+    fs.writeFileSync(destLightIconPath, lightIconContent);
+  }
+
+  // Create the dark icon by replacing '#fff' with '#000001' in the mono icon
+  if (fs.existsSync(monoIconPath)) {
+    let monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
+    let darkIconContent = monoIconContent.replace(/#fff/g, '#000001');
+    fs.writeFileSync(destDarkIconPath, darkIconContent);
+  }
+
+  // Check if the mono icon exists in the destination directory, if it does, delete it
+  if (fs.existsSync(destMonoIconPath)) {
+    fs.unlinkSync(destMonoIconPath);
   }
 }
