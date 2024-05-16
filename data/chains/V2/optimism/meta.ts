@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://optimism.io/',
+  },
 };
 
 export default meta;

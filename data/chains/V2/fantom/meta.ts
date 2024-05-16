@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://fantom.foundation/',
+  },
 };
 
 export default meta;

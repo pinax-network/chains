@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://moonbeam.network/',
+  },
 };
 
 export default meta;

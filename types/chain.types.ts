@@ -80,6 +80,9 @@ export interface Chain extends ChainBase {
     // Layer of the chain
     layer?: 'L0' | 'L1' | 'L2' | 'L3';
 
+    // Website of the chain
+    website?: string;
+
     // Mainchain ID, if the chain is a sidechain
     // Either a PinaxID or a string, as the mainchain may not be in the list of chains
     mainchain_id?: PinaxID | string;

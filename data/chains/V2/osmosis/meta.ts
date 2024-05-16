@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://osmosis.zone/',
+  },
 };
 
 export default meta;

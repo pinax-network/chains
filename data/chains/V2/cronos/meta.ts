@@ -50,7 +50,9 @@ const meta: Chain = {
   testnets: [],
   consensus: [],
   evms: [],
-  metadata: {},
+  metadata: {
+    website: 'https://cronos.org/',
+  },
 };
 
 export default meta;

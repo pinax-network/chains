@@ -50,7 +50,10 @@ const meta: Chain = {
   testnets: [],
   consensus: [],
   evms: [],
-  metadata: {},
+  metadata: {
+    layer: 'L3',
+    website: 'https://xai.games/',
+  },
 };
 
 export default meta;

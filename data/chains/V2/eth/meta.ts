@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://ethereum.org/',
+  },
 };
 
 export default meta;

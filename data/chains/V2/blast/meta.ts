@@ -53,6 +53,7 @@ const meta: Chain = {
   evms: [],
   metadata: {
     layer: 'L2',
+    website: 'https://blast.io/en',
   },
 };
 

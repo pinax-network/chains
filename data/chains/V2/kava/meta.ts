@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://www.kava.io/',
+  },
 };
 
 export default meta;

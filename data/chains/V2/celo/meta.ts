@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://celo.org/',
+  },
 };
 
 export default meta;

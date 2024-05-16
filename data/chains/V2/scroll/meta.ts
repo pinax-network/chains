@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://scroll.io/',
+  },
 };
 
 export default meta;

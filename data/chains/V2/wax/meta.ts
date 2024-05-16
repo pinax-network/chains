@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://wax.io/',
+  },
 };
 
 export default meta;

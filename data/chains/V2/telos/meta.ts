@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://telos.net/',
+  },
 };
 
 export default meta;

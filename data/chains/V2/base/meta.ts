@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://www.base.org/',
+  },
 };
 
 export default meta;

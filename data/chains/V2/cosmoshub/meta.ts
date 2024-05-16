@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://cosmos.network/',
+  },
 };
 
 export default meta;

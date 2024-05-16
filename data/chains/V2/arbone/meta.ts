@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://arbitrum.io/',
+  },
 };
 
 export default meta;

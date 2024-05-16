@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://www.bnbchain.org/en/bnb-smart-chain',
+  },
 };
 
 export default meta;

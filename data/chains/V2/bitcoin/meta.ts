@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://bitcoin.org/',
+  },
 };
 
 export default meta;

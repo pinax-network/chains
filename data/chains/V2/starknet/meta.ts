@@ -48,6 +48,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://www.starknet.io/',
+  },
 };
 
 export default meta;

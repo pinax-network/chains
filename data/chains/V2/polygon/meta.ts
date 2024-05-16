@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://polygon.technology/',
+  },
 };
 
 export default meta;

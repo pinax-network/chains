@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://gnosis.io/',
+  },
 };
 
 export default meta;

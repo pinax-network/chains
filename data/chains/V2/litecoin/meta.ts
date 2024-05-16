@@ -52,6 +52,7 @@ const meta: Chain = {
   evms: [],
   metadata: {
     layer: 'L1',
+    website: 'https://litecoin.org/',
   },
 };
 

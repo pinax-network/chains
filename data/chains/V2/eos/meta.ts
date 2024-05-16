@@ -46,6 +46,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://eosnetwork.com/',
+  },
 };
 
 export default meta;

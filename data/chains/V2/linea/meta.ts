@@ -50,7 +50,9 @@ const meta: Chain = {
   testnets: [],
   consensus: [],
   evms: [],
-  metadata: {},
+  metadata: {
+    website: 'https://linea.build/',
+  },
 };
 
 export default meta;

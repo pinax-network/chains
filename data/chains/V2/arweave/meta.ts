@@ -47,6 +47,9 @@ const meta: Chain = {
       },
     },
   },
+  metadata: {
+    website: 'https://arweave.org/',
+  },
 };
 
 export default meta;
