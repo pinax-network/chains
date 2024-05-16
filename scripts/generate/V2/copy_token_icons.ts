@@ -26,12 +26,12 @@ for (const chain of chains) {
   const brandedIconPath: string = path.join(
     iconBasePath,
     'branded',
-    `${chain.icon.id.split('/')[1]}.svg`,
+    `${chain.icon.id.split('/')[1].split('-')[0]}.svg`,
   );
   const monoIconPath: string = path.join(
     iconBasePath,
     'mono',
-    `${chain.icon.id.split('/')[1]}.svg`,
+    `${chain.icon.id.split('/')[1].split('-')[0]}.svg`,
   );
 
   // Define the destination file paths
@@ -41,29 +41,40 @@ for (const chain of chains) {
   );
   const destLightIconPath: string = path.join(destDir, `${chain.id}.light.svg`);
   const destDarkIconPath: string = path.join(destDir, `${chain.id}.dark.svg`);
-  const destMonoIconPath: string = path.join(destDir, `${chain.id}.mono.svg`);
 
-  // Copy the branded icon to the destination directory
-  if (fs.existsSync(brandedIconPath)) {
-    fs.copyFileSync(brandedIconPath, destBrandedIconPath);
+  if (chain.icon.variants.includes('branded')) {
+    // Copy the branded icon to the destination directory
+    if (fs.existsSync(brandedIconPath)) {
+      fs.copyFileSync(brandedIconPath, destBrandedIconPath);
+    } else {
+      if (
+        // Those two chains IDs are not matching their svgs in the token-icons package
+        chain.icon.id !== 'networks/binance-smart-chain' &&
+        chain.icon.id !== 'networks/optimistic-ethereum'
+      )
+        console.warn(`⚠️  Branded icon not found for ${chain.id}`);
+    }
   }
 
-  // Create the light icon by replacing '#fff' with '#fffffe' in the mono icon
-  if (fs.existsSync(monoIconPath)) {
-    let monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
-    let lightIconContent = monoIconContent.replace(/#fff/g, '#fffffe');
-    fs.writeFileSync(destLightIconPath, lightIconContent);
-  }
+  if (chain.icon.variants.includes('mono')) {
+    if (fs.existsSync(monoIconPath)) {
+      // Create the light icon by replacing '#fff' with '#fffffe' in the mono icon
+      let monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
+      let lightIconContent = monoIconContent.replace(/#fff/g, '#fffffe');
+      fs.writeFileSync(destLightIconPath, lightIconContent);
 
-  // Create the dark icon by replacing '#fff' with '#000001' in the mono icon
-  if (fs.existsSync(monoIconPath)) {
-    let monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
-    let darkIconContent = monoIconContent.replace(/#fff/g, '#000001');
-    fs.writeFileSync(destDarkIconPath, darkIconContent);
-  }
-
-  // Check if the mono icon exists in the destination directory, if it does, delete it
-  if (fs.existsSync(destMonoIconPath)) {
-    fs.unlinkSync(destMonoIconPath);
+      // Create the dark icon by replacing '#fff' with '#000001' in the mono icon
+      monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
+      let darkIconContent = monoIconContent.replace(/#fff/g, '#000001');
+      fs.writeFileSync(destDarkIconPath, darkIconContent);
+    } else {
+      if (
+        // Those two chains IDs are not matching their svgs in the token-icons package
+        chain.icon.id !== 'networks/binance-smart-chain' &&
+        chain.icon.id !== 'networks/optimistic-ethereum'
+      ) {
+        console.warn(`⚠️  Mono icon not found for ${chain.id}`);
+      }
+    }
   }
 }

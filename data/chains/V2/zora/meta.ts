@@ -11,7 +11,7 @@ const meta: Chain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'networks/zora',
+    id: 'networks/zora-network',
     brand_theme: 'both',
     variants: ['branded'],
   },
