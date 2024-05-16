@@ -15,36 +15,9 @@ const meta: Chain = {
     brand_theme: 'both',
   },
   supported_services: {
-    firehose: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-    },
-    rpc: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-    },
+    rpc: 'released',
+    firehose: 'released',
+    substreams: 'released',
   },
   metadata: {
     website: 'https://polygon.technology/',

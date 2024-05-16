@@ -11,36 +11,9 @@ const meta: Testnet = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   supported_services: {
-    firehose: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-04-12T00:00:00.000Z',
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-04-12T00:00:00.000Z',
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-04-12T00:00:00.000Z',
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-04-12T00:00:00.000Z',
-      },
-    },
-    rpc: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-04-12T00:00:00.000Z',
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-04-12T00:00:00.000Z',
-      },
-    },
+    rpc: 'deprecated',
+    firehose: 'deprecated',
+    substreams: 'deprecated',
   },
 };
 

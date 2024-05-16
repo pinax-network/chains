@@ -11,36 +11,9 @@ const meta: Testnet = {
     url: 'https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto',
   },
   supported_services: {
-    firehose: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-01-15T00:00:00.000Z',
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: '2024-01-15T00:00:00.000Z',
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    rpc: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
+    rpc: 'unreleased',
+    firehose: 'deprecated',
+    substreams: 'unreleased',
   },
 };
 

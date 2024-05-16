@@ -16,36 +16,9 @@ const meta: Chain = {
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    firehose: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: '2024-03-03T00:00:00.000Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: '2024-03-03T00:00:00.000Z',
-        deprecated_at: null,
-      },
-    },
-    rpc: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
+    rpc: 'unreleased',
+    firehose: 'released',
+    substreams: 'released',
   },
   metadata: {
     website: 'https://arweave.org/',

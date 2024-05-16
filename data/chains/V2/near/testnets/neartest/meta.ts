@@ -11,36 +11,9 @@ const meta: Testnet = {
     url: 'https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1',
   },
   supported_services: {
-    firehose: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: '2023-12-01T00:00:00.000Z',
-        deprecated_at: null,
-      },
-    },
-    rpc: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
+    rpc: 'unreleased',
+    firehose: 'released',
+    substreams: 'released',
   },
 };
 

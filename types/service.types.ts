@@ -7,16 +7,11 @@ export type ServiceEndpoint = {
   port: number;
 };
 
-export type ServiceEndpointStatus = {
-  beta: {
-    released_at: string | null;
-    deprecated_at: string | null;
-  };
-  full: {
-    released_at: string | null;
-    deprecated_at: string | null;
-  };
-};
+export type ServiceEndpointStatus =
+  | 'unreleased'
+  | 'beta'
+  | 'released'
+  | 'deprecated';
 
 export type ConsensusLayerServices = {
   [key in ConsensusLayerServiceID]: ServiceEndpointStatus;

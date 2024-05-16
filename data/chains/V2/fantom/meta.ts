@@ -15,36 +15,9 @@ const meta: Chain = {
     brand_theme: 'light',
   },
   supported_services: {
-    firehose: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    rpc: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
+    rpc: 'beta',
+    firehose: 'unreleased',
+    substreams: 'unreleased',
   },
   metadata: {
     website: 'https://fantom.foundation/',

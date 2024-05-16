@@ -5,6 +5,7 @@ import * as chainData from '../../../data/chains/V2/index';
 import { toCamelCase } from '../../../utils/case';
 import indexConf from '../../../data/index.config';
 import { IndexConfig } from './index_config_check';
+import { SupportedServices } from '../../../types';
 
 interface Icon {
   id: string;
@@ -62,6 +63,12 @@ const data: MainnetData[] = [];
 const warnings: string[] = [];
 
 let indexCounter = 0;
+
+const cacheGenerateServiceDates = (services: SupportedServices) => {
+  // Read the cache file at ./data/chains/V2/chains-lock.json
+  // If the file does not exist, throw an error, and exit the script
+  // If the file exists, parse the file
+};
 
 Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
   // @ts-ignore

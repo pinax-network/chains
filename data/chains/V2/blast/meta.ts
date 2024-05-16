@@ -17,36 +17,9 @@ const meta: Chain = {
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: {
-      beta: {
-        released_at: '2024-05-14T00:00:00Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    firehose: {
-      beta: {
-        released_at: '2024-05-14T00:00:00Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: '2024-05-14T00:00:00Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
+    rpc: 'beta',
+    firehose: 'beta',
+    substreams: 'beta',
   },
   testnets: [],
   consensus: [],

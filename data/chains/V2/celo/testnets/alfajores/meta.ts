@@ -11,36 +11,9 @@ const meta: Testnet = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   supported_services: {
-    firehose: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    rpc: {
-      beta: {
-        released_at: null,
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
+    rpc: 'unreleased',
+    firehose: 'unreleased',
+    substreams: 'unreleased',
   },
 };
 

@@ -11,36 +11,9 @@ const meta: Testnet = {
     url: 'https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1',
   },
   supported_services: {
-    rpc: {
-      beta: {
-        released_at: '2024-05-14T00:00:00Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    firehose: {
-      beta: {
-        released_at: '2024-05-14T00:00:00Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
-    substreams: {
-      beta: {
-        released_at: '2024-05-14T00:00:00Z',
-        deprecated_at: null,
-      },
-      full: {
-        released_at: null,
-        deprecated_at: null,
-      },
-    },
+    rpc: 'beta',
+    firehose: 'beta',
+    substreams: 'beta',
   },
 };
 
