@@ -10,16 +10,20 @@ You can have a look at the [Chain Type](/types/chain.types.ts) and at our [list 
 
 With the 2.0 release, we've done massive changes to improve QoL for developers and maintainers. The most important changes are;
 
-- ✅ Enabling chain icons to work on local environments (no longer loading from prod)
-- ✅ Github Action automations making sure certain parts of the data is always up-to-date
-- ✅ Easier sort of chains while keeping mainnets, testnets and consensus layer together
-- ✅ Easier to understand relationship between networks (mainnets, testnets, consensus layers, ...) as a newcomer
+- ✅ Added suppoert for EVM chains
+- ✅ Reintroduced Typescript support
 - ✅ Easier to manage chain indexes (priority order)
-- ✅ No more desync of chain icons metadata and source
-- ✅ No more need to copy-paste the chains utils between multiple projects, it's packaged here
-- ✅ No more need to copy-paste the service configs between multiple projects, it's packaged here
+- ✅ Bundled the chains utils between multiple projects
+- ✅ Bundled the service configs between multiple projects
+- ✅ Bundled chain icons and automated check for missing icons
+- ✅ Added script to automatically check changes from the Notion page (CSV export)
+- ✅ Easier to understand data model that better reflects relationships between chains, services, and networks
+- ✅ Added beta chains
+- ✅ Support for `unreleased` and `beta` services
 - ✅ No more need to maintain a bunch of flags that can be extrapolated from data
 - ✅ No more duplicated information in mainnets and subnets
+- ✅ Added chains website to metadata
+- And many more...
 
 ## Installation
 
