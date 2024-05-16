@@ -340,7 +340,11 @@
     },
     "icon": {
       "id": "tokens/btc",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -392,8 +396,12 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/polygon",
-      "brand_theme": "both"
+      "id": "networks/polygon-pos",
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -638,7 +646,11 @@
     },
     "icon": {
       "id": "tokens/arbi",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -913,8 +925,12 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/optimism",
-      "brand_theme": "both"
+      "id": "networks/optimistic-ethereum",
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -1020,7 +1036,11 @@
     },
     "icon": {
       "id": "tokens/del",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -1071,7 +1091,11 @@
     },
     "icon": {
       "id": "tokens/gno",
-      "brand_theme": "dark"
+      "brand_theme": "dark",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -2025,7 +2049,11 @@
     },
     "icon": {
       "id": "tokens/waxp",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {

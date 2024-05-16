@@ -18,6 +18,7 @@ interface Network {
 
 interface Token {
   id: string;
+  symbol: string;
   variants: string[];
 }
 
@@ -70,7 +71,7 @@ Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
 
   if (mainnetData.icon.id.indexOf('tokens') !== -1) {
     const iconMeta = tokens.find(
-      (token) => token.id === mainnetData.icon.id.split('/')[1],
+      (token) => token.symbol === mainnetData.icon.id.split('/')[1],
     );
     if (iconMeta) {
       mainnetData.icon.variants = iconMeta.variants;
