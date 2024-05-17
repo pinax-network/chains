@@ -160,11 +160,7 @@
     },
     "icon": {
       "id": "tokens/btc",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "brand_theme": "both"
     },
     "supported_services": {
       "rpc": "unreleased",
@@ -304,11 +300,7 @@
     },
     "icon": {
       "id": "tokens/arbi",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "brand_theme": "both"
     },
     "supported_services": {
       "rpc": "beta",
@@ -403,11 +395,7 @@
     },
     "icon": {
       "id": "networks/avalanche",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "brand_theme": "both"
     },
     "supported_services": {
       "rpc": "unreleased",
@@ -459,11 +447,7 @@
     },
     "icon": {
       "id": "tokens/base",
-      "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ]
+      "brand_theme": "both"
     },
     "supported_services": {
       "rpc": "unreleased",
@@ -1415,5 +1399,52 @@
       "website": "https://zora.co/"
     },
     "index": 57
+  },
+  {
+    "id": "ore",
+    "graph_id": null,
+    "name": "Ore",
+    "alt_names": [],
+    "standard": "antelope",
+    "block_type": {
+      "label": "sf.antelope.type.v1.Block",
+      "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+    },
+    "icon": {
+      "id": "networks/ore",
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
+    },
+    "supported_services": {
+      "rpc": "deprecated",
+      "firehose": "deprecated",
+      "substreams": "deprecated"
+    },
+    "metadata": {
+      "website": "https://ore.network/"
+    },
+    "index": 58,
+    "testnets": [
+      {
+        "id": "orestage",
+        "graph_id": null,
+        "name": "Ore Stage",
+        "alt_names": [],
+        "standard": "antelope",
+        "block_type": {
+          "label": "sf.antelope.type.v1.Block",
+          "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+        },
+        "supported_services": {
+          "rpc": "deprecated",
+          "firehose": "deprecated",
+          "substreams": "deprecated"
+        },
+        "index": 59
+      }
+    ]
   }
 ]

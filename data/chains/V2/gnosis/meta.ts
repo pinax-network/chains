@@ -13,6 +13,7 @@ const meta: Chain = {
   icon: {
     id: 'tokens/gno',
     brand_theme: 'dark',
+    variants: ['branded', 'mono'],
   },
   supported_services: {
     rpc: 'beta',

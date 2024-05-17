@@ -13,6 +13,7 @@ const meta: Chain = {
   icon: {
     id: 'networks/binance-smart-chain',
     brand_theme: 'both',
+    variants: ['branded', 'mono'],
   },
   supported_services: {
     rpc: 'released',

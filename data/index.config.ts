@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 5/16/2024, 5:00:01 PM.
+// Last generation on 5/17/2024, 12:07:17 PM.
 
 export default {
   ordered: {
@@ -47,6 +47,7 @@ export default {
     xai: [],
     zkevm: ['zkyoto'],
     zora: [],
+    ore: ['orestage'],
   },
   missing: [],
 };

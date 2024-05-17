@@ -15,6 +15,7 @@ const meta: Chain = {
     // missing
     id: 'networks/starknet',
     brand_theme: 'both',
+    variants: ['branded', 'mono'],
   },
   supported_services: {
     rpc: 'unreleased',

@@ -2,25 +2,102 @@
 import fs from 'fs';
 import path from 'path';
 
-// Define the source directories for the icons
-const networksSourceDir: string =
-  './node_modules/@token-icons/core/dist/svgs/networks';
-const tokensSourceDir: string =
-  './node_modules/@token-icons/core/dist/svgs/tokens';
+interface Icon {
+  id: string;
+  variants: string[];
+}
+
+interface Network {
+  id: string;
+  icon: Icon;
+}
+
+interface Token {
+  id: string;
+  symbol: string;
+  variants: string[];
+}
+
+// Define the source directories and files
+const tokenIconDistDir: string = './node_modules/@token-icons/core/dist';
+const tokenIconMetaDir: string = `${tokenIconDistDir}/metadata`;
+const tokenIconNetworksMetaPath: string = `${tokenIconMetaDir}/networks.json`;
+const tokenIconTokensMetaPath: string = `${tokenIconMetaDir}/tokens.json`;
+const tokenIconNetworkSvgsDir: string = `${tokenIconDistDir}/svgs/networks`;
+const tokenIconTokenSvgsDir: string = `${tokenIconDistDir}/svgs/tokens`;
+
+// Define the destination directory for the icons
+const destDir = (chainID: string) => `./data/chains/V2/${chainID}`;
 
 // Read and parse the chains.json file
 const chains = JSON.parse(
   fs.readFileSync('./data/chains/V2/chains.json', 'utf-8'),
 );
 
+const unavailableIcons = [
+  // Those chains IDs are not matching their svgs in the token-icons package
+  // or are simply not available
+  'networks/ore',
+  'networks/binance-smart-chain',
+  'networks/optimistic-ethereum',
+];
+
+const iconIsUnavailable = (iconId: string) => {
+  return unavailableIcons.includes(iconId);
+};
+
+const tokens: Token[] = JSON.parse(
+  fs.readFileSync(path.resolve(tokenIconTokensMetaPath), 'utf8'),
+);
+
+const networks: Network[] = JSON.parse(
+  fs.readFileSync(path.resolve(tokenIconNetworksMetaPath), 'utf8'),
+);
+
+const checkIconMetaForChain = (chain: any) => {
+  if (!chain.icon) {
+    // Ignore chains without icons (typically subnets)
+    return;
+  }
+
+  if (iconIsUnavailable(chain.icon.id)) {
+    return;
+  }
+
+  if (chain.icon.id.indexOf('tokens') !== -1) {
+    const iconMeta = tokens.find(
+      (token) => token.symbol === chain.icon.id.split('/')[1],
+    );
+    if (iconMeta) {
+      chain.icon.variants = iconMeta.variants;
+    } else {
+      warnings.push(`⚠️  Could not find icon meta for '${chain.icon.id}'`);
+    }
+  } else {
+    const iconMeta = networks.find(
+      (network) => network.id === chain.icon.id.split('/')[1],
+    );
+    if (iconMeta) {
+      // @ts-ignore
+      chain.icon.variants = iconMeta.variants;
+    } else {
+      warnings.push(`⚠️  Could not find icon meta for '${chain.icon.id}'`);
+    }
+  }
+};
+
+const warnings: string[] = [];
+
+console.log('🕑 Copying chain icons from token-icons...');
+
 // Iterate over each chain
 for (const chain of chains) {
-  // Define the destination directory for the icons
-  const destDir: string = `./data/chains/V2/${chain.id}`;
+  checkIconMetaForChain(chain);
+
   const iconBasePath: string =
     chain.icon.id.split('/')[0] === 'networks'
-      ? networksSourceDir
-      : tokensSourceDir;
+      ? tokenIconNetworkSvgsDir
+      : tokenIconTokenSvgsDir;
 
   // Define the paths to the icon variants
   const brandedIconPath: string = path.join(
@@ -36,23 +113,26 @@ for (const chain of chains) {
 
   // Define the destination file paths
   const destBrandedIconPath: string = path.join(
-    destDir,
+    destDir(chain.id),
     `${chain.id}.branded.svg`,
   );
-  const destLightIconPath: string = path.join(destDir, `${chain.id}.light.svg`);
-  const destDarkIconPath: string = path.join(destDir, `${chain.id}.dark.svg`);
+  const destLightIconPath: string = path.join(
+    destDir(chain.id),
+    `${chain.id}.light.svg`,
+  );
+  const destDarkIconPath: string = path.join(
+    destDir(chain.id),
+    `${chain.id}.dark.svg`,
+  );
 
   if (chain.icon.variants.includes('branded')) {
     // Copy the branded icon to the destination directory
     if (fs.existsSync(brandedIconPath)) {
       fs.copyFileSync(brandedIconPath, destBrandedIconPath);
     } else {
-      if (
-        // Those two chains IDs are not matching their svgs in the token-icons package
-        chain.icon.id !== 'networks/binance-smart-chain' &&
-        chain.icon.id !== 'networks/optimistic-ethereum'
-      )
+      if (!iconIsUnavailable(chain.icon.id)) {
         console.warn(`⚠️  Branded icon not found for ${chain.id}`);
+      }
     }
   }
 
@@ -68,13 +148,18 @@ for (const chain of chains) {
       let darkIconContent = monoIconContent.replace(/#fff/g, '#000001');
       fs.writeFileSync(destDarkIconPath, darkIconContent);
     } else {
-      if (
-        // Those two chains IDs are not matching their svgs in the token-icons package
-        chain.icon.id !== 'networks/binance-smart-chain' &&
-        chain.icon.id !== 'networks/optimistic-ethereum'
-      ) {
+      if (!iconIsUnavailable(chain.icon.id)) {
         console.warn(`⚠️  Mono icon not found for ${chain.id}`);
       }
     }
   }
+}
+
+if (warnings.length) {
+  console.log(warnings.join('\n'));
+  console.log(
+    `☑️ Copied chain icons from token-icons with ${warnings.length} warnings.`,
+  );
+} else {
+  console.log(`✅ Successfully copied chain icons from token-icons!`);
 }

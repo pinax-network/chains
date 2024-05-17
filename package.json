@@ -21,7 +21,7 @@
   "scripts": {
     "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",
     "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
-    "generate": "bun run generate:data && bun run generate:types",
+    "generate": "bun run generate:data && bun run generate:types && bun run generate:copy_token_icons",
     "generate:data": "bun run generate:data_index && bun run generate:index_config && bun run generate:data_json",
     "generate:index_config": "bun ./scripts/generate/V2/index_config_check.ts",
     "generate:data_index": "bun ./scripts/generate/V2/data_index.ts",

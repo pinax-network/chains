@@ -13,6 +13,7 @@ const meta: Chain = {
   icon: {
     id: 'tokens/eos',
     brand_theme: 'light',
+    variants: ['mono'],
   },
   supported_services: {
     rpc: 'unreleased',

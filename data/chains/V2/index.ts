@@ -42,6 +42,8 @@ export { default as moonbeam } from './moonbeam/meta';
 export { default as near } from './near/meta';
 export { default as neartest } from './near/testnets/neartest/meta';
 export { default as optimism } from './optimism/meta';
+export { default as ore } from './ore/meta';
+export { default as orestage } from './ore/testnets/orestage/meta';
 export { default as osmosis } from './osmosis/meta';
 export { default as polygon } from './polygon/meta';
 export { default as amoy } from './polygon/testnets/amoy/meta';

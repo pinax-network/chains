@@ -1,9 +1,9 @@
 import { Chain } from '../../../../types/chain.types';
 
 const meta: Chain = {
-  id: 'telos',
+  id: 'ore',
   graph_id: null,
-  name: 'Telos',
+  name: 'Ore',
   alt_names: [],
   standard: 'antelope',
   block_type: {
@@ -11,17 +11,17 @@ const meta: Chain = {
     url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',
   },
   icon: {
-    id: 'networks/telos',
+    id: 'networks/ore',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'unreleased',
-    firehose: 'unreleased',
-    substreams: 'unreleased',
+    rpc: 'deprecated',
+    firehose: 'deprecated',
+    substreams: 'deprecated',
   },
   metadata: {
-    website: 'https://telos.net/',
+    website: 'https://ore.network/',
   },
 };
 

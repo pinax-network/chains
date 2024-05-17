@@ -13,6 +13,7 @@ const meta: Chain = {
   icon: {
     id: 'networks/celo',
     brand_theme: 'light',
+    variants: ['branded', 'mono'],
   },
   supported_services: {
     rpc: 'unreleased',
