@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 5/17/2024, 12:07:17 PM.
+// Last generation on 6/3/2024, 9:24:30 AM.
 
 export default {
   ordered: {
@@ -22,11 +22,12 @@ export default {
     avalanche: [],
     optimism: [],
     base: [],
+    near: ['neartest'],
+    cardano: [],
     decimal: [],
     gnosis: ['gnosis-cl'],
     fantom: [],
     celo: ['alfajores'],
-    near: ['neartest'],
     arweave: [],
     cosmoshub: ['theta', 'juno'],
     osmosis: [],
@@ -44,8 +45,12 @@ export default {
     linea: [],
     litecoin: [],
     mode: [],
+    ronin: [],
+    sei: [],
     xai: [],
-    zkevm: ['zkyoto'],
+    zkastar: ['zkatana', 'zkyoto'],
+    'x-layer': [],
+    zksync: [],
     zora: [],
     ore: ['orestage'],
   },

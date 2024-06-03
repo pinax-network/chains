@@ -1,9 +1,9 @@
 import { Chain } from '../../../../types/chain.types';
 
 const meta: Chain = {
-  id: 'eth',
-  graph_id: 'mainnet',
-  name: 'Ethereum',
+  id: 'x-layer',
+  graph_id: null,
+  name: 'X-Layer',
   alt_names: [],
   standard: 'erc20',
   block_type: {
@@ -11,17 +11,17 @@ const meta: Chain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'networks/ethereum',
-    brand_theme: 'both',
+    id: 'networks/x-layer',
+    brand_theme: 'dark',
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'released',
-    firehose: 'released',
-    substreams: 'released',
+    rpc: 'unreleased',
+    firehose: 'unreleased',
+    substreams: 'unreleased',
   },
   metadata: {
-    website: 'https://ethereum.org/',
+    website: 'https://www.okx.com/fr/xlayer',
   },
 };
 

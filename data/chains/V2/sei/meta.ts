@@ -1,27 +1,27 @@
 import { Chain } from '../../../../types/chain.types';
 
 const meta: Chain = {
-  id: 'eth',
-  graph_id: 'mainnet',
-  name: 'Ethereum',
+  id: 'sei',
+  graph_id: null,
+  name: 'Sei',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'sei',
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'networks/ethereum',
+    id: 'tokens/sei',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'released',
-    firehose: 'released',
-    substreams: 'released',
+    rpc: 'unreleased',
+    firehose: 'unreleased',
+    substreams: 'unreleased',
   },
   metadata: {
-    website: 'https://ethereum.org/',
+    website: 'https://www.sei.io/',
   },
 };
 

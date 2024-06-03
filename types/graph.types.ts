@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 5/17/2024, 12:07:18 PM.
+// Last generation on 6/3/2024, 9:24:30 AM.
 export type GraphID =
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
@@ -19,7 +19,6 @@ export type GraphID =
   | 'celo'
   | 'celo-alfajores'
   | 'chapel'
-  | 'clover'
   | 'cosmoshub-4'
   | 'etherlink-testnet'
   | 'fantom'
@@ -46,9 +45,9 @@ export type GraphID =
   | 'optimism-sepolia'
   | 'osmo-test-4'
   | 'osmosis-1'
-  | 'poa-core'
   | 'polygon-amoy'
   | 'polygon-zkevm'
+  | 'polygon-zkevm-cardona'
   | 'polygon-zkevm-testnet'
   | 'scroll'
   | 'scroll-sepolia'

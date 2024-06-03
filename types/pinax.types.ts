@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 5/17/2024, 12:07:18 PM.
+// Last generation on 6/3/2024, 9:24:31 AM.
 export type PinaxID =
   | 'arbone'
   | 'arbgoerli'
@@ -13,6 +13,7 @@ export type PinaxID =
   | 'boba'
   | 'bsc'
   | 'chapel'
+  | 'cardano'
   | 'celo'
   | 'alfajores'
   | 'cosmoshub'
@@ -52,13 +53,18 @@ export type PinaxID =
   | 'polygon'
   | 'amoy'
   | 'mumbai'
+  | 'ronin'
   | 'scroll'
+  | 'sei'
   | 'starknet'
   | 'telos'
   | 'telostest'
   | 'wax'
   | 'waxtest'
+  | 'x-layer'
   | 'xai'
-  | 'zkevm'
+  | 'zkastar'
+  | 'zkatana'
   | 'zkyoto'
+  | 'zksync'
   | 'zora';

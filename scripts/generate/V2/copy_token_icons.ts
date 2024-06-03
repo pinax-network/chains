@@ -34,16 +34,23 @@ const chains = JSON.parse(
   fs.readFileSync('./data/chains/V2/chains.json', 'utf-8'),
 );
 
-const unavailableIcons = [
-  // Those chains IDs are not matching their svgs in the token-icons package
-  // or are simply not available
+const tiUnavailableIcons = [
+  // Those icons are not available in Token Icons
   'networks/ore',
-  'networks/binance-smart-chain',
-  'networks/optimistic-ethereum',
+];
+
+// Token Icon Exceptions, where metadata ID
+// does not match the SVG ID
+const tiExceptions = [
+  ['networks/optimistic-ethereum', 'optimism'],
+  ['networks/binance-smart-chain', 'binance-smart-chain'], // Don't split at hyphen for bsc
+  ['networks/polygon-pos', 'polygon'],
+  ['networks/zora-network', 'zora'],
+  ['networks/x-layer', 'x-layer'], // Don't split at hyphen for x-layer
 ];
 
 const iconIsUnavailable = (iconId: string) => {
-  return unavailableIcons.includes(iconId);
+  return tiUnavailableIcons.includes(iconId);
 };
 
 const tokens: Token[] = JSON.parse(
@@ -53,6 +60,19 @@ const tokens: Token[] = JSON.parse(
 const networks: Network[] = JSON.parse(
   fs.readFileSync(path.resolve(tokenIconNetworksMetaPath), 'utf8'),
 );
+
+const matchMetaToSVGIDs = (metaIconID: string, exceptions: string[][]) => {
+  // Find if metaIconID is in exceptions
+  const exception = tiExceptions.find(([id]) => id === metaIconID);
+
+  // If it is, return the second element of the exception array
+  if (exception) {
+    return exception[1];
+  }
+
+  // If it's not in exceptions, split at '/' and '-' and return the first element after the split
+  return metaIconID.split('/')[1].split('-')[0];
+};
 
 const checkIconMetaForChain = (chain: any) => {
   if (!chain.icon) {
@@ -71,7 +91,8 @@ const checkIconMetaForChain = (chain: any) => {
     if (iconMeta) {
       chain.icon.variants = iconMeta.variants;
     } else {
-      warnings.push(`⚠️  Could not find icon meta for '${chain.icon.id}'`);
+      const warnMsg = `⚠️  Could not find icon meta for '${chain.icon.id}'`;
+      warnings.push(`(${warnings.length + 1}) ${warnMsg}`);
     }
   } else {
     const iconMeta = networks.find(
@@ -81,7 +102,8 @@ const checkIconMetaForChain = (chain: any) => {
       // @ts-ignore
       chain.icon.variants = iconMeta.variants;
     } else {
-      warnings.push(`⚠️  Could not find icon meta for '${chain.icon.id}'`);
+      const warnMsg = `⚠️  Could not find icon meta for '${chain.icon.id}'`;
+      warnings.push(`(${warnings.length + 1}) ${warnMsg}`);
     }
   }
 };
@@ -103,12 +125,12 @@ for (const chain of chains) {
   const brandedIconPath: string = path.join(
     iconBasePath,
     'branded',
-    `${chain.icon.id.split('/')[1].split('-')[0]}.svg`,
+    `${matchMetaToSVGIDs(chain.icon.id, tiExceptions)}.svg`,
   );
   const monoIconPath: string = path.join(
     iconBasePath,
     'mono',
-    `${chain.icon.id.split('/')[1].split('-')[0]}.svg`,
+    `${matchMetaToSVGIDs(chain.icon.id, tiExceptions)}.svg`,
   );
 
   // Define the destination file paths
@@ -131,7 +153,9 @@ for (const chain of chains) {
       fs.copyFileSync(brandedIconPath, destBrandedIconPath);
     } else {
       if (!iconIsUnavailable(chain.icon.id)) {
-        console.warn(`⚠️  Branded icon not found for ${chain.id}`);
+        console.log(brandedIconPath);
+        const warnMsg = `⚠️  Branded icon not found for ${chain.id}`;
+        warnings.push(`(${warnings.length + 1}) ${warnMsg}`);
       }
     }
   }
@@ -149,7 +173,8 @@ for (const chain of chains) {
       fs.writeFileSync(destDarkIconPath, darkIconContent);
     } else {
       if (!iconIsUnavailable(chain.icon.id)) {
-        console.warn(`⚠️  Mono icon not found for ${chain.id}`);
+        const warnMsg = `⚠️  Mono icon not found for ${chain.id}`;
+        warnings.push(`(${warnings.length + 1}) ${warnMsg}`);
       }
     }
   }
@@ -158,7 +183,7 @@ for (const chain of chains) {
 if (warnings.length) {
   console.log(warnings.join('\n'));
   console.log(
-    `☑️ Copied chain icons from token-icons with ${warnings.length} warnings.`,
+    `☑️  Copied chain icons from token-icons with ${warnings.length} warnings.`,
   );
 } else {
   console.log(`✅ Successfully copied chain icons from token-icons!`);

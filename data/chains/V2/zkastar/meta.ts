@@ -1,7 +1,7 @@
 import { Chain } from '../../../../types/chain.types';
 
 const meta: Chain = {
-  id: 'zkevm',
+  id: 'zkastar',
   name: 'Astar zkEVM',
   alt_names: [],
   graph_id: null,
