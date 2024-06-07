@@ -96,7 +96,7 @@
     "graph_id": "arbitrum-one",
     "name": "Arbitrum One",
     "alt_names": [],
-    "mainnet": "arbitrum",
+    "mainnet": "arbone",
     "standard": "erc20",
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -126,7 +126,7 @@
     "graph_id": "arbitrum-sepolia",
     "name": "Arbitrum Sepolia",
     "alt_names": [],
-    "mainnet": "arbitrum",
+    "mainnet": "arbone",
     "standard": "erc20",
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
