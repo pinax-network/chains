@@ -21,17 +21,17 @@
     "supported_services": {
       "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -55,17 +55,17 @@
           "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           }
         },
         "index": 1
@@ -85,17 +85,17 @@
           "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           }
         },
         "index": 2
@@ -115,17 +115,17 @@
           "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           }
         },
         "index": 6
@@ -146,12 +146,12 @@
         "supported_services": {
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -171,12 +171,12 @@
         "supported_services": {
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -196,12 +196,12 @@
         "supported_services": {
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -221,12 +221,12 @@
         "supported_services": {
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -259,12 +259,12 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -297,17 +297,17 @@
     "supported_services": {
       "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -330,17 +330,17 @@
         "supported_services": {
           "rpc": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -361,17 +361,17 @@
           "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           }
         },
         "index": 11
@@ -403,17 +403,17 @@
     "supported_services": {
       "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -436,17 +436,17 @@
         "supported_services": {
           "rpc": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -471,17 +471,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -535,17 +535,17 @@
         "supported_services": {
           "rpc": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -597,12 +597,12 @@
         "supported_services": {
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -674,12 +674,12 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -711,12 +711,12 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -752,12 +752,12 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -785,12 +785,12 @@
           },
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -860,14 +860,14 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:35:39.530Z"
+        "deprecated_at": "2024-07-19T15:41:48.331Z"
       },
       "substreams": {
         "beta_released_at": null,
@@ -901,7 +901,7 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
@@ -935,12 +935,12 @@
         "supported_services": {
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -969,7 +969,7 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
@@ -1089,12 +1089,12 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -1130,7 +1130,7 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
@@ -1164,7 +1164,7 @@
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
@@ -1194,7 +1194,7 @@
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
@@ -1233,7 +1233,7 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
@@ -1397,7 +1397,7 @@
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:35:39.530Z"
+        "deprecated_at": "2024-07-19T15:41:48.331Z"
       },
       "substreams": {
         "beta_released_at": null,
@@ -1429,7 +1429,7 @@
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
@@ -1461,7 +1461,7 @@
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
@@ -1491,7 +1491,7 @@
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.530Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
@@ -1530,12 +1530,12 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -1563,12 +1563,12 @@
           },
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -1636,12 +1636,12 @@
           },
           "firehose": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:35:39.530Z",
+            "full_released_at": "2024-07-19T15:41:48.331Z",
             "deprecated_at": null
           }
         },
@@ -1670,7 +1670,7 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
@@ -1712,17 +1712,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1756,17 +1756,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1839,7 +1839,7 @@
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:35:39.530Z"
+        "deprecated_at": "2024-07-19T15:41:48.331Z"
       },
       "substreams": {
         "beta_released_at": null,
@@ -1876,17 +1876,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1921,17 +1921,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1972,12 +1972,12 @@
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2012,17 +2012,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2145,12 +2145,12 @@
       },
       "firehose": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:35:39.530Z",
+        "full_released_at": "2024-07-19T15:41:48.331Z",
         "deprecated_at": null
       }
     },
@@ -2184,17 +2184,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2213,17 +2213,17 @@
         },
         "supported_services": {
           "rpc": {
-            "beta_released_at": "2024-07-19T15:35:39.530Z",
+            "beta_released_at": "2024-07-19T15:41:48.331Z",
             "full_released_at": null,
             "deprecated_at": null
           },
           "firehose": {
-            "beta_released_at": "2024-07-19T15:35:39.530Z",
+            "beta_released_at": "2024-07-19T15:41:48.331Z",
             "full_released_at": null,
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": "2024-07-19T15:35:39.530Z",
+            "beta_released_at": "2024-07-19T15:41:48.331Z",
             "full_released_at": null,
             "deprecated_at": null
           }
@@ -2243,17 +2243,17 @@
         },
         "supported_services": {
           "rpc": {
-            "beta_released_at": "2024-07-19T15:35:39.530Z",
+            "beta_released_at": "2024-07-19T15:41:48.331Z",
             "full_released_at": null,
             "deprecated_at": null
           },
           "firehose": {
-            "beta_released_at": "2024-07-19T15:35:39.530Z",
+            "beta_released_at": "2024-07-19T15:41:48.331Z",
             "full_released_at": null,
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": "2024-07-19T15:35:39.530Z",
+            "beta_released_at": "2024-07-19T15:41:48.331Z",
             "full_released_at": null,
             "deprecated_at": null
           }
@@ -2374,17 +2374,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:35:39.530Z",
+        "beta_released_at": "2024-07-19T15:41:48.331Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2421,17 +2421,17 @@
       "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:35:39.531Z"
+        "deprecated_at": "2024-07-19T15:41:48.331Z"
       },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:35:39.531Z"
+        "deprecated_at": "2024-07-19T15:41:48.331Z"
       },
       "substreams": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:35:39.531Z"
+        "deprecated_at": "2024-07-19T15:41:48.331Z"
       }
     },
     "metadata": {
@@ -2454,17 +2454,17 @@
           "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.531Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.531Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           },
           "substreams": {
             "beta_released_at": null,
             "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:35:39.531Z"
+            "deprecated_at": "2024-07-19T15:41:48.331Z"
           }
         },
         "index": 66

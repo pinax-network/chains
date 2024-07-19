@@ -4,7 +4,7 @@
   "graph_id": "arbitrum-one",
   "name": "Arbitrum One",
   "alt_names": [],
-  "mainnet": "arbitrum",
+  "mainnet": "arbone",
   "standard": "erc20",
   "rpc_poller": true,
   "block_type": {
@@ -13,14 +13,14 @@
   },
   "img": "https://pinax.network/assets/chains/arbitrum.svg",
   "is_img_dt_invert": false,
-  "is_testnet": true,
+  "is_testnet": false,
   "supported_services": {
     "firehose": {
-      "released_at": null,
+      "released_at": "2024-06-10T00:00:00.000Z",
       "deprecated_at": null
     },
     "substreams": {
-      "released_at": null,
+      "released_at": "2024-06-10T00:00:00.000Z",
       "deprecated_at": null
     },
     "rpc": {
