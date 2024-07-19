@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'zkastar',
   name: 'Astar zkEVM',
   alt_names: [],
   graph_id: null,
   standard: 'erc20',
+  rpc_poller: true,
   block_type: {
     label: 'sf.zkevm.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1',

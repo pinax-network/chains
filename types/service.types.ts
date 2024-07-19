@@ -13,7 +13,24 @@ export type ServiceEndpointStatus =
   | 'released'
   | 'deprecated';
 
-export type ConsensusLayerServices = {
+export type ___InternalConsensusLayerServices = {
   [key in ConsensusLayerServiceID]: ServiceEndpointStatus;
 };
-export type SupportedServices = { [key in ServiceID]: ServiceEndpointStatus };
+
+export type ___InternalSupportedServices = {
+  [key in ServiceID]: ServiceEndpointStatus;
+};
+
+export type ServiceStatusDates = {
+  beta_released_at: string | null;
+  full_released_at: string | null;
+  deprecated_at: string | null;
+};
+
+export type ConsensusLayerServices = {
+  [key in ConsensusLayerServiceID]: ServiceStatusDates;
+};
+
+export type SupportedServices = {
+  [key in ServiceID]: ServiceStatusDates;
+};

@@ -1,6 +1,6 @@
-import { EVM } from '../../../../../../types/chain.types';
+import { ___InternalEVM } from '../../../../../../types/chain.types';
 
-const meta: EVM = {
+const meta: ___InternalEVM = {
   id: 'eosevm',
   graph_id: null,
   name: 'EOS EVM',

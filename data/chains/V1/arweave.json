@@ -6,6 +6,7 @@
   "alt_names": [],
   "mainnet": "arweave",
   "standard": "erc20",
+  "rpc_poller": false,
   "block_type": {
     "label": "sf.arweave.type.v1.Block",
     "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"

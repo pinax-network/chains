@@ -6,6 +6,7 @@
   "alt_names": ["btc"],
   "mainnet": "bitcoin",
   "standard": "brc20",
+  "rpc_poller": true,
   "block_type": {
     "label": "sf.bitcoin.type.v1.Block",
     "url": "https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1"

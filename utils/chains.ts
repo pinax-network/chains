@@ -1,4 +1,8 @@
-import { chains } from '.';
+import {
+  ConsensusLayerServiceID,
+  ServiceID,
+  ServiceStatusDates,
+} from '../types';
 import {
   Chain,
   ChainBase,
@@ -7,208 +11,188 @@ import {
   Testnet,
 } from '../types/chain.types';
 
-const isFirehoseSupported = (
+/**
+ * Checks whether a service is fully supported.
+ *
+ * @param chain Chain, Testnet or ConsensusLayer
+ * @param service ServiceID or ConsensusLayerServiceID
+ *
+ * @returns boolean
+ */
+const isServiceSupported = (
   chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  if (checkBeta) {
-    return (
-      chain?.supported_services?.firehose?.beta.released_at !== null &&
-      chain?.supported_services?.firehose?.beta.deprecated_at === null
-    );
-  }
+  service: ConsensusLayerServiceID | ServiceID,
+) => {
+  // @ts-ignore
+  const serviceStatusDates = chain.supported_services[service] as
+    | ServiceStatusDates
+    | undefined;
   return (
-    chain?.supported_services?.firehose?.full.released_at !== null &&
-    chain?.supported_services?.firehose?.full.deprecated_at === null
-  );
-};
-
-const isSubstreamsSupported = (
-  chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  if (checkBeta) {
-    return (
-      chain?.supported_services?.substreams?.beta.released_at !== null &&
-      chain?.supported_services?.substreams?.beta.deprecated_at === null
-    );
-  }
-  return (
-    chain?.supported_services?.substreams?.full.released_at !== null &&
-    chain?.supported_services?.substreams?.full.deprecated_at === null
-  );
-};
-
-const isRpcSupported = (
-  chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  // Can take a Consensus Layer as parameter but will always return false.
-  const castedChain = chain as any;
-  if (castedChain.supported_services.rpc === undefined) {
-    return false;
-  }
-
-  if (checkBeta) {
-    return (
-      castedChain?.supported_services?.rpc?.beta.released_at !== null &&
-      castedChain?.supported_services?.rpc?.beta.deprecated_at === null
-    );
-  }
-
-  return (
-    castedChain?.supported_services?.rpc?.released_at !== null &&
-    castedChain?.supported_services?.rpc?.deprecated_at === null
-  );
-};
-
-const isChainSupported = (
-  chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  return (
-    isFirehoseSupported(chain, checkBeta) ||
-    isSubstreamsSupported(chain, checkBeta) ||
-    isRpcSupported(chain, checkBeta)
-  );
-};
-
-const wasFirehoseOnceSupported = (
-  chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  if (checkBeta) {
-    return chain?.supported_services?.firehose?.beta.released_at !== null;
-  }
-  return chain?.supported_services?.firehose?.full.released_at !== null;
-};
-
-const wasSubstreamsOnceSupported = (
-  chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  if (checkBeta) {
-    return chain?.supported_services?.substreams?.beta.released_at !== null;
-  }
-  return chain?.supported_services?.substreams?.full.released_at !== null;
-};
-
-const wasRpcOnceSupported = (
-  chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  // Can take a Consensus Layer as parameter but will always return false.
-  const castedChain = chain as any;
-  if (castedChain.supported_services.rpc === undefined) {
-    return false;
-  }
-
-  if (checkBeta) {
-    return castedChain?.supported_services?.rpc?.beta.released_at !== null;
-  }
-
-  return castedChain?.supported_services?.rpc?.released_at !== null;
-};
-
-const wasChainOnceSupported = (
-  chain: Chain | Testnet | ConsensusLayer,
-  checkBeta: boolean = false,
-): boolean => {
-  return (
-    wasFirehoseOnceSupported(chain, checkBeta) ||
-    wasSubstreamsOnceSupported(chain, checkBeta) ||
-    wasRpcOnceSupported(chain, checkBeta)
+    serviceStatusDates &&
+    serviceStatusDates.full_released_at !== null &&
+    serviceStatusDates.deprecated_at === null
   );
 };
 
 /**
- * This function takes an array of chains and returns a new array that includes the chains
- * and their associated testnets, consensus layers, and EVMs, if the corresponding flags are set to true.
- * The chains are first filtered based on a provided filter function and whether they are supported.
- * Then they are sorted based on a provided sort function.
+ * Checks whether a service is in beta.
  *
- * Note that the sort function is applied at two levels: first to the chains,
- * then to the testnets, consensus layers, and EVMs. This is so that the mainnets and
- * their associated testnets, consensus layers, and EVMs remain grouped together in the final array.
+ * @param chain Chain, Testnet or ConsensusLayer
+ * @param service ServiceID or ConsensusLayerServiceID
  *
- * @param {Array<Chain>} chains - The array of chains to be processed.
- * @param {(a: ChainBase, b: ChainBase) => number} [sortFn=() => 0] - The function used to sort the chains.
- * @param {(chain: ChainBase) => boolean} [filterFn=() => true] - The function used to filter the chains.
- * @param {boolean} [includeBeta=false] - Whether to include chains that are in beta.
- * @param {boolean} [includeTestnet=false] - Whether to include testnets associated with the chains.
- * @param {boolean} [includeConsensusLayer=false] - Whether to include consensus layers associated with the chains.
- * @param {boolean} [includeEVM=false] - Whether to include EVMs associated with the chains.
- *
- * @returns {Array<Chain | Testnet | ConsensusLayer | EVM>} - The new array of chains, testnets, consensus layers, and EVMs.
+ * @returns boolean
  */
-const filterSortChains = (
-  chains: Array<Chain>,
-  sortFn: (a: ChainBase, b: ChainBase) => number = () => 0,
-  filterFn: (chain: ChainBase) => boolean = () => true,
-  includeBeta: boolean = false,
-  includeTestnet: boolean = false,
-  includeConsensusLayer: boolean = false,
-  includeEVM: boolean = false,
-): Array<Chain | Testnet | ConsensusLayer | EVM> => {
-  const __internalFilterSortChains = (
-    chains: Array<Chain | Testnet | ConsensusLayer | EVM>,
-  ) => {
-    return (
-      chains
-        // Further filter the chains based on support for Firehose, Substreams, and RPC
-        // Largest potential filter so we do this first
-        .filter((chain) => isChainSupported(chain as Chain, includeBeta))
-        // First filter the chains based on the filter function (search, etc.)
-        .filter(filterFn)
-        // Then sort the chains based on the sort function
-        .sort(sortFn)
-    );
-  };
-
-  // First filter-sort Mainnets
-  let filteredSortedChains = __internalFilterSortChains(chains);
-
-  // Then for each Mainnet, include its testnets, consensus layers, and EVM
-  // if the flags are set to true
-  let newFilteredSortedChains: Array<Chain | Testnet | ConsensusLayer | EVM> =
-    [];
-  filteredSortedChains.forEach((chain: any) => {
-    let modifiedChain = chain;
-
-    if (includeTestnet && chain.testnets !== undefined) {
-      modifiedChain.testnets = __internalFilterSortChains(chain.testnets);
-    } else {
-      delete modifiedChain.testnets;
-    }
-
-    if (includeConsensusLayer && chain.consensus !== undefined) {
-      modifiedChain.consensus = __internalFilterSortChains(chain.consensus);
-    } else {
-      delete modifiedChain.consensus;
-    }
-
-    if (includeEVM && chain.evms !== undefined) {
-      modifiedChain.evms = __internalFilterSortChains(chain.evms);
-    } else {
-      delete modifiedChain.evms;
-    }
-    newFilteredSortedChains.push(modifiedChain);
-  });
-  return newFilteredSortedChains;
+const isServiceBeta = (
+  chain: Chain | Testnet | ConsensusLayer,
+  service: ConsensusLayerServiceID | ServiceID,
+) => {
+  // @ts-ignore
+  const serviceStatusDates = chain.supported_services[service] as
+    | ServiceStatusDates
+    | undefined;
+  return (
+    serviceStatusDates &&
+    serviceStatusDates.beta_released_at !== null &&
+    serviceStatusDates.deprecated_at === null &&
+    !isServiceSupported(chain, service)
+  );
 };
 
-const flattenChains = (
-  chains: Array<Chain>,
-): Array<Chain | Testnet | ConsensusLayer | EVM> => {};
+/**
+ * Checks whether a service was once supported.
+ *
+ * @param chain Chain, Testnet or ConsensusLayer
+ * @param service ServiceID or ConsensusLayerServiceID
+ *
+ * @returns boolean
+ */
+const isServiceDeprecated = (
+  chain: Chain | Testnet | ConsensusLayer,
+  service: ConsensusLayerServiceID | ServiceID,
+) => {
+  // @ts-ignore
+  const serviceStatusDates = chain.supported_services[service] as
+    | ServiceStatusDates
+    | undefined;
+  return (
+    serviceStatusDates &&
+    (serviceStatusDates.beta_released_at !== null ||
+      serviceStatusDates.full_released_at !== null) &&
+    serviceStatusDates.deprecated_at !== null
+  );
+};
+
+/**
+ * Checks whether any service is fully supported for a given chain.
+ *
+ * @param chain Chain, Testnet or ConsensusLayer
+ *
+ * @returns boolean
+ */
+const isChainSupported = (chain: Chain | Testnet | ConsensusLayer) => {
+  return (
+    isServiceSupported(chain, 'firehose') ||
+    isServiceSupported(chain, 'substreams') ||
+    isServiceSupported(chain, 'rpc')
+  );
+};
+
+/**
+ * Checks whether any service is in beta for a given chain.
+ *
+ * @param chain Chain, Testnet or ConsensusLayer
+ *
+ * @returns boolean
+ */
+const isChainBeta = (chain: Chain | Testnet | ConsensusLayer) => {
+  return (
+    isServiceBeta(chain, 'firehose') ||
+    isServiceBeta(chain, 'substreams') ||
+    isServiceBeta(chain, 'rpc')
+  );
+};
+
+/**
+ * Checks whether any service was once supported for a given chain.
+ *
+ * @param chain Chain, Testnet or ConsensusLayer
+ *
+ * @returns boolean
+ */
+const isChainDeprecated = (chain: Chain | Testnet | ConsensusLayer) => {
+  return (
+    isServiceDeprecated(chain, 'firehose') ||
+    isServiceDeprecated(chain, 'substreams') ||
+    isServiceDeprecated(chain, 'rpc')
+  );
+};
+
+/**
+ * Checks whether a chain is a consensus layer.
+ *
+ * @param chain Chain, Testnet or ConsensusLayer
+ *
+ * @returns boolean
+ */
+const isChainConsensusLayer = (
+  chain: Chain | Testnet | ConsensusLayer,
+): boolean => {
+  return chain.id.slice(-3).includes('-cl');
+};
+
+/**
+ * Finds a chain by its ID by scanning mainnets, consensus layers, testnets and EVMs.
+ * Returns first match.
+ *
+ * @param db Array of Chains
+ * @param id Chain ID
+ *
+ * @returns Chain, Testnet or ConsensusLayer
+ */
+const findChainById = (
+  db: Array<Chain>,
+  id: string,
+): Chain | Testnet | ConsensusLayer | EVM | undefined => {
+  for (const chain of db) {
+    if (chain.id === id) {
+      return chain;
+    }
+    const consensus = chain.consensus?.find((consensus) => consensus.id === id);
+    if (consensus) {
+      return consensus;
+    }
+    const testnet = chain.testnets?.find((testnet) => testnet.id === id);
+    if (testnet) {
+      return testnet;
+    }
+    const evm = chain.evms?.find((evm) => evm.id === id);
+    if (evm) {
+      return evm;
+    }
+  }
+  return undefined;
+};
+
+/**
+ * Checks whether a chain has full block support. Chains that use RPC poller only
+ * support partial blocks.
+ *
+ * @param chain Chain, Testnet or ConsensusLayer
+ *
+ * @returns boolean
+ */
+const hasChainFullBlockSupport = (chain: Chain | Testnet | ConsensusLayer) => {
+  return !chain.rpc_poller;
+};
 
 export {
-  isFirehoseSupported,
-  isSubstreamsSupported,
-  isRpcSupported,
+  isServiceSupported,
+  isServiceBeta,
+  isServiceDeprecated,
   isChainSupported,
-  wasFirehoseOnceSupported,
-  wasSubstreamsOnceSupported,
-  wasRpcOnceSupported,
-  wasChainOnceSupported,
-  filterSortChains,
+  isChainBeta,
+  isChainDeprecated,
+  isChainConsensusLayer,
+  findChainById,
+  hasChainFullBlockSupport,
 };

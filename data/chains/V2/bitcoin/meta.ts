@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'bitcoin',
   graph_id: null,
   name: 'Bitcoin',
   alt_names: ['btc'],
   standard: 'brc20',
+  rpc_poller: true,
   block_type: {
     label: 'sf.bitcoin.type.v1.Block',
     url: 'https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1',

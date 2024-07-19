@@ -4,7 +4,12 @@ import * as chainData from '../../../data/chains/V2/index';
 import { toCamelCase } from '../../../utils/case';
 import indexConf from '../../../data/index.config';
 import { IndexConfig } from './index_config_check';
-import { Chain, SupportedServices } from '../../../types';
+import {
+  Chain,
+  ServiceID,
+  ServiceStatusDates,
+  SupportedServices,
+} from '../../../types';
 
 interface SubnetData {
   id: string;
@@ -25,54 +30,39 @@ const data: Chain[] = [];
 
 let indexCounter = 0;
 
-const generateSupportedServicesDatesFromCache = (
-  services: SupportedServices,
-) => {
+const generateSupportedServicesDatesFromCache = (services: {
+  [key: string]: string;
+}): SupportedServices => {
   const currentDate = new Date().toISOString();
+  const cacheFilePath = path.join(
+    __dirname,
+    '../../../data/V2/chains-lock.json',
+  );
+  const updatedServices: any = {};
 
-  return Object.entries(services).reduce((acc, [service, status]) => {
+  for (const service in services) {
+    const status = services[service];
+    updatedServices[service as ServiceID] = {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    } as ServiceStatusDates;
+
     switch (status) {
       case 'beta':
-        // @ts-ignore
-        acc[service] = {
-          beta_released_at: currentDate,
-          full_released_at: null,
-          deprecated_at: null,
-        };
+        updatedServices[service].beta_released_at = currentDate;
         break;
       case 'released':
-        // @ts-ignore
-        acc[service] = {
-          // @ts-ignore
-          beta_released_at: acc[service]?.beta_released_at || currentDate,
-          full_released_at: currentDate,
-          deprecated_at: null,
-        };
+        updatedServices[service].full_released_at = currentDate;
         break;
       case 'deprecated':
-        // @ts-ignore
-        acc[service] = {
-          // @ts-ignore
-          beta_released_at: currentDate, // Make sure it was once released
-          full_released_at: currentDate, // Make sure it was once released
-          ...acc[service], // Overwrite with existing data
-          deprecated_at: currentDate,
-        };
+        updatedServices[service].deprecated_at = currentDate;
         break;
-      case 'unreleased':
-        // @ts-ignore
-        acc[service] = {
-          beta_released_at: null,
-          full_released_at: null,
-          deprecated_at: null,
-        };
-        break;
-      default:
-        throw new Error(`Unsupported status: ${status}`);
+      // No case for "unreleased" as all dates remain null
     }
+  }
 
-    return acc;
-  }, {} as SupportedServices);
+  return updatedServices;
 };
 
 Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {

@@ -1,11 +1,12 @@
-import { Testnet } from '../../../../../../types/chain.types';
+import { ___InternalTestnet } from '../../../../../../types/chain.types';
 
-const meta: Testnet = {
+const meta: ___InternalTestnet = {
   id: 'zkatana',
   name: 'Astar zKatana',
   alt_names: [],
   graph_id: null,
   standard: 'erc20',
+  rpc_poller: true,
   block_type: {
     label: 'sf.zkevm.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1',

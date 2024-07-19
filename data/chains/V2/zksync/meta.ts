@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'zksync',
   graph_id: 'zksync-era',
   name: 'zkSync Era',
   alt_names: [],
-  standard: 'rrc20',
+  standard: 'erc20',
+  rpc_poller: false,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
@@ -22,6 +23,7 @@ const meta: Chain = {
   },
   metadata: {
     website: 'https://zksync.io/',
+    tags: ['zk'],
   },
 };
 

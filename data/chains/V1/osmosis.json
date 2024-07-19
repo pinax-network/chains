@@ -6,6 +6,7 @@
   "alt_names": [],
   "mainnet": "osmosis",
   "standard": "cosmos",
+  "rpc_poller": false,
   "block_type": {
     "label": "sf.cosmos.type.v1.Block",
     "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"

@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'eos',
   graph_id: null,
   name: 'EOS',
   alt_names: [],
   standard: 'antelope',
+  rpc_poller: false,
   block_type: {
     label: 'sf.antelope.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',

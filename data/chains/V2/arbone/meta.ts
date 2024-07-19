@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'arbone',
   graph_id: 'arbitrum-one',
   name: 'Arbitrum One',
   alt_names: [],
   standard: 'erc20',
+  rpc_poller: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',

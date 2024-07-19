@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'cosmoshub',
   graph_id: 'cosmoshub-4',
   name: 'Cosmos Hub',
   alt_names: [],
   standard: 'cosmos',
+  rpc_poller: false,
   block_type: {
     label: 'sf.cosmos.type.v1.Block',
     url: 'https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto',

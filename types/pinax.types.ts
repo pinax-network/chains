@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 6/3/2024, 9:24:31 AM.
+// Last generation on 7/19/2024, 11:35:40 AM.
 export type PinaxID =
   | 'arbone'
   | 'arbgoerli'
@@ -11,6 +11,7 @@ export type PinaxID =
   | 'bitcoin'
   | 'blast'
   | 'boba'
+  | 'bobasepolia'
   | 'bsc'
   | 'chapel'
   | 'cardano'

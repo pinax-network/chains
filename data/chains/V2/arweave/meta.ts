@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'arweave',
   graph_id: 'arweave-mainnet',
   name: 'Arweave',
   alt_names: [],
   standard: 'erc20',
+  rpc_poller: false,
   block_type: {
     label: 'sf.arweave.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1',

@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'linea',
   name: 'Linea',
   alt_names: [],
   graph_id: 'linea',
   standard: 'erc20',
+  rpc_poller: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',

@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 6/3/2024, 9:24:30 AM.
+// Last generation on 7/19/2024, 11:35:39 AM.
 export type GraphID =
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
@@ -29,8 +29,8 @@ export type GraphID =
   | 'gnosis-chiado'
   | 'harmony'
   | 'holesky'
+  | 'iotex'
   | 'linea'
-  | 'linea-goerli'
   | 'linea-sepolia'
   | 'mainnet'
   | 'matic'
@@ -48,11 +48,13 @@ export type GraphID =
   | 'polygon-amoy'
   | 'polygon-zkevm'
   | 'polygon-zkevm-cardona'
-  | 'polygon-zkevm-testnet'
+  | 'rootstock'
   | 'scroll'
   | 'scroll-sepolia'
+  | 'sei-mainnet'
   | 'sei-testnet'
   | 'sepolia'
+  | 'solana-mainnet-beta'
   | 'theta-testnet-001'
   | 'xlayer-mainnet'
   | 'xlayer-sepolia'

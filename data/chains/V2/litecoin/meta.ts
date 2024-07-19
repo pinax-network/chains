@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'litecoin',
   name: 'Litecoin',
   alt_names: ['LTC'],
   graph_id: null,
   standard: 'ltc20',
+  rpc_poller: false,
   block_type: {
     label: 'sf.litecoin.type.v1.Block',
     url: 'https://buf.build/streamingfast/firehose-litecoin/docs/main:sf.litecoin.type.v1',

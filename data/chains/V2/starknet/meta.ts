@@ -1,18 +1,17 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'starknet',
   graph_id: null,
-  name: 'Starknet', // missing
-  alt_names: [], // missing
-  standard: 'erc20', // missing
+  name: 'Starknet',
+  alt_names: [],
+  standard: 'erc20',
+  rpc_poller: false,
   block_type: {
-    // missing
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    // missing
     id: 'networks/starknet',
     brand_theme: 'both',
     variants: ['branded', 'mono'],

@@ -1,11 +1,12 @@
-import { Chain } from '../../../../types/chain.types';
+import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: Chain = {
+const meta: ___InternalChain = {
   id: 'near',
   graph_id: 'near-mainnet',
   name: 'Near',
   alt_names: [],
   standard: 'near',
+  rpc_poller: false,
   block_type: {
     label: 'sf.near.type.v1.Block',
     url: 'https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1',
