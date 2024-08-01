@@ -17,9 +17,21 @@ const meta: ___InternalChain = {
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'unreleased',
-    firehose: 'released',
-    substreams: 'released',
+    firehose: {
+      beta_released_at: '2024-01-01T00:00:00.000Z',
+      full_released_at: '2024-01-01T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: '2024-01-01T00:00:00.000Z',
+      full_released_at: '2024-01-01T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://optimism.io/',

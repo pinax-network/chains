@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 7/19/2024, 11:41:48 AM.
+// Last generation on 8/1/2024, 5:03:24 PM.
 export type GraphID =
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
@@ -20,6 +20,7 @@ export type GraphID =
   | 'celo-alfajores'
   | 'chapel'
   | 'cosmoshub-4'
+  | 'etherlink-mainnet'
   | 'etherlink-testnet'
   | 'fantom'
   | 'fantom-testnet'
@@ -27,9 +28,12 @@ export type GraphID =
   | 'fuse'
   | 'gnosis'
   | 'gnosis-chiado'
+  | 'gravity-mainnet'
+  | 'gravity-testnet'
   | 'harmony'
   | 'holesky'
   | 'iotex'
+  | 'iotex-testnet'
   | 'linea'
   | 'linea-sepolia'
   | 'mainnet'
@@ -51,6 +55,7 @@ export type GraphID =
   | 'rootstock'
   | 'scroll'
   | 'scroll-sepolia'
+  | 'sei-atlantic'
   | 'sei-mainnet'
   | 'sei-testnet'
   | 'sepolia'

@@ -17,9 +17,21 @@ const meta: ___InternalChain = {
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'unreleased',
-    firehose: 'unreleased',
-    substreams: 'unreleased',
+    firehose: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://www.okx.com/fr/xlayer',

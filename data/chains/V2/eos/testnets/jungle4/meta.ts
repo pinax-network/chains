@@ -12,9 +12,21 @@ const meta: ___InternalTestnet = {
     url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',
   },
   supported_services: {
-    rpc: 'unreleased',
-    firehose: 'deprecated',
-    substreams: 'unreleased',
+    firehose: {
+      beta_released_at: '2023-12-01T00:00:00.000Z',
+      full_released_at: '2023-12-01T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: '2023-12-01T00:00:00.000Z',
+      full_released_at: '2023-12-01T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: '2023-12-01T00:00:00.000Z',
+      full_released_at: '2023-12-01T00:00:00.000Z',
+      deprecated_at: null,
+    },
   },
 };
 

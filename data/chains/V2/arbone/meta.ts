@@ -16,9 +16,21 @@ const meta: ___InternalChain = {
     brand_theme: 'both',
   },
   supported_services: {
-    rpc: 'beta',
-    firehose: 'beta',
-    substreams: 'beta',
+    firehose: {
+      beta_released_at: '2024-06-10T00:00:00.000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: '2024-06-10T00:00:00.000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: '2024-06-10T00:00:00.000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://arbitrum.io/',

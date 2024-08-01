@@ -12,9 +12,21 @@ const meta: ___InternalTestnet = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   supported_services: {
-    rpc: 'unreleased',
-    firehose: 'unreleased',
-    substreams: 'unreleased',
+    firehose: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 

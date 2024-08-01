@@ -17,9 +17,21 @@ const meta: ___InternalChain = {
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'deprecated',
-    firehose: 'deprecated',
-    substreams: 'deprecated',
+    rpc: {
+      beta_released_at: '2023-03-01T00:00:00.000Z',
+      full_released_at: '2023-03-01T00:00:00.000Z',
+      deprecated_at: '2023-03-21T00:00:00.000Z',
+    },
+    firehose: {
+      beta_released_at: '2023-03-01T00:00:00.000Z',
+      full_released_at: '2023-03-01T00:00:00.000Z',
+      deprecated_at: '2023-03-21T00:00:00.000Z',
+    },
+    substreams: {
+      beta_released_at: '2023-03-01T00:00:00.000Z',
+      full_released_at: '2023-03-01T00:00:00.000Z',
+      deprecated_at: '2023-03-21T00:00:00.000Z',
+    },
   },
   metadata: {
     website: 'https://ore.network/',

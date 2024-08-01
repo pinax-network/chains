@@ -26,62 +26,27 @@ if (indexConf.missing.length > 0) {
   process.exit(1);
 }
 
+// 1. Load the chains-lock file
+// 2. Iterate through chain data (from index)
+// 3. For each chain, find their lock version using findChainById
+// 4. Check lock version dates and update the chain data
+//
+
 const data: Chain[] = [];
 
 let indexCounter = 0;
-
-const generateSupportedServicesDatesFromCache = (services: {
-  [key: string]: string;
-}): SupportedServices => {
-  const currentDate = new Date().toISOString();
-  const cacheFilePath = path.join(
-    __dirname,
-    '../../../data/V2/chains-lock.json',
-  );
-  const updatedServices: any = {};
-
-  for (const service in services) {
-    const status = services[service];
-    updatedServices[service as ServiceID] = {
-      beta_released_at: null,
-      full_released_at: null,
-      deprecated_at: null,
-    } as ServiceStatusDates;
-
-    switch (status) {
-      case 'beta':
-        updatedServices[service].beta_released_at = currentDate;
-        break;
-      case 'released':
-        updatedServices[service].full_released_at = currentDate;
-        break;
-      case 'deprecated':
-        updatedServices[service].deprecated_at = currentDate;
-        break;
-      // No case for "unreleased" as all dates remain null
-    }
-  }
-
-  return updatedServices;
-};
 
 Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
   // @ts-ignore
   const mainnetData: MainnetData = chainData[toCamelCase(mainnet)];
 
   mainnetData.index = indexCounter++;
-  mainnetData.supported_services = generateSupportedServicesDatesFromCache(
-    mainnetData.supported_services,
-  );
 
   (indexConf as IndexConfig).ordered[mainnet].forEach((subnet: any) => {
     // @ts-ignore
     const subnetData: SubnetData = chainData[toCamelCase(subnet)];
 
     subnetData.index = indexCounter++;
-    subnetData.supported_services = generateSupportedServicesDatesFromCache(
-      subnetData.supported_services,
-    );
 
     if (subnetData.id.indexOf('-cl') !== -1) {
       if (!mainnetData.consensus) mainnetData.consensus = [];

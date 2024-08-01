@@ -1,22 +1,23 @@
-import { ___InternalChain } from '../../../../types/chain.types';
+import { ___InternalTestnet } from '../../../../../../types';
 
-const meta: ___InternalChain = {
-  id: 'ronin',
-  graph_id: null,
-  name: 'Ronin',
+const meta: ___InternalTestnet = {
+  id: 'blastsepolia',
+  name: 'Blast Network Sepolia',
   alt_names: [],
-  standard: 'rrc20',
+  graph_id: 'blast-testnet',
+  index: 0,
+  standard: 'erc20',
   rpc_poller: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
-  icon: {
-    id: 'networks/ronin',
-    brand_theme: 'both',
-    variants: ['branded', 'mono'],
-  },
   supported_services: {
+    rpc: {
+      beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
     firehose: {
       beta_released_at: null,
       full_released_at: null,
@@ -27,14 +28,6 @@ const meta: ___InternalChain = {
       full_released_at: null,
       deprecated_at: null,
     },
-    rpc: {
-      beta_released_at: null,
-      full_released_at: null,
-      deprecated_at: null,
-    },
-  },
-  metadata: {
-    website: 'https://roninchain.com/',
   },
 };
 

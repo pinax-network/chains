@@ -7,18 +7,12 @@ export type ServiceEndpoint = {
   port: number;
 };
 
-export type ServiceEndpointStatus =
-  | 'unreleased'
-  | 'beta'
-  | 'released'
-  | 'deprecated';
-
 export type ___InternalConsensusLayerServices = {
-  [key in ConsensusLayerServiceID]: ServiceEndpointStatus;
+  [key in ConsensusLayerServiceID]: ServiceStatusDates;
 };
 
 export type ___InternalSupportedServices = {
-  [key in ServiceID]: ServiceEndpointStatus;
+  [key in ServiceID]: ServiceStatusDates;
 };
 
 export type ServiceStatusDates = {

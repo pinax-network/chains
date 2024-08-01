@@ -4,7 +4,7 @@ import config from '../../../data/index.config';
 
 export type IndexConfig = {
   ordered: { [key: string]: string[] };
-  missing: string[];
+  missing?: string[];
 };
 
 console.log('🕑 Checking integrity of index.config.ts...');

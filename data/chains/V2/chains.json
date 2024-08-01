@@ -19,19 +19,19 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       }
     },
@@ -52,20 +52,20 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
           }
         },
         "index": 1
@@ -82,20 +82,20 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
           }
         },
         "index": 2
@@ -112,20 +112,20 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-03-01T00:00:00.000Z",
+            "full_released_at": "2023-03-01T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-03-01T00:00:00.000Z",
+            "full_released_at": "2023-03-01T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
+          },
+          "rpc": {
+            "beta_released_at": "2023-03-01T00:00:00.000Z",
+            "full_released_at": "2023-03-01T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
           }
         },
         "index": 6
@@ -145,13 +145,13 @@
         },
         "supported_services": {
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -170,13 +170,13 @@
         },
         "supported_services": {
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -195,13 +195,13 @@
         },
         "supported_services": {
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -220,14 +220,14 @@
         },
         "supported_services": {
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
-            "deprecated_at": null
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
-            "deprecated_at": null
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
           }
         },
         "index": 7
@@ -252,19 +252,19 @@
       "brand_theme": "both"
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-03-21T00:00:00.000Z",
+        "full_released_at": "2023-03-21T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": "2023-03-21T00:00:00.000Z",
+        "full_released_at": "2023-03-21T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "full_released_at": null,
         "deprecated_at": null
       }
     },
@@ -295,19 +295,19 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       }
     },
@@ -328,19 +328,19 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
-            "deprecated_at": null
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2024-04-12T00:00:00.000Z",
+            "full_released_at": "2024-04-12T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2024-04-12T00:00:00.000Z",
+            "full_released_at": "2024-04-12T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-04-12T00:00:00.000Z",
+            "full_released_at": "2024-04-12T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -358,20 +358,20 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": "2024-04-12T00:00:00.000Z"
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": "2024-04-12T00:00:00.000Z"
+          },
+          "rpc": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": "2024-04-12T00:00:00.000Z"
           }
         },
         "index": 11
@@ -401,19 +401,19 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       }
     },
@@ -434,19 +434,19 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
-            "deprecated_at": null
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -470,18 +470,18 @@
       "brand_theme": "both"
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-06-10T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-06-10T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-06-10T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -503,20 +503,20 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
+            "beta_released_at": "2024-05-03T00:00:00.000Z",
+            "full_released_at": "2024-05-03T00:00:00.000Z",
+            "deprecated_at": "2024-05-03T00:00:00.000Z"
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
+            "beta_released_at": "2024-05-03T00:00:00.000Z",
+            "full_released_at": "2024-05-03T00:00:00.000Z",
+            "deprecated_at": "2024-05-03T00:00:00.000Z"
+          },
+          "rpc": {
+            "beta_released_at": "2024-05-03T00:00:00.000Z",
+            "full_released_at": "2024-05-03T00:00:00.000Z",
+            "deprecated_at": "2024-05-03T00:00:00.000Z"
           }
         },
         "index": 15
@@ -533,19 +533,19 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
-            "deprecated_at": null
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2024-05-03T00:00:00.000Z",
+            "full_released_at": "2024-05-03T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2024-05-03T00:00:00.000Z",
+            "full_released_at": "2024-05-03T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-05-03T00:00:00.000Z",
+            "full_released_at": "2024-05-03T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -563,11 +563,6 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
-          },
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
@@ -575,6 +570,11 @@
           },
           "substreams": {
             "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-08-01T00:00:000Z",
             "full_released_at": null,
             "deprecated_at": null
           }
@@ -596,13 +596,13 @@
         },
         "supported_services": {
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2024-08-01T00:00:000Z",
+            "full_released_at": null,
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2024-08-01T00:00:000Z",
+            "full_released_at": null,
             "deprecated_at": null
           }
         },
@@ -626,18 +626,18 @@
       "brand_theme": "both"
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-08-01T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -667,19 +667,19 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-01-01T00:00:00.000Z",
+        "full_released_at": "2024-01-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": "2024-01-01T00:00:00.000Z",
+        "full_released_at": "2024-01-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "full_released_at": null,
         "deprecated_at": null
       }
     },
@@ -704,19 +704,19 @@
       "brand_theme": "both"
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-03-06T00:00:00.000Z",
+        "full_released_at": "2024-03-06T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": "2024-03-06T00:00:00.000Z",
+        "full_released_at": "2024-03-06T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "full_released_at": null,
         "deprecated_at": null
       }
     },
@@ -745,19 +745,19 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "full_released_at": null,
         "deprecated_at": null
       }
     },
@@ -778,19 +778,19 @@
           "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "full_released_at": null,
             "deprecated_at": null
           }
         },
@@ -818,17 +818,17 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
@@ -859,18 +859,18 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:41:48.331Z"
+        "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -900,11 +900,6 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
@@ -912,6 +907,11 @@
       },
       "substreams": {
         "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -934,13 +934,13 @@
         },
         "supported_services": {
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-03-08T00:00:00.000Z",
+            "full_released_at": "2023-03-08T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -968,11 +968,6 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
@@ -980,6 +975,11 @@
       },
       "substreams": {
         "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1009,17 +1009,17 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
@@ -1042,17 +1042,17 @@
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
-          },
           "firehose": {
             "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           },
           "substreams": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
@@ -1082,19 +1082,19 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-03-03T00:00:00.000Z",
+        "full_released_at": "2024-03-03T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": "2024-03-03T00:00:00.000Z",
+        "full_released_at": "2024-03-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "full_released_at": null,
         "deprecated_at": null
       }
     },
@@ -1123,17 +1123,17 @@
       ]
     },
     "supported_services": {
-      "rpc": {
+      "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
-      "firehose": {
+      "substreams": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "full_released_at": null,
         "deprecated_at": null
       },
-      "substreams": {
+      "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
@@ -1156,17 +1156,17 @@
           "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
+          "firehose": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           },
-          "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "substreams": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
@@ -1186,17 +1186,17 @@
           "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
         },
         "supported_services": {
-          "rpc": {
+          "firehose": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": "2024-01-15T00:00:00.000Z"
+          },
+          "substreams": {
             "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           },
-          "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
-          "substreams": {
+          "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
@@ -1226,17 +1226,17 @@
       ]
     },
     "supported_services": {
-      "rpc": {
+      "firehose": {
+        "beta_released_at": "2024-01-01T00:00:00.000Z",
+        "full_released_at": "2024-01-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
-      "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
-        "deprecated_at": null
-      },
-      "substreams": {
+      "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
@@ -1267,18 +1267,18 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1308,18 +1308,18 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1349,18 +1349,18 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1389,17 +1389,17 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
+      "firehose": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       },
-      "firehose": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:41:48.331Z"
-      },
       "substreams": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
@@ -1416,23 +1416,24 @@
         "name": "EOS EVM",
         "alt_names": [],
         "standard": "erc20",
+        "rpc_poller": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
+          "firehose": {
+            "beta_released_at": "2024-08-01T00:00:000Z",
             "full_released_at": null,
             "deprecated_at": null
           },
-          "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "substreams": {
-            "beta_released_at": null,
+            "beta_released_at": "2024-08-01T00:00:000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-08-01T00:00:000Z",
             "full_released_at": null,
             "deprecated_at": null
           }
@@ -1453,19 +1454,19 @@
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
+          "firehose": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           },
-          "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": null,
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           }
         },
@@ -1483,17 +1484,17 @@
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
+          "firehose": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           },
-          "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
-          },
           "substreams": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
             "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
@@ -1523,19 +1524,19 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "full_released_at": null,
         "deprecated_at": null
       }
     },
@@ -1556,19 +1557,19 @@
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "full_released_at": null,
             "deprecated_at": null
           }
         },
@@ -1596,17 +1597,17 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": null,
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": "2023-12-01T00:00:00.000Z",
+        "full_released_at": "2023-12-01T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
@@ -1629,19 +1630,19 @@
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
         },
         "supported_services": {
-          "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": null
-          },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
+            "beta_released_at": "2023-12-01T00:00:00.000Z",
+            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
             "beta_released_at": null,
-            "full_released_at": "2024-07-19T15:41:48.331Z",
+            "full_released_at": null,
             "deprecated_at": null
           }
         },
@@ -1669,17 +1670,17 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
@@ -1712,22 +1713,53 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
     },
-    "testnets": [],
+    "testnets": [
+      {
+        "id": "blastsepolia",
+        "name": "Blast Network Sepolia",
+        "alt_names": [],
+        "graph_id": "blast-testnet",
+        "index": 49,
+        "standard": "erc20",
+        "rpc_poller": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "rpc": {
+            "beta_released_at": "2024-08-01T00:00:000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "firehose": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        }
+      }
+    ],
     "consensus": [],
     "evms": [],
     "metadata": {
@@ -1756,17 +1788,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1785,22 +1817,22 @@
         },
         "supported_services": {
           "rpc": {
-            "beta_released_at": null,
+            "beta_released_at": "2024-08-01T00:00:000Z",
             "full_released_at": null,
             "deprecated_at": null
           },
           "firehose": {
-            "beta_released_at": null,
+            "beta_released_at": "2024-08-01T00:00:000Z",
             "full_released_at": null,
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": null,
+            "beta_released_at": "2024-08-01T00:00:000Z",
             "full_released_at": null,
             "deprecated_at": null
           }
         },
-        "index": 50
+        "index": 51
       }
     ],
     "consensus": [],
@@ -1809,7 +1841,7 @@
       "layer": "L2",
       "website": "https://boba.network/"
     },
-    "index": 49
+    "index": 50
   },
   {
     "id": "cronos",
@@ -1832,14 +1864,14 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:41:48.331Z"
+        "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": null,
@@ -1853,7 +1885,7 @@
     "metadata": {
       "website": "https://cronos.org/"
     },
-    "index": 51
+    "index": 52
   },
   {
     "id": "fuse",
@@ -1876,17 +1908,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1898,7 +1930,7 @@
       "layer": "L1",
       "website": "https://fuse.io/"
     },
-    "index": 52
+    "index": 53
   },
   {
     "id": "linea",
@@ -1921,17 +1953,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:00Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:00Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:00Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1942,7 +1974,7 @@
     "metadata": {
       "website": "https://linea.build/"
     },
-    "index": 53
+    "index": 54
   },
   {
     "id": "litecoin",
@@ -1972,12 +2004,12 @@
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1989,7 +2021,7 @@
       "layer": "L1",
       "website": "https://litecoin.org/"
     },
-    "index": 54
+    "index": 55
   },
   {
     "id": "mode",
@@ -2012,17 +2044,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-05-14T00:00:00Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-05-14T00:00:00Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-05-14T00:00:00Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2034,7 +2066,7 @@
       "layer": "L2",
       "website": "https://www.mode.network/"
     },
-    "index": 55
+    "index": 56
   },
   {
     "id": "ronin",
@@ -2056,11 +2088,6 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
@@ -2070,12 +2097,17 @@
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
       }
     },
     "metadata": {
       "website": "https://roninchain.com/"
     },
-    "index": 56
+    "index": 57
   },
   {
     "id": "sei",
@@ -2097,11 +2129,6 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
@@ -2111,12 +2138,17 @@
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
       }
     },
     "metadata": {
       "website": "https://www.sei.io/"
     },
-    "index": 57
+    "index": 58
   },
   {
     "id": "xai",
@@ -2139,18 +2171,18 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
+        "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
-        "full_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
+        "full_released_at": null,
         "deprecated_at": null
       }
     },
@@ -2161,7 +2193,7 @@
       "layer": "L3",
       "website": "https://xai.games/"
     },
-    "index": 58
+    "index": 59
   },
   {
     "id": "zkastar",
@@ -2184,17 +2216,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2213,22 +2245,22 @@
         },
         "supported_services": {
           "rpc": {
-            "beta_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           },
           "firehose": {
-            "beta_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           }
         },
-        "index": 60
+        "index": 61
       },
       {
         "id": "zkyoto",
@@ -2243,22 +2275,22 @@
         },
         "supported_services": {
           "rpc": {
-            "beta_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           },
           "firehose": {
-            "beta_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           },
           "substreams": {
-            "beta_released_at": "2024-07-19T15:41:48.331Z",
+            "beta_released_at": null,
             "full_released_at": null,
             "deprecated_at": null
           }
         },
-        "index": 61
+        "index": 62
       }
     ],
     "consensus": [],
@@ -2267,7 +2299,7 @@
       "layer": "L2",
       "website": "https://astar.network/"
     },
-    "index": 59
+    "index": 60
   },
   {
     "id": "x-layer",
@@ -2289,11 +2321,6 @@
       ]
     },
     "supported_services": {
-      "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": null
-      },
       "firehose": {
         "beta_released_at": null,
         "full_released_at": null,
@@ -2303,12 +2330,17 @@
         "beta_released_at": null,
         "full_released_at": null,
         "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
       }
     },
     "metadata": {
       "website": "https://www.okx.com/fr/xlayer"
     },
-    "index": 62
+    "index": 63
   },
   {
     "id": "zksync",
@@ -2352,7 +2384,7 @@
         "zk"
       ]
     },
-    "index": 63
+    "index": 64
   },
   {
     "id": "zora",
@@ -2374,17 +2406,17 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-07-19T15:41:48.331Z",
+        "beta_released_at": "2024-08-01T00:00:000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2396,7 +2428,7 @@
       "layer": "L2",
       "website": "https://zora.co/"
     },
-    "index": 64
+    "index": 65
   },
   {
     "id": "ore",
@@ -2419,25 +2451,25 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:41:48.331Z"
+        "beta_released_at": "2023-03-01T00:00:00.000Z",
+        "full_released_at": "2023-03-01T00:00:00.000Z",
+        "deprecated_at": "2023-03-21T00:00:00.000Z"
       },
       "firehose": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:41:48.331Z"
+        "beta_released_at": "2023-03-01T00:00:00.000Z",
+        "full_released_at": "2023-03-01T00:00:00.000Z",
+        "deprecated_at": "2023-03-21T00:00:00.000Z"
       },
       "substreams": {
-        "beta_released_at": null,
-        "full_released_at": null,
-        "deprecated_at": "2024-07-19T15:41:48.331Z"
+        "beta_released_at": "2023-03-01T00:00:00.000Z",
+        "full_released_at": "2023-03-01T00:00:00.000Z",
+        "deprecated_at": "2023-03-21T00:00:00.000Z"
       }
     },
     "metadata": {
       "website": "https://ore.network/"
     },
-    "index": 65,
+    "index": 66,
     "testnets": [
       {
         "id": "orestage",
@@ -2452,22 +2484,22 @@
         },
         "supported_services": {
           "rpc": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-03-01T00:00:00.000Z",
+            "full_released_at": "2023-03-01T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
           },
           "firehose": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-03-01T00:00:00.000Z",
+            "full_released_at": "2023-03-01T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
           },
           "substreams": {
-            "beta_released_at": null,
-            "full_released_at": null,
-            "deprecated_at": "2024-07-19T15:41:48.331Z"
+            "beta_released_at": "2023-03-01T00:00:00.000Z",
+            "full_released_at": "2023-03-01T00:00:00.000Z",
+            "deprecated_at": "2023-03-21T00:00:00.000Z"
           }
         },
-        "index": 66
+        "index": 67
       }
     ]
   }

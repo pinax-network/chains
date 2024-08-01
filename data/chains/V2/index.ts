@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 7/19/2024, 11:41:48 AM.
+// Last generation on 8/1/2024, 5:03:23 PM.
 
 export { default as arbone } from './arbone/meta';
 export { default as arbgoerli } from './arbone/testnets/arbgoerli/meta';
@@ -10,6 +10,7 @@ export { default as avalanche } from './avalanche/meta';
 export { default as base } from './base/meta';
 export { default as bitcoin } from './bitcoin/meta';
 export { default as blast } from './blast/meta';
+export { default as blastsepolia } from './blast/testnets/blastsepolia/meta';
 export { default as boba } from './boba/meta';
 export { default as bobasepolia } from './boba/testnets/bobasepolia/meta';
 export { default as bsc } from './bsc/meta';

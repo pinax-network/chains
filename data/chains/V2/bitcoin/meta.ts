@@ -16,9 +16,21 @@ const meta: ___InternalChain = {
     brand_theme: 'both',
   },
   supported_services: {
-    rpc: 'unreleased',
-    firehose: 'released',
-    substreams: 'released',
+    firehose: {
+      beta_released_at: '2023-03-21T00:00:00.000Z',
+      full_released_at: '2023-03-21T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: '2023-03-21T00:00:00.000Z',
+      full_released_at: '2023-03-21T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://bitcoin.org/',

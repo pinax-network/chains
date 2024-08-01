@@ -17,9 +17,21 @@ const meta: ___InternalChain = {
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'unreleased',
-    firehose: 'unreleased',
-    substreams: 'unreleased',
+    firehose: {
+      beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://scroll.io/',

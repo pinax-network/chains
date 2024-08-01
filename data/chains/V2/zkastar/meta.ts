@@ -17,9 +17,21 @@ const meta: ___InternalChain = {
     variants: ['branded', 'mono'],
   },
   supported_services: {
-    rpc: 'beta',
-    firehose: 'beta',
-    substreams: 'beta',
+    rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    firehose: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   testnets: [],
   consensus: [],

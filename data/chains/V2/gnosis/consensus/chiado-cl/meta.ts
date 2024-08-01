@@ -12,8 +12,16 @@ const meta: ___InternalConsensusLayer = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   supported_services: {
-    firehose: 'released',
-    substreams: 'released',
+    firehose: {
+      beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 
