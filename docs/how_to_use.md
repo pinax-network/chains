@@ -49,7 +49,7 @@ Adding a new chain is as simple as adding a new file under the `data/chains/V2` 
 └── ...
 ```
 
-The folders should be named after the chain's official Pinax ID and should contain the `meta.ts` file describing the chain.
+The folders should be named after the chain's official Pinax ID and should contain the `meta.ts` file describing the chain. You may also like to read about [Beta Chains](./beta_chains.md).
 
 ### Updating an Existing Chain
 
@@ -77,11 +77,11 @@ This script maintains the index.ts file exporting all `meta.ts` from the `/data/
 
 #### Script: Index Config Check
 
-This script validates that every chain was placed in the `index.config.ts`, to be given a unique, prioritized index relative to other chains. If any chains are found in the `/data/chains/V2` folder but isn't configured in the `index.config.ts` file, it will throw an error and add those missing chains in the `missing` array of the file.
+This script validates that every chain was placed in the `index.config.ts`, to be given a unique, prioritized index relative to other chains. If any chains are found in the `/data/chains/V2` folder but isn't configured in the `index.config.ts` file, it will throw an error and add those missing chains in the `missing` array of the file. For more info, please read [updating_indexes.md](./updating_indexes.md).
 
 #### Script: Graph IDs Type
 
-This script fetches The Graph endpoint of supported chains and updates our type definition for valid Graph network IDs.
+This script fetches The Graph endpoint of supported chains and updates our type definition for valid Graph network IDs. For more info, please read [retrieve_graph_ids.md](./retrieve_graph_ids.md).
 
 #### Script: Pinax IDs Type
 
