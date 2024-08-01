@@ -1,12 +1,19 @@
 # How to Use the Chains Repository
 
-**Content**
+This file is the best place to learn everything there is to know about the chains repository! Feel free to use this as a quickstart guide or as a reference as you work inside the project.
+
+## Content
 
 - [Metadata Updates](#metadata-updates)
    - [Adding a new chain](#adding-a-new-chain)
    - [Updating an Existing Chain](#updating-an-existing-chain)
    - [Deprecating a Chain](#deprecating-a-chain)
 - [Scripts](#scripts)
+   - [Script: Copy Token Icons](#script-copy-token-icons)
+   - [Script: Data Index](#script-data-index)
+   - [Script: Index Config Check](#script-index-config-check)
+   - [Script: Graph IDs Type](#script-graph-ids-type)
+   - [Script: Pinax IDs Type](#script-pinax-ids-type)
 - [Types](#types)
    - [Typing & Updating Auto-Generated Types](#typing--updating-auto-generated-types)
    - [Updating the Chain Type](#updating-the-chain-type)
@@ -72,13 +79,20 @@ This script maintains the index.ts file exporting all `meta.ts` from the `/data/
 
 This script validates that every chain was placed in the `index.config.ts`, to be given a unique, prioritized index relative to other chains. If any chains are found in the `/data/chains/V2` folder but isn't configured in the `index.config.ts` file, it will throw an error and add those missing chains in the `missing` array of the file.
 
-#### Script: Graph IDs
+#### Script: Graph IDs Type
 
 This script fetches The Graph endpoint of supported chains and updates our type definition for valid Graph network IDs.
 
-#### Script: Pinax IDs
+#### Script: Pinax IDs Type
 
-This script iterates through the files in the `/data/chains/V2` and updates our type definition for valid Pinax network IDs. 
+This script iterates through the files in the `/data/chains/V2` and updates our type definition for valid Pinax network IDs.
+
+
+#### Script Automation
+
+All of those scripts are defined in the `package.json`, so you can run them manually by using NPM commands. You may find that you need to need some scripts manually, one good example being `generate:type_pinaxid` and `generate:type_graphid` while adding new chains.
+
+But in most cases, you shouldn't have to worry to much about those scripts, they're run pre-commit, so everything _**should**_ update automagically, otherwise you'll receive errors explaning the steps that needs to be taken.
 
 ### Verification Scripts
 
