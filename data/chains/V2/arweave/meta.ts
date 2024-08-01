@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   name: 'Arweave',
   alt_names: [],
   standard: 'erc20',
-  rpc_poller: false,
+  is_detailed_blocks: true,
   block_type: {
     label: 'sf.arweave.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1',

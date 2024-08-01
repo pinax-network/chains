@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   alt_names: ['LTC'],
   graph_id: null,
   standard: 'ltc20',
-  rpc_poller: false,
+  is_detailed_blocks: true,
   block_type: {
     label: 'sf.litecoin.type.v1.Block',
     url: 'https://buf.build/streamingfast/firehose-litecoin/docs/main:sf.litecoin.type.v1',

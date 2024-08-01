@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   name: 'Osmosis',
   alt_names: [],
   standard: 'cosmos',
-  rpc_poller: false,
+  is_detailed_blocks: true,
   block_type: {
     label: 'sf.cosmos.type.v1.Block',
     url: 'https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto',

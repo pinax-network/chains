@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   alt_names: [],
   graph_id: 'mode-mainnet',
   standard: 'erc20',
-  rpc_poller: false,
+  is_detailed_blocks: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',

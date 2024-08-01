@@ -5,7 +5,7 @@
     "name": "Ethereum",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -46,7 +46,7 @@
         "name": "Holesky",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -76,7 +76,7 @@
         "name": "Sepolia",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -106,7 +106,7 @@
         "name": "Goerli",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -138,7 +138,7 @@
         "name": "Ethereum Consensus Layer",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -163,7 +163,7 @@
         "name": "Holesky Consensus Layer",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -188,7 +188,7 @@
         "name": "Sepolia Consensus Layer",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -213,7 +213,7 @@
         "name": "Goerli Consensus Layer",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -242,7 +242,7 @@
       "btc"
     ],
     "standard": "brc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.bitcoin.type.v1.Block",
       "url": "https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1"
@@ -281,7 +281,7 @@
       "matic"
     ],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -322,7 +322,7 @@
         "name": "Amoy",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -352,7 +352,7 @@
         "name": "Mumbai",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -387,7 +387,7 @@
       "binance"
     ],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -428,7 +428,7 @@
         "name": "Chapel",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -460,7 +460,7 @@
     "name": "Arbitrum One",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -497,7 +497,7 @@
         "name": "Arbitrum Goerli",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": true,
+        "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -527,7 +527,7 @@
         "name": "Arbitrum Sepolia",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": true,
+        "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -557,7 +557,7 @@
         "name": "Chiado",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -589,7 +589,7 @@
         "name": "Chiado Consensus Layer",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -616,7 +616,7 @@
     "name": "Avalanche",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -653,7 +653,7 @@
     "name": "Optimism",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -694,7 +694,7 @@
     "name": "Base",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -731,7 +731,7 @@
     "name": "Near",
     "alt_names": [],
     "standard": "near",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.near.type.v1.Block",
       "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
@@ -772,7 +772,7 @@
         "name": "Near-testnet",
         "alt_names": [],
         "standard": "near",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.near.type.v1.Block",
           "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
@@ -804,7 +804,7 @@
     "name": "Cardano",
     "alt_names": [],
     "standard": "cardano",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -845,7 +845,7 @@
     "name": "Decimal",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -886,7 +886,7 @@
     "name": "Gnosis",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -927,7 +927,7 @@
         "name": "Gnosis Consensus Layer",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -954,7 +954,7 @@
     "name": "Fantom",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -995,7 +995,7 @@
     "name": "Celo",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1036,7 +1036,7 @@
         "name": "Alfajores",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1068,7 +1068,7 @@
     "name": "Arweave",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.arweave.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
@@ -1109,7 +1109,7 @@
     "name": "Cosmos Hub",
     "alt_names": [],
     "standard": "cosmos",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.cosmos.type.v1.Block",
       "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
@@ -1150,7 +1150,7 @@
         "name": "Theta",
         "alt_names": [],
         "standard": "cosmos",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.cosmos.type.v1.Block",
           "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
@@ -1180,7 +1180,7 @@
         "name": "Juno",
         "alt_names": [],
         "standard": "cosmos",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.cosmos.type.v1.Block",
           "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
@@ -1212,7 +1212,7 @@
     "name": "Osmosis",
     "alt_names": [],
     "standard": "cosmos",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.cosmos.type.v1.Block",
       "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
@@ -1253,7 +1253,7 @@
     "name": "Moonbeam",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1294,7 +1294,7 @@
     "name": "Scroll",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1335,7 +1335,7 @@
     "name": "Starknet",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1376,7 +1376,7 @@
     "name": "EOS",
     "alt_names": [],
     "standard": "antelope",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.antelope.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -1416,7 +1416,7 @@
         "name": "EOS EVM",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1448,7 +1448,7 @@
         "name": "Jungle4",
         "alt_names": [],
         "standard": "antelope",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.antelope.type.v1.Block",
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -1478,7 +1478,7 @@
         "name": "Kylin",
         "alt_names": [],
         "standard": "antelope",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.antelope.type.v1.Block",
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -1510,7 +1510,7 @@
     "name": "WAX",
     "alt_names": [],
     "standard": "antelope",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.antelope.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -1551,7 +1551,7 @@
         "name": "WAX Test",
         "alt_names": [],
         "standard": "antelope",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.antelope.type.v1.Block",
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -1583,7 +1583,7 @@
     "name": "Telos",
     "alt_names": [],
     "standard": "antelope",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.antelope.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -1624,7 +1624,7 @@
         "name": "Telos Test",
         "alt_names": [],
         "standard": "antelope",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.antelope.type.v1.Block",
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -1656,7 +1656,7 @@
     "name": "Kava",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1698,7 +1698,7 @@
     "graph_id": "blast-mainnet",
     "index": 48,
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1736,7 +1736,7 @@
         "graph_id": "blast-testnet",
         "index": 49,
         "standard": "erc20",
-        "rpc_poller": true,
+        "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1773,7 +1773,7 @@
     "alt_names": [],
     "graph_id": "boba",
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1810,7 +1810,7 @@
         "name": "Boba Sepolia",
         "alt_names": [],
         "standard": "erc20",
-        "rpc_poller": true,
+        "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1849,7 +1849,7 @@
     "alt_names": [],
     "graph_id": null,
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1893,7 +1893,7 @@
     "alt_names": [],
     "graph_id": "fuse",
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1938,7 +1938,7 @@
     "alt_names": [],
     "graph_id": "linea",
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1984,7 +1984,7 @@
     ],
     "graph_id": null,
     "standard": "ltc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.litecoin.type.v1.Block",
       "url": "https://buf.build/streamingfast/firehose-litecoin/docs/main:sf.litecoin.type.v1"
@@ -2029,7 +2029,7 @@
     "alt_names": [],
     "graph_id": "mode-mainnet",
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -2074,7 +2074,7 @@
     "name": "Ronin",
     "alt_names": [],
     "standard": "rrc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -2115,7 +2115,7 @@
     "name": "Sei",
     "alt_names": [],
     "standard": "sei",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -2156,7 +2156,7 @@
     "alt_names": [],
     "graph_id": null,
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -2201,7 +2201,7 @@
     "alt_names": [],
     "graph_id": null,
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.zkevm.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1"
@@ -2238,7 +2238,7 @@
         "alt_names": [],
         "graph_id": null,
         "standard": "erc20",
-        "rpc_poller": true,
+        "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.zkevm.type.v1.Block",
           "url": "https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1"
@@ -2268,7 +2268,7 @@
         "alt_names": [],
         "graph_id": "zkyoto-testnet",
         "standard": "erc20",
-        "rpc_poller": true,
+        "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.zkevm.type.v1.Block",
           "url": "https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1"
@@ -2307,7 +2307,7 @@
     "name": "X-Layer",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -2348,7 +2348,7 @@
     "name": "zkSync Era",
     "alt_names": [],
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -2392,7 +2392,7 @@
     "alt_names": [],
     "graph_id": null,
     "standard": "erc20",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -2436,7 +2436,7 @@
     "name": "Ore",
     "alt_names": [],
     "standard": "antelope",
-    "rpc_poller": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.antelope.type.v1.Block",
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
@@ -2477,7 +2477,7 @@
         "name": "Ore Stage",
         "alt_names": [],
         "standard": "antelope",
-        "rpc_poller": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.antelope.type.v1.Block",
           "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"

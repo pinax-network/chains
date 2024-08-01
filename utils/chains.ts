@@ -182,7 +182,7 @@ const findChainById = (
  * @returns boolean
  */
 const hasChainFullBlockSupport = (chain: Chain | Testnet | ConsensusLayer) => {
-  return !chain.rpc_poller;
+  return chain.is_detailed_blocks;
 };
 
 export {

@@ -7,7 +7,7 @@ const meta: ___InternalTestnet = {
   graph_id: 'blast-testnet',
   index: 0,
   standard: 'erc20',
-  rpc_poller: true,
+  is_detailed_blocks: false,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',

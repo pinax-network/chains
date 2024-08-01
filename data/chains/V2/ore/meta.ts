@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   name: 'Ore',
   alt_names: [],
   standard: 'antelope',
-  rpc_poller: false,
+  is_detailed_blocks: true,
   block_type: {
     label: 'sf.antelope.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',

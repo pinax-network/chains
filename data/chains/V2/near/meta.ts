@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   name: 'Near',
   alt_names: [],
   standard: 'near',
-  rpc_poller: false,
+  is_detailed_blocks: true,
   block_type: {
     label: 'sf.near.type.v1.Block',
     url: 'https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1',

@@ -6,7 +6,7 @@ const meta: ___InternalTestnet = {
   alt_names: [],
   graph_id: null,
   standard: 'erc20',
-  rpc_poller: true,
+  is_detailed_blocks: false,
   block_type: {
     label: 'sf.zkevm.type.v1.Block',
     url: 'https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1',

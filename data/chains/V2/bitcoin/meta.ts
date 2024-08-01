@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   name: 'Bitcoin',
   alt_names: ['btc'],
   standard: 'brc20',
-  rpc_poller: true,
+  is_detailed_blocks: false,
   block_type: {
     label: 'sf.bitcoin.type.v1.Block',
     url: 'https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1',

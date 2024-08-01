@@ -31,7 +31,7 @@ export type ChainBase = {
 
   // Whether or not the chain uses RPC poller
   // Chains with RPC poller only offer partial blocks
-  rpc_poller: boolean;
+  is_detailed_blocks: boolean;
 
   // Block Type
   block_type: BlockType;
