@@ -6,7 +6,7 @@ In the case that the chain is not available on The Graph, we set its `graph_id` 
 
 ## Steps to retrieve The Graph Chain IDs
 
-**OPTION A: Run `npm run fetch-graph-ids.js` in the project**
+**OPTION A: Run `npm run fetch-graph-ids` in the project**
 
 1. Clone the repository
 2. At the root of the project, run `npm run fetch-graph-ids`
