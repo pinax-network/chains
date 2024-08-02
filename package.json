@@ -8,8 +8,8 @@
     "ssot"
   ],
   "author": "Dominic <dominic@pinax.network>",
-  "main": "data.json",
-  "types": "data.d.ts",
+  "main": "data/chains/V2/data.json",
+  "types": "/types/index.ts",
   "files": [
     "index.ts",
     "/utils/**/**.ts",

@@ -29,8 +29,11 @@ export type ChainBase = {
   // Chain Standard (ie. ERC20)
   standard: Standard | null;
 
-  // Whether or not the chain uses RPC poller
-  // Chains with RPC poller only offer partial blocks
+  // Whether or not the chain supports detailed blocks.
+  // Not all chains are equal, some uses RPC poller
+  // which only offer partial blocks.
+  // See whether or not RPC poller is ticked on the
+  // Blockchain Service Matrix (https://www.notion.so/pinaxnetwork/Blockchain-Service-Matrix).
   is_detailed_blocks: boolean;
 
   // Block Type
