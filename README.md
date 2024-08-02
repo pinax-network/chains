@@ -26,6 +26,8 @@ With the 2.0 release, we’ve made significant improvements to enhance developer
 
 ## Installation
 
+You first need to install [bun](https://bun.sh/).
+
 ### From npm
 
 To install the package, run:

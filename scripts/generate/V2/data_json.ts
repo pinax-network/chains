@@ -4,12 +4,7 @@ import * as chainData from '../../../data/chains/V2/index';
 import { toCamelCase } from '../../../utils/case';
 import indexConf from '../../../data/index.config';
 import { IndexConfig } from './index_config_check';
-import {
-  Chain,
-  ServiceID,
-  ServiceStatusDates,
-  SupportedServices,
-} from '../../../types';
+import { Chain, SupportedServices } from '../../../types';
 
 interface SubnetData {
   id: string;
