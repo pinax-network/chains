@@ -21,12 +21,6 @@ if (indexConf.missing.length > 0) {
   process.exit(1);
 }
 
-// 1. Load the chains-lock file
-// 2. Iterate through chain data (from index)
-// 3. For each chain, find their lock version using findChainById
-// 4. Check lock version dates and update the chain data
-//
-
 const data: Chain[] = [];
 
 let indexCounter = 0;
