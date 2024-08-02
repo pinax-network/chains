@@ -1,0 +1,31 @@
+{
+  "id": "kylin",
+  "index": 4,
+  "graph_id": null,
+  "name": "Kylin",
+  "alt_names": [],
+  "mainnet": "eos",
+  "standard": "antelope",
+  "is_detailed_blocks": true,
+  "block_type": {
+    "label": "sf.antelope.type.v1.Block",
+    "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
+  },
+  "img": "https://pinax.network/assets/chains/kylin.svg",
+  "is_img_dt_invert": false,
+  "is_testnet": true,
+  "supported_services": {
+    "firehose": {
+      "released_at": "2023-12-01T00:00:00.000Z",
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": "2023-12-01T00:00:00.000Z",
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}

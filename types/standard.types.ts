@@ -4,4 +4,8 @@ export type Standard =
   | 'brc20'
   | 'cosmos'
   | 'erc20'
-  | 'near';
+  | 'ltc20'
+  | 'near'
+  | 'rrc20'
+  | 'sei'
+  | 'cardano';

@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "1.1.25",
+  "version": "2.0.6",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -8,27 +8,45 @@
     "ssot"
   ],
   "author": "Dominic <dominic@pinax.network>",
-  "main": "data.json",
-  "types": "data.d.ts",
+  "main": "data/chains/V2/data.json",
+  "types": "/types/index.ts",
   "files": [
-    "data.json",
-    "data.d.ts",
-    "types/**.ts"
+    "index.ts",
+    "/utils/**/**.ts",
+    "/types/**.ts",
+    "/data/services.ts",
+    "/data/chains/V1/chains.json",
+    "/data/chains/V2/chains.json"
   ],
   "scripts": {
-    "fetch-graph-ids": "node ./scripts/fetchGraphIDs.js",
+    "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",
     "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
-    "generate": "npm run generate:data",
-    "generate:data": "node ./scripts/generate/data_json.js",
-    "generate:types": "npm run generate:type_graphid && npm run generate:type_pinaxid && npm run format",
-    "generate:type_graphid": "node ./scripts/generate/type_graphid.js",
-    "generate:type_pinaxid": "node ./scripts/generate/type_pinaxid.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "bun run generate:data && bun run generate:types && bun run generate:copy_token_icons",
+    "generate:data": "bun run generate:data_index && bun run generate:index_config && bun run generate:data_json",
+    "generate:index_config": "bun ./scripts/generate/V2/index_config_check.ts",
+    "generate:data_index": "bun ./scripts/generate/V2/data_index.ts",
+    "generate:data_json": "bun ./scripts/generate/V2/data_json.ts",
+    "generate:types": "bun run generate:type_graphid && bun run generate:type_pinaxid && bun run format",
+    "generate:type_graphid": "bun ./scripts/generate/V2/type_graphid.ts",
+    "generate:type_pinaxid": "bun ./scripts/generate/V2/type_pinaxid.ts",
+    "generate:copy_token_icons": "bun ./scripts/generate/V2/copy_token_icons.ts",
+    "verify:match_legacy_check": "bun ./scripts/verify/V2/match_legacy_data.ts",
+    "generate_v1": "npm run generate_v1:data",
+    "generate_v1:data": "node ./scripts/generate/V1/data_json.js",
+    "generate_v1:types": "npm run generate_v1:type_graphid && npm run generate_v1:type_pinaxid && npm run format",
+    "generate_v1:type_graphid": "node ./scripts/generate/V1/type_graphid.js",
+    "generate_v1:type_pinaxid": "node ./scripts/generate/V1/type_pinaxid.js",
+    "test": "bun test",
     "prepare": "husky"
   },
   "devDependencies": {
+    "@token-icons/core": "^2.8.2",
+    "@types/bun": "latest",
+    "@types/jest": "^29.5.12",
     "husky": "^9.0.11",
-    "prettier": "^3.2.5"
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-morph": "^22.0.0"
   },
   "repository": {
     "type": "git",
@@ -37,5 +55,8 @@
   "homepage": "https://github.com/pinax-network/chains#readme",
   "bugs": {
     "url": "https://github.com/pinax-network/chains/issues"
+  },
+  "peerDependencies": {
+    "typescript": "^5.4.4"
   }
 }

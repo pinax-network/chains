@@ -1,0 +1,31 @@
+{
+  "id": "cosmoshub",
+  "index": 4,
+  "graph_id": "cosmoshub-4",
+  "name": "Cosmos Hub",
+  "alt_names": [],
+  "mainnet": "cosmoshub",
+  "standard": "cosmos",
+  "is_detailed_blocks": true,
+  "block_type": {
+    "label": "sf.cosmos.type.v1.Block",
+    "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
+  },
+  "img": "https://pinax.network/assets/chains/cosmoshub.svg",
+  "is_img_dt_invert": false,
+  "is_testnet": false,
+  "supported_services": {
+    "firehose": {
+      "released_at": "2023-12-01T00:00:00.000Z",
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}

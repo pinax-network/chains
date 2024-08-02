@@ -1,2 +1,3 @@
-npm run generate
-git add data.json
+bun run generate
+npm run generate_v1
+git add .

@@ -1,0 +1,32 @@
+{
+  "id": "celo",
+  "index": 2,
+  "graph_id": "celo",
+  "name": "Celo",
+  "alt_names": [],
+  "mainnet": "celo",
+  "standard": "erc20",
+  "is_detailed_blocks": true,
+  "block_type": {
+    "label": "sf.ethereum.type.v2.Block",
+    "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+  },
+  "img": "https://pinax.network/assets/chains/celo.svg",
+  "img_invert": "https://pinax.network/assets/chains/celo_dark.svg",
+  "is_img_dt_invert": true,
+  "is_testnet": false,
+  "supported_services": {
+    "firehose": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "substreams": {
+      "released_at": null,
+      "deprecated_at": null
+    },
+    "rpc": {
+      "released_at": null,
+      "deprecated_at": null
+    }
+  }
+}
