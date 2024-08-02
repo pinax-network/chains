@@ -1,33 +1,34 @@
 # Pinax Chains
 
-This is the single-source-of-truth for the metadata of chains supported by Pinax **_products_** (we have a separate, private list for internal ops). To make it more accessible, we've published it as a [npm package](#install_from_npm) and created a [public endpoint to fetch chains metadata](#public_endpoint).
+Welcome to the Pinax Chains repository. This is the definitive source for the metadata of chains supported by Pinax **_products_**. Note that we maintain a separate, private list for internal operations.
 
-You can have a look at the [Chain Type](/types/chain.types.ts) and at our [list of supported, to-be-supported, or once-supported chains](/types/pinax.types.ts). 
+To enhance accessibility, we offer the metadata as an [npm package](#install_from_npm) and provide a [public API endpoint](#public_endpoint) for fetching the data.
 
-> **Note**: Some chains may be listed but won't have any service supported or may have been deprecated, see each chain's metadata to ensure the chain is truly supported.
+You can view details about the [Chain Type](/types/chain.types.ts) and explore our [list of supported, to-be-supported, or deprecated chains](/types/pinax.types.ts).
+
+> **Note**: Some chains may be listed without supported services or may have been deprecated. Always check the chain's metadata to confirm its current support status.
 
 ## What's New
 
-With the 2.0 release, we've done massive changes to improve QoL for developers and maintainers. The most important changes are;
+With the 2.0 release, we’ve made significant improvements to enhance developer and maintainer experience. Key updates include:
 
-- ✅ Added suppoert for EVM chains
-- ✅ Reintroduced Typescript support
-- ✅ Easier to manage chain indexes (priority order)
-- ✅ Bundled the chains utils between multiple projects
-- ✅ Bundled the service configs between multiple projects
-- ✅ Bundled chain icons and automated check for missing icons
-- ✅ Added script to automatically check changes from the Notion page (CSV export)
-- ✅ Easier to understand data model that better reflects relationships between chains, services, and networks
-- ✅ Added beta chains
+- ✅ Support for EVM chains
+- ✅ Reintroduced TypeScript support
+- ✅ Improved management of chain indexes (priority order)
+- ✅ Consolidated chain utilities and service configurations across projects
+- ✅ Automated checks for missing chain icons
+- ✅ Simplified data model reflecting better relationships between chains, services, and networks
+- ✅ Inclusion of beta chains
 - ✅ Support for `unreleased` and `beta` services
-- ✅ No more need to maintain a bunch of flags that can be extrapolated from data
-- ✅ No more duplicated information in mainnets and subnets
-- ✅ Added chains website to metadata
-- And many more...
+- ✅ Eliminated redundant flags and information
+- ✅ Integrated chains website into metadata
+- And more...
 
 ## Installation
 
 ### From npm
+
+To install the package, run:
 
 ```bash
 npm install @pinax/chains
@@ -35,7 +36,7 @@ npm install @pinax/chains
 
 ### Public Endpoint
 
-You can fetch the publicly available chains metadata from the following endpoint:
+Access the chains metadata via the public API endpoint:
 
 ```bash
 curl https://pinax.network/api/chains
@@ -43,4 +44,4 @@ curl https://pinax.network/api/chains
 
 ## Contributing
 
-If you want to contribute to the metadata of chains, please open a PR with the changes you want to make. We'll review it and merge it if it's correct. Make sure to read any relevant [documentation](/docs) before contributing.
+If you wish to contribute to the chain metadata, please open a pull request (PR) with your proposed changes. We will review and merge it if accurate. Be sure to consult the [documentation](/docs) before contributing.
