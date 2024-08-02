@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/2/2024, 11:59:03 AM.
+// Last generation on 8/2/2024, 12:13:17 PM.
 
 export { default as arbone } from './arbone/meta';
 export { default as arbgoerli } from './arbone/testnets/arbgoerli/meta';

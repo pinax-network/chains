@@ -44,6 +44,10 @@ Access the chains metadata via the public API endpoint:
 curl https://pinax.network/api/chains
 ```
 
+### How to use
+
+Please see [How to use](/docs/how_to_use.md) documentation for more information.
+
 ## Contributing
 
 If you wish to contribute to the chain metadata, please open a pull request (PR) with your proposed changes. We will review and merge it if accurate. Be sure to consult the [documentation](/docs) before contributing.
