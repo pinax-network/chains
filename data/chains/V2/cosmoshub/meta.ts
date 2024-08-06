@@ -18,8 +18,8 @@ const meta: ___InternalChain = {
   },
   supported_services: {
     firehose: {
-      beta_released_at: null,
-      full_released_at: null,
+      beta_released_at: '2023-12-01T00:00:00.000Z',
+      full_released_at: '2023-12-01T00:00:00.000Z',
       deprecated_at: null,
     },
     substreams: {

@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/2/2024, 12:13:18 PM.
+// Last generation on 8/6/2024, 9:54:08 AM.
 export type PinaxID =
   | 'arbone'
   | 'arbgoerli'

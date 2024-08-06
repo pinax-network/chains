@@ -19,17 +19,17 @@ const meta: ___InternalChain = {
   supported_services: {
     rpc: {
       beta_released_at: '2024-05-14T00:00:00Z',
-      full_released_at: null,
+      full_released_at: '2024-05-14T00:00:00Z',
       deprecated_at: null,
     },
     firehose: {
       beta_released_at: '2024-05-14T00:00:00Z',
-      full_released_at: null,
+      full_released_at: '2024-05-14T00:00:00Z',
       deprecated_at: null,
     },
     substreams: {
       beta_released_at: '2024-05-14T00:00:00Z',
-      full_released_at: null,
+      full_released_at: '2024-05-14T00:00:00Z',
       deprecated_at: null,
     },
   },

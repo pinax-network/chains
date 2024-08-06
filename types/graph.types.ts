@@ -1,7 +1,8 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/2/2024, 12:13:18 PM.
+// Last generation on 8/6/2024, 9:54:08 AM.
 export type GraphID =
+  | 'arbitrum-nova'
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
   | 'arweave-mainnet'
@@ -45,6 +46,8 @@ export type GraphID =
   | 'moonriver'
   | 'near-mainnet'
   | 'near-testnet'
+  | 'neox'
+  | 'neox-testnet'
   | 'optimism'
   | 'optimism-sepolia'
   | 'osmo-test-4'
