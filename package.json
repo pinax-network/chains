@@ -7,17 +7,20 @@
     "metadata",
     "ssot"
   ],
+  "type": "module",
   "author": "Dominic <dominic@pinax.network>",
   "main": "data/chains/V2/data.json",
   "types": "/types/index.ts",
   "files": [
-    "index.ts",
-    "/data/services.ts",
-    "/data/chains/V2/**/**.svg",
-    "/data/chains/V1/chains.json",
-    "/data/chains/V2/chains.json",
     "/build"
   ],
+  "exports": {
+    ".": {
+      "import": "./build/index.js",
+      "types": "./build/index.d.ts",
+      "default": "./build/index.js"
+    }
+  },
   "scripts": {
     "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",
     "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
@@ -37,7 +40,8 @@
     "generate_v1:type_graphid": "node ./scripts/generate/V1/type_graphid.js",
     "generate_v1:type_pinaxid": "node ./scripts/generate/V1/type_pinaxid.js",
     "test": "bun test",
-    "build": "tsc",
+    "build": "tsc && bun build ./index.ts --outdir=build",
+    "prepublishOnly": "npm run build",
     "prepare": "husky"
   },
   "devDependencies": {

@@ -1,6 +1,12 @@
 import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: ___InternalChain = {
+import branded from "./avalanche.branded.svg"
+import dark from "./avalanche.dark.svg"
+import light from "./avalanche.light.svg"
+
+export { branded, dark, light };
+
+export const meta: ___InternalChain = {
   id: 'avalanche',
   graph_id: 'avalanche',
   name: 'Avalanche',
@@ -36,5 +42,3 @@ const meta: ___InternalChain = {
     website: 'https://www.avax.network/',
   },
 };
-
-export default meta;

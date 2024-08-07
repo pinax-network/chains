@@ -1,12 +1,12 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/7/2024, 3:09:27 PM.
+// Last generation on 8/7/2024, 2:24:44 PM.
 
-export { default as arbone } from './arbone/meta';
+export * as arbone from './arbone/meta';
 export { default as arbgoerli } from './arbone/testnets/arbgoerli/meta';
 export { default as arbsepolia } from './arbone/testnets/arbsepolia/meta';
-export { default as arweave } from './arweave/meta';
-export { default as avalanche } from './avalanche/meta';
+export * as arweave from './arweave/meta';
+export * as avalanche from './avalanche/meta';
 export { default as base } from './base/meta';
 export { default as bitcoin } from './bitcoin/meta';
 export { default as blast } from './blast/meta';

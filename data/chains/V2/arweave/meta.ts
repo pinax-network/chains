@@ -1,6 +1,12 @@
 import { ___InternalChain } from '../../../../types/chain.types';
 
-const meta: ___InternalChain = {
+import branded from "./arweave.branded.svg"
+import dark from "./arweave.dark.svg"
+import light from "./arweave.light.svg"
+
+export { branded, dark, light };
+
+export const meta: ___InternalChain = {
   id: 'arweave',
   graph_id: 'arweave-mainnet',
   name: 'Arweave',
@@ -37,5 +43,3 @@ const meta: ___InternalChain = {
     website: 'https://arweave.org/',
   },
 };
-
-export default meta;
