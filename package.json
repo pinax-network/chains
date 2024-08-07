@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -11,7 +11,12 @@
   "main": "data/chains/V2/data.json",
   "types": "/types/index.ts",
   "files": [
-    "dist"
+    "index.ts",
+    "/data/services.ts",
+    "/data/chains/V2/**/**.svg",
+    "/data/chains/V1/chains.json",
+    "/data/chains/V2/chains.json",
+    "/build"
   ],
   "scripts": {
     "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",
@@ -31,8 +36,8 @@
     "generate_v1:types": "npm run generate_v1:type_graphid && npm run generate_v1:type_pinaxid && npm run format",
     "generate_v1:type_graphid": "node ./scripts/generate/V1/type_graphid.js",
     "generate_v1:type_pinaxid": "node ./scripts/generate/V1/type_pinaxid.js",
-    "build": "tsc",
     "test": "bun test",
+    "build": "tsc",
     "prepare": "husky"
   },
   "devDependencies": {
