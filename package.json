@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -33,12 +33,6 @@
     "generate:type_graphid": "bun ./scripts/generate/V2/type_graphid.ts",
     "generate:type_pinaxid": "bun ./scripts/generate/V2/type_pinaxid.ts",
     "generate:copy_token_icons": "bun ./scripts/generate/V2/copy_token_icons.ts",
-    "verify:match_legacy_check": "bun ./scripts/verify/V2/match_legacy_data.ts",
-    "generate_v1": "npm run generate_v1:data",
-    "generate_v1:data": "node ./scripts/generate/V1/data_json.js",
-    "generate_v1:types": "npm run generate_v1:type_graphid && npm run generate_v1:type_pinaxid && npm run format",
-    "generate_v1:type_graphid": "node ./scripts/generate/V1/type_graphid.js",
-    "generate_v1:type_pinaxid": "node ./scripts/generate/V1/type_pinaxid.js",
     "test": "bun test",
     "build": "tsc && bun build ./index.ts --outdir=build",
     "prepublishOnly": "npm run build",
