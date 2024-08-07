@@ -1,6 +1,3 @@
-// This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
-// Do not modify manually as it will be overwritten.
-// Last generation on 8/7/2024, 3:00:03 PM.
 export type PinaxID =
   | 'arbone'
   | 'arbgoerli'
@@ -70,3 +67,4 @@ export type PinaxID =
   | 'zkyoto'
   | 'zksync'
   | 'zora';
+//# sourceMappingURL=pinax.types.d.ts.map

@@ -1,6 +1,3 @@
-// This file is auto-generated on pre-commit to avoid maintaining it.
-// Do not modify manually as it will be overwritten.
-// Last generation on 8/7/2024, 3:00:03 PM.
 export type GraphID =
   | 'arbitrum-nova'
   | 'arbitrum-one'
@@ -70,3 +67,4 @@ export type GraphID =
   | 'zksync-era-sepolia'
   | 'zksync-era-testnet'
   | 'zkyoto-testnet';
+//# sourceMappingURL=graph.types.d.ts.map
