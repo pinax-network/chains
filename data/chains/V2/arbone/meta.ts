@@ -1,12 +1,12 @@
 import { ___InternalChain } from '../../../../types/chain.types';
 
-import branded from "./arbone.branded.svg"
-import dark from "./arbone.dark.svg"
-import light from "./arbone.light.svg"
+// import branded from "./arbone.branded.svg"
+// import dark from "./arbone.dark.svg"
+// import light from "./arbone.light.svg"
 
-export { branded, dark, light };
+// export { branded, dark, light };
 
-export const meta: ___InternalChain = {
+const meta: ___InternalChain = {
   id: 'arbone',
   graph_id: 'arbitrum-one',
   name: 'Arbitrum One',
@@ -42,3 +42,5 @@ export const meta: ___InternalChain = {
     website: 'https://arbitrum.io/',
   },
 };
+
+export default meta;
