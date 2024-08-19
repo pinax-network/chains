@@ -1,7 +1,7 @@
-import * as chains from './data/chains/V2/index.js';
-import * as services from './data/services.js';
-import * as types from './types/index.js';
-import * as utils from './utils/index.js';
+import * as chains from './data/chains/V2';
+import * as services from './data/services';
+import * as types from './types';
+import * as utils from './utils';
 
 export default { chains, services, types, utils };
 export { chains, services, types, utils };

@@ -1,26 +1,23 @@
 {
   "name": "@pinax/chains",
-  "version": "2.0.12",
+  "version": "2.0.13",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
     "metadata",
     "ssot"
   ],
-  "type": "module",
   "author": "Dominic <dominic@pinax.network>",
   "main": "data/chains/V2/data.json",
   "types": "/types/index.ts",
   "files": [
+    "index.ts",
+    "/data/services.ts",
+    "/data/chains/V2/**/**.svg",
+    "/data/chains/V1/chains.json",
+    "/data/chains/V2/chains.json",
     "/build"
   ],
-  "exports": {
-    ".": {
-      "import": "./build/index.js",
-      "types": "./build/index.d.ts",
-      "default": "./build/index.js"
-    }
-  },
   "scripts": {
     "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",
     "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
@@ -34,7 +31,7 @@
     "generate:type_pinaxid": "bun ./scripts/generate/V2/type_pinaxid.ts",
     "generate:copy_token_icons": "bun ./scripts/generate/V2/copy_token_icons.ts",
     "test": "bun test",
-    "build": "tsc && bun build ./index.ts --outdir=build",
+    "build": "tsc",
     "prepublishOnly": "npm run build",
     "prepare": "husky"
   },

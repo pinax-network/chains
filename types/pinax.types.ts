@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/19/2024, 11:28:52 PM.
+// Last generation on 8/19/2024, 11:41:24 PM.
 export type PinaxID =
   | 'celo'
   | 'alfajores'
