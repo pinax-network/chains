@@ -106,9 +106,12 @@ const isChainSupported = (chain: Chain | Testnet | ConsensusLayer) => {
  */
 const isChainBeta = (chain: Chain | Testnet | ConsensusLayer) => {
   return (
-    isServiceBeta(chain, 'firehose') ||
-    isServiceBeta(chain, 'substreams') ||
-    isServiceBeta(chain, 'rpc')
+    (isServiceBeta(chain, "firehose") ||
+    isServiceBeta(chain, "substreams") ||
+    isServiceBeta(chain, "rpc")) && 
+    !isServiceSupported(chain, "firehose") &&
+    !isServiceSupported(chain, "substreams") &&
+    !isServiceSupported(chain, "rpc")
   );
 };
 
