@@ -19,7 +19,7 @@ import {
  */
 const isServiceSupported = (
   chain: Chain | Testnet | ConsensusLayer,
-  service: ConsensusLayerServiceID | ServiceID
+  service: ConsensusLayerServiceID | ServiceID,
 ): boolean => {
   // Check if supported_services is defined
   if (!chain.supported_services) {
@@ -27,14 +27,19 @@ const isServiceSupported = (
   }
 
   // @ts-ignore
-  const serviceStatusDates = chain.supported_services[service] as ServiceStatusDates | undefined;
+  const serviceStatusDates = chain.supported_services[service] as
+    | ServiceStatusDates
+    | undefined;
 
   // Check if serviceStatusDates is defined
   if (!serviceStatusDates) {
     return false;
   }
 
-  return serviceStatusDates.full_released_at !== null && serviceStatusDates.deprecated_at === null;
+  return (
+    serviceStatusDates.full_released_at !== null &&
+    serviceStatusDates.deprecated_at === null
+  );
 };
 
 /**
@@ -45,9 +50,14 @@ const isServiceSupported = (
  *
  * @returns boolean
  */
-const isServiceBeta = (chain: Chain | Testnet | ConsensusLayer, service: ConsensusLayerServiceID | ServiceID) => {
+const isServiceBeta = (
+  chain: Chain | Testnet | ConsensusLayer,
+  service: ConsensusLayerServiceID | ServiceID,
+) => {
   // @ts-ignore
-  const serviceStatusDates = chain.supported_services[service] as ServiceStatusDates | undefined;
+  const serviceStatusDates = chain.supported_services[service] as
+    | ServiceStatusDates
+    | undefined;
   return (
     serviceStatusDates &&
     serviceStatusDates.beta_released_at !== null &&
@@ -64,12 +74,18 @@ const isServiceBeta = (chain: Chain | Testnet | ConsensusLayer, service: Consens
  *
  * @returns boolean
  */
-const isServiceDeprecated = (chain: Chain | Testnet | ConsensusLayer, service: ConsensusLayerServiceID | ServiceID) => {
+const isServiceDeprecated = (
+  chain: Chain | Testnet | ConsensusLayer,
+  service: ConsensusLayerServiceID | ServiceID,
+) => {
   // @ts-ignore
-  const serviceStatusDates = chain.supported_services[service] as ServiceStatusDates | undefined;
+  const serviceStatusDates = chain.supported_services[service] as
+    | ServiceStatusDates
+    | undefined;
   return (
     serviceStatusDates &&
-    (serviceStatusDates.beta_released_at !== null || serviceStatusDates.full_released_at !== null) &&
+    (serviceStatusDates.beta_released_at !== null ||
+      serviceStatusDates.full_released_at !== null) &&
     serviceStatusDates.deprecated_at !== null
   );
 };
@@ -83,7 +99,9 @@ const isServiceDeprecated = (chain: Chain | Testnet | ConsensusLayer, service: C
  */
 const isChainSupported = (chain: Chain | Testnet | ConsensusLayer) => {
   return (
-    isServiceSupported(chain, 'firehose') || isServiceSupported(chain, 'substreams') || isServiceSupported(chain, 'rpc')
+    isServiceSupported(chain, 'firehose') ||
+    isServiceSupported(chain, 'substreams') ||
+    isServiceSupported(chain, 'rpc')
   );
 };
 
@@ -96,7 +114,9 @@ const isChainSupported = (chain: Chain | Testnet | ConsensusLayer) => {
  */
 const isChainBeta = (chain: Chain | Testnet | ConsensusLayer) => {
   return (
-    (isServiceBeta(chain, 'firehose') || isServiceBeta(chain, 'substreams') || isServiceBeta(chain, 'rpc')) &&
+    (isServiceBeta(chain, 'firehose') ||
+      isServiceBeta(chain, 'substreams') ||
+      isServiceBeta(chain, 'rpc')) &&
     !isServiceSupported(chain, 'firehose') &&
     !isServiceSupported(chain, 'substreams') &&
     !isServiceSupported(chain, 'rpc')
@@ -127,7 +147,10 @@ const isChainDeprecated = (chain: Chain | Testnet | ConsensusLayer) => {
  *
  * @returns Chain, Testnet or ConsensusLayer
  */
-const findChainById = (db: Array<Chain>, id: string): Chain | Testnet | ConsensusLayer | EVM | undefined => {
+const findChainById = (
+  db: Array<Chain>,
+  id: string,
+): Chain | Testnet | ConsensusLayer | EVM | undefined => {
   for (const chain of db) {
     if (chain.id === id) {
       return chain;
@@ -183,7 +206,9 @@ const findSubnetMainnet = (db: Array<Chain>, id: string) => {
  *
  * @returns boolean
  */
-const isChainConsensusLayer = (chain: Chain | Testnet | ConsensusLayer): boolean => {
+const isChainConsensusLayer = (
+  chain: Chain | Testnet | ConsensusLayer,
+): boolean => {
   return chain.id.slice(-3).includes('-cl');
 };
 
@@ -194,7 +219,10 @@ const isChainConsensusLayer = (chain: Chain | Testnet | ConsensusLayer): boolean
  *
  * @returns boolean
  */
-const isChainEVM = (db: Array<Chain>, chain: Chain | Testnet | ConsensusLayer): boolean => {
+const isChainEVM = (
+  db: Array<Chain>,
+  chain: Chain | Testnet | ConsensusLayer,
+): boolean => {
   let isEVM = false;
   const mainnet = findSubnetMainnet(db, chain.id);
   if (mainnet) {
@@ -214,7 +242,10 @@ const isChainEVM = (db: Array<Chain>, chain: Chain | Testnet | ConsensusLayer): 
  *
  * @returns boolean
  */
-const isChainTestnet = (db: Array<Chain>, chain: Chain | Testnet | ConsensusLayer): boolean => {
+const isChainTestnet = (
+  db: Array<Chain>,
+  chain: Chain | Testnet | ConsensusLayer,
+): boolean => {
   let isTestnet = false;
   const mainnet = findSubnetMainnet(db, chain.id);
   if (mainnet) {
@@ -245,7 +276,9 @@ const hasChainFullBlockSupport = (chain: Chain | Testnet | ConsensusLayer) => {
  * @param {Array<Chain | Testnet | ConsensusLayer | EVM>} chains - The array of chains to check for support.
  * @returns {number} The number of supported chains.
  */
-const getNumberOfSupportedChains = (chains: Array<Chain | Testnet | ConsensusLayer | EVM>) => {
+const getNumberOfSupportedChains = (
+  chains: Array<Chain | Testnet | ConsensusLayer | EVM>,
+) => {
   let supportedChains = 0;
   chains
     .filter((c: any) => isChainSupported(c))
@@ -296,18 +329,24 @@ const getChainStatus = (chain: Chain | ConsensusLayer | EVM | Testnet) => {
  * @param {Chain | Testnet | ConsensusLayer | EVM} chain - The chain object to check for supported services.
  * @returns {Array<[ServiceID, string | null]>} An array of tuples where each tuple contains a service ID and the release date (beta or full) of the service.
  */
-const getSupportedServices = (chain: Chain | Testnet | ConsensusLayer | EVM) => {
+const getSupportedServices = (
+  chain: Chain | Testnet | ConsensusLayer | EVM,
+) => {
   let supServices = [] as Array<[ServiceID, string | null]>;
   (['rpc', 'firehose', 'substreams'] as Array<ServiceID>).forEach((service) => {
     if (isServiceBeta(chain as any, service as any)) {
       supServices.push([
         service,
-        chain.supported_services[service as keyof typeof chain.supported_services]?.beta_released_at,
+        chain.supported_services[
+          service as keyof typeof chain.supported_services
+        ]?.beta_released_at,
       ]);
     } else if (isServiceSupported(chain as any, service as any)) {
       supServices.push([
         service,
-        chain.supported_services[service as keyof typeof chain.supported_services]?.full_released_at,
+        chain.supported_services[
+          service as keyof typeof chain.supported_services
+        ]?.full_released_at,
       ]);
     }
   });
@@ -326,7 +365,11 @@ const getChainSubnets = (chain: Chain) => {
     .concat((chain.consensus as Array<any>) || []);
 };
 
-const getChainIconUrl = (chainIcon: ChainIcon, theme: 'dark' | 'light', chainId: string) => {
+const getChainIconUrl = (
+  chainIcon: ChainIcon,
+  theme: 'dark' | 'light',
+  chainId: string,
+) => {
   const iconAssetsFolder = '/assets/chains/';
 
   if (chainIcon?.variants && chainIcon.variants?.includes('branded')) {
