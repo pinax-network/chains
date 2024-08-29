@@ -1,212 +1,65 @@
 type BlockType = {
-  label: string;
-  url: string;
+    label: string;
+    url: string;
 };
 
-type GraphID =
-  | 'arbitrum-nova'
-  | 'arbitrum-one'
-  | 'arbitrum-sepolia'
-  | 'arweave-mainnet'
-  | 'astar-zkevm-mainnet'
-  | 'aurora'
-  | 'aurora-testnet'
-  | 'avalanche'
-  | 'base'
-  | 'base-sepolia'
-  | 'blast-mainnet'
-  | 'blast-testnet'
-  | 'boba'
-  | 'bsc'
-  | 'btc'
-  | 'celo'
-  | 'celo-alfajores'
-  | 'chapel'
-  | 'cosmoshub-4'
-  | 'etherlink-mainnet'
-  | 'etherlink-testnet'
-  | 'fantom'
-  | 'fantom-testnet'
-  | 'fuji'
-  | 'fuse'
-  | 'gnosis'
-  | 'gnosis-chiado'
-  | 'gravity-mainnet'
-  | 'gravity-testnet'
-  | 'harmony'
-  | 'holesky'
-  | 'iotex'
-  | 'iotex-testnet'
-  | 'linea'
-  | 'linea-sepolia'
-  | 'mainnet'
-  | 'matic'
-  | 'mbase'
-  | 'mode-mainnet'
-  | 'mode-sepolia'
-  | 'moonbeam'
-  | 'moonriver'
-  | 'near-mainnet'
-  | 'near-testnet'
-  | 'neox'
-  | 'neox-testnet'
-  | 'optimism'
-  | 'optimism-sepolia'
-  | 'osmo-test-4'
-  | 'osmosis-1'
-  | 'polygon-amoy'
-  | 'polygon-zkevm'
-  | 'polygon-zkevm-cardona'
-  | 'rootstock'
-  | 'scroll'
-  | 'scroll-sepolia'
-  | 'sei-atlantic'
-  | 'sei-mainnet'
-  | 'sepolia'
-  | 'solana-mainnet-beta'
-  | 'soneium-testnet'
-  | 'theta-testnet-001'
-  | 'xlayer-mainnet'
-  | 'xlayer-sepolia'
-  | 'zksync-era'
-  | 'zksync-era-sepolia'
-  | 'zksync-era-testnet'
-  | 'zkyoto-testnet';
+type GraphID = 'arbitrum-nova' | 'arbitrum-one' | 'arbitrum-sepolia' | 'arweave-mainnet' | 'astar-zkevm-mainnet' | 'aurora' | 'aurora-testnet' | 'avalanche' | 'base' | 'base-sepolia' | 'blast-mainnet' | 'blast-testnet' | 'boba' | 'bsc' | 'btc' | 'celo' | 'celo-alfajores' | 'chapel' | 'cosmoshub-4' | 'etherlink-mainnet' | 'etherlink-testnet' | 'fantom' | 'fantom-testnet' | 'fuji' | 'fuse' | 'gnosis' | 'gnosis-chiado' | 'gravity-mainnet' | 'gravity-testnet' | 'harmony' | 'holesky' | 'iotex' | 'iotex-testnet' | 'linea' | 'linea-sepolia' | 'mainnet' | 'matic' | 'mbase' | 'mode-mainnet' | 'mode-sepolia' | 'moonbeam' | 'moonriver' | 'near-mainnet' | 'near-testnet' | 'neox' | 'neox-testnet' | 'optimism' | 'optimism-sepolia' | 'osmo-test-4' | 'osmosis-1' | 'polygon-amoy' | 'polygon-zkevm' | 'polygon-zkevm-cardona' | 'rootstock' | 'scroll' | 'scroll-sepolia' | 'sei-atlantic' | 'sei-mainnet' | 'sepolia' | 'solana-mainnet-beta' | 'soneium-testnet' | 'theta-testnet-001' | 'xlayer-mainnet' | 'xlayer-sepolia' | 'zksync-era' | 'zksync-era-sepolia' | 'zksync-era-testnet' | 'zkyoto-testnet';
 
-type PinaxID =
-  | 'celo'
-  | 'alfajores'
-  | 'telos'
-  | 'telostest'
-  | 'zkastar'
-  | 'zkatana'
-  | 'zkyoto'
-  | 'decimal'
-  | 'x-layer'
-  | 'arbone'
-  | 'arbsepolia'
-  | 'arbgoerli'
-  | 'moonbeam'
-  | 'arweave'
-  | 'wax'
-  | 'waxtest'
-  | 'optimism'
-  | 'scroll'
-  | 'mode'
-  | 'fantom'
-  | 'boba'
-  | 'bobasepolia'
-  | 'fuse'
-  | 'cosmoshub'
-  | 'theta'
-  | 'juno'
-  | 'kava'
-  | 'ronin'
-  | 'polygon'
-  | 'mumbai'
-  | 'amoy'
-  | 'bsc'
-  | 'chapel'
-  | 'xai'
-  | 'osmosis'
-  | 'bitcoin'
-  | 'ux'
-  | 'zora'
-  | 'zksync'
-  | 'avalanche'
-  | 'blast'
-  | 'blastsepolia'
-  | 'near'
-  | 'neartest'
-  | 'eth'
-  | 'eth-cl'
-  | 'holesky-cl'
-  | 'goerli-cl'
-  | 'sepolia-cl'
-  | 'holesky'
-  | 'sepolia'
-  | 'goerli'
-  | 'starknet'
-  | 'sei'
-  | 'cronos'
-  | 'ore'
-  | 'orestage'
-  | 'cardano'
-  | 'linea'
-  | 'eos'
-  | 'jungle4'
-  | 'kylin'
-  | 'eosevm'
-  | 'base'
-  | 'gnosis'
-  | 'chiado-cl'
-  | 'gnosis-cl'
-  | 'chiado'
-  | 'litecoin';
+type PinaxID = 'celo' | 'alfajores' | 'telos' | 'telostest' | 'zkastar' | 'zkatana' | 'zkyoto' | 'decimal' | 'x-layer' | 'arbone' | 'arbsepolia' | 'arbgoerli' | 'moonbeam' | 'arweave' | 'wax' | 'waxtest' | 'optimism' | 'scroll' | 'mode' | 'fantom' | 'boba' | 'bobasepolia' | 'fuse' | 'cosmoshub' | 'theta' | 'juno' | 'kava' | 'ronin' | 'polygon' | 'mumbai' | 'amoy' | 'bsc' | 'chapel' | 'xai' | 'osmosis' | 'bitcoin' | 'ux' | 'zora' | 'zksync' | 'avalanche' | 'blast' | 'blastsepolia' | 'near' | 'neartest' | 'eth' | 'eth-cl' | 'holesky-cl' | 'goerli-cl' | 'sepolia-cl' | 'holesky' | 'sepolia' | 'goerli' | 'starknet' | 'sei' | 'cronos' | 'ore' | 'orestage' | 'cardano' | 'linea' | 'eos' | 'jungle4' | 'kylin' | 'eosevm' | 'base' | 'gnosis' | 'chiado-cl' | 'gnosis-cl' | 'chiado' | 'litecoin';
 
 type ConsensusLayerServiceID = 'substreams' | 'firehose';
 type ServiceID = ConsensusLayerServiceID | 'rpc';
 type ServiceEndpoint = {
-  name: string;
-  endpoint_slug: ServiceID;
-  port: number;
+    name: string;
+    endpoint_slug: ServiceID;
+    port: number;
 };
 type ___InternalConsensusLayerServices = {
-  [key in ConsensusLayerServiceID]: ServiceStatusDates;
+    [key in ConsensusLayerServiceID]: ServiceStatusDates;
 };
 type ___InternalSupportedServices = {
-  [key in ServiceID]: ServiceStatusDates;
+    [key in ServiceID]: ServiceStatusDates;
 };
 type ServiceStatusDates = {
-  beta_released_at: string | null;
-  full_released_at: string | null;
-  deprecated_at: string | null;
+    beta_released_at: string | null;
+    full_released_at: string | null;
+    deprecated_at: string | null;
 };
 type ConsensusLayerServices = {
-  [key in ConsensusLayerServiceID]: ServiceStatusDates;
+    [key in ConsensusLayerServiceID]: ServiceStatusDates;
 };
 type SupportedServices = {
-  [key in ServiceID]: ServiceStatusDates;
+    [key in ServiceID]: ServiceStatusDates;
 };
 
-type Standard =
-  | 'antelope'
-  | 'arweave'
-  | 'brc20'
-  | 'cosmos'
-  | 'erc20'
-  | 'ltc20'
-  | 'near'
-  | 'rrc20'
-  | 'sei'
-  | 'cardano';
+type Standard = 'antelope' | 'arweave' | 'brc20' | 'cosmos' | 'erc20' | 'ltc20' | 'near' | 'rrc20' | 'sei' | 'cardano';
 
 type ChainBase = {
-  id: PinaxID;
-  name: string;
-  alt_names: string[];
-  graph_id: GraphID | null;
-  index?: number;
-  standard: Standard | null;
-  is_detailed_blocks: boolean;
-  block_type: BlockType;
+    id: PinaxID;
+    name: string;
+    alt_names: string[];
+    graph_id: GraphID | null;
+    index?: number;
+    standard: Standard | null;
+    is_detailed_blocks: boolean;
+    block_type: BlockType;
 };
 type ___InternalTestnet = ChainBase & {
-  supported_services: ___InternalSupportedServices;
-  metadata?: {
-    deprecated_replacing_chain?: PinaxID;
-  };
+    supported_services: ___InternalSupportedServices;
+    metadata?: {
+        deprecated_replacing_chain?: PinaxID;
+    };
 };
 type ___InternalConsensusLayer = ChainBase & {
-  supported_services: ___InternalConsensusLayerServices;
+    supported_services: ___InternalConsensusLayerServices;
 };
 type ___InternalEVM = ChainBase & {
-  supported_services: ___InternalSupportedServices;
+    supported_services: ___InternalSupportedServices;
 };
 type ChainIcon = {
-  id: string;
-  brand_theme: 'light' | 'dark' | 'both';
-  variants?: Array<'branded' | 'mono'>;
+    id: string;
+    brand_theme: 'light' | 'dark' | 'both';
+    variants?: Array<'branded' | 'mono'>;
 };
 /**
  * Describes the Data that needs to be provided for a Chain.
@@ -215,30 +68,30 @@ type ChainIcon = {
  * the generated fields.
  */
 interface ___InternalChain extends ChainBase {
-  icon: ChainIcon;
-  supported_services: ___InternalSupportedServices;
-  testnets?: Array<___InternalTestnet>;
-  consensus?: Array<___InternalConsensusLayer>;
-  evms?: Array<___InternalEVM>;
-  metadata?: {
-    layer?: 'L0' | 'L1' | 'L2' | 'L3';
-    website?: string;
-    mainchain_id?: PinaxID | string;
-    tags?: string[];
-    deprecated_replacing_chain?: PinaxID;
-  };
+    icon: ChainIcon;
+    supported_services: ___InternalSupportedServices;
+    testnets?: Array<___InternalTestnet>;
+    consensus?: Array<___InternalConsensusLayer>;
+    evms?: Array<___InternalEVM>;
+    metadata?: {
+        layer?: 'L0' | 'L1' | 'L2' | 'L3';
+        website?: string;
+        mainchain_id?: PinaxID | string;
+        tags?: string[];
+        deprecated_replacing_chain?: PinaxID;
+    };
 }
 type Testnet = ChainBase & {
-  supported_services: SupportedServices;
-  metadata?: {
-    deprecated_replacing_chain?: PinaxID;
-  };
+    supported_services: SupportedServices;
+    metadata?: {
+        deprecated_replacing_chain?: PinaxID;
+    };
 };
 type ConsensusLayer = ChainBase & {
-  supported_services: ConsensusLayerServices;
+    supported_services: ConsensusLayerServices;
 };
 type EVM = ChainBase & {
-  supported_services: SupportedServices;
+    supported_services: SupportedServices;
 };
 /**
  * Describes the Data that needs to be provided for a Chain.
@@ -247,22 +100,22 @@ type EVM = ChainBase & {
  * the generated fields.
  */
 interface Chain extends ChainBase {
-  icon: {
-    id: string;
-    brand_theme: 'light' | 'dark' | 'both';
-    variants?: Array<'branded' | 'mono'>;
-  };
-  supported_services: SupportedServices;
-  testnets?: Array<Testnet>;
-  consensus?: Array<ConsensusLayer>;
-  evms?: Array<EVM>;
-  metadata?: {
-    layer?: 'L0' | 'L1' | 'L2' | 'L3';
-    website?: string;
-    mainchain_id?: PinaxID | string;
-    tags?: string[];
-    deprecated_replacing_chain?: PinaxID;
-  };
+    icon: {
+        id: string;
+        brand_theme: 'light' | 'dark' | 'both';
+        variants?: Array<'branded' | 'mono'>;
+    };
+    supported_services: SupportedServices;
+    testnets?: Array<Testnet>;
+    consensus?: Array<ConsensusLayer>;
+    evms?: Array<EVM>;
+    metadata?: {
+        layer?: 'L0' | 'L1' | 'L2' | 'L3';
+        website?: string;
+        mainchain_id?: PinaxID | string;
+        tags?: string[];
+        deprecated_replacing_chain?: PinaxID;
+    };
 }
 
 declare const meta$14: ___InternalChain;
@@ -365,36 +218,12 @@ type types_SupportedServices = SupportedServices;
 type types_Testnet = Testnet;
 type types____InternalChain = ___InternalChain;
 type types____InternalConsensusLayer = ___InternalConsensusLayer;
-type types____InternalConsensusLayerServices =
-  ___InternalConsensusLayerServices;
+type types____InternalConsensusLayerServices = ___InternalConsensusLayerServices;
 type types____InternalEVM = ___InternalEVM;
 type types____InternalSupportedServices = ___InternalSupportedServices;
 type types____InternalTestnet = ___InternalTestnet;
 declare namespace types {
-  export type {
-    types_BlockType as BlockType,
-    types_Chain as Chain,
-    types_ChainBase as ChainBase,
-    types_ChainIcon as ChainIcon,
-    types_ConsensusLayer as ConsensusLayer,
-    types_ConsensusLayerServiceID as ConsensusLayerServiceID,
-    types_ConsensusLayerServices as ConsensusLayerServices,
-    types_EVM as EVM,
-    types_GraphID as GraphID,
-    types_PinaxID as PinaxID,
-    types_ServiceEndpoint as ServiceEndpoint,
-    types_ServiceID as ServiceID,
-    types_ServiceStatusDates as ServiceStatusDates,
-    types_Standard as Standard,
-    types_SupportedServices as SupportedServices,
-    types_Testnet as Testnet,
-    types____InternalChain as ___InternalChain,
-    types____InternalConsensusLayer as ___InternalConsensusLayer,
-    types____InternalConsensusLayerServices as ___InternalConsensusLayerServices,
-    types____InternalEVM as ___InternalEVM,
-    types____InternalSupportedServices as ___InternalSupportedServices,
-    types____InternalTestnet as ___InternalTestnet,
-  };
+  export type { types_BlockType as BlockType, types_Chain as Chain, types_ChainBase as ChainBase, types_ChainIcon as ChainIcon, types_ConsensusLayer as ConsensusLayer, types_ConsensusLayerServiceID as ConsensusLayerServiceID, types_ConsensusLayerServices as ConsensusLayerServices, types_EVM as EVM, types_GraphID as GraphID, types_PinaxID as PinaxID, types_ServiceEndpoint as ServiceEndpoint, types_ServiceID as ServiceID, types_ServiceStatusDates as ServiceStatusDates, types_Standard as Standard, types_SupportedServices as SupportedServices, types_Testnet as Testnet, types____InternalChain as ___InternalChain, types____InternalConsensusLayer as ___InternalConsensusLayer, types____InternalConsensusLayerServices as ___InternalConsensusLayerServices, types____InternalEVM as ___InternalEVM, types____InternalSupportedServices as ___InternalSupportedServices, types____InternalTestnet as ___InternalTestnet };
 }
 
 declare const meta$r: ___InternalTestnet;
@@ -454,77 +283,7 @@ declare const meta$1: ___InternalConsensusLayer;
 declare const meta: ___InternalChain;
 
 declare namespace chains {
-  export {
-    meta$13 as alfajores,
-    meta$C as amoy,
-    meta$V as arbgoerli,
-    meta$X as arbone,
-    meta$W as arbsepolia,
-    meta$T as arweave,
-    meta$t as avalanche,
-    meta$5 as base,
-    meta$x as bitcoin,
-    meta$s as blast,
-    meta$r as blastsepolia,
-    meta$M as boba,
-    meta$L as bobasepolia,
-    meta$B as bsc,
-    meta$b as cardano,
-    meta$14 as celo,
-    meta$A as chapel,
-    meta$3 as chiado,
-    meta$2 as chiadoCl,
-    meta$J as cosmoshub,
-    meta$e as cronos,
-    meta$Z as decimal,
-    meta$9 as eos,
-    meta$6 as eosevm,
-    meta$o as eth,
-    meta$k as ethCl,
-    meta$N as fantom,
-    meta$K as fuse,
-    meta$4 as gnosis,
-    meta$1 as gnosisCl,
-    meta$l as goerli,
-    meta$i as goerliCl,
-    meta$n as holesky,
-    meta$j as holeskyCl,
-    meta$8 as jungle4,
-    meta$H as juno,
-    meta$G as kava,
-    meta$7 as kylin,
-    meta$a as linea,
-    meta as litecoin,
-    meta$O as mode,
-    meta$U as moonbeam,
-    meta$D as mumbai,
-    meta$q as near,
-    meta$p as neartest,
-    meta$Q as optimism,
-    meta$d as ore,
-    meta$c as orestage,
-    meta$y as osmosis,
-    meta$E as polygon,
-    meta$F as ronin,
-    meta$P as scroll,
-    meta$f as sei,
-    meta$m as sepolia,
-    meta$h as sepoliaCl,
-    meta$g as starknet,
-    meta$12 as telos,
-    meta$11 as telostest,
-    meta$I as theta,
-    meta$w as ux,
-    meta$S as wax,
-    meta$R as waxtest,
-    meta$Y as xLayer,
-    meta$z as xai,
-    meta$10 as zkastar,
-    meta$$ as zkatana,
-    meta$u as zksync,
-    meta$_ as zkyoto,
-    meta$v as zora,
-  };
+  export { meta$13 as alfajores, meta$C as amoy, meta$V as arbgoerli, meta$X as arbone, meta$W as arbsepolia, meta$T as arweave, meta$t as avalanche, meta$5 as base, meta$x as bitcoin, meta$s as blast, meta$r as blastsepolia, meta$M as boba, meta$L as bobasepolia, meta$B as bsc, meta$b as cardano, meta$14 as celo, meta$A as chapel, meta$3 as chiado, meta$2 as chiadoCl, meta$J as cosmoshub, meta$e as cronos, meta$Z as decimal, meta$9 as eos, meta$6 as eosevm, meta$o as eth, meta$k as ethCl, meta$N as fantom, meta$K as fuse, meta$4 as gnosis, meta$1 as gnosisCl, meta$l as goerli, meta$i as goerliCl, meta$n as holesky, meta$j as holeskyCl, meta$8 as jungle4, meta$H as juno, meta$G as kava, meta$7 as kylin, meta$a as linea, meta as litecoin, meta$O as mode, meta$U as moonbeam, meta$D as mumbai, meta$q as near, meta$p as neartest, meta$Q as optimism, meta$d as ore, meta$c as orestage, meta$y as osmosis, meta$E as polygon, meta$F as ronin, meta$P as scroll, meta$f as sei, meta$m as sepolia, meta$h as sepoliaCl, meta$g as starknet, meta$12 as telos, meta$11 as telostest, meta$I as theta, meta$w as ux, meta$S as wax, meta$R as waxtest, meta$Y as xLayer, meta$z as xai, meta$10 as zkastar, meta$$ as zkatana, meta$u as zksync, meta$_ as zkyoto, meta$v as zora };
 }
 
 declare const services: Array<ServiceEndpoint>;
@@ -541,10 +300,7 @@ declare namespace services$1 {
  *
  * @returns boolean
  */
-declare const isServiceSupported: (
-  chain: Chain | Testnet | ConsensusLayer,
-  service: ConsensusLayerServiceID | ServiceID,
-) => boolean;
+declare const isServiceSupported: (chain: Chain | Testnet | ConsensusLayer, service: ConsensusLayerServiceID | ServiceID) => boolean;
 /**
  * Checks whether a service is in beta.
  *
@@ -553,10 +309,7 @@ declare const isServiceSupported: (
  *
  * @returns boolean
  */
-declare const isServiceBeta: (
-  chain: Chain | Testnet | ConsensusLayer,
-  service: ConsensusLayerServiceID | ServiceID,
-) => boolean | undefined;
+declare const isServiceBeta: (chain: Chain | Testnet | ConsensusLayer, service: ConsensusLayerServiceID | ServiceID) => boolean | undefined;
 /**
  * Checks whether a service was once supported.
  *
@@ -565,10 +318,7 @@ declare const isServiceBeta: (
  *
  * @returns boolean
  */
-declare const isServiceDeprecated: (
-  chain: Chain | Testnet | ConsensusLayer,
-  service: ConsensusLayerServiceID | ServiceID,
-) => boolean | undefined;
+declare const isServiceDeprecated: (chain: Chain | Testnet | ConsensusLayer, service: ConsensusLayerServiceID | ServiceID) => boolean | undefined;
 /**
  * Checks whether any service is fully supported for a given chain.
  *
@@ -576,9 +326,7 @@ declare const isServiceDeprecated: (
  *
  * @returns boolean
  */
-declare const isChainSupported: (
-  chain: Chain | Testnet | ConsensusLayer,
-) => boolean;
+declare const isChainSupported: (chain: Chain | Testnet | ConsensusLayer) => boolean;
 /**
  * Checks whether any service is in beta for a given chain.
  *
@@ -586,9 +334,7 @@ declare const isChainSupported: (
  *
  * @returns boolean
  */
-declare const isChainBeta: (
-  chain: Chain | Testnet | ConsensusLayer,
-) => boolean | undefined;
+declare const isChainBeta: (chain: Chain | Testnet | ConsensusLayer) => boolean | undefined;
 /**
  * Checks whether any service was once supported for a given chain.
  *
@@ -596,9 +342,7 @@ declare const isChainBeta: (
  *
  * @returns boolean
  */
-declare const isChainDeprecated: (
-  chain: Chain | Testnet | ConsensusLayer,
-) => boolean | undefined;
+declare const isChainDeprecated: (chain: Chain | Testnet | ConsensusLayer) => boolean | undefined;
 /**
  * Finds a chain by its ID by scanning mainnets, consensus layers, testnets and EVMs.
  * Returns first match.
@@ -608,10 +352,7 @@ declare const isChainDeprecated: (
  *
  * @returns Chain, Testnet or ConsensusLayer
  */
-declare const findChainById: (
-  db: Array<Chain>,
-  id: string,
-) => Chain | Testnet | ConsensusLayer | EVM | undefined;
+declare const findChainById: (db: Array<Chain>, id: string) => Chain | Testnet | ConsensusLayer | EVM | undefined;
 /**
  * Finds the mainnet chain or its subnet by ID from the given database.
  *
@@ -619,10 +360,7 @@ declare const findChainById: (
  * @param {string} id - The ID of the chain or subnet to find.
  * @returns {Chain | undefined} - The chain containing the subnet with the given ID, or undefined if not found.
  */
-declare const findSubnetMainnet: (
-  db: Array<Chain>,
-  id: string,
-) => Chain | undefined;
+declare const findSubnetMainnet: (db: Array<Chain>, id: string) => Chain | undefined;
 /**
  * Checks whether a chain is a consensus layer.
  *
@@ -630,9 +368,7 @@ declare const findSubnetMainnet: (
  *
  * @returns boolean
  */
-declare const isChainConsensusLayer: (
-  chain: Chain | Testnet | ConsensusLayer,
-) => boolean;
+declare const isChainConsensusLayer: (chain: Chain | Testnet | ConsensusLayer) => boolean;
 /**
  * Checks whether a chain is an EVM.
  *
@@ -640,10 +376,7 @@ declare const isChainConsensusLayer: (
  *
  * @returns boolean
  */
-declare const isChainEVM: (
-  db: Array<Chain>,
-  chain: Chain | Testnet | ConsensusLayer,
-) => boolean;
+declare const isChainEVM: (db: Array<Chain>, chain: Chain | Testnet | ConsensusLayer) => boolean;
 /**
  * Checks whether a chain is a testnet.
  *
@@ -651,10 +384,7 @@ declare const isChainEVM: (
  *
  * @returns boolean
  */
-declare const isChainTestnet: (
-  db: Array<Chain>,
-  chain: Chain | Testnet | ConsensusLayer,
-) => boolean;
+declare const isChainTestnet: (db: Array<Chain>, chain: Chain | Testnet | ConsensusLayer) => boolean;
 /**
  * Checks whether a chain has full block support. Chains that use RPC poller only
  * support partial blocks.
@@ -663,36 +393,28 @@ declare const isChainTestnet: (
  *
  * @returns boolean
  */
-declare const hasChainFullBlockSupport: (
-  chain: Chain | Testnet | ConsensusLayer,
-) => boolean;
+declare const hasChainFullBlockSupport: (chain: Chain | Testnet | ConsensusLayer) => boolean;
 /**
  * Calculates the number of supported chains from a given array of chains.
  *
  * @param {Array<Chain | Testnet | ConsensusLayer | EVM>} chains - The array of chains to check for support.
  * @returns {number} The number of supported chains.
  */
-declare const getNumberOfSupportedChains: (
-  chains: Array<Chain | Testnet | ConsensusLayer | EVM>,
-) => number;
+declare const getNumberOfSupportedChains: (chains: Array<Chain | Testnet | ConsensusLayer | EVM>) => number;
 /**
  * Determines the status of a given chain.
  *
  * @param {Chain | ConsensusLayer | EVM | Testnet} chain - The chain to check the status of.
  * @returns {string} The status of the chain, which can be "supported", "beta", "deprecated", or "unsupported".
  */
-declare const getChainStatus: (
-  chain: Chain | ConsensusLayer | EVM | Testnet,
-) => 'supported' | 'beta' | 'deprecated' | 'unsupported';
+declare const getChainStatus: (chain: Chain | ConsensusLayer | EVM | Testnet) => "supported" | "beta" | "deprecated" | "unsupported";
 /**
  * Retrieves the supported services for a given chain.
  *
  * @param {Chain | Testnet | ConsensusLayer | EVM} chain - The chain object to check for supported services.
  * @returns {Array<[ServiceID, string | null]>} An array of tuples where each tuple contains a service ID and the release date (beta or full) of the service.
  */
-declare const getSupportedServices: (
-  chain: Chain | Testnet | ConsensusLayer | EVM,
-) => [ServiceID, string | null][];
+declare const getSupportedServices: (chain: Chain | Testnet | ConsensusLayer | EVM) => [ServiceID, string | null][];
 /**
  * Retrieves the subnets of a given chain by concatenating its testnets, evms, and consensus arrays.
  *
@@ -700,11 +422,7 @@ declare const getSupportedServices: (
  * @returns {Array<any>} - An array containing all subnets from the testnets, evms, and consensus arrays.
  */
 declare const getChainSubnets: (chain: Chain) => any[];
-declare const getChainIconUrl: (
-  chainIcon: ChainIcon,
-  theme: 'dark' | 'light',
-  chainId: string,
-) => string;
+declare const getChainIconUrl: (chainIcon: ChainIcon, theme: 'dark' | 'light', chainId: string) => string;
 
 declare const chainsUtils_findChainById: typeof findChainById;
 declare const chainsUtils_findSubnetMainnet: typeof findSubnetMainnet;
@@ -724,32 +442,14 @@ declare const chainsUtils_isServiceBeta: typeof isServiceBeta;
 declare const chainsUtils_isServiceDeprecated: typeof isServiceDeprecated;
 declare const chainsUtils_isServiceSupported: typeof isServiceSupported;
 declare namespace chainsUtils {
-  export {
-    chainsUtils_findChainById as findChainById,
-    chainsUtils_findSubnetMainnet as findSubnetMainnet,
-    chainsUtils_getChainIconUrl as getChainIconUrl,
-    chainsUtils_getChainStatus as getChainStatus,
-    chainsUtils_getChainSubnets as getChainSubnets,
-    chainsUtils_getNumberOfSupportedChains as getNumberOfSupportedChains,
-    chainsUtils_getSupportedServices as getSupportedServices,
-    chainsUtils_hasChainFullBlockSupport as hasChainFullBlockSupport,
-    chainsUtils_isChainBeta as isChainBeta,
-    chainsUtils_isChainConsensusLayer as isChainConsensusLayer,
-    chainsUtils_isChainDeprecated as isChainDeprecated,
-    chainsUtils_isChainEVM as isChainEVM,
-    chainsUtils_isChainSupported as isChainSupported,
-    chainsUtils_isChainTestnet as isChainTestnet,
-    chainsUtils_isServiceBeta as isServiceBeta,
-    chainsUtils_isServiceDeprecated as isServiceDeprecated,
-    chainsUtils_isServiceSupported as isServiceSupported,
-  };
+  export { chainsUtils_findChainById as findChainById, chainsUtils_findSubnetMainnet as findSubnetMainnet, chainsUtils_getChainIconUrl as getChainIconUrl, chainsUtils_getChainStatus as getChainStatus, chainsUtils_getChainSubnets as getChainSubnets, chainsUtils_getNumberOfSupportedChains as getNumberOfSupportedChains, chainsUtils_getSupportedServices as getSupportedServices, chainsUtils_hasChainFullBlockSupport as hasChainFullBlockSupport, chainsUtils_isChainBeta as isChainBeta, chainsUtils_isChainConsensusLayer as isChainConsensusLayer, chainsUtils_isChainDeprecated as isChainDeprecated, chainsUtils_isChainEVM as isChainEVM, chainsUtils_isChainSupported as isChainSupported, chainsUtils_isChainTestnet as isChainTestnet, chainsUtils_isServiceBeta as isServiceBeta, chainsUtils_isServiceDeprecated as isServiceDeprecated, chainsUtils_isServiceSupported as isServiceSupported };
 }
 
 declare const _default$4: {
-  service: ServiceEndpoint;
-  generateGRPCurlConfig: (chain: Chain, apiKey: string) => string;
-  generateTomlEnv: (chain: Chain, token: string) => string;
-  generateTomlConfig: (chain: Chain) => string;
+    service: ServiceEndpoint;
+    generateGRPCurlConfig: (chain: Chain, apiKey: string) => string;
+    generateTomlEnv: (chain: Chain, token: string) => string;
+    generateTomlConfig: (chain: Chain) => string;
 };
 
 declare namespace firehose {
@@ -757,8 +457,8 @@ declare namespace firehose {
 }
 
 declare const _default$3: {
-  service: ServiceEndpoint;
-  generateCurlConfig: (chain: Chain, apiKey: string) => string;
+    service: ServiceEndpoint;
+    generateCurlConfig: (chain: Chain, apiKey: string) => string;
 };
 
 declare namespace rpc {
@@ -766,12 +466,12 @@ declare namespace rpc {
 }
 
 declare const _default$2: {
-  service: ServiceEndpoint;
-  generateTomlEnv: (chain: Chain, token: string) => string;
-  generateJavascriptEnv: (chain: Chain, apiKey: string) => string;
-  generateCurlConfig: (chain: Chain, api_key: string) => string;
-  generateTomlConfig: (chain: Chain) => string;
-  generateJavascriptConfig: () => string;
+    service: ServiceEndpoint;
+    generateTomlEnv: (chain: Chain, token: string) => string;
+    generateJavascriptEnv: (chain: Chain, apiKey: string) => string;
+    generateCurlConfig: (chain: Chain, api_key: string) => string;
+    generateTomlConfig: (chain: Chain) => string;
+    generateJavascriptConfig: () => string;
 };
 
 declare namespace substreams {
@@ -782,33 +482,25 @@ declare const service_configs_firehose: typeof firehose;
 declare const service_configs_rpc: typeof rpc;
 declare const service_configs_substreams: typeof substreams;
 declare namespace service_configs {
-  export {
-    service_configs_firehose as firehose,
-    service_configs_rpc as rpc,
-    service_configs_substreams as substreams,
-  };
+  export { service_configs_firehose as firehose, service_configs_rpc as rpc, service_configs_substreams as substreams };
 }
 
 declare const _default$1: {
-  chainsUtils: typeof chainsUtils;
-  service_configs: typeof service_configs;
+    chainsUtils: typeof chainsUtils;
+    service_configs: typeof service_configs;
 };
 
 declare const utils_chainsUtils: typeof chainsUtils;
 declare const utils_service_configs: typeof service_configs;
 declare namespace utils {
-  export {
-    utils_chainsUtils as chainsUtils,
-    _default$1 as default,
-    utils_service_configs as service_configs,
-  };
+  export { utils_chainsUtils as chainsUtils, _default$1 as default, utils_service_configs as service_configs };
 }
 
 declare const _default: {
-  chains: typeof chains;
-  services: typeof services$1;
-  types: typeof types;
-  utils: typeof utils;
+    chains: typeof chains;
+    services: typeof services$1;
+    types: typeof types;
+    utils: typeof utils;
 };
 
 export { chains, _default as default, services$1 as services, types, utils };
