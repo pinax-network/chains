@@ -1,4 +1,2 @@
-import * as chains from './chains';
-import * as services from './service_configs';
-
-export { chains, services };
+export * from './chains';
+export * from './service_configs';
