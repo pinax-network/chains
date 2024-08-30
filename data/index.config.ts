@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 8/29/2024, 11:02:32 PM.
+// Last generation on 8/30/2024, 5:15:17 PM.
 
 export default {
   ordered: {
@@ -20,7 +20,7 @@ export default {
     bsc: ['chapel'],
     arbone: ['arbgoerli', 'arbsepolia', 'chiado-cl', 'chiado'],
     avalanche: [],
-    optimism: [],
+    optimism: ['opsepolia'],
     base: [],
     near: ['neartest'],
     cardano: [],

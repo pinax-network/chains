@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/29/2024, 11:02:32 PM.
+// Last generation on 8/30/2024, 5:15:17 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -19,6 +19,7 @@ export { default as arweave } from './arweave/meta';
 export { default as wax } from './wax/meta';
 export { default as waxtest } from './wax/testnets/waxtest/meta';
 export { default as optimism } from './optimism/meta';
+export { default as opsepolia } from './optimism/testnets/opsepolia/meta';
 export { default as scroll } from './scroll/meta';
 export { default as mode } from './mode/meta';
 export { default as fantom } from './fantom/meta';

@@ -5,7 +5,7 @@ type BlockType = {
 
 type GraphID = 'arbitrum-nova' | 'arbitrum-one' | 'arbitrum-sepolia' | 'arweave-mainnet' | 'astar-zkevm-mainnet' | 'aurora' | 'aurora-testnet' | 'avalanche' | 'base' | 'base-sepolia' | 'blast-mainnet' | 'blast-testnet' | 'boba' | 'bsc' | 'btc' | 'celo' | 'celo-alfajores' | 'chapel' | 'cosmoshub-4' | 'etherlink-mainnet' | 'etherlink-testnet' | 'fantom' | 'fantom-testnet' | 'fuji' | 'fuse' | 'gnosis' | 'gnosis-chiado' | 'gravity-mainnet' | 'gravity-testnet' | 'harmony' | 'holesky' | 'iotex' | 'iotex-testnet' | 'linea' | 'linea-sepolia' | 'mainnet' | 'matic' | 'mbase' | 'mode-mainnet' | 'mode-sepolia' | 'moonbeam' | 'moonriver' | 'near-mainnet' | 'near-testnet' | 'neox' | 'neox-testnet' | 'optimism' | 'optimism-sepolia' | 'osmo-test-4' | 'osmosis-1' | 'polygon-amoy' | 'polygon-zkevm' | 'polygon-zkevm-cardona' | 'rootstock' | 'scroll' | 'scroll-sepolia' | 'sei-atlantic' | 'sei-mainnet' | 'sepolia' | 'solana-mainnet-beta' | 'soneium-testnet' | 'theta-testnet-001' | 'xlayer-mainnet' | 'xlayer-sepolia' | 'zksync-era' | 'zksync-era-sepolia' | 'zksync-era-testnet' | 'zkyoto-testnet';
 
-type PinaxID = 'celo' | 'alfajores' | 'telos' | 'telostest' | 'zkastar' | 'zkatana' | 'zkyoto' | 'decimal' | 'x-layer' | 'arbone' | 'arbsepolia' | 'arbgoerli' | 'moonbeam' | 'arweave' | 'wax' | 'waxtest' | 'optimism' | 'scroll' | 'mode' | 'fantom' | 'boba' | 'bobasepolia' | 'fuse' | 'cosmoshub' | 'theta' | 'juno' | 'kava' | 'ronin' | 'polygon' | 'mumbai' | 'amoy' | 'bsc' | 'chapel' | 'xai' | 'osmosis' | 'bitcoin' | 'ux' | 'zora' | 'zksync' | 'avalanche' | 'blast' | 'blastsepolia' | 'near' | 'neartest' | 'eth' | 'eth-cl' | 'holesky-cl' | 'goerli-cl' | 'sepolia-cl' | 'holesky' | 'sepolia' | 'goerli' | 'starknet' | 'sei' | 'cronos' | 'ore' | 'orestage' | 'cardano' | 'linea' | 'eos' | 'jungle4' | 'kylin' | 'eosevm' | 'base' | 'gnosis' | 'chiado-cl' | 'gnosis-cl' | 'chiado' | 'litecoin';
+type PinaxID = 'celo' | 'alfajores' | 'telos' | 'telostest' | 'zkastar' | 'zkatana' | 'zkyoto' | 'decimal' | 'x-layer' | 'arbone' | 'arbsepolia' | 'arbgoerli' | 'moonbeam' | 'arweave' | 'wax' | 'waxtest' | 'optimism' | 'opsepolia' | 'scroll' | 'mode' | 'fantom' | 'boba' | 'bobasepolia' | 'fuse' | 'cosmoshub' | 'theta' | 'juno' | 'kava' | 'ronin' | 'polygon' | 'mumbai' | 'amoy' | 'bsc' | 'chapel' | 'xai' | 'osmosis' | 'bitcoin' | 'ux' | 'zora' | 'zksync' | 'avalanche' | 'blast' | 'blastsepolia' | 'near' | 'neartest' | 'eth' | 'eth-cl' | 'holesky-cl' | 'goerli-cl' | 'sepolia-cl' | 'holesky' | 'sepolia' | 'goerli' | 'starknet' | 'sei' | 'cronos' | 'ore' | 'orestage' | 'cardano' | 'linea' | 'eos' | 'jungle4' | 'kylin' | 'eosevm' | 'base' | 'gnosis' | 'chiado-cl' | 'gnosis-cl' | 'chiado' | 'litecoin';
 
 type ConsensusLayerServiceID = 'substreams' | 'firehose';
 type ServiceID = ConsensusLayerServiceID | 'rpc';
@@ -118,39 +118,41 @@ interface Chain extends ChainBase {
     };
 }
 
-declare const meta$14: ___InternalChain;
+declare const meta$15: ___InternalChain;
 
-declare const meta$13: ___InternalTestnet;
+declare const meta$14: ___InternalTestnet;
 
-declare const meta$12: ___InternalChain;
+declare const meta$13: ___InternalChain;
 
-declare const meta$11: ___InternalTestnet;
+declare const meta$12: ___InternalTestnet;
 
-declare const meta$10: ___InternalChain;
+declare const meta$11: ___InternalChain;
+
+declare const meta$10: ___InternalTestnet;
 
 declare const meta$$: ___InternalTestnet;
 
-declare const meta$_: ___InternalTestnet;
+declare const meta$_: ___InternalChain;
 
 declare const meta$Z: ___InternalChain;
 
 declare const meta$Y: ___InternalChain;
 
-declare const meta$X: ___InternalChain;
+declare const meta$X: ___InternalTestnet;
 
 declare const meta$W: ___InternalTestnet;
 
-declare const meta$V: ___InternalTestnet;
+declare const meta$V: ___InternalChain;
 
 declare const meta$U: ___InternalChain;
 
 declare const meta$T: ___InternalChain;
 
-declare const meta$S: ___InternalChain;
+declare const meta$S: ___InternalTestnet;
 
-declare const meta$R: ___InternalTestnet;
+declare const meta$R: ___InternalChain;
 
-declare const meta$Q: ___InternalChain;
+declare const meta$Q: ___InternalTestnet;
 
 declare const meta$P: ___InternalChain;
 
@@ -283,7 +285,7 @@ declare const meta$1: ___InternalConsensusLayer;
 declare const meta: ___InternalChain;
 
 declare namespace chains {
-  export { meta$13 as alfajores, meta$C as amoy, meta$V as arbgoerli, meta$X as arbone, meta$W as arbsepolia, meta$T as arweave, meta$t as avalanche, meta$5 as base, meta$x as bitcoin, meta$s as blast, meta$r as blastsepolia, meta$M as boba, meta$L as bobasepolia, meta$B as bsc, meta$b as cardano, meta$14 as celo, meta$A as chapel, meta$3 as chiado, meta$2 as chiadoCl, meta$J as cosmoshub, meta$e as cronos, meta$Z as decimal, meta$9 as eos, meta$6 as eosevm, meta$o as eth, meta$k as ethCl, meta$N as fantom, meta$K as fuse, meta$4 as gnosis, meta$1 as gnosisCl, meta$l as goerli, meta$i as goerliCl, meta$n as holesky, meta$j as holeskyCl, meta$8 as jungle4, meta$H as juno, meta$G as kava, meta$7 as kylin, meta$a as linea, meta as litecoin, meta$O as mode, meta$U as moonbeam, meta$D as mumbai, meta$q as near, meta$p as neartest, meta$Q as optimism, meta$d as ore, meta$c as orestage, meta$y as osmosis, meta$E as polygon, meta$F as ronin, meta$P as scroll, meta$f as sei, meta$m as sepolia, meta$h as sepoliaCl, meta$g as starknet, meta$12 as telos, meta$11 as telostest, meta$I as theta, meta$w as ux, meta$S as wax, meta$R as waxtest, meta$Y as xLayer, meta$z as xai, meta$10 as zkastar, meta$$ as zkatana, meta$u as zksync, meta$_ as zkyoto, meta$v as zora };
+  export { meta$14 as alfajores, meta$C as amoy, meta$W as arbgoerli, meta$Y as arbone, meta$X as arbsepolia, meta$U as arweave, meta$t as avalanche, meta$5 as base, meta$x as bitcoin, meta$s as blast, meta$r as blastsepolia, meta$M as boba, meta$L as bobasepolia, meta$B as bsc, meta$b as cardano, meta$15 as celo, meta$A as chapel, meta$3 as chiado, meta$2 as chiadoCl, meta$J as cosmoshub, meta$e as cronos, meta$_ as decimal, meta$9 as eos, meta$6 as eosevm, meta$o as eth, meta$k as ethCl, meta$N as fantom, meta$K as fuse, meta$4 as gnosis, meta$1 as gnosisCl, meta$l as goerli, meta$i as goerliCl, meta$n as holesky, meta$j as holeskyCl, meta$8 as jungle4, meta$H as juno, meta$G as kava, meta$7 as kylin, meta$a as linea, meta as litecoin, meta$O as mode, meta$V as moonbeam, meta$D as mumbai, meta$q as near, meta$p as neartest, meta$Q as opsepolia, meta$R as optimism, meta$d as ore, meta$c as orestage, meta$y as osmosis, meta$E as polygon, meta$F as ronin, meta$P as scroll, meta$f as sei, meta$m as sepolia, meta$h as sepoliaCl, meta$g as starknet, meta$13 as telos, meta$12 as telostest, meta$I as theta, meta$w as ux, meta$T as wax, meta$S as waxtest, meta$Z as xLayer, meta$z as xai, meta$11 as zkastar, meta$10 as zkatana, meta$u as zksync, meta$$ as zkyoto, meta$v as zora };
 }
 
 declare const services: Array<ServiceEndpoint>;

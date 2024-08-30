@@ -32,74 +32,75 @@ module.exports = __toCommonJS(chains_exports2);
 var V2_exports = {};
 __export(V2_exports, {
   alfajores: () => meta_default2,
-  amoy: () => meta_default31,
+  amoy: () => meta_default32,
   arbgoerli: () => meta_default12,
   arbone: () => meta_default10,
   arbsepolia: () => meta_default11,
   arweave: () => meta_default14,
-  avalanche: () => meta_default40,
-  base: () => meta_default64,
-  bitcoin: () => meta_default36,
-  blast: () => meta_default41,
-  blastsepolia: () => meta_default42,
-  boba: () => meta_default21,
-  bobasepolia: () => meta_default22,
-  bsc: () => meta_default32,
-  cardano: () => meta_default58,
+  avalanche: () => meta_default41,
+  base: () => meta_default65,
+  bitcoin: () => meta_default37,
+  blast: () => meta_default42,
+  blastsepolia: () => meta_default43,
+  boba: () => meta_default22,
+  bobasepolia: () => meta_default23,
+  bsc: () => meta_default33,
+  cardano: () => meta_default59,
   celo: () => meta_default,
-  chapel: () => meta_default33,
-  chiado: () => meta_default66,
-  chiadoCl: () => meta_default67,
-  cosmoshub: () => meta_default24,
-  cronos: () => meta_default55,
+  chapel: () => meta_default34,
+  chiado: () => meta_default67,
+  chiadoCl: () => meta_default68,
+  cosmoshub: () => meta_default25,
+  cronos: () => meta_default56,
   decimal: () => meta_default8,
-  eos: () => meta_default60,
-  eosevm: () => meta_default63,
-  eth: () => meta_default45,
-  ethCl: () => meta_default49,
-  fantom: () => meta_default20,
-  fuse: () => meta_default23,
-  gnosis: () => meta_default65,
-  gnosisCl: () => meta_default68,
-  goerli: () => meta_default48,
-  goerliCl: () => meta_default51,
-  holesky: () => meta_default46,
-  holeskyCl: () => meta_default50,
-  jungle4: () => meta_default61,
-  juno: () => meta_default26,
-  kava: () => meta_default27,
-  kylin: () => meta_default62,
-  linea: () => meta_default59,
-  litecoin: () => meta_default69,
-  mode: () => meta_default19,
+  eos: () => meta_default61,
+  eosevm: () => meta_default64,
+  eth: () => meta_default46,
+  ethCl: () => meta_default50,
+  fantom: () => meta_default21,
+  fuse: () => meta_default24,
+  gnosis: () => meta_default66,
+  gnosisCl: () => meta_default69,
+  goerli: () => meta_default49,
+  goerliCl: () => meta_default52,
+  holesky: () => meta_default47,
+  holeskyCl: () => meta_default51,
+  jungle4: () => meta_default62,
+  juno: () => meta_default27,
+  kava: () => meta_default28,
+  kylin: () => meta_default63,
+  linea: () => meta_default60,
+  litecoin: () => meta_default70,
+  mode: () => meta_default20,
   moonbeam: () => meta_default13,
-  mumbai: () => meta_default30,
-  near: () => meta_default43,
-  neartest: () => meta_default44,
+  mumbai: () => meta_default31,
+  near: () => meta_default44,
+  neartest: () => meta_default45,
+  opsepolia: () => meta_default18,
   optimism: () => meta_default17,
-  ore: () => meta_default56,
-  orestage: () => meta_default57,
-  osmosis: () => meta_default35,
-  polygon: () => meta_default29,
-  ronin: () => meta_default28,
-  scroll: () => meta_default18,
-  sei: () => meta_default54,
-  sepolia: () => meta_default47,
-  sepoliaCl: () => meta_default52,
-  starknet: () => meta_default53,
+  ore: () => meta_default57,
+  orestage: () => meta_default58,
+  osmosis: () => meta_default36,
+  polygon: () => meta_default30,
+  ronin: () => meta_default29,
+  scroll: () => meta_default19,
+  sei: () => meta_default55,
+  sepolia: () => meta_default48,
+  sepoliaCl: () => meta_default53,
+  starknet: () => meta_default54,
   telos: () => meta_default3,
   telostest: () => meta_default4,
-  theta: () => meta_default25,
-  ux: () => meta_default37,
+  theta: () => meta_default26,
+  ux: () => meta_default38,
   wax: () => meta_default15,
   waxtest: () => meta_default16,
   xLayer: () => meta_default9,
-  xai: () => meta_default34,
+  xai: () => meta_default35,
   zkastar: () => meta_default5,
   zkatana: () => meta_default6,
-  zksync: () => meta_default39,
+  zksync: () => meta_default40,
   zkyoto: () => meta_default7,
-  zora: () => meta_default38
+  zora: () => meta_default39
 });
 
 // data/chains/V2/celo/meta.ts
@@ -729,8 +730,40 @@ var meta17 = {
 };
 var meta_default17 = meta17;
 
-// data/chains/V2/scroll/meta.ts
+// data/chains/V2/optimism/testnets/opsepolia/meta.ts
 var meta18 = {
+  id: "opsepolia",
+  graph_id: "optimism-sepolia",
+  name: "Optimism Sepolia",
+  alt_names: [],
+  standard: "erc20",
+  is_detailed_blocks: true,
+  block_type: {
+    label: "sf.ethereum.type.v2.Block",
+    url: "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+  },
+  supported_services: {
+    firehose: {
+      beta_released_at: "2023-08-30T00:00:00.000Z",
+      full_released_at: "2023-08-30T00:00:00.000Z",
+      deprecated_at: null
+    },
+    substreams: {
+      beta_released_at: "2023-08-30T00:00:00.000Z",
+      full_released_at: "2023-08-30T00:00:00.000Z",
+      deprecated_at: null
+    },
+    rpc: {
+      beta_released_at: "2023-08-30T00:00:00.000Z",
+      full_released_at: "2023-08-30T00:00:00.000Z",
+      deprecated_at: null
+    }
+  }
+};
+var meta_default18 = meta18;
+
+// data/chains/V2/scroll/meta.ts
+var meta19 = {
   id: "scroll",
   graph_id: "scroll",
   name: "Scroll",
@@ -767,10 +800,10 @@ var meta18 = {
     website: "https://scroll.io/"
   }
 };
-var meta_default18 = meta18;
+var meta_default19 = meta19;
 
 // data/chains/V2/mode/meta.ts
-var meta19 = {
+var meta20 = {
   id: "mode",
   name: "Mode Network",
   alt_names: [],
@@ -811,10 +844,10 @@ var meta19 = {
     website: "https://www.mode.network/"
   }
 };
-var meta_default19 = meta19;
+var meta_default20 = meta20;
 
 // data/chains/V2/fantom/meta.ts
-var meta20 = {
+var meta21 = {
   id: "fantom",
   graph_id: "fantom",
   name: "Fantom",
@@ -851,10 +884,10 @@ var meta20 = {
     website: "https://fantom.foundation/"
   }
 };
-var meta_default20 = meta20;
+var meta_default21 = meta21;
 
 // data/chains/V2/boba/meta.ts
-var meta21 = {
+var meta22 = {
   id: "boba",
   name: "Boba Network",
   alt_names: [],
@@ -895,10 +928,10 @@ var meta21 = {
     website: "https://boba.network/"
   }
 };
-var meta_default21 = meta21;
+var meta_default22 = meta22;
 
 // data/chains/V2/boba/testnets/bobasepolia/meta.ts
-var meta22 = {
+var meta23 = {
   id: "bobasepolia",
   graph_id: null,
   name: "Boba Sepolia",
@@ -927,10 +960,10 @@ var meta22 = {
     }
   }
 };
-var meta_default22 = meta22;
+var meta_default23 = meta23;
 
 // data/chains/V2/fuse/meta.ts
-var meta23 = {
+var meta24 = {
   id: "fuse",
   name: "Fuse",
   alt_names: [],
@@ -971,10 +1004,10 @@ var meta23 = {
     website: "https://fuse.io/"
   }
 };
-var meta_default23 = meta23;
+var meta_default24 = meta24;
 
 // data/chains/V2/cosmoshub/meta.ts
-var meta24 = {
+var meta25 = {
   id: "cosmoshub",
   graph_id: "cosmoshub-4",
   name: "Cosmos Hub",
@@ -1011,10 +1044,10 @@ var meta24 = {
     website: "https://cosmos.network/"
   }
 };
-var meta_default24 = meta24;
+var meta_default25 = meta25;
 
 // data/chains/V2/cosmoshub/testnets/theta/meta.ts
-var meta25 = {
+var meta26 = {
   id: "theta",
   graph_id: "theta-testnet-001",
   name: "Theta",
@@ -1043,10 +1076,10 @@ var meta25 = {
     }
   }
 };
-var meta_default25 = meta25;
+var meta_default26 = meta26;
 
 // data/chains/V2/cosmoshub/testnets/juno/meta.ts
-var meta26 = {
+var meta27 = {
   id: "juno",
   graph_id: null,
   name: "Juno",
@@ -1075,10 +1108,10 @@ var meta26 = {
     }
   }
 };
-var meta_default26 = meta26;
+var meta_default27 = meta27;
 
 // data/chains/V2/kava/meta.ts
-var meta27 = {
+var meta28 = {
   id: "kava",
   graph_id: null,
   name: "Kava",
@@ -1115,10 +1148,10 @@ var meta27 = {
     website: "https://www.kava.io/"
   }
 };
-var meta_default27 = meta27;
+var meta_default28 = meta28;
 
 // data/chains/V2/ronin/meta.ts
-var meta28 = {
+var meta29 = {
   id: "ronin",
   graph_id: null,
   name: "Ronin",
@@ -1155,10 +1188,10 @@ var meta28 = {
     website: "https://roninchain.com/"
   }
 };
-var meta_default28 = meta28;
+var meta_default29 = meta29;
 
 // data/chains/V2/polygon/meta.ts
-var meta29 = {
+var meta30 = {
   id: "polygon",
   graph_id: "matic",
   name: "Polygon",
@@ -1195,10 +1228,10 @@ var meta29 = {
     website: "https://polygon.technology/"
   }
 };
-var meta_default29 = meta29;
+var meta_default30 = meta30;
 
 // data/chains/V2/polygon/testnets/mumbai/meta.ts
-var meta30 = {
+var meta31 = {
   id: "mumbai",
   graph_id: null,
   name: "Mumbai",
@@ -1227,10 +1260,10 @@ var meta30 = {
     }
   }
 };
-var meta_default30 = meta30;
+var meta_default31 = meta31;
 
 // data/chains/V2/polygon/testnets/amoy/meta.ts
-var meta31 = {
+var meta32 = {
   id: "amoy",
   graph_id: "polygon-amoy",
   name: "Amoy",
@@ -1259,10 +1292,10 @@ var meta31 = {
     }
   }
 };
-var meta_default31 = meta31;
+var meta_default32 = meta32;
 
 // data/chains/V2/bsc/meta.ts
-var meta32 = {
+var meta33 = {
   id: "bsc",
   graph_id: "bsc",
   name: "BNB",
@@ -1299,10 +1332,10 @@ var meta32 = {
     website: "https://www.bnbchain.org/en/bnb-smart-chain"
   }
 };
-var meta_default32 = meta32;
+var meta_default33 = meta33;
 
 // data/chains/V2/bsc/testnets/chapel/meta.ts
-var meta33 = {
+var meta34 = {
   id: "chapel",
   graph_id: "chapel",
   name: "Chapel",
@@ -1331,10 +1364,10 @@ var meta33 = {
     }
   }
 };
-var meta_default33 = meta33;
+var meta_default34 = meta34;
 
 // data/chains/V2/xai/meta.ts
-var meta34 = {
+var meta35 = {
   id: "xai",
   name: "XAI",
   alt_names: [],
@@ -1375,10 +1408,10 @@ var meta34 = {
     website: "https://xai.games/"
   }
 };
-var meta_default34 = meta34;
+var meta_default35 = meta35;
 
 // data/chains/V2/osmosis/meta.ts
-var meta35 = {
+var meta36 = {
   id: "osmosis",
   graph_id: "osmosis-1",
   name: "Osmosis",
@@ -1415,10 +1448,10 @@ var meta35 = {
     website: "https://osmosis.zone/"
   }
 };
-var meta_default35 = meta35;
+var meta_default36 = meta36;
 
 // data/chains/V2/bitcoin/meta.ts
-var meta36 = {
+var meta37 = {
   id: "bitcoin",
   graph_id: null,
   name: "Bitcoin",
@@ -1454,10 +1487,10 @@ var meta36 = {
     website: "https://bitcoin.org/"
   }
 };
-var meta_default36 = meta36;
+var meta_default37 = meta37;
 
 // data/chains/V2/ux/meta.ts
-var meta37 = {
+var meta38 = {
   id: "ux",
   graph_id: null,
   name: "UX",
@@ -1494,10 +1527,10 @@ var meta37 = {
     website: ""
   }
 };
-var meta_default37 = meta37;
+var meta_default38 = meta38;
 
 // data/chains/V2/zora/meta.ts
-var meta38 = {
+var meta39 = {
   id: "zora",
   name: "Zora Network",
   alt_names: [],
@@ -1538,10 +1571,10 @@ var meta38 = {
     website: "https://zora.co/"
   }
 };
-var meta_default38 = meta38;
+var meta_default39 = meta39;
 
 // data/chains/V2/zksync/meta.ts
-var meta39 = {
+var meta40 = {
   id: "zksync",
   graph_id: "zksync-era",
   name: "zkSync Era",
@@ -1579,10 +1612,10 @@ var meta39 = {
     tags: ["zk"]
   }
 };
-var meta_default39 = meta39;
+var meta_default40 = meta40;
 
 // data/chains/V2/avalanche/meta.ts
-var meta40 = {
+var meta41 = {
   id: "avalanche",
   graph_id: "avalanche",
   name: "Avalanche",
@@ -1618,10 +1651,10 @@ var meta40 = {
     website: "https://www.avax.network/"
   }
 };
-var meta_default40 = meta40;
+var meta_default41 = meta41;
 
 // data/chains/V2/blast/meta.ts
-var meta41 = {
+var meta42 = {
   id: "blast",
   name: "Blast Network",
   alt_names: [],
@@ -1663,10 +1696,10 @@ var meta41 = {
     website: "https://blast.io/en"
   }
 };
-var meta_default41 = meta41;
+var meta_default42 = meta42;
 
 // data/chains/V2/blast/testnets/blastsepolia/meta.ts
-var meta42 = {
+var meta43 = {
   id: "blastsepolia",
   name: "Blast Network Sepolia",
   alt_names: [],
@@ -1696,10 +1729,10 @@ var meta42 = {
     }
   }
 };
-var meta_default42 = meta42;
+var meta_default43 = meta43;
 
 // data/chains/V2/near/meta.ts
-var meta43 = {
+var meta44 = {
   id: "near",
   graph_id: "near-mainnet",
   name: "Near",
@@ -1736,10 +1769,10 @@ var meta43 = {
     website: "https://near.org/"
   }
 };
-var meta_default43 = meta43;
+var meta_default44 = meta44;
 
 // data/chains/V2/near/testnets/neartest/meta.ts
-var meta44 = {
+var meta45 = {
   id: "neartest",
   graph_id: "near-testnet",
   name: "Near-testnet",
@@ -1768,10 +1801,10 @@ var meta44 = {
     }
   }
 };
-var meta_default44 = meta44;
+var meta_default45 = meta45;
 
 // data/chains/V2/eth/meta.ts
-var meta45 = {
+var meta46 = {
   id: "eth",
   graph_id: "mainnet",
   name: "Ethereum",
@@ -1808,10 +1841,10 @@ var meta45 = {
     website: "https://ethereum.org/"
   }
 };
-var meta_default45 = meta45;
+var meta_default46 = meta46;
 
 // data/chains/V2/eth/testnets/holesky/meta.ts
-var meta46 = {
+var meta47 = {
   id: "holesky",
   graph_id: null,
   name: "Holesky",
@@ -1840,10 +1873,10 @@ var meta46 = {
     }
   }
 };
-var meta_default46 = meta46;
+var meta_default47 = meta47;
 
 // data/chains/V2/eth/testnets/sepolia/meta.ts
-var meta47 = {
+var meta48 = {
   id: "sepolia",
   graph_id: "sepolia",
   name: "Sepolia",
@@ -1872,10 +1905,10 @@ var meta47 = {
     }
   }
 };
-var meta_default47 = meta47;
+var meta_default48 = meta48;
 
 // data/chains/V2/eth/testnets/goerli/meta.ts
-var meta48 = {
+var meta49 = {
   id: "goerli",
   graph_id: null,
   name: "Goerli",
@@ -1904,10 +1937,10 @@ var meta48 = {
     }
   }
 };
-var meta_default48 = meta48;
+var meta_default49 = meta49;
 
 // data/chains/V2/eth/consensus/eth-cl/meta.ts
-var meta49 = {
+var meta50 = {
   id: "eth-cl",
   graph_id: null,
   name: "Ethereum Consensus Layer",
@@ -1931,10 +1964,10 @@ var meta49 = {
     }
   }
 };
-var meta_default49 = meta49;
+var meta_default50 = meta50;
 
 // data/chains/V2/eth/consensus/holesky-cl/meta.ts
-var meta50 = {
+var meta51 = {
   id: "holesky-cl",
   graph_id: null,
   name: "Holesky Consensus Layer",
@@ -1958,10 +1991,10 @@ var meta50 = {
     }
   }
 };
-var meta_default50 = meta50;
+var meta_default51 = meta51;
 
 // data/chains/V2/eth/consensus/goerli-cl/meta.ts
-var meta51 = {
+var meta52 = {
   id: "goerli-cl",
   graph_id: null,
   name: "Goerli Consensus Layer",
@@ -1985,10 +2018,10 @@ var meta51 = {
     }
   }
 };
-var meta_default51 = meta51;
+var meta_default52 = meta52;
 
 // data/chains/V2/eth/consensus/sepolia-cl/meta.ts
-var meta52 = {
+var meta53 = {
   id: "sepolia-cl",
   graph_id: null,
   name: "Sepolia Consensus Layer",
@@ -2012,10 +2045,10 @@ var meta52 = {
     }
   }
 };
-var meta_default52 = meta52;
+var meta_default53 = meta53;
 
 // data/chains/V2/starknet/meta.ts
-var meta53 = {
+var meta54 = {
   id: "starknet",
   graph_id: null,
   name: "Starknet",
@@ -2052,10 +2085,10 @@ var meta53 = {
     website: "https://www.starknet.io/"
   }
 };
-var meta_default53 = meta53;
+var meta_default54 = meta54;
 
 // data/chains/V2/sei/meta.ts
-var meta54 = {
+var meta55 = {
   id: "sei",
   graph_id: null,
   name: "Sei",
@@ -2092,10 +2125,10 @@ var meta54 = {
     website: "https://www.sei.io/"
   }
 };
-var meta_default54 = meta54;
+var meta_default55 = meta55;
 
 // data/chains/V2/cronos/meta.ts
-var meta55 = {
+var meta56 = {
   id: "cronos",
   name: "Cronos",
   alt_names: [],
@@ -2135,10 +2168,10 @@ var meta55 = {
     website: "https://cronos.org/"
   }
 };
-var meta_default55 = meta55;
+var meta_default56 = meta56;
 
 // data/chains/V2/ore/meta.ts
-var meta56 = {
+var meta57 = {
   id: "ore",
   graph_id: null,
   name: "Ore",
@@ -2175,10 +2208,10 @@ var meta56 = {
     website: "https://ore.network/"
   }
 };
-var meta_default56 = meta56;
+var meta_default57 = meta57;
 
 // data/chains/V2/ore/testnets/orestage/meta.ts
-var meta57 = {
+var meta58 = {
   id: "orestage",
   graph_id: null,
   name: "Ore Stage",
@@ -2207,10 +2240,10 @@ var meta57 = {
     }
   }
 };
-var meta_default57 = meta57;
+var meta_default58 = meta58;
 
 // data/chains/V2/cardano/meta.ts
-var meta58 = {
+var meta59 = {
   id: "cardano",
   graph_id: null,
   name: "Cardano",
@@ -2247,10 +2280,10 @@ var meta58 = {
     website: "https://cardano.org/"
   }
 };
-var meta_default58 = meta58;
+var meta_default59 = meta59;
 
 // data/chains/V2/linea/meta.ts
-var meta59 = {
+var meta60 = {
   id: "linea",
   name: "Linea",
   alt_names: [],
@@ -2290,10 +2323,10 @@ var meta59 = {
     website: "https://linea.build/"
   }
 };
-var meta_default59 = meta59;
+var meta_default60 = meta60;
 
 // data/chains/V2/eos/meta.ts
-var meta60 = {
+var meta61 = {
   id: "eos",
   graph_id: null,
   name: "EOS",
@@ -2330,10 +2363,10 @@ var meta60 = {
     website: "https://eosnetwork.com/"
   }
 };
-var meta_default60 = meta60;
+var meta_default61 = meta61;
 
 // data/chains/V2/eos/testnets/jungle4/meta.ts
-var meta61 = {
+var meta62 = {
   id: "jungle4",
   graph_id: null,
   name: "Jungle4",
@@ -2362,10 +2395,10 @@ var meta61 = {
     }
   }
 };
-var meta_default61 = meta61;
+var meta_default62 = meta62;
 
 // data/chains/V2/eos/testnets/kylin/meta.ts
-var meta62 = {
+var meta63 = {
   id: "kylin",
   graph_id: null,
   name: "Kylin",
@@ -2394,10 +2427,10 @@ var meta62 = {
     }
   }
 };
-var meta_default62 = meta62;
+var meta_default63 = meta63;
 
 // data/chains/V2/eos/evms/eosevm/meta.ts
-var meta63 = {
+var meta64 = {
   id: "eosevm",
   graph_id: null,
   name: "EOS EVM",
@@ -2426,10 +2459,10 @@ var meta63 = {
     }
   }
 };
-var meta_default63 = meta63;
+var meta_default64 = meta64;
 
 // data/chains/V2/base/meta.ts
-var meta64 = {
+var meta65 = {
   id: "base",
   graph_id: "base",
   name: "Base",
@@ -2465,10 +2498,10 @@ var meta64 = {
     website: "https://www.base.org/"
   }
 };
-var meta_default64 = meta64;
+var meta_default65 = meta65;
 
 // data/chains/V2/gnosis/meta.ts
-var meta65 = {
+var meta66 = {
   id: "gnosis",
   graph_id: "gnosis",
   name: "Gnosis",
@@ -2505,10 +2538,10 @@ var meta65 = {
     website: "https://gnosis.io/"
   }
 };
-var meta_default65 = meta65;
+var meta_default66 = meta66;
 
 // data/chains/V2/gnosis/testnets/chiado/meta.ts
-var meta66 = {
+var meta67 = {
   id: "chiado",
   graph_id: null,
   name: "Chiado",
@@ -2537,10 +2570,10 @@ var meta66 = {
     }
   }
 };
-var meta_default66 = meta66;
+var meta_default67 = meta67;
 
 // data/chains/V2/gnosis/consensus/chiado-cl/meta.ts
-var meta67 = {
+var meta68 = {
   id: "chiado-cl",
   graph_id: null,
   name: "Chiado Consensus Layer",
@@ -2564,10 +2597,10 @@ var meta67 = {
     }
   }
 };
-var meta_default67 = meta67;
+var meta_default68 = meta68;
 
 // data/chains/V2/gnosis/consensus/gnosis-cl/meta.ts
-var meta68 = {
+var meta69 = {
   id: "gnosis-cl",
   graph_id: null,
   name: "Gnosis Consensus Layer",
@@ -2591,10 +2624,10 @@ var meta68 = {
     }
   }
 };
-var meta_default68 = meta68;
+var meta_default69 = meta69;
 
 // data/chains/V2/litecoin/meta.ts
-var meta69 = {
+var meta70 = {
   id: "litecoin",
   name: "Litecoin",
   alt_names: ["LTC"],
@@ -2635,7 +2668,7 @@ var meta69 = {
     website: "https://litecoin.org/"
   }
 };
-var meta_default69 = meta69;
+var meta_default70 = meta70;
 
 // data/services.ts
 var services_exports = {};
