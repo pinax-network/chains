@@ -249,7 +249,11 @@
     },
     "icon": {
       "id": "tokens/btc",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -467,7 +471,11 @@
     },
     "icon": {
       "id": "tokens/arbi",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -566,7 +574,11 @@
     },
     "icon": {
       "id": "networks/avalanche",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {
@@ -676,7 +688,11 @@
     },
     "icon": {
       "id": "tokens/base",
-      "brand_theme": "both"
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
     },
     "supported_services": {
       "firehose": {

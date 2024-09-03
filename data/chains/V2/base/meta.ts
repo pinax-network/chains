@@ -14,6 +14,7 @@ const meta: ___InternalChain = {
   icon: {
     id: 'tokens/base',
     brand_theme: 'both',
+    variants: ['branded', 'mono'],
   },
   supported_services: {
     firehose: {

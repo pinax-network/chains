@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 9/3/2024, 3:38:27 PM.
+// Last generation on 9/3/2024, 4:48:05 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';

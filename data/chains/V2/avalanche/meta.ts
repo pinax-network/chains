@@ -20,6 +20,7 @@ const meta: ___InternalChain = {
   icon: {
     id: 'networks/avalanche',
     brand_theme: 'both',
+    variants: ['branded', 'mono'],
   },
   supported_services: {
     firehose: {

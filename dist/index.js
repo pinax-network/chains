@@ -449,7 +449,8 @@ var meta10 = {
   },
   icon: {
     id: "tokens/arbi",
-    brand_theme: "both"
+    brand_theme: "both",
+    variants: ["branded", "mono"]
   },
   supported_services: {
     firehose: {
@@ -1464,7 +1465,8 @@ var meta37 = {
   },
   icon: {
     id: "tokens/btc",
-    brand_theme: "both"
+    brand_theme: "both",
+    variants: ["branded", "mono"]
   },
   supported_services: {
     firehose: {
@@ -1628,7 +1630,8 @@ var meta41 = {
   },
   icon: {
     id: "networks/avalanche",
-    brand_theme: "both"
+    brand_theme: "both",
+    variants: ["branded", "mono"]
   },
   supported_services: {
     firehose: {
@@ -2475,7 +2478,8 @@ var meta65 = {
   },
   icon: {
     id: "tokens/base",
-    brand_theme: "both"
+    brand_theme: "both",
+    variants: ["branded", "mono"]
   },
   supported_services: {
     firehose: {
