@@ -1,0 +1,46 @@
+name: Run grpcurl commands on push and pull request
+
+on:
+  push:
+    branches:
+      - '**'
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  run-grpcurl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.18'
+
+      - name: Install grpcurl
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl
+          curl -sSL https://github.com/fullstorydev/grpcurl/releases/download/v1.8.7/grpcurl_1.8.7_linux_x86_64.tar.gz | sudo tar -xz -C /usr/local/bin
+
+      - name: Run grpcurl for substreams services
+        run: node scripts/run-grpcurl-substreams.js
+
+      - name: Check for grpcurl errors
+        if: failure()
+        run: |
+          echo "There were grpcurl errors, blocking the pull request."
+          exit 1
+      
+      - name: Run grpcurl for firehose services
+        run: node scripts/run-grpcurl-firehose.js
+
+      - name: Check for grpcurl errors
+        if: failure()
+        run: |
+          echo "There were grpcurl errors, blocking the pull request."
+          exit 1
