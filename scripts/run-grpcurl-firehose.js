@@ -2,7 +2,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 const { affectedChains } = require('./known-issues-chains');
 const chains = JSON.parse(
-  fs.readFileSync('data/chains/V2/chains.json', 'utf8'),
+  fs.readFileSync('../data/chains/V2/chains.json', 'utf8'),
 );
 
 function runGrpcurl(chainId, serviceName) {
