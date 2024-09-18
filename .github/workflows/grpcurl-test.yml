@@ -1,9 +1,6 @@
-name: Run grpcurl commands on push and pull request
+name: Run grpcurl commands on pull request
 
 on:
-  push:
-    branches:
-      - '**'
   pull_request:
     branches:
       - '**'
