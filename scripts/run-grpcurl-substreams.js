@@ -1,10 +1,11 @@
 const fs = require('fs');
+const path = require('path');
 const { exec } = require('child_process');
 const { affectedChains } = require('./known-issues-chains');
+const filePath = path.resolve(__dirname, '../data/chains/V2/chains.json');
 const chains = JSON.parse(
-  fs.readFileSync('../data/chains/V2/chains.json', 'utf8'),
+  fs.readFileSync(filePath, 'utf8'),
 );
-
 function runGrpcurl(chainId, serviceName) {
   return new Promise((resolve, reject) => {
     const command = `grpcurl ${chainId}.${serviceName}.pinax.network:443 sf.${serviceName}.rpc.v2.EndpointInfo/Info`;
