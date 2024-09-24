@@ -1487,6 +1487,37 @@
           }
         },
         "index": 41
+      },
+      {
+        "id": "jungle4evm",
+        "graph_id": null,
+        "name": "Jungle4 EVM",
+        "alt_names": [],
+        "standard": "erc20",
+        "is_detailed_blocks": true,
+        "is_evm_testnet": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": "2023-09-20T00:00:000Z",
+            "full_released_at": "2023-09-20T00:00:000Z",
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2023-09-20T00:00:000Z",
+            "full_released_at": "2023-09-20T00:00:000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2023-09-20T00:00:000Z",
+            "full_released_at": "2023-09-20T00:00:000Z",
+            "deprecated_at": null
+          }
+        },
+        "index": 42
       }
     ],
     "testnets": [
@@ -1518,7 +1549,7 @@
             "deprecated_at": null
           }
         },
-        "index": 42
+        "index": 43
       },
       {
         "id": "kylin",
@@ -1548,7 +1579,7 @@
             "deprecated_at": null
           }
         },
-        "index": 43
+        "index": 44
       }
     ]
   },
@@ -1591,7 +1622,7 @@
     "metadata": {
       "website": "https://wax.io/"
     },
-    "index": 44,
+    "index": 45,
     "testnets": [
       {
         "id": "waxtest",
@@ -1621,7 +1652,7 @@
             "deprecated_at": null
           }
         },
-        "index": 45
+        "index": 46
       }
     ]
   },
@@ -1664,7 +1695,7 @@
     "metadata": {
       "website": "https://telos.net/"
     },
-    "index": 46,
+    "index": 47,
     "testnets": [
       {
         "id": "telostest",
@@ -1694,7 +1725,7 @@
             "deprecated_at": null
           }
         },
-        "index": 47
+        "index": 48
       }
     ]
   },
@@ -1737,14 +1768,14 @@
     "metadata": {
       "website": "https://www.kava.io/"
     },
-    "index": 48
+    "index": 49
   },
   {
     "id": "blast",
     "name": "Blast Network",
     "alt_names": [],
     "graph_id": "blast-mainnet",
-    "index": 49,
+    "index": 50,
     "standard": "erc20",
     "is_detailed_blocks": false,
     "block_type": {
@@ -1782,7 +1813,7 @@
         "name": "Blast Network Sepolia",
         "alt_names": [],
         "graph_id": "blast-testnet",
-        "index": 50,
+        "index": 51,
         "standard": "erc20",
         "is_detailed_blocks": false,
         "block_type": {
@@ -1880,7 +1911,7 @@
             "deprecated_at": null
           }
         },
-        "index": 52
+        "index": 53
       }
     ],
     "consensus": [],
@@ -1889,7 +1920,7 @@
       "layer": "L2",
       "website": "https://boba.network/"
     },
-    "index": 51
+    "index": 52
   },
   {
     "id": "cronos",
@@ -1933,7 +1964,7 @@
     "metadata": {
       "website": "https://cronos.org/"
     },
-    "index": 53
+    "index": 54
   },
   {
     "id": "fuse",
@@ -1978,7 +2009,7 @@
       "layer": "L1",
       "website": "https://fuse.io/"
     },
-    "index": 54
+    "index": 55
   },
   {
     "id": "linea",
@@ -2022,7 +2053,7 @@
     "metadata": {
       "website": "https://linea.build/"
     },
-    "index": 55
+    "index": 56
   },
   {
     "id": "litecoin",
@@ -2069,7 +2100,7 @@
       "layer": "L1",
       "website": "https://litecoin.org/"
     },
-    "index": 56
+    "index": 57
   },
   {
     "id": "mode",
@@ -2114,7 +2145,7 @@
       "layer": "L2",
       "website": "https://www.mode.network/"
     },
-    "index": 57
+    "index": 58
   },
   {
     "id": "ronin",
@@ -2155,7 +2186,7 @@
     "metadata": {
       "website": "https://roninchain.com/"
     },
-    "index": 58
+    "index": 59
   },
   {
     "id": "sei",
@@ -2196,7 +2227,7 @@
     "metadata": {
       "website": "https://www.sei.io/"
     },
-    "index": 59
+    "index": 60
   },
   {
     "id": "xai",
@@ -2241,7 +2272,7 @@
       "layer": "L3",
       "website": "https://xai.games/"
     },
-    "index": 60
+    "index": 61
   },
   {
     "id": "zkastar",
@@ -2308,7 +2339,7 @@
             "deprecated_at": null
           }
         },
-        "index": 62
+        "index": 63
       },
       {
         "id": "zkyoto",
@@ -2338,7 +2369,7 @@
             "deprecated_at": null
           }
         },
-        "index": 63
+        "index": 64
       }
     ],
     "consensus": [],
@@ -2347,7 +2378,7 @@
       "layer": "L2",
       "website": "https://astar.network/"
     },
-    "index": 61
+    "index": 62
   },
   {
     "id": "x-layer",
@@ -2388,7 +2419,7 @@
     "metadata": {
       "website": "https://www.okx.com/fr/xlayer"
     },
-    "index": 64
+    "index": 65
   },
   {
     "id": "zksync",
@@ -2432,7 +2463,7 @@
         "zk"
       ]
     },
-    "index": 65
+    "index": 66
   },
   {
     "id": "zora",
@@ -2476,7 +2507,7 @@
       "layer": "L2",
       "website": "https://zora.co/"
     },
-    "index": 66
+    "index": 67
   },
   {
     "id": "ore",
@@ -2517,7 +2548,7 @@
     "metadata": {
       "website": "https://ore.network/"
     },
-    "index": 67,
+    "index": 68,
     "testnets": [
       {
         "id": "orestage",
@@ -2547,7 +2578,7 @@
             "deprecated_at": "2023-03-21T00:00:00.000Z"
           }
         },
-        "index": 68
+        "index": 69
       }
     ]
   },
@@ -2589,6 +2620,6 @@
     "metadata": {
       "website": ""
     },
-    "index": 69
+    "index": 70
   }
 ]

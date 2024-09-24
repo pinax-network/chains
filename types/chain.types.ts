@@ -38,6 +38,9 @@ export type ChainBase = {
   // Blockchain Service Matrix (https://www.notion.so/pinaxnetwork/Blockchain-Service-Matrix).
   is_detailed_blocks: boolean;
 
+  // Whether or not the evm is a testnet
+  is_evm_testnet?: boolean;
+
   // Block Type
   block_type: BlockType;
 };

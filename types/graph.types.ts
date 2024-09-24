@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 9/3/2024, 4:48:05 PM.
+// Last generation on 9/24/2024, 5:15:25 PM.
 export type GraphID =
   | 'arbitrum-nova'
   | 'arbitrum-one'
@@ -20,6 +20,7 @@ export type GraphID =
   | 'celo'
   | 'celo-alfajores'
   | 'chapel'
+  | 'chiliz'
   | 'cosmoshub-4'
   | 'etherlink-mainnet'
   | 'etherlink-testnet'
@@ -63,6 +64,7 @@ export type GraphID =
   | 'sepolia'
   | 'solana-mainnet-beta'
   | 'soneium-testnet'
+  | 'starknet-mainnet'
   | 'theta-testnet-001'
   | 'xlayer-mainnet'
   | 'xlayer-sepolia'

@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 9/3/2024, 4:48:05 PM.
+// Last generation on 9/24/2024, 5:15:25 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -65,6 +65,7 @@ export { default as linea } from './linea/meta';
 export { default as eos } from './eos/meta';
 export { default as jungle4 } from './eos/testnets/jungle4/meta';
 export { default as kylin } from './eos/testnets/kylin/meta';
+export { default as jungle4evm } from './eos/evms/jungle4evm/meta';
 export { default as eosevm } from './eos/evms/eosevm/meta';
 export { default as base } from './base/meta';
 export { default as gnosis } from './gnosis/meta';
