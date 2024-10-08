@@ -27,6 +27,11 @@ const meta: ___InternalTestnet = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 

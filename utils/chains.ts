@@ -101,7 +101,8 @@ const isChainSupported = (chain: Chain | Testnet | ConsensusLayer) => {
   return (
     isServiceSupported(chain, 'firehose') ||
     isServiceSupported(chain, 'substreams') ||
-    isServiceSupported(chain, 'rpc')
+    isServiceSupported(chain, 'rpc') ||
+    isServiceSupported(chain, 'datasets')
   );
 };
 
@@ -116,9 +117,11 @@ const isChainBeta = (chain: Chain | Testnet | ConsensusLayer) => {
   return (
     (isServiceBeta(chain, 'firehose') ||
       isServiceBeta(chain, 'substreams') ||
+      isServiceBeta(chain, 'datasets') ||
       isServiceBeta(chain, 'rpc')) &&
     !isServiceSupported(chain, 'firehose') &&
     !isServiceSupported(chain, 'substreams') &&
+    !isServiceSupported(chain, 'datasets') &&
     !isServiceSupported(chain, 'rpc')
   );
 };
@@ -134,6 +137,7 @@ const isChainDeprecated = (chain: Chain | Testnet | ConsensusLayer) => {
   return (
     isServiceDeprecated(chain, 'firehose') ||
     isServiceDeprecated(chain, 'substreams') ||
+    isServiceDeprecated(chain, 'datasets') ||
     isServiceDeprecated(chain, 'rpc')
   );
 };
@@ -319,7 +323,6 @@ const getChainStatus = (chain: Chain | ConsensusLayer | EVM | Testnet) => {
   if (isChainDeprecated(chain)) {
     return 'deprecated';
   }
-  console.log('unsupp chain >>', chain);
   return 'unsupported';
 };
 
@@ -333,23 +336,25 @@ const getSupportedServices = (
   chain: Chain | Testnet | ConsensusLayer | EVM,
 ) => {
   let supServices = [] as Array<[ServiceID, string | null]>;
-  (['rpc', 'firehose', 'substreams'] as Array<ServiceID>).forEach((service) => {
-    if (isServiceBeta(chain as any, service as any)) {
-      supServices.push([
-        service,
-        chain.supported_services[
-          service as keyof typeof chain.supported_services
-        ]?.beta_released_at,
-      ]);
-    } else if (isServiceSupported(chain as any, service as any)) {
-      supServices.push([
-        service,
-        chain.supported_services[
-          service as keyof typeof chain.supported_services
-        ]?.full_released_at,
-      ]);
-    }
-  });
+  (['rpc', 'firehose', 'substreams', 'datasets'] as Array<ServiceID>).forEach(
+    (service) => {
+      if (isServiceBeta(chain as any, service as any)) {
+        supServices.push([
+          service,
+          chain.supported_services[
+            service as keyof typeof chain.supported_services
+          ]?.beta_released_at,
+        ]);
+      } else if (isServiceSupported(chain as any, service as any)) {
+        supServices.push([
+          service,
+          chain.supported_services[
+            service as keyof typeof chain.supported_services
+          ]?.full_released_at,
+        ]);
+      }
+    },
+  );
   return supServices;
 };
 

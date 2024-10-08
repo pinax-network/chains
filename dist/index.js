@@ -42,7 +42,7 @@ __export(V2_exports, {
   arbsepolia: () => meta_default11,
   arweave: () => meta_default14,
   avalanche: () => meta_default41,
-  base: () => meta_default65,
+  base: () => meta_default66,
   bitcoin: () => meta_default37,
   blast: () => meta_default42,
   blastsepolia: () => meta_default43,
@@ -52,29 +52,30 @@ __export(V2_exports, {
   cardano: () => meta_default59,
   celo: () => meta_default,
   chapel: () => meta_default34,
-  chiado: () => meta_default67,
-  chiadoCl: () => meta_default68,
+  chiado: () => meta_default68,
+  chiadoCl: () => meta_default69,
   cosmoshub: () => meta_default25,
   cronos: () => meta_default56,
   decimal: () => meta_default8,
   eos: () => meta_default61,
-  eosevm: () => meta_default64,
+  eosevm: () => meta_default65,
   eth: () => meta_default46,
   ethCl: () => meta_default50,
   fantom: () => meta_default21,
   fuse: () => meta_default24,
-  gnosis: () => meta_default66,
-  gnosisCl: () => meta_default69,
+  gnosis: () => meta_default67,
+  gnosisCl: () => meta_default70,
   goerli: () => meta_default49,
   goerliCl: () => meta_default52,
   holesky: () => meta_default47,
   holeskyCl: () => meta_default51,
   jungle4: () => meta_default62,
+  jungle4evm: () => meta_default64,
   juno: () => meta_default27,
   kava: () => meta_default28,
   kylin: () => meta_default63,
   linea: () => meta_default60,
-  litecoin: () => meta_default70,
+  litecoin: () => meta_default71,
   mode: () => meta_default20,
   moonbeam: () => meta_default13,
   mumbai: () => meta_default31,
@@ -140,6 +141,11 @@ var meta = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://celo.org/',
@@ -171,6 +177,11 @@ var meta2 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -212,6 +223,11 @@ var meta3 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://telos.net/',
@@ -243,6 +259,11 @@ var meta4 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -280,6 +301,11 @@ var meta5 = {
       deprecated_at: null,
     },
     substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -323,6 +349,11 @@ var meta6 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default6 = meta6;
@@ -351,6 +382,11 @@ var meta7 = {
       deprecated_at: null,
     },
     substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -392,6 +428,11 @@ var meta8 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://www.decimalchain.com/',
@@ -428,6 +469,11 @@ var meta9 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -472,6 +518,11 @@ var meta10 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://arbitrum.io/',
@@ -507,6 +558,11 @@ var meta11 = {
       full_released_at: '2024-05-03T00:00:00.000Z',
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default11 = meta11;
@@ -538,6 +594,11 @@ var meta12 = {
       beta_released_at: '2024-05-03T00:00:00.000Z',
       full_released_at: '2024-05-03T00:00:00.000Z',
       deprecated_at: '2024-05-03T00:00:00.000Z',
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
     },
   },
 };
@@ -573,6 +634,11 @@ var meta13 = {
     },
     rpc: {
       beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -612,6 +678,11 @@ var meta14 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -656,6 +727,11 @@ var meta15 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://wax.io/',
@@ -687,6 +763,11 @@ var meta16 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -728,6 +809,11 @@ var meta17 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://optimism.io/',
@@ -761,6 +847,11 @@ var meta18 = {
     rpc: {
       beta_released_at: '2023-08-30T00:00:00.000Z',
       full_released_at: '2023-08-30T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null,
     },
   },
@@ -797,6 +888,11 @@ var meta19 = {
     },
     rpc: {
       beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -838,6 +934,11 @@ var meta20 = {
     substreams: {
       beta_released_at: '2024-05-14T00:00:00Z',
       full_released_at: '2024-05-14T00:00:00Z',
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null,
     },
   },
@@ -884,6 +985,11 @@ var meta21 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://fantom.foundation/',
@@ -921,6 +1027,11 @@ var meta22 = {
     },
     substreams: {
       beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -963,6 +1074,11 @@ var meta23 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default23 = meta23;
@@ -997,6 +1113,11 @@ var meta24 = {
     },
     substreams: {
       beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -1044,6 +1165,11 @@ var meta25 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://cosmos.network/',
@@ -1079,6 +1205,11 @@ var meta26 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default26 = meta26;
@@ -1107,6 +1238,11 @@ var meta27 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -1144,6 +1280,11 @@ var meta28 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -1188,6 +1329,11 @@ var meta29 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://roninchain.com/',
@@ -1228,6 +1374,11 @@ var meta30 = {
       full_released_at: '2023-12-01T00:00:00.000Z',
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://polygon.technology/',
@@ -1263,6 +1414,11 @@ var meta31 = {
       full_released_at: '2023-12-01T00:00:00.000Z',
       deprecated_at: '2024-04-12T00:00:00.000Z',
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default31 = meta31;
@@ -1293,6 +1449,11 @@ var meta32 = {
     rpc: {
       beta_released_at: '2024-04-12T00:00:00.000Z',
       full_released_at: '2024-04-12T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null,
     },
   },
@@ -1332,6 +1493,11 @@ var meta33 = {
       full_released_at: '2023-12-01T00:00:00.000Z',
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://www.bnbchain.org/en/bnb-smart-chain',
@@ -1365,6 +1531,11 @@ var meta34 = {
     rpc: {
       beta_released_at: '2023-12-01T00:00:00.000Z',
       full_released_at: '2023-12-01T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null,
     },
   },
@@ -1401,6 +1572,11 @@ var meta35 = {
     },
     substreams: {
       beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -1448,6 +1624,11 @@ var meta36 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://osmosis.zone/',
@@ -1484,6 +1665,11 @@ var meta37 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -1528,6 +1714,11 @@ var meta38 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: '',
@@ -1565,6 +1756,11 @@ var meta39 = {
     },
     substreams: {
       beta_released_at: '2024-08-01T00:00:000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -1612,6 +1808,11 @@ var meta40 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://zksync.io/',
@@ -1650,6 +1851,11 @@ var meta41 = {
     },
     rpc: {
       beta_released_at: '2024-08-01T00:00:00.000Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -1694,6 +1900,11 @@ var meta42 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   testnets: [],
   consensus: [],
@@ -1730,6 +1941,11 @@ var meta43 = {
       deprecated_at: null,
     },
     substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -1771,6 +1987,11 @@ var meta44 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://near.org/',
@@ -1802,6 +2023,11 @@ var meta45 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -1843,6 +2069,11 @@ var meta46 = {
       full_released_at: '2023-12-01T00:00:00.000Z',
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://ethereum.org/',
@@ -1878,6 +2109,11 @@ var meta47 = {
       full_released_at: '2023-12-01T00:00:00.000Z',
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default47 = meta47;
@@ -1908,6 +2144,11 @@ var meta48 = {
     rpc: {
       beta_released_at: '2023-12-01T00:00:00.000Z',
       full_released_at: '2023-12-01T00:00:00.000Z',
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null,
     },
   },
@@ -1941,6 +2182,11 @@ var meta49 = {
       beta_released_at: '2023-03-01T00:00:00.000Z',
       full_released_at: '2023-03-01T00:00:00.000Z',
       deprecated_at: '2023-03-21T00:00:00.000Z',
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
     },
   },
 };
@@ -2087,6 +2333,11 @@ var meta54 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://www.starknet.io/',
@@ -2127,6 +2378,11 @@ var meta55 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://www.sei.io/',
@@ -2163,6 +2419,11 @@ var meta56 = {
       deprecated_at: null,
     },
     substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -2210,6 +2471,11 @@ var meta57 = {
       full_released_at: '2023-03-01T00:00:00.000Z',
       deprecated_at: '2023-03-21T00:00:00.000Z',
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://ore.network/',
@@ -2245,6 +2511,11 @@ var meta58 = {
       full_released_at: '2023-03-01T00:00:00.000Z',
       deprecated_at: '2023-03-21T00:00:00.000Z',
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default58 = meta58;
@@ -2278,6 +2549,11 @@ var meta59 = {
       deprecated_at: null,
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
@@ -2319,6 +2595,11 @@ var meta60 = {
     },
     substreams: {
       beta_released_at: '2024-08-01T00:00:00Z',
+      full_released_at: null,
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
@@ -2365,6 +2646,11 @@ var meta61 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://eosnetwork.com/',
@@ -2400,6 +2686,11 @@ var meta62 = {
       full_released_at: '2023-12-01T00:00:00.000Z',
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default62 = meta62;
@@ -2432,12 +2723,55 @@ var meta63 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 var meta_default63 = meta63;
 
-// data/chains/V2/eos/evms/eosevm/meta.ts
+// data/chains/V2/eos/evms/jungle4evm/meta.ts
 var meta64 = {
+  id: 'jungle4evm',
+  graph_id: null,
+  name: 'Jungle4 EVM',
+  alt_names: [],
+  standard: 'erc20',
+  is_detailed_blocks: true,
+  is_evm_testnet: true,
+  block_type: {
+    label: 'sf.ethereum.type.v2.Block',
+    url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
+  },
+  supported_services: {
+    firehose: {
+      beta_released_at: '2023-09-20T00:00:000Z',
+      full_released_at: '2023-09-20T00:00:000Z',
+      deprecated_at: null,
+    },
+    substreams: {
+      beta_released_at: '2023-09-20T00:00:000Z',
+      full_released_at: '2023-09-20T00:00:000Z',
+      deprecated_at: null,
+    },
+    rpc: {
+      beta_released_at: '2023-09-20T00:00:000Z',
+      full_released_at: '2023-09-20T00:00:000Z',
+      deprecated_at: null,
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
+  },
+};
+var meta_default64 = meta64;
+
+// data/chains/V2/eos/evms/eosevm/meta.ts
+var meta65 = {
   id: 'eosevm',
   graph_id: null,
   name: 'EOS EVM',
@@ -2464,12 +2798,17 @@ var meta64 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
-var meta_default64 = meta64;
+var meta_default65 = meta65;
 
 // data/chains/V2/base/meta.ts
-var meta65 = {
+var meta66 = {
   id: 'base',
   graph_id: 'base',
   name: 'Base',
@@ -2501,15 +2840,20 @@ var meta65 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://www.base.org/',
   },
 };
-var meta_default65 = meta65;
+var meta_default66 = meta66;
 
 // data/chains/V2/gnosis/meta.ts
-var meta66 = {
+var meta67 = {
   id: 'gnosis',
   graph_id: 'gnosis',
   name: 'Gnosis',
@@ -2541,15 +2885,20 @@ var meta66 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://gnosis.io/',
   },
 };
-var meta_default66 = meta66;
+var meta_default67 = meta67;
 
 // data/chains/V2/gnosis/testnets/chiado/meta.ts
-var meta67 = {
+var meta68 = {
   id: 'chiado',
   graph_id: null,
   name: 'Chiado',
@@ -2576,12 +2925,17 @@ var meta67 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
-var meta_default67 = meta67;
+var meta_default68 = meta68;
 
 // data/chains/V2/gnosis/consensus/chiado-cl/meta.ts
-var meta68 = {
+var meta69 = {
   id: 'chiado-cl',
   graph_id: null,
   name: 'Chiado Consensus Layer',
@@ -2605,10 +2959,10 @@ var meta68 = {
     },
   },
 };
-var meta_default68 = meta68;
+var meta_default69 = meta69;
 
 // data/chains/V2/gnosis/consensus/gnosis-cl/meta.ts
-var meta69 = {
+var meta70 = {
   id: 'gnosis-cl',
   graph_id: null,
   name: 'Gnosis Consensus Layer',
@@ -2632,10 +2986,10 @@ var meta69 = {
     },
   },
 };
-var meta_default69 = meta69;
+var meta_default70 = meta70;
 
 // data/chains/V2/litecoin/meta.ts
-var meta70 = {
+var meta71 = {
   id: 'litecoin',
   name: 'Litecoin',
   alt_names: ['LTC'],
@@ -2667,6 +3021,11 @@ var meta70 = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   testnets: [],
   consensus: [],
@@ -2676,7 +3035,7 @@ var meta70 = {
     website: 'https://litecoin.org/',
   },
 };
-var meta_default70 = meta70;
+var meta_default71 = meta71;
 
 // data/services.ts
 var services_exports = {};
@@ -2769,16 +3128,19 @@ var isChainSupported = (chain) => {
   return (
     isServiceSupported(chain, 'firehose') ||
     isServiceSupported(chain, 'substreams') ||
-    isServiceSupported(chain, 'rpc')
+    isServiceSupported(chain, 'rpc') ||
+    isServiceSupported(chain, 'datasets')
   );
 };
 var isChainBeta = (chain) => {
   return (
     (isServiceBeta(chain, 'firehose') ||
       isServiceBeta(chain, 'substreams') ||
+      isServiceBeta(chain, 'datasets') ||
       isServiceBeta(chain, 'rpc')) &&
     !isServiceSupported(chain, 'firehose') &&
     !isServiceSupported(chain, 'substreams') &&
+    !isServiceSupported(chain, 'datasets') &&
     !isServiceSupported(chain, 'rpc')
   );
 };
@@ -2786,6 +3148,7 @@ var isChainDeprecated = (chain) => {
   return (
     isServiceDeprecated(chain, 'firehose') ||
     isServiceDeprecated(chain, 'substreams') ||
+    isServiceDeprecated(chain, 'datasets') ||
     isServiceDeprecated(chain, 'rpc')
   );
 };
@@ -2897,12 +3260,11 @@ var getChainStatus = (chain) => {
   if (isChainDeprecated(chain)) {
     return 'deprecated';
   }
-  console.log('unsupp chain >>', chain);
   return 'unsupported';
 };
 var getSupportedServices = (chain) => {
   let supServices = [];
-  ['rpc', 'firehose', 'substreams'].forEach((service) => {
+  ['rpc', 'firehose', 'substreams', 'datasets'].forEach((service) => {
     if (isServiceBeta(chain, service)) {
       supServices.push([
         service,

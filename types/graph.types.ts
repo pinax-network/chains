@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 9/24/2024, 5:15:25 PM.
+// Last generation on 10/4/2024, 4:59:59 PM.
 export type GraphID =
   | 'arbitrum-nova'
   | 'arbitrum-one'
@@ -15,12 +15,16 @@ export type GraphID =
   | 'blast-mainnet'
   | 'blast-testnet'
   | 'boba'
+  | 'boba-bnb'
+  | 'boba-bnb-testnet'
+  | 'boba-testnet'
   | 'bsc'
   | 'btc'
   | 'celo'
   | 'celo-alfajores'
   | 'chapel'
   | 'chiliz'
+  | 'chiliz-testnet'
   | 'cosmoshub-4'
   | 'etherlink-mainnet'
   | 'etherlink-testnet'
@@ -28,6 +32,7 @@ export type GraphID =
   | 'fantom-testnet'
   | 'fuji'
   | 'fuse'
+  | 'fuse-testnet'
   | 'gnosis'
   | 'gnosis-chiado'
   | 'gravity-mainnet'
@@ -57,6 +62,7 @@ export type GraphID =
   | 'polygon-zkevm'
   | 'polygon-zkevm-cardona'
   | 'rootstock'
+  | 'rootstock-testnet'
   | 'scroll'
   | 'scroll-sepolia'
   | 'sei-atlantic'

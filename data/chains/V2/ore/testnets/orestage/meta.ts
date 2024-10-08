@@ -27,6 +27,11 @@ const meta: ___InternalTestnet = {
       full_released_at: '2023-03-01T00:00:00.000Z',
       deprecated_at: '2023-03-21T00:00:00.000Z',
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
 };
 

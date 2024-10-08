@@ -14,7 +14,7 @@ __export(V2_exports, {
   arbsepolia: () => meta_default11,
   arweave: () => meta_default14,
   avalanche: () => meta_default41,
-  base: () => meta_default65,
+  base: () => meta_default66,
   bitcoin: () => meta_default37,
   blast: () => meta_default42,
   blastsepolia: () => meta_default43,
@@ -24,29 +24,30 @@ __export(V2_exports, {
   cardano: () => meta_default59,
   celo: () => meta_default,
   chapel: () => meta_default34,
-  chiado: () => meta_default67,
-  chiadoCl: () => meta_default68,
+  chiado: () => meta_default68,
+  chiadoCl: () => meta_default69,
   cosmoshub: () => meta_default25,
   cronos: () => meta_default56,
   decimal: () => meta_default8,
   eos: () => meta_default61,
-  eosevm: () => meta_default64,
+  eosevm: () => meta_default65,
   eth: () => meta_default46,
   ethCl: () => meta_default50,
   fantom: () => meta_default21,
   fuse: () => meta_default24,
-  gnosis: () => meta_default66,
-  gnosisCl: () => meta_default69,
+  gnosis: () => meta_default67,
+  gnosisCl: () => meta_default70,
   goerli: () => meta_default49,
   goerliCl: () => meta_default52,
   holesky: () => meta_default47,
   holeskyCl: () => meta_default51,
   jungle4: () => meta_default62,
+  jungle4evm: () => meta_default64,
   juno: () => meta_default27,
   kava: () => meta_default28,
   kylin: () => meta_default63,
   linea: () => meta_default60,
-  litecoin: () => meta_default70,
+  litecoin: () => meta_default71,
   mode: () => meta_default20,
   moonbeam: () => meta_default13,
   mumbai: () => meta_default31,
@@ -111,6 +112,11 @@ var meta = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -143,6 +149,11 @@ var meta2 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -183,6 +194,11 @@ var meta3 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -215,6 +231,11 @@ var meta4 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -252,6 +273,11 @@ var meta5 = {
       deprecated_at: null
     },
     substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -294,6 +320,11 @@ var meta6 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -323,6 +354,11 @@ var meta7 = {
       deprecated_at: null
     },
     substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -363,6 +399,11 @@ var meta8 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -400,6 +441,11 @@ var meta9 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -443,6 +489,11 @@ var meta10 = {
       beta_released_at: "2024-06-10T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -478,6 +529,11 @@ var meta11 = {
       beta_released_at: "2024-05-03T00:00:00.000Z",
       full_released_at: "2024-05-03T00:00:00.000Z",
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -510,6 +566,11 @@ var meta12 = {
       beta_released_at: "2024-05-03T00:00:00.000Z",
       full_released_at: "2024-05-03T00:00:00.000Z",
       deprecated_at: "2024-05-03T00:00:00.000Z"
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -545,6 +606,11 @@ var meta13 = {
     },
     rpc: {
       beta_released_at: "2024-08-01T00:00:000Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -584,6 +650,11 @@ var meta14 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -627,6 +698,11 @@ var meta15 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -659,6 +735,11 @@ var meta16 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -699,6 +780,11 @@ var meta17 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -733,6 +819,11 @@ var meta18 = {
     rpc: {
       beta_released_at: "2023-08-30T00:00:00.000Z",
       full_released_at: "2023-08-30T00:00:00.000Z",
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null
     }
   }
@@ -769,6 +860,11 @@ var meta19 = {
     },
     rpc: {
       beta_released_at: "2024-08-01T00:00:000Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -810,6 +906,11 @@ var meta20 = {
     substreams: {
       beta_released_at: "2024-05-14T00:00:00Z",
       full_released_at: "2024-05-14T00:00:00Z",
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null
     }
   },
@@ -855,6 +956,11 @@ var meta21 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -893,6 +999,11 @@ var meta22 = {
     },
     substreams: {
       beta_released_at: "2024-08-01T00:00:000Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -934,6 +1045,11 @@ var meta23 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -969,6 +1085,11 @@ var meta24 = {
     },
     substreams: {
       beta_released_at: "2024-08-01T00:00:000Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -1015,6 +1136,11 @@ var meta25 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1050,6 +1176,11 @@ var meta26 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -1079,6 +1210,11 @@ var meta27 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -1116,6 +1252,11 @@ var meta28 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -1159,6 +1300,11 @@ var meta29 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1199,6 +1345,11 @@ var meta30 = {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1234,6 +1385,11 @@ var meta31 = {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
       deprecated_at: "2024-04-12T00:00:00.000Z"
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -1265,6 +1421,11 @@ var meta32 = {
     rpc: {
       beta_released_at: "2024-04-12T00:00:00.000Z",
       full_released_at: "2024-04-12T00:00:00.000Z",
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null
     }
   }
@@ -1303,6 +1464,11 @@ var meta33 = {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1337,6 +1503,11 @@ var meta34 = {
     rpc: {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null
     }
   }
@@ -1373,6 +1544,11 @@ var meta35 = {
     },
     substreams: {
       beta_released_at: "2024-08-01T00:00:000Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -1419,6 +1595,11 @@ var meta36 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1456,6 +1637,11 @@ var meta37 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -1499,6 +1685,11 @@ var meta38 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1537,6 +1728,11 @@ var meta39 = {
     },
     substreams: {
       beta_released_at: "2024-08-01T00:00:000Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -1583,6 +1779,11 @@ var meta40 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1622,6 +1823,11 @@ var meta41 = {
     },
     rpc: {
       beta_released_at: "2024-08-01T00:00:00.000Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -1665,6 +1871,11 @@ var meta42 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   testnets: [],
@@ -1705,6 +1916,11 @@ var meta43 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -1742,6 +1958,11 @@ var meta44 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1774,6 +1995,11 @@ var meta45 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -1814,6 +2040,11 @@ var meta46 = {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -1849,6 +2080,11 @@ var meta47 = {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -1880,6 +2116,11 @@ var meta48 = {
     rpc: {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null
     }
   }
@@ -1913,6 +2154,11 @@ var meta49 = {
       beta_released_at: "2023-03-01T00:00:00.000Z",
       full_released_at: "2023-03-01T00:00:00.000Z",
       deprecated_at: "2023-03-21T00:00:00.000Z"
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -2058,6 +2304,11 @@ var meta54 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -2098,6 +2349,11 @@ var meta55 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -2135,6 +2391,11 @@ var meta56 = {
       deprecated_at: null
     },
     substreams: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -2181,6 +2442,11 @@ var meta57 = {
       beta_released_at: "2023-03-01T00:00:00.000Z",
       full_released_at: "2023-03-01T00:00:00.000Z",
       deprecated_at: "2023-03-21T00:00:00.000Z"
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -2216,6 +2482,11 @@ var meta58 = {
       beta_released_at: "2023-03-01T00:00:00.000Z",
       full_released_at: "2023-03-01T00:00:00.000Z",
       deprecated_at: "2023-03-21T00:00:00.000Z"
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -2250,6 +2521,11 @@ var meta59 = {
       deprecated_at: null
     },
     rpc: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
@@ -2291,6 +2567,11 @@ var meta60 = {
     },
     substreams: {
       beta_released_at: "2024-08-01T00:00:00Z",
+      full_released_at: null,
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
     }
@@ -2336,6 +2617,11 @@ var meta61 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
@@ -2371,6 +2657,11 @@ var meta62 = {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
@@ -2403,13 +2694,56 @@ var meta63 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
 var meta_default63 = meta63;
 
-// data/chains/V2/eos/evms/eosevm/meta.ts
+// data/chains/V2/eos/evms/jungle4evm/meta.ts
 var meta64 = {
+  id: "jungle4evm",
+  graph_id: null,
+  name: "Jungle4 EVM",
+  alt_names: [],
+  standard: "erc20",
+  is_detailed_blocks: true,
+  is_evm_testnet: true,
+  block_type: {
+    label: "sf.ethereum.type.v2.Block",
+    url: "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+  },
+  supported_services: {
+    firehose: {
+      beta_released_at: "2023-09-20T00:00:000Z",
+      full_released_at: "2023-09-20T00:00:000Z",
+      deprecated_at: null
+    },
+    substreams: {
+      beta_released_at: "2023-09-20T00:00:000Z",
+      full_released_at: "2023-09-20T00:00:000Z",
+      deprecated_at: null
+    },
+    rpc: {
+      beta_released_at: "2023-09-20T00:00:000Z",
+      full_released_at: "2023-09-20T00:00:000Z",
+      deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
+    }
+  }
+};
+var meta_default64 = meta64;
+
+// data/chains/V2/eos/evms/eosevm/meta.ts
+var meta65 = {
   id: "eosevm",
   graph_id: null,
   name: "EOS EVM",
@@ -2435,13 +2769,18 @@ var meta64 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
-var meta_default64 = meta64;
+var meta_default65 = meta65;
 
 // data/chains/V2/base/meta.ts
-var meta65 = {
+var meta66 = {
   id: "base",
   graph_id: "base",
   name: "Base",
@@ -2472,16 +2811,21 @@ var meta65 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
     website: "https://www.base.org/"
   }
 };
-var meta_default65 = meta65;
+var meta_default66 = meta66;
 
 // data/chains/V2/gnosis/meta.ts
-var meta66 = {
+var meta67 = {
   id: "gnosis",
   graph_id: "gnosis",
   name: "Gnosis",
@@ -2512,16 +2856,21 @@ var meta66 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   metadata: {
     website: "https://gnosis.io/"
   }
 };
-var meta_default66 = meta66;
+var meta_default67 = meta67;
 
 // data/chains/V2/gnosis/testnets/chiado/meta.ts
-var meta67 = {
+var meta68 = {
   id: "chiado",
   graph_id: null,
   name: "Chiado",
@@ -2547,13 +2896,18 @@ var meta67 = {
       beta_released_at: "2024-08-01T00:00:000Z",
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   }
 };
-var meta_default67 = meta67;
+var meta_default68 = meta68;
 
 // data/chains/V2/gnosis/consensus/chiado-cl/meta.ts
-var meta68 = {
+var meta69 = {
   id: "chiado-cl",
   graph_id: null,
   name: "Chiado Consensus Layer",
@@ -2577,10 +2931,10 @@ var meta68 = {
     }
   }
 };
-var meta_default68 = meta68;
+var meta_default69 = meta69;
 
 // data/chains/V2/gnosis/consensus/gnosis-cl/meta.ts
-var meta69 = {
+var meta70 = {
   id: "gnosis-cl",
   graph_id: null,
   name: "Gnosis Consensus Layer",
@@ -2604,10 +2958,10 @@ var meta69 = {
     }
   }
 };
-var meta_default69 = meta69;
+var meta_default70 = meta70;
 
 // data/chains/V2/litecoin/meta.ts
-var meta70 = {
+var meta71 = {
   id: "litecoin",
   name: "Litecoin",
   alt_names: ["LTC"],
@@ -2638,6 +2992,11 @@ var meta70 = {
       beta_released_at: null,
       full_released_at: null,
       deprecated_at: null
+    },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null
     }
   },
   testnets: [],
@@ -2648,7 +3007,7 @@ var meta70 = {
     website: "https://litecoin.org/"
   }
 };
-var meta_default70 = meta70;
+var meta_default71 = meta71;
 
 // data/services.ts
 var services_exports = {};
@@ -2725,13 +3084,13 @@ var isServiceDeprecated = (chain, service) => {
   return serviceStatusDates && (serviceStatusDates.beta_released_at !== null || serviceStatusDates.full_released_at !== null) && serviceStatusDates.deprecated_at !== null;
 };
 var isChainSupported = (chain) => {
-  return isServiceSupported(chain, "firehose") || isServiceSupported(chain, "substreams") || isServiceSupported(chain, "rpc");
+  return isServiceSupported(chain, "firehose") || isServiceSupported(chain, "substreams") || isServiceSupported(chain, "rpc") || isServiceSupported(chain, "datasets");
 };
 var isChainBeta = (chain) => {
-  return (isServiceBeta(chain, "firehose") || isServiceBeta(chain, "substreams") || isServiceBeta(chain, "rpc")) && !isServiceSupported(chain, "firehose") && !isServiceSupported(chain, "substreams") && !isServiceSupported(chain, "rpc");
+  return (isServiceBeta(chain, "firehose") || isServiceBeta(chain, "substreams") || isServiceBeta(chain, "datasets") || isServiceBeta(chain, "rpc")) && !isServiceSupported(chain, "firehose") && !isServiceSupported(chain, "substreams") && !isServiceSupported(chain, "datasets") && !isServiceSupported(chain, "rpc");
 };
 var isChainDeprecated = (chain) => {
-  return isServiceDeprecated(chain, "firehose") || isServiceDeprecated(chain, "substreams") || isServiceDeprecated(chain, "rpc");
+  return isServiceDeprecated(chain, "firehose") || isServiceDeprecated(chain, "substreams") || isServiceDeprecated(chain, "datasets") || isServiceDeprecated(chain, "rpc");
 };
 var findChainById = (db, id) => {
   for (const chain of db) {
@@ -2835,12 +3194,11 @@ var getChainStatus = (chain) => {
   if (isChainDeprecated(chain)) {
     return "deprecated";
   }
-  console.log("unsupp chain >>", chain);
   return "unsupported";
 };
 var getSupportedServices = (chain) => {
   let supServices = [];
-  ["rpc", "firehose", "substreams"].forEach((service) => {
+  ["rpc", "firehose", "substreams", "datasets"].forEach((service) => {
     if (isServiceBeta(chain, service)) {
       supServices.push([
         service,

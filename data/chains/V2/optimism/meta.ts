@@ -32,6 +32,11 @@ const meta: ___InternalChain = {
       full_released_at: null,
       deprecated_at: null,
     },
+    datasets: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://optimism.io/',

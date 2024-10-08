@@ -22,6 +22,7 @@ type GraphID =
   | 'celo'
   | 'celo-alfajores'
   | 'chapel'
+  | 'chiliz'
   | 'cosmoshub-4'
   | 'etherlink-mainnet'
   | 'etherlink-testnet'
@@ -65,6 +66,7 @@ type GraphID =
   | 'sepolia'
   | 'solana-mainnet-beta'
   | 'soneium-testnet'
+  | 'starknet-mainnet'
   | 'theta-testnet-001'
   | 'xlayer-mainnet'
   | 'xlayer-sepolia'
@@ -137,6 +139,7 @@ type PinaxID =
   | 'eos'
   | 'jungle4'
   | 'kylin'
+  | 'jungle4evm'
   | 'eosevm'
   | 'base'
   | 'gnosis'
@@ -146,7 +149,7 @@ type PinaxID =
   | 'litecoin';
 
 type ConsensusLayerServiceID = 'substreams' | 'firehose';
-type ServiceID = ConsensusLayerServiceID | 'rpc';
+type ServiceID = ConsensusLayerServiceID | 'rpc' | 'datasets';
 type ServiceEndpoint = {
   name: string;
   endpoint_slug: ServiceID;
@@ -190,6 +193,7 @@ type ChainBase = {
   index?: number;
   standard: Standard | null;
   is_detailed_blocks: boolean;
+  is_evm_testnet?: boolean;
   block_type: BlockType;
 };
 type ___InternalTestnet = ChainBase & {
@@ -266,41 +270,43 @@ interface Chain extends ChainBase {
   };
 }
 
-declare const meta$15: ___InternalChain;
+declare const meta$16: ___InternalChain;
 
-declare const meta$14: ___InternalTestnet;
+declare const meta$15: ___InternalTestnet;
 
-declare const meta$13: ___InternalChain;
+declare const meta$14: ___InternalChain;
 
-declare const meta$12: ___InternalTestnet;
+declare const meta$13: ___InternalTestnet;
 
-declare const meta$11: ___InternalChain;
+declare const meta$12: ___InternalChain;
+
+declare const meta$11: ___InternalTestnet;
 
 declare const meta$10: ___InternalTestnet;
 
-declare const meta$$: ___InternalTestnet;
+declare const meta$$: ___InternalChain;
 
 declare const meta$_: ___InternalChain;
 
 declare const meta$Z: ___InternalChain;
 
-declare const meta$Y: ___InternalChain;
+declare const meta$Y: ___InternalTestnet;
 
 declare const meta$X: ___InternalTestnet;
 
-declare const meta$W: ___InternalTestnet;
+declare const meta$W: ___InternalChain;
 
 declare const meta$V: ___InternalChain;
 
 declare const meta$U: ___InternalChain;
 
-declare const meta$T: ___InternalChain;
+declare const meta$T: ___InternalTestnet;
 
-declare const meta$S: ___InternalTestnet;
+declare const meta$S: ___InternalChain;
 
-declare const meta$R: ___InternalChain;
+declare const meta$R: ___InternalTestnet;
 
-declare const meta$Q: ___InternalTestnet;
+declare const meta$Q: ___InternalChain;
 
 declare const meta$P: ___InternalChain;
 
@@ -308,31 +314,31 @@ declare const meta$O: ___InternalChain;
 
 declare const meta$N: ___InternalChain;
 
-declare const meta$M: ___InternalChain;
+declare const meta$M: ___InternalTestnet;
 
-declare const meta$L: ___InternalTestnet;
+declare const meta$L: ___InternalChain;
 
 declare const meta$K: ___InternalChain;
 
-declare const meta$J: ___InternalChain;
+declare const meta$J: ___InternalTestnet;
 
 declare const meta$I: ___InternalTestnet;
 
-declare const meta$H: ___InternalTestnet;
+declare const meta$H: ___InternalChain;
 
 declare const meta$G: ___InternalChain;
 
 declare const meta$F: ___InternalChain;
 
-declare const meta$E: ___InternalChain;
+declare const meta$E: ___InternalTestnet;
 
 declare const meta$D: ___InternalTestnet;
 
-declare const meta$C: ___InternalTestnet;
+declare const meta$C: ___InternalChain;
 
-declare const meta$B: ___InternalChain;
+declare const meta$B: ___InternalTestnet;
 
-declare const meta$A: ___InternalTestnet;
+declare const meta$A: ___InternalChain;
 
 declare const meta$z: ___InternalChain;
 
@@ -347,8 +353,6 @@ declare const meta$v: ___InternalChain;
 declare const meta$u: ___InternalChain;
 
 declare const meta$t: ___InternalChain;
-
-declare const meta$s: ___InternalChain;
 
 type types_BlockType = BlockType;
 type types_Chain = Chain;
@@ -400,19 +404,21 @@ declare namespace types {
   };
 }
 
-declare const meta$r: ___InternalTestnet;
+declare const meta$s: ___InternalTestnet;
 
-declare const meta$q: ___InternalChain;
+declare const meta$r: ___InternalChain;
 
-declare const meta$p: ___InternalTestnet;
+declare const meta$q: ___InternalTestnet;
 
-declare const meta$o: ___InternalChain;
+declare const meta$p: ___InternalChain;
+
+declare const meta$o: ___InternalTestnet;
 
 declare const meta$n: ___InternalTestnet;
 
 declare const meta$m: ___InternalTestnet;
 
-declare const meta$l: ___InternalTestnet;
+declare const meta$l: ___InternalConsensusLayer;
 
 declare const meta$k: ___InternalConsensusLayer;
 
@@ -420,7 +426,7 @@ declare const meta$j: ___InternalConsensusLayer;
 
 declare const meta$i: ___InternalConsensusLayer;
 
-declare const meta$h: ___InternalConsensusLayer;
+declare const meta$h: ___InternalChain;
 
 declare const meta$g: ___InternalChain;
 
@@ -428,19 +434,19 @@ declare const meta$f: ___InternalChain;
 
 declare const meta$e: ___InternalChain;
 
-declare const meta$d: ___InternalChain;
+declare const meta$d: ___InternalTestnet;
 
-declare const meta$c: ___InternalTestnet;
+declare const meta$c: ___InternalChain;
 
 declare const meta$b: ___InternalChain;
 
 declare const meta$a: ___InternalChain;
 
-declare const meta$9: ___InternalChain;
+declare const meta$9: ___InternalTestnet;
 
 declare const meta$8: ___InternalTestnet;
 
-declare const meta$7: ___InternalTestnet;
+declare const meta$7: ___InternalEVM;
 
 declare const meta$6: ___InternalEVM;
 
@@ -458,76 +464,77 @@ declare const meta: ___InternalChain;
 
 declare namespace chains {
   export {
-    meta$14 as alfajores,
-    meta$C as amoy,
-    meta$W as arbgoerli,
-    meta$Y as arbone,
-    meta$X as arbsepolia,
-    meta$U as arweave,
-    meta$t as avalanche,
+    meta$15 as alfajores,
+    meta$D as amoy,
+    meta$X as arbgoerli,
+    meta$Z as arbone,
+    meta$Y as arbsepolia,
+    meta$V as arweave,
+    meta$u as avalanche,
     meta$5 as base,
-    meta$x as bitcoin,
-    meta$s as blast,
-    meta$r as blastsepolia,
-    meta$M as boba,
-    meta$L as bobasepolia,
-    meta$B as bsc,
-    meta$b as cardano,
-    meta$15 as celo,
-    meta$A as chapel,
+    meta$y as bitcoin,
+    meta$t as blast,
+    meta$s as blastsepolia,
+    meta$N as boba,
+    meta$M as bobasepolia,
+    meta$C as bsc,
+    meta$c as cardano,
+    meta$16 as celo,
+    meta$B as chapel,
     meta$3 as chiado,
     meta$2 as chiadoCl,
-    meta$J as cosmoshub,
-    meta$e as cronos,
-    meta$_ as decimal,
-    meta$9 as eos,
+    meta$K as cosmoshub,
+    meta$f as cronos,
+    meta$$ as decimal,
+    meta$a as eos,
     meta$6 as eosevm,
-    meta$o as eth,
-    meta$k as ethCl,
-    meta$N as fantom,
-    meta$K as fuse,
+    meta$p as eth,
+    meta$l as ethCl,
+    meta$O as fantom,
+    meta$L as fuse,
     meta$4 as gnosis,
     meta$1 as gnosisCl,
-    meta$l as goerli,
-    meta$i as goerliCl,
-    meta$n as holesky,
-    meta$j as holeskyCl,
-    meta$8 as jungle4,
-    meta$H as juno,
-    meta$G as kava,
-    meta$7 as kylin,
-    meta$a as linea,
+    meta$m as goerli,
+    meta$j as goerliCl,
+    meta$o as holesky,
+    meta$k as holeskyCl,
+    meta$9 as jungle4,
+    meta$7 as jungle4evm,
+    meta$I as juno,
+    meta$H as kava,
+    meta$8 as kylin,
+    meta$b as linea,
     meta as litecoin,
-    meta$O as mode,
-    meta$V as moonbeam,
-    meta$D as mumbai,
-    meta$q as near,
-    meta$p as neartest,
-    meta$Q as opsepolia,
-    meta$R as optimism,
-    meta$d as ore,
-    meta$c as orestage,
-    meta$y as osmosis,
-    meta$E as polygon,
-    meta$F as ronin,
-    meta$P as scroll,
-    meta$f as sei,
-    meta$m as sepolia,
-    meta$h as sepoliaCl,
-    meta$g as starknet,
-    meta$13 as telos,
-    meta$12 as telostest,
-    meta$I as theta,
-    meta$w as ux,
-    meta$T as wax,
-    meta$S as waxtest,
-    meta$Z as xLayer,
-    meta$z as xai,
-    meta$11 as zkastar,
-    meta$10 as zkatana,
-    meta$u as zksync,
-    meta$$ as zkyoto,
-    meta$v as zora,
+    meta$P as mode,
+    meta$W as moonbeam,
+    meta$E as mumbai,
+    meta$r as near,
+    meta$q as neartest,
+    meta$R as opsepolia,
+    meta$S as optimism,
+    meta$e as ore,
+    meta$d as orestage,
+    meta$z as osmosis,
+    meta$F as polygon,
+    meta$G as ronin,
+    meta$Q as scroll,
+    meta$g as sei,
+    meta$n as sepolia,
+    meta$i as sepoliaCl,
+    meta$h as starknet,
+    meta$14 as telos,
+    meta$13 as telostest,
+    meta$J as theta,
+    meta$x as ux,
+    meta$U as wax,
+    meta$T as waxtest,
+    meta$_ as xLayer,
+    meta$A as xai,
+    meta$12 as zkastar,
+    meta$11 as zkatana,
+    meta$v as zksync,
+    meta$10 as zkyoto,
+    meta$w as zora,
   };
 }
 
