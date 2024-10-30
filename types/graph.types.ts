@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 10/4/2024, 4:59:59 PM.
+// Last generation on 10/30/2024, 4:29:19 PM.
 export type GraphID =
   | 'arbitrum-nova'
   | 'arbitrum-one'
@@ -41,6 +41,8 @@ export type GraphID =
   | 'holesky'
   | 'iotex'
   | 'iotex-testnet'
+  | 'kaia'
+  | 'kaia-testnet'
   | 'linea'
   | 'linea-sepolia'
   | 'mainnet'
@@ -72,6 +74,7 @@ export type GraphID =
   | 'soneium-testnet'
   | 'starknet-mainnet'
   | 'theta-testnet-001'
+  | 'unichain-testnet'
   | 'xlayer-mainnet'
   | 'xlayer-sepolia'
   | 'zksync-era'

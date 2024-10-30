@@ -23,7 +23,7 @@ const meta: ___InternalTestnet = {
       deprecated_at: null,
     },
     rpc: {
-      beta_released_at: '2024-08-01T00:00:000Z',
+      beta_released_at: '2024-08-01T00:00:00.000Z',
       full_released_at: null,
       deprecated_at: null,
     },

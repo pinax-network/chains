@@ -20,7 +20,7 @@ const meta: ___InternalChain = {
     firehose: {
       beta_released_at: '2024-01-01T00:00:00.000Z',
       full_released_at: '2024-01-01T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2023-10-29T00:00:00.000Z',
     },
     substreams: {
       beta_released_at: null,

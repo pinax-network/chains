@@ -20,12 +20,12 @@ const meta: ___InternalChain = {
     firehose: {
       beta_released_at: '2023-12-01T00:00:00.000Z',
       full_released_at: '2023-12-01T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2023-10-29T00:00:00.000Z',
     },
     substreams: {
-      beta_released_at: null,
-      full_released_at: null,
-      deprecated_at: null,
+      beta_released_at: '2023-10-29T00:00:00.000Z',
+      full_released_at: '2023-10-29T00:00:00.000Z',
+      deprecated_at: '2023-10-29T00:00:00.000Z',
     },
     rpc: {
       beta_released_at: null,

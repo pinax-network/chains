@@ -396,7 +396,7 @@ var meta8 = {
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -595,17 +595,17 @@ var meta13 = {
   },
   supported_services: {
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -849,17 +849,17 @@ var meta19 = {
   },
   supported_services: {
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -953,7 +953,7 @@ var meta21 = {
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -988,17 +988,17 @@ var meta22 = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -1032,17 +1032,17 @@ var meta23 = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -1074,17 +1074,17 @@ var meta24 = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -1125,12 +1125,12 @@ var meta25 = {
     firehose: {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
-      deprecated_at: null
+      deprecated_at: "2023-10-29T00:00:00.000Z"
     },
     substreams: {
-      beta_released_at: null,
-      full_released_at: null,
-      deprecated_at: null
+      beta_released_at: "2023-10-29T00:00:00.000Z",
+      full_released_at: "2023-10-29T00:00:00.000Z",
+      deprecated_at: "2023-10-29T00:00:00.000Z"
     },
     rpc: {
       beta_released_at: null,
@@ -1165,11 +1165,11 @@ var meta26 = {
     firehose: {
       beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: "2023-12-01T00:00:00.000Z",
-      deprecated_at: null
+      deprecated_at: "2023-10-29T00:00:00.000Z"
     },
     substreams: {
-      beta_released_at: "2023-12-01T00:00:00.000Z",
-      full_released_at: "2023-12-01T00:00:00.000Z",
+      beta_released_at: null,
+      full_released_at: null,
       deprecated_at: null
     },
     rpc: {
@@ -1533,17 +1533,17 @@ var meta35 = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -1584,7 +1584,7 @@ var meta36 = {
     firehose: {
       beta_released_at: "2024-01-01T00:00:00.000Z",
       full_released_at: "2024-01-01T00:00:00.000Z",
-      deprecated_at: null
+      deprecated_at: "2023-10-29T00:00:00.000Z"
     },
     substreams: {
       beta_released_at: null,
@@ -1717,17 +1717,17 @@ var meta39 = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -1858,17 +1858,17 @@ var meta42 = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -1904,17 +1904,17 @@ var meta43 = {
   supported_services: {
     rpc: {
       beta_released_at: "2024-08-01T00:00:000Z",
-      full_released_at: null,
+      full_released_at: "2023-10-16T00:00:00.000Z",
       deprecated_at: null
     },
     firehose: {
-      beta_released_at: null,
-      full_released_at: null,
+      beta_released_at: "2023-10-16T00:00:00.000Z",
+      full_released_at: "2023-10-16T00:00:00.000Z",
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: null,
-      full_released_at: null,
+      beta_released_at: "2023-10-16T00:00:00.000Z",
+      full_released_at: "2023-10-16T00:00:00.000Z",
       deprecated_at: null
     },
     datasets: {
@@ -2042,7 +2042,7 @@ var meta46 = {
       deprecated_at: null
     },
     datasets: {
-      beta_released_at: null,
+      beta_released_at: "2023-12-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     }
@@ -2119,7 +2119,7 @@ var meta48 = {
       deprecated_at: null
     },
     datasets: {
-      beta_released_at: null,
+      beta_released_at: "2024-10-07T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     }
@@ -2291,17 +2291,17 @@ var meta54 = {
   },
   supported_services: {
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -2381,7 +2381,7 @@ var meta56 = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -2719,18 +2719,18 @@ var meta64 = {
   },
   supported_services: {
     firehose: {
-      beta_released_at: "2023-09-20T00:00:000Z",
-      full_released_at: "2023-09-20T00:00:000Z",
+      beta_released_at: "2023-09-20T00:00:00.000Z",
+      full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2023-09-20T00:00:000Z",
-      full_released_at: "2023-09-20T00:00:000Z",
+      beta_released_at: "2023-09-20T00:00:00.000Z",
+      full_released_at: null,
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2023-09-20T00:00:000Z",
-      full_released_at: "2023-09-20T00:00:000Z",
+      beta_released_at: "2023-09-20T00:00:00.000Z",
+      full_released_at: null,
       deprecated_at: null
     },
     datasets: {
@@ -2756,17 +2756,17 @@ var meta65 = {
   },
   supported_services: {
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -2853,7 +2853,7 @@ var meta67 = {
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -2893,7 +2893,7 @@ var meta68 = {
       deprecated_at: null
     },
     rpc: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
@@ -2920,12 +2920,12 @@ var meta69 = {
   },
   supported_services: {
     firehose: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     },
     substreams: {
-      beta_released_at: "2024-08-01T00:00:000Z",
+      beta_released_at: "2024-08-01T00:00:00.000Z",
       full_released_at: null,
       deprecated_at: null
     }
@@ -3198,19 +3198,21 @@ var getChainStatus = (chain) => {
 };
 var getSupportedServices = (chain) => {
   let supServices = [];
-  ["rpc", "firehose", "substreams", "datasets"].forEach((service) => {
-    if (isServiceBeta(chain, service)) {
-      supServices.push([
-        service,
-        chain.supported_services[service]?.beta_released_at
-      ]);
-    } else if (isServiceSupported(chain, service)) {
-      supServices.push([
-        service,
-        chain.supported_services[service]?.full_released_at
-      ]);
+  ["rpc", "firehose", "substreams", "datasets"].forEach(
+    (service) => {
+      if (isServiceBeta(chain, service)) {
+        supServices.push([
+          service,
+          chain.supported_services[service]?.beta_released_at
+        ]);
+      } else if (isServiceSupported(chain, service)) {
+        supServices.push([
+          service,
+          chain.supported_services[service]?.full_released_at
+        ]);
+      }
     }
-  });
+  );
   return supServices;
 };
 var getChainSubnets = (chain) => {
