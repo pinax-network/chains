@@ -285,21 +285,21 @@ const getNumberOfSupportedChains = (
 ) => {
   let supportedChains = 0;
   chains
-    .filter((c: any) => isChainSupported(c))
+    .filter((c: any) => isChainSupported(c) || isChainBeta(c))
     .forEach((c: any) => {
       supportedChains++;
       c.consensus?.forEach((consensus: any) => {
-        if (isChainSupported(consensus)) {
+        if (isChainSupported(consensus) || isChainBeta(c)) {
           supportedChains++;
         }
       });
       c.evms?.forEach((evm: any) => {
-        if (isChainSupported(evm)) {
+        if (isChainSupported(evm) || isChainBeta(evm)) {
           supportedChains++;
         }
       });
       c.testnets?.forEach((tn: any) => {
-        if (isChainSupported(tn)) {
+        if (isChainSupported(tn) || isChainBeta(tn)) {
           supportedChains++;
         }
       });

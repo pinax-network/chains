@@ -2,7 +2,7 @@ import { ___InternalTestnet } from '../../../../../../types/chain.types';
 
 const meta: ___InternalTestnet = {
   id: 'theta',
-  graph_id: 'theta-testnet-001',
+  graph_id: null,
   name: 'Theta',
   alt_names: [],
   standard: 'cosmos',
