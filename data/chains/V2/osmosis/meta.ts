@@ -2,7 +2,7 @@ import { ___InternalChain } from '../../../../types/chain.types';
 
 const meta: ___InternalChain = {
   id: 'osmosis',
-  graph_id: 'osmosis-1',
+  graph_id: null,
   name: 'Osmosis',
   alt_names: [],
   standard: 'cosmos',

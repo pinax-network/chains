@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 10/30/2024, 4:42:18 PM.
+// Last generation on 11/7/2024, 10:28:21 PM.
 export type GraphID =
   | 'arbitrum-nova'
   | 'arbitrum-one'
@@ -25,7 +25,6 @@ export type GraphID =
   | 'chapel'
   | 'chiliz'
   | 'chiliz-testnet'
-  | 'cosmoshub-4'
   | 'etherlink-mainnet'
   | 'etherlink-testnet'
   | 'fantom'
@@ -43,6 +42,7 @@ export type GraphID =
   | 'iotex-testnet'
   | 'kaia'
   | 'kaia-testnet'
+  | 'lens-testnet'
   | 'linea'
   | 'linea-sepolia'
   | 'mainnet'
@@ -58,8 +58,6 @@ export type GraphID =
   | 'neox-testnet'
   | 'optimism'
   | 'optimism-sepolia'
-  | 'osmo-test-4'
-  | 'osmosis-1'
   | 'polygon-amoy'
   | 'polygon-zkevm'
   | 'polygon-zkevm-cardona'
@@ -70,10 +68,10 @@ export type GraphID =
   | 'sei-atlantic'
   | 'sei-mainnet'
   | 'sepolia'
+  | 'solana-devnet'
   | 'solana-mainnet-beta'
   | 'soneium-testnet'
   | 'starknet-mainnet'
-  | 'theta-testnet-001'
   | 'unichain-testnet'
   | 'xlayer-mainnet'
   | 'xlayer-sepolia'
