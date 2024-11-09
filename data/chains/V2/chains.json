@@ -420,6 +420,86 @@
         },
         "index": 11
       }
+    ],
+    "evms": [
+      {
+        "id": "cardona",
+        "graph_id": "polygon-zkevm-cardona",
+        "name": "Polygon zkEVM Cardona",
+        "alt_names": [
+          "matic"
+        ],
+        "standard": "erc20",
+        "is_detailed_blocks": false,
+        "is_evm_testnet": true,
+        "is_evm": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": "2024-11-15T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2024-11-15T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-11-15T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 12
+      },
+      {
+        "id": "polygonzk",
+        "graph_id": "polygon-zkevm",
+        "name": "Polygon zkEVM",
+        "alt_names": [
+          "matic"
+        ],
+        "standard": "erc20",
+        "is_detailed_blocks": false,
+        "is_evm_testnet": false,
+        "is_evm": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": "2024-11-15T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2024-11-15T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-11-15T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 13
+      }
     ]
   },
   {
@@ -469,7 +549,7 @@
     "metadata": {
       "website": "https://www.bnbchain.org/en/bnb-smart-chain"
     },
-    "index": 12,
+    "index": 14,
     "testnets": [
       {
         "id": "chapel",
@@ -504,7 +584,7 @@
             "deprecated_at": null
           }
         },
-        "index": 13
+        "index": 15
       }
     ]
   },
@@ -552,7 +632,7 @@
     "metadata": {
       "website": "https://arbitrum.io/"
     },
-    "index": 14,
+    "index": 16,
     "testnets": [
       {
         "id": "arbgoerli",
@@ -587,7 +667,7 @@
             "deprecated_at": null
           }
         },
-        "index": 15
+        "index": 17
       },
       {
         "id": "arbsepolia",
@@ -622,7 +702,7 @@
             "deprecated_at": null
           }
         },
-        "index": 16
+        "index": 18
       }
     ]
   },
@@ -670,7 +750,7 @@
     "metadata": {
       "website": "https://www.avax.network/"
     },
-    "index": 17
+    "index": 19
   },
   {
     "id": "optimism",
@@ -716,7 +796,7 @@
     "metadata": {
       "website": "https://optimism.io/"
     },
-    "index": 18,
+    "index": 20,
     "testnets": [
       {
         "id": "opsepolia",
@@ -751,7 +831,7 @@
             "deprecated_at": null
           }
         },
-        "index": 19
+        "index": 21
       }
     ]
   },
@@ -799,7 +879,44 @@
     "metadata": {
       "website": "https://www.base.org/"
     },
-    "index": 20
+    "index": 22,
+    "testnets": [
+      {
+        "id": "basesepolia",
+        "graph_id": "base-sepolia",
+        "name": "Base Sepolia",
+        "alt_names": [],
+        "standard": "erc20",
+        "is_detailed_blocks": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": "2024-11-16T00:00:00.000Z",
+            "full_released_at": "2024-11-16T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2024-11-16T00:00:00.000Z",
+            "full_released_at": "2024-11-16T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-11-16T00:00:00.000Z",
+            "full_released_at": "2024-11-16T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 23
+      }
+    ]
   },
   {
     "id": "near",
@@ -845,7 +962,7 @@
     "metadata": {
       "website": "https://near.org/"
     },
-    "index": 21,
+    "index": 24,
     "testnets": [
       {
         "id": "neartest",
@@ -880,7 +997,7 @@
             "deprecated_at": null
           }
         },
-        "index": 22
+        "index": 25
       }
     ]
   },
@@ -928,7 +1045,7 @@
     "metadata": {
       "website": "https://cardano.org/"
     },
-    "index": 23
+    "index": 26
   },
   {
     "id": "decimal",
@@ -974,7 +1091,7 @@
     "metadata": {
       "website": "https://www.decimalchain.com/"
     },
-    "index": 24
+    "index": 27
   },
   {
     "id": "gnosis",
@@ -1020,7 +1137,7 @@
     "metadata": {
       "website": "https://gnosis.io/"
     },
-    "index": 25,
+    "index": 28,
     "consensus": [
       {
         "id": "gnosis-cl",
@@ -1045,7 +1162,7 @@
             "deprecated_at": null
           }
         },
-        "index": 26
+        "index": 29
       },
       {
         "id": "chiado-cl",
@@ -1070,7 +1187,7 @@
             "deprecated_at": null
           }
         },
-        "index": 27
+        "index": 30
       }
     ],
     "testnets": [
@@ -1107,7 +1224,7 @@
             "deprecated_at": null
           }
         },
-        "index": 28
+        "index": 31
       }
     ]
   },
@@ -1132,12 +1249,12 @@
     },
     "supported_services": {
       "firehose": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-11-08T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-11-08T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
@@ -1155,7 +1272,7 @@
     "metadata": {
       "website": "https://fantom.foundation/"
     },
-    "index": 29
+    "index": 32
   },
   {
     "id": "celo",
@@ -1201,7 +1318,7 @@
     "metadata": {
       "website": "https://celo.org/"
     },
-    "index": 30,
+    "index": 33,
     "testnets": [
       {
         "id": "alfajores",
@@ -1236,7 +1353,7 @@
             "deprecated_at": null
           }
         },
-        "index": 31
+        "index": 34
       }
     ]
   },
@@ -1284,7 +1401,7 @@
     "metadata": {
       "website": "https://arweave.org/"
     },
-    "index": 32
+    "index": 35
   },
   {
     "id": "cosmoshub",
@@ -1330,7 +1447,7 @@
     "metadata": {
       "website": "https://cosmos.network/"
     },
-    "index": 33,
+    "index": 36,
     "testnets": [
       {
         "id": "theta",
@@ -1365,7 +1482,7 @@
             "deprecated_at": null
           }
         },
-        "index": 34
+        "index": 37
       },
       {
         "id": "juno",
@@ -1400,7 +1517,7 @@
             "deprecated_at": null
           }
         },
-        "index": 35
+        "index": 38
       }
     ]
   },
@@ -1448,7 +1565,7 @@
     "metadata": {
       "website": "https://osmosis.zone/"
     },
-    "index": 36
+    "index": 39
   },
   {
     "id": "moonbeam",
@@ -1494,7 +1611,53 @@
     "metadata": {
       "website": "https://moonbeam.network/"
     },
-    "index": 37
+    "index": 40
+  },
+  {
+    "id": "moonriver",
+    "graph_id": "moonriver",
+    "name": "Moonriver",
+    "alt_names": [],
+    "standard": "erc20",
+    "is_detailed_blocks": false,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "networks/moonrive",
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": "2024-11-16T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": "2024-11-16T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-11-16T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://moonbeam.network/"
+    },
+    "index": 41
   },
   {
     "id": "scroll",
@@ -1540,7 +1703,7 @@
     "metadata": {
       "website": "https://scroll.io/"
     },
-    "index": 38
+    "index": 42
   },
   {
     "id": "starknet",
@@ -1586,7 +1749,7 @@
     "metadata": {
       "website": "https://www.starknet.io/"
     },
-    "index": 39
+    "index": 43
   },
   {
     "id": "eos",
@@ -1631,7 +1794,7 @@
     "metadata": {
       "website": "https://eosnetwork.com/"
     },
-    "index": 40,
+    "index": 44,
     "evms": [
       {
         "id": "eosevm",
@@ -1640,6 +1803,7 @@
         "alt_names": [],
         "standard": "erc20",
         "is_detailed_blocks": true,
+        "is_evm": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1666,7 +1830,7 @@
             "deprecated_at": null
           }
         },
-        "index": 41
+        "index": 45
       },
       {
         "id": "jungle4evm",
@@ -1676,6 +1840,7 @@
         "standard": "erc20",
         "is_detailed_blocks": true,
         "is_evm_testnet": true,
+        "is_evm": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -1702,7 +1867,7 @@
             "deprecated_at": null
           }
         },
-        "index": 42
+        "index": 46
       }
     ],
     "testnets": [
@@ -1729,8 +1894,8 @@
             "deprecated_at": null
           },
           "rpc": {
-            "beta_released_at": "2023-12-01T00:00:00.000Z",
-            "full_released_at": "2023-12-01T00:00:00.000Z",
+            "beta_released_at": null,
+            "full_released_at": null,
             "deprecated_at": null
           },
           "datasets": {
@@ -1739,7 +1904,7 @@
             "deprecated_at": null
           }
         },
-        "index": 43
+        "index": 47
       },
       {
         "id": "kylin",
@@ -1774,7 +1939,7 @@
             "deprecated_at": null
           }
         },
-        "index": 44
+        "index": 48
       }
     ]
   },
@@ -1822,7 +1987,7 @@
     "metadata": {
       "website": "https://wax.io/"
     },
-    "index": 45,
+    "index": 49,
     "testnets": [
       {
         "id": "waxtest",
@@ -1857,7 +2022,7 @@
             "deprecated_at": null
           }
         },
-        "index": 46
+        "index": 50
       }
     ]
   },
@@ -1905,7 +2070,7 @@
     "metadata": {
       "website": "https://telos.net/"
     },
-    "index": 47,
+    "index": 51,
     "testnets": [
       {
         "id": "telostest",
@@ -1940,7 +2105,7 @@
             "deprecated_at": null
           }
         },
-        "index": 48
+        "index": 52
       }
     ]
   },
@@ -1988,14 +2153,14 @@
     "metadata": {
       "website": "https://www.kava.io/"
     },
-    "index": 49
+    "index": 53
   },
   {
     "id": "blast",
     "name": "Blast Network",
     "alt_names": [],
     "graph_id": "blast-mainnet",
-    "index": 50,
+    "index": 54,
     "standard": "erc20",
     "is_detailed_blocks": false,
     "block_type": {
@@ -2038,7 +2203,7 @@
         "name": "Blast Network Sepolia",
         "alt_names": [],
         "graph_id": "blast-testnet",
-        "index": 51,
+        "index": 55,
         "standard": "erc20",
         "is_detailed_blocks": false,
         "block_type": {
@@ -2151,7 +2316,7 @@
             "deprecated_at": null
           }
         },
-        "index": 53
+        "index": 57
       }
     ],
     "consensus": [],
@@ -2160,7 +2325,7 @@
       "layer": "L2",
       "website": "https://boba.network/"
     },
-    "index": 52
+    "index": 56
   },
   {
     "id": "cronos",
@@ -2209,7 +2374,7 @@
     "metadata": {
       "website": "https://cronos.org/"
     },
-    "index": 54
+    "index": 58
   },
   {
     "id": "fuse",
@@ -2259,7 +2424,7 @@
       "layer": "L1",
       "website": "https://fuse.io/"
     },
-    "index": 55
+    "index": 59
   },
   {
     "id": "linea",
@@ -2282,18 +2447,18 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-08-01T00:00:00Z",
-        "full_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:00.000Z",
+        "full_released_at": "2024-11-12T00:00:00.000Z",
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-08-01T00:00:00Z",
-        "full_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:00.000Z",
+        "full_released_at": "2024-11-12T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-08-01T00:00:00Z",
-        "full_released_at": null,
+        "beta_released_at": "2024-08-01T00:00:00.000Z",
+        "full_released_at": "2024-11-12T00:00:00.000Z",
         "deprecated_at": null
       },
       "datasets": {
@@ -2308,7 +2473,7 @@
     "metadata": {
       "website": "https://linea.build/"
     },
-    "index": 56
+    "index": 60
   },
   {
     "id": "litecoin",
@@ -2360,7 +2525,7 @@
       "layer": "L1",
       "website": "https://litecoin.org/"
     },
-    "index": 57
+    "index": 61
   },
   {
     "id": "mode",
@@ -2383,18 +2548,18 @@
     },
     "supported_services": {
       "rpc": {
-        "beta_released_at": "2024-05-14T00:00:00Z",
-        "full_released_at": "2024-05-14T00:00:00Z",
+        "beta_released_at": "2024-05-14T00:00:00.000Z",
+        "full_released_at": "2024-05-14T00:00:00.000Z",
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": "2024-05-14T00:00:00Z",
-        "full_released_at": "2024-05-14T00:00:00Z",
+        "beta_released_at": "2024-05-14T00:00:00.000Z",
+        "full_released_at": "2024-05-14T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": "2024-05-14T00:00:00Z",
-        "full_released_at": "2024-05-14T00:00:00Z",
+        "beta_released_at": "2024-05-14T00:00:00.000Z",
+        "full_released_at": "2024-05-14T00:00:00.000Z",
         "deprecated_at": null
       },
       "datasets": {
@@ -2410,7 +2575,7 @@
       "layer": "L2",
       "website": "https://www.mode.network/"
     },
-    "index": 58
+    "index": 62
   },
   {
     "id": "ronin",
@@ -2456,7 +2621,7 @@
     "metadata": {
       "website": "https://roninchain.com/"
     },
-    "index": 59
+    "index": 63
   },
   {
     "id": "sei",
@@ -2502,7 +2667,53 @@
     "metadata": {
       "website": "https://www.sei.io/"
     },
-    "index": 60
+    "index": 64
+  },
+  {
+    "id": "solana",
+    "graph_id": "solana-mainnet-beta",
+    "name": "Solana",
+    "alt_names": [],
+    "standard": "near",
+    "is_detailed_blocks": false,
+    "block_type": {
+      "label": "sf.solana.type.v1.Block",
+      "url": "https://buf.build/streamingfast/firehose-solana"
+    },
+    "icon": {
+      "id": "tokens/sol",
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": "2024-11-11T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": "2024-11-11T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://near.org/"
+    },
+    "index": 65
   },
   {
     "id": "xai",
@@ -2552,7 +2763,7 @@
       "layer": "L3",
       "website": "https://xai.games/"
     },
-    "index": 61
+    "index": 66
   },
   {
     "id": "zkastar",
@@ -2629,7 +2840,7 @@
             "deprecated_at": null
           }
         },
-        "index": 63
+        "index": 68
       },
       {
         "id": "zkyoto",
@@ -2664,7 +2875,7 @@
             "deprecated_at": null
           }
         },
-        "index": 64
+        "index": 69
       }
     ],
     "consensus": [],
@@ -2673,7 +2884,7 @@
       "layer": "L2",
       "website": "https://astar.network/"
     },
-    "index": 62
+    "index": 67
   },
   {
     "id": "x-layer",
@@ -2719,7 +2930,7 @@
     "metadata": {
       "website": "https://www.okx.com/fr/xlayer"
     },
-    "index": 65
+    "index": 70
   },
   {
     "id": "zksync",
@@ -2768,7 +2979,7 @@
         "zk"
       ]
     },
-    "index": 66
+    "index": 71
   },
   {
     "id": "zora",
@@ -2791,17 +3002,17 @@
     "supported_services": {
       "rpc": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
-        "full_released_at": null,
+        "full_released_at": "2024-11-13T00:00:00.000Z",
         "deprecated_at": null
       },
       "firehose": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
-        "full_released_at": null,
+        "full_released_at": "2024-11-13T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
-        "full_released_at": null,
+        "full_released_at": "2024-11-13T00:00:00.000Z",
         "deprecated_at": null
       },
       "datasets": {
@@ -2817,7 +3028,7 @@
       "layer": "L2",
       "website": "https://zora.co/"
     },
-    "index": 67
+    "index": 72
   },
   {
     "id": "ore",
@@ -2863,7 +3074,7 @@
     "metadata": {
       "website": "https://ore.network/"
     },
-    "index": 68,
+    "index": 73,
     "testnets": [
       {
         "id": "orestage",
@@ -2898,7 +3109,7 @@
             "deprecated_at": null
           }
         },
-        "index": 69
+        "index": 74
       }
     ]
   },
@@ -2945,6 +3156,6 @@
     "metadata": {
       "website": ""
     },
-    "index": 70
+    "index": 75
   }
 ]

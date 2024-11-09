@@ -8,6 +8,7 @@ const meta: ___InternalEVM = {
   standard: 'erc20',
   is_detailed_blocks: true,
   is_evm_testnet: true,
+  is_evm: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',

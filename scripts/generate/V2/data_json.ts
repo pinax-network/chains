@@ -10,6 +10,7 @@ interface SubnetData {
   id: string;
   index: number;
   supported_services: SupportedServices;
+  is_evm?: boolean;
 }
 
 console.log('🕑 Generating data.json...');
@@ -37,7 +38,10 @@ Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
 
     subnetData.index = indexCounter++;
 
-    if (subnetData.id.indexOf('-cl') !== -1) {
+    if (subnetData?.is_evm) {
+      if (!mainnetData.evms) mainnetData.evms = [];
+      mainnetData.evms.push(subnetData);
+    } else if (subnetData.id.indexOf('-cl') !== -1) {
       if (!mainnetData.consensus) mainnetData.consensus = [];
       mainnetData.consensus.push(subnetData);
     } else if (subnetData.id.indexOf('evm') !== -1) {

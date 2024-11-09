@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/7/2024, 10:39:26 PM.
+// Last generation on 11/9/2024, 1:23:09 AM.
 export type PinaxID =
   | 'celo'
   | 'alfajores'
@@ -31,9 +31,12 @@ export type PinaxID =
   | 'juno'
   | 'kava'
   | 'ronin'
+  | 'solana'
   | 'polygon'
   | 'mumbai'
   | 'amoy'
+  | 'polygonzk'
+  | 'cardona'
   | 'bsc'
   | 'chapel'
   | 'xai'
@@ -42,6 +45,7 @@ export type PinaxID =
   | 'ux'
   | 'zora'
   | 'zksync'
+  | 'moonriver'
   | 'avalanche'
   | 'blast'
   | 'blastsepolia'
@@ -68,6 +72,7 @@ export type PinaxID =
   | 'jungle4evm'
   | 'eosevm'
   | 'base'
+  | 'basesepolia'
   | 'gnosis'
   | 'chiado-cl'
   | 'gnosis-cl'

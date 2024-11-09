@@ -65,6 +65,7 @@ export type ___InternalConsensusLayer = ChainBase & {
 export type ___InternalEVM = ChainBase & {
   // Whether or not the chain supports our existing services
   supported_services: ___InternalSupportedServices;
+  is_evm: boolean;
 };
 
 export type ChainIcon = {

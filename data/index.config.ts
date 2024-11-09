@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 11/7/2024, 10:39:25 PM.
+// Last generation on 11/9/2024, 1:23:08 AM.
 
 export default {
   ordered: {
@@ -16,12 +16,12 @@ export default {
       'goerli-cl',
     ],
     bitcoin: [],
-    polygon: ['amoy', 'mumbai'],
+    polygon: ['amoy', 'mumbai', 'cardona', 'polygonzk'],
     bsc: ['chapel'],
     arbone: ['arbgoerli', 'arbsepolia'],
     avalanche: [],
     optimism: ['opsepolia'],
-    base: [],
+    base: ['basesepolia'],
     near: ['neartest'],
     cardano: [],
     decimal: [],
@@ -32,6 +32,7 @@ export default {
     cosmoshub: ['theta', 'juno'],
     osmosis: [],
     moonbeam: [],
+    moonriver: [],
     scroll: [],
     starknet: [],
     eos: ['eosevm', 'jungle4evm', 'jungle4', 'kylin'],
@@ -47,6 +48,7 @@ export default {
     mode: [],
     ronin: [],
     sei: [],
+    solana: [],
     xai: [],
     zkastar: ['zkatana', 'zkyoto'],
     'x-layer': [],

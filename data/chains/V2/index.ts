@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/7/2024, 10:39:25 PM.
+// Last generation on 11/9/2024, 1:23:08 AM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -31,9 +31,12 @@ export { default as theta } from './cosmoshub/testnets/theta/meta';
 export { default as juno } from './cosmoshub/testnets/juno/meta';
 export { default as kava } from './kava/meta';
 export { default as ronin } from './ronin/meta';
+export { default as solana } from './solana/meta';
 export { default as polygon } from './polygon/meta';
 export { default as mumbai } from './polygon/testnets/mumbai/meta';
 export { default as amoy } from './polygon/testnets/amoy/meta';
+export { default as polygonzk } from './polygon/evms/polygonzk/meta';
+export { default as cardona } from './polygon/evms/cardona/meta';
 export { default as bsc } from './bsc/meta';
 export { default as chapel } from './bsc/testnets/chapel/meta';
 export { default as xai } from './xai/meta';
@@ -42,6 +45,7 @@ export { default as bitcoin } from './bitcoin/meta';
 export { default as ux } from './ux/meta';
 export { default as zora } from './zora/meta';
 export { default as zksync } from './zksync/meta';
+export { default as moonriver } from './moonriver/meta';
 export { default as avalanche } from './avalanche/meta';
 export { default as blast } from './blast/meta';
 export { default as blastsepolia } from './blast/testnets/blastsepolia/meta';
@@ -68,6 +72,7 @@ export { default as kylin } from './eos/testnets/kylin/meta';
 export { default as jungle4evm } from './eos/evms/jungle4evm/meta';
 export { default as eosevm } from './eos/evms/eosevm/meta';
 export { default as base } from './base/meta';
+export { default as basesepolia } from './base/testnets/basesepolia/meta';
 export { default as gnosis } from './gnosis/meta';
 export { default as chiado } from './gnosis/testnets/chiado/meta';
 export { default as chiadoCl } from './gnosis/consensus/chiado-cl/meta';
