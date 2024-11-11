@@ -28,7 +28,7 @@ const meta: ___InternalChain = {
       deprecated_at: null,
     },
     rpc: {
-      beta_released_at: null,
+      beta_released_at: '2024-03-06T00:00:00.000Z',
       full_released_at: null,
       deprecated_at: null,
     },
