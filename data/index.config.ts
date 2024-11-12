@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 11/11/2024, 11:54:33 AM.
+// Last generation on 11/12/2024, 2:09:17 AM.
 
 export default {
   ordered: {
@@ -19,6 +19,7 @@ export default {
     polygon: ['amoy', 'mumbai', 'cardona', 'polygonzk'],
     bsc: ['chapel'],
     arbone: ['arbgoerli', 'arbsepolia'],
+    arbnova: [],
     avalanche: [],
     optimism: ['opsepolia'],
     base: ['basesepolia'],

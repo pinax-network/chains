@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/11/2024, 11:54:33 AM.
+// Last generation on 11/12/2024, 2:09:17 AM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -64,6 +64,7 @@ export { default as sei } from './sei/meta';
 export { default as cronos } from './cronos/meta';
 export { default as ore } from './ore/meta';
 export { default as orestage } from './ore/testnets/orestage/meta';
+export { default as arbnova } from './arbnova/meta';
 export { default as cardano } from './cardano/meta';
 export { default as linea } from './linea/meta';
 export { default as eos } from './eos/meta';

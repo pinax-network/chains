@@ -707,6 +707,52 @@
     ]
   },
   {
+    "id": "arbnova",
+    "graph_id": "arbitrum-nova",
+    "name": "Arbitrum Nova",
+    "alt_names": [],
+    "standard": "erc20",
+    "is_detailed_blocks": true,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "tokens/arbi",
+      "brand_theme": "both",
+      "variants": [
+        "branded",
+        "mono"
+      ]
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": "2024-11-01T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": "2024-11-01T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": "2024-11-01T00:00:00.000Z",
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://arbitrum.io/"
+    },
+    "index": 19
+  },
+  {
     "id": "avalanche",
     "graph_id": "avalanche",
     "name": "Avalanche",
@@ -750,7 +796,7 @@
     "metadata": {
       "website": "https://www.avax.network/"
     },
-    "index": 19
+    "index": 20
   },
   {
     "id": "optimism",
@@ -796,7 +842,7 @@
     "metadata": {
       "website": "https://optimism.io/"
     },
-    "index": 20,
+    "index": 21,
     "testnets": [
       {
         "id": "opsepolia",
@@ -831,7 +877,7 @@
             "deprecated_at": null
           }
         },
-        "index": 21
+        "index": 22
       }
     ]
   },
@@ -879,7 +925,7 @@
     "metadata": {
       "website": "https://www.base.org/"
     },
-    "index": 22,
+    "index": 23,
     "testnets": [
       {
         "id": "basesepolia",
@@ -914,7 +960,7 @@
             "deprecated_at": null
           }
         },
-        "index": 23
+        "index": 24
       }
     ]
   },
@@ -962,7 +1008,7 @@
     "metadata": {
       "website": "https://near.org/"
     },
-    "index": 24,
+    "index": 25,
     "testnets": [
       {
         "id": "neartest",
@@ -997,7 +1043,7 @@
             "deprecated_at": null
           }
         },
-        "index": 25
+        "index": 26
       }
     ]
   },
@@ -1045,7 +1091,7 @@
     "metadata": {
       "website": "https://cardano.org/"
     },
-    "index": 26
+    "index": 27
   },
   {
     "id": "decimal",
@@ -1091,7 +1137,7 @@
     "metadata": {
       "website": "https://www.decimalchain.com/"
     },
-    "index": 27
+    "index": 28
   },
   {
     "id": "gnosis",
@@ -1137,7 +1183,7 @@
     "metadata": {
       "website": "https://gnosis.io/"
     },
-    "index": 28,
+    "index": 29,
     "consensus": [
       {
         "id": "gnosis-cl",
@@ -1162,7 +1208,7 @@
             "deprecated_at": null
           }
         },
-        "index": 29
+        "index": 30
       },
       {
         "id": "chiado-cl",
@@ -1187,7 +1233,7 @@
             "deprecated_at": null
           }
         },
-        "index": 30
+        "index": 31
       }
     ],
     "testnets": [
@@ -1224,7 +1270,7 @@
             "deprecated_at": null
           }
         },
-        "index": 31
+        "index": 32
       }
     ]
   },
@@ -1272,7 +1318,7 @@
     "metadata": {
       "website": "https://fantom.foundation/"
     },
-    "index": 32
+    "index": 33
   },
   {
     "id": "celo",
@@ -1318,7 +1364,7 @@
     "metadata": {
       "website": "https://celo.org/"
     },
-    "index": 33,
+    "index": 34,
     "testnets": [
       {
         "id": "alfajores",
@@ -1353,7 +1399,7 @@
             "deprecated_at": null
           }
         },
-        "index": 34
+        "index": 35
       }
     ]
   },
@@ -1401,7 +1447,7 @@
     "metadata": {
       "website": "https://arweave.org/"
     },
-    "index": 35
+    "index": 36
   },
   {
     "id": "cosmoshub",
@@ -1447,7 +1493,7 @@
     "metadata": {
       "website": "https://cosmos.network/"
     },
-    "index": 36,
+    "index": 37,
     "testnets": [
       {
         "id": "theta",
@@ -1482,7 +1528,7 @@
             "deprecated_at": null
           }
         },
-        "index": 37
+        "index": 38
       },
       {
         "id": "juno",
@@ -1517,7 +1563,7 @@
             "deprecated_at": null
           }
         },
-        "index": 38
+        "index": 39
       }
     ]
   },
@@ -1565,7 +1611,7 @@
     "metadata": {
       "website": "https://osmosis.zone/"
     },
-    "index": 39
+    "index": 40
   },
   {
     "id": "moonbeam",
@@ -1611,7 +1657,7 @@
     "metadata": {
       "website": "https://moonbeam.network/"
     },
-    "index": 40
+    "index": 41
   },
   {
     "id": "moonriver",
@@ -1657,7 +1703,7 @@
     "metadata": {
       "website": "https://moonbeam.network/"
     },
-    "index": 41
+    "index": 42
   },
   {
     "id": "scroll",
@@ -1703,7 +1749,7 @@
     "metadata": {
       "website": "https://scroll.io/"
     },
-    "index": 42
+    "index": 43
   },
   {
     "id": "starknet",
@@ -1749,7 +1795,7 @@
     "metadata": {
       "website": "https://www.starknet.io/"
     },
-    "index": 43
+    "index": 44
   },
   {
     "id": "eos",
@@ -1794,7 +1840,7 @@
     "metadata": {
       "website": "https://eosnetwork.com/"
     },
-    "index": 44,
+    "index": 45,
     "evms": [
       {
         "id": "eosevm",
@@ -1830,7 +1876,7 @@
             "deprecated_at": null
           }
         },
-        "index": 45
+        "index": 46
       },
       {
         "id": "jungle4evm",
@@ -1867,7 +1913,7 @@
             "deprecated_at": null
           }
         },
-        "index": 46
+        "index": 47
       }
     ],
     "testnets": [
@@ -1904,7 +1950,7 @@
             "deprecated_at": null
           }
         },
-        "index": 47
+        "index": 48
       },
       {
         "id": "kylin",
@@ -1939,7 +1985,7 @@
             "deprecated_at": null
           }
         },
-        "index": 48
+        "index": 49
       }
     ]
   },
@@ -1987,7 +2033,7 @@
     "metadata": {
       "website": "https://wax.io/"
     },
-    "index": 49,
+    "index": 50,
     "testnets": [
       {
         "id": "waxtest",
@@ -2022,7 +2068,7 @@
             "deprecated_at": null
           }
         },
-        "index": 50
+        "index": 51
       }
     ]
   },
@@ -2070,7 +2116,7 @@
     "metadata": {
       "website": "https://telos.net/"
     },
-    "index": 51,
+    "index": 52,
     "testnets": [
       {
         "id": "telostest",
@@ -2105,7 +2151,7 @@
             "deprecated_at": null
           }
         },
-        "index": 52
+        "index": 53
       }
     ]
   },
@@ -2153,14 +2199,14 @@
     "metadata": {
       "website": "https://www.kava.io/"
     },
-    "index": 53
+    "index": 54
   },
   {
     "id": "blast",
     "name": "Blast Network",
     "alt_names": [],
     "graph_id": "blast-mainnet",
-    "index": 54,
+    "index": 55,
     "standard": "erc20",
     "is_detailed_blocks": false,
     "block_type": {
@@ -2203,7 +2249,7 @@
         "name": "Blast Network Sepolia",
         "alt_names": [],
         "graph_id": "blast-testnet",
-        "index": 55,
+        "index": 56,
         "standard": "erc20",
         "is_detailed_blocks": false,
         "block_type": {
@@ -2316,7 +2362,7 @@
             "deprecated_at": null
           }
         },
-        "index": 57
+        "index": 58
       }
     ],
     "consensus": [],
@@ -2325,7 +2371,7 @@
       "layer": "L2",
       "website": "https://boba.network/"
     },
-    "index": 56
+    "index": 57
   },
   {
     "id": "cronos",
@@ -2374,7 +2420,7 @@
     "metadata": {
       "website": "https://cronos.org/"
     },
-    "index": 58
+    "index": 59
   },
   {
     "id": "fuse",
@@ -2424,7 +2470,7 @@
       "layer": "L1",
       "website": "https://fuse.io/"
     },
-    "index": 59
+    "index": 60
   },
   {
     "id": "linea",
@@ -2473,7 +2519,7 @@
     "metadata": {
       "website": "https://linea.build/"
     },
-    "index": 60
+    "index": 61
   },
   {
     "id": "litecoin",
@@ -2525,7 +2571,7 @@
       "layer": "L1",
       "website": "https://litecoin.org/"
     },
-    "index": 61
+    "index": 62
   },
   {
     "id": "mode",
@@ -2575,7 +2621,7 @@
       "layer": "L2",
       "website": "https://www.mode.network/"
     },
-    "index": 62
+    "index": 63
   },
   {
     "id": "ronin",
@@ -2621,7 +2667,7 @@
     "metadata": {
       "website": "https://roninchain.com/"
     },
-    "index": 63
+    "index": 64
   },
   {
     "id": "sei",
@@ -2667,7 +2713,7 @@
     "metadata": {
       "website": "https://www.sei.io/"
     },
-    "index": 64
+    "index": 65
   },
   {
     "id": "solana",
@@ -2713,7 +2759,7 @@
     "metadata": {
       "website": "https://near.org/"
     },
-    "index": 65
+    "index": 66
   },
   {
     "id": "xai",
@@ -2763,7 +2809,7 @@
       "layer": "L3",
       "website": "https://xai.games/"
     },
-    "index": 66
+    "index": 67
   },
   {
     "id": "zkastar",
@@ -2840,7 +2886,7 @@
             "deprecated_at": null
           }
         },
-        "index": 68
+        "index": 69
       },
       {
         "id": "zkyoto",
@@ -2875,7 +2921,7 @@
             "deprecated_at": null
           }
         },
-        "index": 69
+        "index": 70
       }
     ],
     "consensus": [],
@@ -2884,7 +2930,7 @@
       "layer": "L2",
       "website": "https://astar.network/"
     },
-    "index": 67
+    "index": 68
   },
   {
     "id": "x-layer",
@@ -2930,7 +2976,7 @@
     "metadata": {
       "website": "https://www.okx.com/fr/xlayer"
     },
-    "index": 70
+    "index": 71
   },
   {
     "id": "zksync",
@@ -2979,7 +3025,7 @@
         "zk"
       ]
     },
-    "index": 71
+    "index": 72
   },
   {
     "id": "zora",
@@ -3028,7 +3074,7 @@
       "layer": "L2",
       "website": "https://zora.co/"
     },
-    "index": 72
+    "index": 73
   },
   {
     "id": "ore",
@@ -3074,7 +3120,7 @@
     "metadata": {
       "website": "https://ore.network/"
     },
-    "index": 73,
+    "index": 74,
     "testnets": [
       {
         "id": "orestage",
@@ -3109,7 +3155,7 @@
             "deprecated_at": null
           }
         },
-        "index": 74
+        "index": 75
       }
     ]
   },
@@ -3156,6 +3202,6 @@
     "metadata": {
       "website": ""
     },
-    "index": 75
+    "index": 76
   }
 ]
