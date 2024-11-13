@@ -8,4 +8,5 @@ export type Standard =
   | 'near'
   | 'rrc20'
   | 'sei'
-  | 'cardano';
+  | 'cardano'
+  | 'starknet';

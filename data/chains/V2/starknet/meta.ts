@@ -2,10 +2,10 @@ import { ___InternalChain } from '../../../../types/chain.types';
 
 const meta: ___InternalChain = {
   id: 'starknet',
-  graph_id: null,
+  graph_id: 'starknet-mainnet',
   name: 'Starknet',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'starknet',
   is_detailed_blocks: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',

@@ -2,7 +2,7 @@ import { ___InternalChain } from '../../../../types/chain.types';
 
 const meta: ___InternalChain = {
   id: 'bitcoin',
-  graph_id: null,
+  graph_id: 'btc',
   name: 'Bitcoin',
   alt_names: ['btc'],
   standard: 'brc20',

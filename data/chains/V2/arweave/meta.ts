@@ -11,7 +11,7 @@ const meta: ___InternalChain = {
   graph_id: 'arweave-mainnet',
   name: 'Arweave',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'arweave',
   is_detailed_blocks: true,
   block_type: {
     label: 'sf.arweave.type.v1.Block',
