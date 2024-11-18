@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/18/2024, 8:50:25 PM.
+// Last generation on 11/18/2024, 9:31:51 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -25,8 +25,8 @@ export { default as scrsepolia } from './scroll/testnets/scrsepolia/meta';
 export { default as mode } from './mode/meta';
 export { default as fantom } from './fantom/meta';
 export { default as boba } from './boba/meta';
-export { default as bobabnb } from './boba/testnets/bobabnb/meta';
 export { default as bobasepolia } from './boba/testnets/bobasepolia/meta';
+export { default as bobabnb } from './boba/evms/bobabnb/meta';
 export { default as fuse } from './fuse/meta';
 export { default as cosmoshub } from './cosmoshub/meta';
 export { default as theta } from './cosmoshub/testnets/theta/meta';
@@ -40,8 +40,8 @@ export { default as amoy } from './polygon/testnets/amoy/meta';
 export { default as polygonzk } from './polygon/evms/polygonzk/meta';
 export { default as cardona } from './polygon/evms/cardona/meta';
 export { default as bsc } from './bsc/meta';
-export { default as opbnb } from './bsc/testnets/opbnb/meta';
 export { default as chapel } from './bsc/testnets/chapel/meta';
+export { default as opbnb } from './bsc/evms/opbnb/meta';
 export { default as xai } from './xai/meta';
 export { default as osmosis } from './osmosis/meta';
 export { default as bitcoin } from './bitcoin/meta';

@@ -316,7 +316,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/polygon",
+      "id": "networks/polygon-pos",
       "brand_theme": "both",
       "variants": [
         "branded",
@@ -585,13 +585,16 @@
           }
         },
         "index": 15
-      },
+      }
+    ],
+    "evms": [
       {
         "id": "opbnb",
         "graph_id": null,
         "name": "opBNB",
         "alt_names": [],
         "standard": "erc20",
+        "is_evm": true,
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -1789,7 +1792,7 @@
       {
         "id": "scrsepolia",
         "graph_id": "scroll-sepolia",
-        "name": "BobaBNB",
+        "name": "Scroll Sepolia",
         "alt_names": [],
         "standard": "erc20",
         "is_detailed_blocks": false,
@@ -1918,7 +1921,7 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "icon": {
-      "id": "tokens/eos",
+      "id": "tokens/neweos",
       "brand_theme": "light",
       "variants": [
         "mono"
@@ -2472,13 +2475,17 @@
           }
         },
         "index": 61
-      },
+      }
+    ],
+    "consensus": [],
+    "evms": [
       {
         "id": "bobabnb",
         "graph_id": "boba-bnb",
         "name": "BobaBNB",
         "alt_names": [],
         "standard": "erc20",
+        "is_evm": true,
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -2509,8 +2516,6 @@
         "index": 62
       }
     ],
-    "consensus": [],
-    "evms": [],
     "metadata": {
       "layer": "L2",
       "website": "https://boba.network/"

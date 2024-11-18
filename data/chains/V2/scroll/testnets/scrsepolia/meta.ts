@@ -3,7 +3,7 @@ import { ___InternalTestnet } from '../../../../../../types/chain.types';
 const meta: ___InternalTestnet = {
   id: 'scrsepolia',
   graph_id: 'scroll-sepolia',
-  name: 'BobaBNB',
+  name: 'Scroll Sepolia',
   alt_names: [],
   standard: 'erc20',
   is_detailed_blocks: false,
