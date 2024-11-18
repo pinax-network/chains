@@ -37,6 +37,8 @@ const chains = JSON.parse(
 const tiUnavailableIcons = [
   // Those icons are not available in Token Icons
   'networks/ore',
+  'networks/ux',
+  'tokens/neweos',
 ];
 
 // Token Icon Exceptions, where metadata ID
@@ -44,7 +46,6 @@ const tiUnavailableIcons = [
 const tiExceptions = [
   ['networks/optimistic-ethereum', 'optimism'],
   ['networks/binance-smart-chain', 'binance-smart-chain'], // Don't split at hyphen for bsc
-  ['networks/polygon-pos', 'polygon'],
   ['networks/zora-network', 'zora'],
   ['networks/x-layer', 'x-layer'], // Don't split at hyphen for x-layer
 ];
