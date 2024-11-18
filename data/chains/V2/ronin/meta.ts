@@ -5,7 +5,7 @@ const meta: ___InternalChain = {
   graph_id: null,
   name: 'Ronin',
   alt_names: [],
-  standard: 'rrc20',
+  standard: 'erc20',
   is_detailed_blocks: false,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
