@@ -6,7 +6,7 @@ const meta: ___InternalChain = {
   alt_names: ['LTC'],
   graph_id: null,
   standard: 'ltc20',
-  is_detailed_blocks: true,
+  is_detailed_blocks: false,
   block_type: {
     label: 'sf.litecoin.type.v1.Block',
     url: 'https://buf.build/streamingfast/firehose-litecoin/docs/main:sf.litecoin.type.v1',
@@ -23,12 +23,12 @@ const meta: ___InternalChain = {
       deprecated_at: null,
     },
     firehose: {
-      beta_released_at: null,
+      beta_released_at: '2024-11-19T00:00:00.000Z',
       full_released_at: null,
       deprecated_at: null,
     },
     substreams: {
-      beta_released_at: null,
+      beta_released_at: '2024-11-19T00:00:00.000Z',
       full_released_at: null,
       deprecated_at: null,
     },

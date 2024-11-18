@@ -12,7 +12,7 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'networks/moonrive', // TODO: Fix typo in the icon ID with migration to new icons
+    id: 'networks/moonriver',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
   },

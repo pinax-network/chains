@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 11/13/2024, 11:29:44 PM.
+// Last generation on 11/18/2024, 8:50:25 PM.
 
 export default {
   ordered: {
@@ -17,7 +17,7 @@ export default {
     ],
     bitcoin: [],
     polygon: ['amoy', 'mumbai', 'cardona', 'polygonzk'],
-    bsc: ['chapel'],
+    bsc: ['chapel', 'opbnb'],
     arbone: ['arbgoerli', 'arbsepolia'],
     arbnova: [],
     avalanche: [],
@@ -34,14 +34,14 @@ export default {
     osmosis: [],
     moonbeam: [],
     moonriver: [],
-    scroll: [],
-    starknet: [],
+    scroll: ['scrsepolia'],
+    starknet: ['starksepolia'],
     eos: ['eosevm', 'jungle4evm', 'jungle4', 'kylin'],
     wax: ['waxtest'],
     telos: ['telostest'],
     kava: [],
     blast: ['blastsepolia'],
-    boba: ['bobasepolia'],
+    boba: ['bobasepolia', 'bobabnb'],
     cronos: [],
     fuse: [],
     linea: [],

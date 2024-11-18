@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/13/2024, 11:29:44 PM.
+// Last generation on 11/18/2024, 8:50:25 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -21,9 +21,11 @@ export { default as waxtest } from './wax/testnets/waxtest/meta';
 export { default as optimism } from './optimism/meta';
 export { default as opsepolia } from './optimism/testnets/opsepolia/meta';
 export { default as scroll } from './scroll/meta';
+export { default as scrsepolia } from './scroll/testnets/scrsepolia/meta';
 export { default as mode } from './mode/meta';
 export { default as fantom } from './fantom/meta';
 export { default as boba } from './boba/meta';
+export { default as bobabnb } from './boba/testnets/bobabnb/meta';
 export { default as bobasepolia } from './boba/testnets/bobasepolia/meta';
 export { default as fuse } from './fuse/meta';
 export { default as cosmoshub } from './cosmoshub/meta';
@@ -38,6 +40,7 @@ export { default as amoy } from './polygon/testnets/amoy/meta';
 export { default as polygonzk } from './polygon/evms/polygonzk/meta';
 export { default as cardona } from './polygon/evms/cardona/meta';
 export { default as bsc } from './bsc/meta';
+export { default as opbnb } from './bsc/testnets/opbnb/meta';
 export { default as chapel } from './bsc/testnets/chapel/meta';
 export { default as xai } from './xai/meta';
 export { default as osmosis } from './osmosis/meta';
@@ -60,6 +63,7 @@ export { default as holeskyCl } from './eth/consensus/holesky-cl/meta';
 export { default as goerliCl } from './eth/consensus/goerli-cl/meta';
 export { default as sepoliaCl } from './eth/consensus/sepolia-cl/meta';
 export { default as starknet } from './starknet/meta';
+export { default as starksepolia } from './starknet/testnets/starksepolia/meta';
 export { default as sei } from './sei/meta';
 export { default as cronos } from './cronos/meta';
 export { default as ore } from './ore/meta';

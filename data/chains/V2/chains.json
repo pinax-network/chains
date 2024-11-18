@@ -316,7 +316,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/polygon-pos",
+      "id": "networks/polygon",
       "brand_theme": "both",
       "variants": [
         "branded",
@@ -585,6 +585,41 @@
           }
         },
         "index": 15
+      },
+      {
+        "id": "opbnb",
+        "graph_id": null,
+        "name": "opBNB",
+        "alt_names": [],
+        "standard": "erc20",
+        "is_detailed_blocks": false,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": "2024-11-20T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2024-11-20T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": "2024-11-20T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 16
       }
     ]
   },
@@ -632,7 +667,7 @@
     "metadata": {
       "website": "https://arbitrum.io/"
     },
-    "index": 16,
+    "index": 17,
     "testnets": [
       {
         "id": "arbgoerli",
@@ -667,7 +702,7 @@
             "deprecated_at": null
           }
         },
-        "index": 17
+        "index": 18
       },
       {
         "id": "arbsepolia",
@@ -675,7 +710,7 @@
         "name": "Arbitrum Sepolia",
         "alt_names": [],
         "standard": "erc20",
-        "is_detailed_blocks": false,
+        "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
           "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -702,7 +737,7 @@
             "deprecated_at": null
           }
         },
-        "index": 18
+        "index": 19
       }
     ]
   },
@@ -750,7 +785,7 @@
     "metadata": {
       "website": "https://arbitrum.io/"
     },
-    "index": 19
+    "index": 20
   },
   {
     "id": "avalanche",
@@ -796,7 +831,7 @@
     "metadata": {
       "website": "https://www.avax.network/"
     },
-    "index": 20
+    "index": 21
   },
   {
     "id": "optimism",
@@ -842,7 +877,7 @@
     "metadata": {
       "website": "https://optimism.io/"
     },
-    "index": 21,
+    "index": 22,
     "testnets": [
       {
         "id": "opsepolia",
@@ -877,7 +912,7 @@
             "deprecated_at": null
           }
         },
-        "index": 22
+        "index": 23
       }
     ]
   },
@@ -925,7 +960,7 @@
     "metadata": {
       "website": "https://www.base.org/"
     },
-    "index": 23,
+    "index": 24,
     "testnets": [
       {
         "id": "basesepolia",
@@ -960,7 +995,7 @@
             "deprecated_at": null
           }
         },
-        "index": 24
+        "index": 25
       }
     ]
   },
@@ -1008,7 +1043,7 @@
     "metadata": {
       "website": "https://near.org/"
     },
-    "index": 25,
+    "index": 26,
     "testnets": [
       {
         "id": "neartest",
@@ -1043,7 +1078,7 @@
             "deprecated_at": null
           }
         },
-        "index": 26
+        "index": 27
       }
     ]
   },
@@ -1091,7 +1126,7 @@
     "metadata": {
       "website": "https://cardano.org/"
     },
-    "index": 27
+    "index": 28
   },
   {
     "id": "decimal",
@@ -1137,7 +1172,7 @@
     "metadata": {
       "website": "https://www.decimalchain.com/"
     },
-    "index": 28
+    "index": 29
   },
   {
     "id": "gnosis",
@@ -1183,7 +1218,7 @@
     "metadata": {
       "website": "https://gnosis.io/"
     },
-    "index": 29,
+    "index": 30,
     "consensus": [
       {
         "id": "gnosis-cl",
@@ -1208,7 +1243,7 @@
             "deprecated_at": null
           }
         },
-        "index": 30
+        "index": 31
       },
       {
         "id": "chiado-cl",
@@ -1233,7 +1268,7 @@
             "deprecated_at": null
           }
         },
-        "index": 31
+        "index": 32
       }
     ],
     "testnets": [
@@ -1270,7 +1305,7 @@
             "deprecated_at": null
           }
         },
-        "index": 32
+        "index": 33
       }
     ]
   },
@@ -1318,7 +1353,7 @@
     "metadata": {
       "website": "https://fantom.foundation/"
     },
-    "index": 33
+    "index": 34
   },
   {
     "id": "celo",
@@ -1364,7 +1399,7 @@
     "metadata": {
       "website": "https://celo.org/"
     },
-    "index": 34,
+    "index": 35,
     "testnets": [
       {
         "id": "alfajores",
@@ -1399,7 +1434,7 @@
             "deprecated_at": null
           }
         },
-        "index": 35
+        "index": 36
       }
     ]
   },
@@ -1447,7 +1482,7 @@
     "metadata": {
       "website": "https://arweave.org/"
     },
-    "index": 36
+    "index": 37
   },
   {
     "id": "cosmoshub",
@@ -1493,7 +1528,7 @@
     "metadata": {
       "website": "https://cosmos.network/"
     },
-    "index": 37,
+    "index": 38,
     "testnets": [
       {
         "id": "theta",
@@ -1528,7 +1563,7 @@
             "deprecated_at": null
           }
         },
-        "index": 38
+        "index": 39
       },
       {
         "id": "juno",
@@ -1563,7 +1598,7 @@
             "deprecated_at": null
           }
         },
-        "index": 39
+        "index": 40
       }
     ]
   },
@@ -1611,7 +1646,7 @@
     "metadata": {
       "website": "https://osmosis.zone/"
     },
-    "index": 40
+    "index": 41
   },
   {
     "id": "moonbeam",
@@ -1657,7 +1692,7 @@
     "metadata": {
       "website": "https://moonbeam.network/"
     },
-    "index": 41
+    "index": 42
   },
   {
     "id": "moonriver",
@@ -1671,7 +1706,7 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/moonrive",
+      "id": "networks/moonriver",
       "brand_theme": "both",
       "variants": [
         "branded",
@@ -1703,7 +1738,7 @@
     "metadata": {
       "website": "https://moonbeam.network/"
     },
-    "index": 42
+    "index": 43
   },
   {
     "id": "scroll",
@@ -1749,7 +1784,44 @@
     "metadata": {
       "website": "https://scroll.io/"
     },
-    "index": 43
+    "index": 44,
+    "testnets": [
+      {
+        "id": "scrsepolia",
+        "graph_id": "scroll-sepolia",
+        "name": "BobaBNB",
+        "alt_names": [],
+        "standard": "erc20",
+        "is_detailed_blocks": false,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "rpc": {
+            "beta_released_at": "2024-11-21T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "firehose": {
+            "beta_released_at": "2024-11-21T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2024-11-21T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 45
+      }
+    ]
   },
   {
     "id": "starknet",
@@ -1795,7 +1867,44 @@
     "metadata": {
       "website": "https://www.starknet.io/"
     },
-    "index": 44
+    "index": 46,
+    "testnets": [
+      {
+        "id": "starksepolia",
+        "graph_id": null,
+        "name": "Starknet Sepolia",
+        "alt_names": [],
+        "standard": "starknet",
+        "is_detailed_blocks": false,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "rpc": {
+            "beta_released_at": "2024-11-21T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "firehose": {
+            "beta_released_at": "2024-11-21T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2024-11-21T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 47
+      }
+    ]
   },
   {
     "id": "eos",
@@ -1840,7 +1949,7 @@
     "metadata": {
       "website": "https://eosnetwork.com/"
     },
-    "index": 45,
+    "index": 48,
     "evms": [
       {
         "id": "eosevm",
@@ -1876,7 +1985,7 @@
             "deprecated_at": null
           }
         },
-        "index": 46
+        "index": 49
       },
       {
         "id": "jungle4evm",
@@ -1913,7 +2022,7 @@
             "deprecated_at": null
           }
         },
-        "index": 47
+        "index": 50
       }
     ],
     "testnets": [
@@ -1950,7 +2059,7 @@
             "deprecated_at": null
           }
         },
-        "index": 48
+        "index": 51
       },
       {
         "id": "kylin",
@@ -1985,7 +2094,7 @@
             "deprecated_at": null
           }
         },
-        "index": 49
+        "index": 52
       }
     ]
   },
@@ -2033,7 +2142,7 @@
     "metadata": {
       "website": "https://wax.io/"
     },
-    "index": 50,
+    "index": 53,
     "testnets": [
       {
         "id": "waxtest",
@@ -2068,7 +2177,7 @@
             "deprecated_at": null
           }
         },
-        "index": 51
+        "index": 54
       }
     ]
   },
@@ -2116,7 +2225,7 @@
     "metadata": {
       "website": "https://telos.net/"
     },
-    "index": 52,
+    "index": 55,
     "testnets": [
       {
         "id": "telostest",
@@ -2151,7 +2260,7 @@
             "deprecated_at": null
           }
         },
-        "index": 53
+        "index": 56
       }
     ]
   },
@@ -2199,14 +2308,14 @@
     "metadata": {
       "website": "https://www.kava.io/"
     },
-    "index": 54
+    "index": 57
   },
   {
     "id": "blast",
     "name": "Blast Network",
     "alt_names": [],
     "graph_id": "blast-mainnet",
-    "index": 55,
+    "index": 58,
     "standard": "erc20",
     "is_detailed_blocks": false,
     "block_type": {
@@ -2249,7 +2358,7 @@
         "name": "Blast Network Sepolia",
         "alt_names": [],
         "graph_id": "blast-testnet",
-        "index": 56,
+        "index": 59,
         "standard": "erc20",
         "is_detailed_blocks": false,
         "block_type": {
@@ -2362,7 +2471,42 @@
             "deprecated_at": null
           }
         },
-        "index": 58
+        "index": 61
+      },
+      {
+        "id": "bobabnb",
+        "graph_id": "boba-bnb",
+        "name": "BobaBNB",
+        "alt_names": [],
+        "standard": "erc20",
+        "is_detailed_blocks": false,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "rpc": {
+            "beta_released_at": "2024-11-20T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "firehose": {
+            "beta_released_at": "2024-11-20T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": "2024-11-20T00:00:00.000Z",
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 62
       }
     ],
     "consensus": [],
@@ -2371,7 +2515,7 @@
       "layer": "L2",
       "website": "https://boba.network/"
     },
-    "index": 57
+    "index": 60
   },
   {
     "id": "cronos",
@@ -2420,7 +2564,7 @@
     "metadata": {
       "website": "https://cronos.org/"
     },
-    "index": 59
+    "index": 63
   },
   {
     "id": "fuse",
@@ -2470,7 +2614,7 @@
       "layer": "L1",
       "website": "https://fuse.io/"
     },
-    "index": 60
+    "index": 64
   },
   {
     "id": "linea",
@@ -2519,7 +2663,7 @@
     "metadata": {
       "website": "https://linea.build/"
     },
-    "index": 61
+    "index": 65
   },
   {
     "id": "litecoin",
@@ -2529,7 +2673,7 @@
     ],
     "graph_id": null,
     "standard": "ltc20",
-    "is_detailed_blocks": true,
+    "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.litecoin.type.v1.Block",
       "url": "https://buf.build/streamingfast/firehose-litecoin/docs/main:sf.litecoin.type.v1"
@@ -2549,12 +2693,12 @@
         "deprecated_at": null
       },
       "firehose": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-11-19T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-11-19T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
@@ -2571,7 +2715,7 @@
       "layer": "L1",
       "website": "https://litecoin.org/"
     },
-    "index": 62
+    "index": 66
   },
   {
     "id": "mode",
@@ -2621,7 +2765,7 @@
       "layer": "L2",
       "website": "https://www.mode.network/"
     },
-    "index": 63
+    "index": 67
   },
   {
     "id": "ronin",
@@ -2644,17 +2788,17 @@
     },
     "supported_services": {
       "firehose": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-11-19T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "substreams": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-11-19T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
       "rpc": {
-        "beta_released_at": null,
+        "beta_released_at": "2024-11-19T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       },
@@ -2667,7 +2811,7 @@
     "metadata": {
       "website": "https://roninchain.com/"
     },
-    "index": 64
+    "index": 68
   },
   {
     "id": "sei",
@@ -2713,7 +2857,7 @@
     "metadata": {
       "website": "https://www.sei.io/"
     },
-    "index": 65
+    "index": 69
   },
   {
     "id": "solana",
@@ -2759,7 +2903,7 @@
     "metadata": {
       "website": "https://near.org/"
     },
-    "index": 66
+    "index": 70
   },
   {
     "id": "xai",
@@ -2809,7 +2953,7 @@
       "layer": "L3",
       "website": "https://xai.games/"
     },
-    "index": 67
+    "index": 71
   },
   {
     "id": "zkastar",
@@ -2886,7 +3030,7 @@
             "deprecated_at": null
           }
         },
-        "index": 69
+        "index": 73
       },
       {
         "id": "zkyoto",
@@ -2921,7 +3065,7 @@
             "deprecated_at": null
           }
         },
-        "index": 70
+        "index": 74
       }
     ],
     "consensus": [],
@@ -2930,7 +3074,7 @@
       "layer": "L2",
       "website": "https://astar.network/"
     },
-    "index": 68
+    "index": 72
   },
   {
     "id": "x-layer",
@@ -2976,7 +3120,7 @@
     "metadata": {
       "website": "https://www.okx.com/fr/xlayer"
     },
-    "index": 71
+    "index": 75
   },
   {
     "id": "zksync",
@@ -3025,7 +3169,7 @@
         "zk"
       ]
     },
-    "index": 72
+    "index": 76
   },
   {
     "id": "zora",
@@ -3074,7 +3218,7 @@
       "layer": "L2",
       "website": "https://zora.co/"
     },
-    "index": 73
+    "index": 77
   },
   {
     "id": "ore",
@@ -3120,7 +3264,7 @@
     "metadata": {
       "website": "https://ore.network/"
     },
-    "index": 74,
+    "index": 78,
     "testnets": [
       {
         "id": "orestage",
@@ -3155,7 +3299,7 @@
             "deprecated_at": null
           }
         },
-        "index": 75
+        "index": 79
       }
     ]
   },
@@ -3202,6 +3346,6 @@
     "metadata": {
       "website": ""
     },
-    "index": 76
+    "index": 80
   }
 ]

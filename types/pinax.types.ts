@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/13/2024, 11:29:44 PM.
+// Last generation on 11/18/2024, 8:50:25 PM.
 export type PinaxID =
   | 'celo'
   | 'alfajores'
@@ -21,9 +21,11 @@ export type PinaxID =
   | 'optimism'
   | 'opsepolia'
   | 'scroll'
+  | 'scrsepolia'
   | 'mode'
   | 'fantom'
   | 'boba'
+  | 'bobabnb'
   | 'bobasepolia'
   | 'fuse'
   | 'cosmoshub'
@@ -38,6 +40,7 @@ export type PinaxID =
   | 'polygonzk'
   | 'cardona'
   | 'bsc'
+  | 'opbnb'
   | 'chapel'
   | 'xai'
   | 'osmosis'
@@ -60,6 +63,7 @@ export type PinaxID =
   | 'sepolia'
   | 'goerli'
   | 'starknet'
+  | 'starksepolia'
   | 'sei'
   | 'cronos'
   | 'ore'
