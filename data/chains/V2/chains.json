@@ -2358,8 +2358,7 @@
       "id": "blast",
       "brand_theme": "light",
       "variants": [
-        "branded",
-        "mono"
+        "branded"
       ],
       "type": "networks"
     },
@@ -2618,8 +2617,7 @@
       "id": "fuse",
       "brand_theme": "light",
       "variants": [
-        "branded",
-        "mono"
+        "branded"
       ],
       "type": "networks"
     },
@@ -2770,10 +2768,9 @@
     },
     "icon": {
       "id": "mode",
-      "brand_theme": "both",
+      "brand_theme": "light",
       "variants": [
-        "branded",
-        "mono"
+        "branded"
       ],
       "type": "networks"
     },

@@ -15,7 +15,7 @@ const meta: ___InternalChain = {
   icon: {
     id: 'blast',
     brand_theme: 'light',
-    variants: ['branded', 'mono'],
+    variants: ['branded'],
     type: 'networks',
   },
   supported_services: {

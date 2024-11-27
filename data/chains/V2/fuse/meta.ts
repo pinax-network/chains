@@ -14,7 +14,7 @@ const meta: ___InternalChain = {
   icon: {
     id: 'fuse',
     brand_theme: 'light',
-    variants: ['branded', 'mono'],
+    variants: ['branded'],
     type: 'networks',
   },
   supported_services: {

@@ -13,8 +13,8 @@ const meta: ___InternalChain = {
   },
   icon: {
     id: 'mode',
-    brand_theme: 'both',
-    variants: ['branded', 'mono'],
+    brand_theme: 'light',
+    variants: ['branded'],
     type: 'networks',
   },
   supported_services: {
