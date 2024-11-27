@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1',
   },
   icon: {
-    id: 'tokens/near',
+    id: 'near-protocol',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     firehose: {

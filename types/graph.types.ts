@@ -1,7 +1,9 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/18/2024, 10:34:01 PM.
+// Last generation on 11/27/2024, 9:30:21 AM.
 export type GraphID =
+  | 'abstract'
+  | 'abstract-testnet'
   | 'arbitrum-nova'
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
@@ -25,6 +27,8 @@ export type GraphID =
   | 'chapel'
   | 'chiliz'
   | 'chiliz-testnet'
+  | 'corn'
+  | 'corn-testnet'
   | 'etherlink-mainnet'
   | 'etherlink-testnet'
   | 'fantom'

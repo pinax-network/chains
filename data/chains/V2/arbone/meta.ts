@@ -18,9 +18,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'tokens/arbi',
+    id: 'arbitrum-one',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     firehose: {

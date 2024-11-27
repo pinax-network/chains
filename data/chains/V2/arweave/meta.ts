@@ -18,9 +18,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1',
   },
   icon: {
-    id: 'tokens/ar',
+    id: 'arweave',
     brand_theme: 'dark',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     firehose: {

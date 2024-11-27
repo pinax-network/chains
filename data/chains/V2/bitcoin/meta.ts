@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1',
   },
   icon: {
-    id: 'tokens/btc',
+    id: 'bitcoin',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     firehose: {

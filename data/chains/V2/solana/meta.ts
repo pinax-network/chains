@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-solana',
   },
   icon: {
-    id: 'tokens/sol',
+    id: 'solana',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     firehose: {

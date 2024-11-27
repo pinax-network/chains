@@ -379,33 +379,24 @@ const getChainIconUrl = (
 
   if (chainIcon?.variants && chainIcon.variants?.includes('branded')) {
     if (chainIcon?.brand_theme === 'both') {
-      // Prioritize branded icons
       return `${iconAssetsFolder}${chainId}.branded.svg`;
     } else if (chainIcon.brand_theme === 'light') {
       if (theme === 'light') {
-        // Can't display light branded icon on light theme,
-        // so use dark icon instead
-        return `${iconAssetsFolder}${chainId}.dark.svg`;
+        // TODO: logic for light branded icon on light theme
+        return `${iconAssetsFolder}${chainId}.mono.svg`;
       } else {
-        // Display light branded icon on dark theme
         return `${iconAssetsFolder}${chainId}.branded.svg`;
       }
     } else {
       if (theme === 'dark') {
-        // Can't display dark branded icon on dark theme,
-        // so use light icon instead
-        return `${iconAssetsFolder}${chainId}.light.svg`;
+        // TODO: logic for dark branded icon on dark theme
+        return `${iconAssetsFolder}${chainId}.mono.svg`;
       } else {
-        // Display dark branded icon on light theme
         return `${iconAssetsFolder}${chainId}.branded.svg`;
       }
     }
   } else {
-    if (theme === 'light') {
-      return `${iconAssetsFolder}${chainId}.dark.svg`;
-    } else {
-      return `${iconAssetsFolder}${chainId}.light.svg`;
-    }
+    return `${iconAssetsFolder}${chainId}.mono.svg`;
   }
 };
 

@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'networks/zora-network',
+    id: 'zora',
     brand_theme: 'both',
     variants: ['branded'],
+    type: 'networks',
   },
   supported_services: {
     rpc: {

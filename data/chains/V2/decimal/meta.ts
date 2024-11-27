@@ -12,9 +12,11 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'tokens/del',
+    id: 'decimal',
+    symbol: 'del',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'tokens',
   },
   supported_services: {
     firehose: {

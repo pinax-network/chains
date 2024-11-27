@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1',
   },
   icon: {
-    id: 'networks/ore',
+    id: 'ore',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'missing',
   },
   supported_services: {
     rpc: {

@@ -15,6 +15,7 @@ const meta: ___InternalChain = {
     id: 'networks/ux',
     brand_theme: 'both',
     variants: ['branded'],
+    type: 'missing',
   },
   supported_services: {
     firehose: {

@@ -11,12 +11,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/ethereum",
+      "id": "ethereum",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -268,12 +269,13 @@
       "url": "https://buf.build/streamingfast/firehose-bitcoin/docs/main:sf.bitcoin.type.v1"
     },
     "icon": {
-      "id": "tokens/btc",
+      "id": "bitcoin",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -316,12 +318,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/polygon-pos",
+      "id": "polygon-pos",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -517,12 +520,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/binance-smart-chain",
+      "id": "binance-smart-chain",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -638,12 +642,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/arbi",
+      "id": "arbitrum-one",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -756,12 +761,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/arbi",
+      "id": "arbitrum-nova",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -802,12 +808,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/avalanche",
+      "id": "avalanche",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -848,12 +855,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/optimistic-ethereum",
+      "id": "optimism",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -931,12 +939,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/base",
+      "id": "base",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1014,12 +1023,13 @@
       "url": "https://buf.build/streamingfast/firehose-near/docs/main:sf.near.type.v1"
     },
     "icon": {
-      "id": "tokens/near",
+      "id": "near-protocol",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1097,12 +1107,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/cardano",
+      "id": "cardano",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1143,12 +1154,14 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/del",
+      "id": "decimal",
+      "symbol": "del",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "tokens"
     },
     "supported_services": {
       "firehose": {
@@ -1189,12 +1202,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/gno",
-      "brand_theme": "dark",
+      "id": "gnosis",
+      "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1324,12 +1338,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/fantom",
-      "brand_theme": "light",
+      "id": "fantom",
+      "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1370,12 +1385,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/celo",
+      "id": "celo",
       "brand_theme": "light",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1453,12 +1469,13 @@
       "url": "https://buf.build/pinax/firehose-arweave/docs/main:sf.arweave.type.v1"
     },
     "icon": {
-      "id": "tokens/ar",
+      "id": "arweave",
       "brand_theme": "dark",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1499,12 +1516,13 @@
       "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
     },
     "icon": {
-      "id": "networks/cosmos",
-      "brand_theme": "dark",
+      "id": "cosmos-hub",
+      "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1617,12 +1635,13 @@
       "url": "https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto"
     },
     "icon": {
-      "id": "networks/osmosis",
+      "id": "osmosis",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1663,12 +1682,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/moonbeam",
+      "id": "moonbeam",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1709,12 +1729,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/moonriver",
+      "id": "moonriver",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1755,12 +1776,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/scroll",
+      "id": "scroll",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1838,12 +1860,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/starknet",
+      "id": "starknet",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -1921,11 +1944,13 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "icon": {
-      "id": "tokens/neweos",
-      "brand_theme": "light",
+      "id": "eos",
+      "brand_theme": "both",
       "variants": [
+        "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -2113,12 +2138,14 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "icon": {
-      "id": "tokens/waxp",
+      "id": "wax",
+      "symbol": "waxp",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "tokens"
     },
     "supported_services": {
       "firehose": {
@@ -2196,12 +2223,13 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "icon": {
-      "id": "networks/telos",
+      "id": "telos",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -2279,12 +2307,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/kava",
+      "id": "kava",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -2326,12 +2355,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/blast",
+      "id": "blast",
       "brand_theme": "light",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2411,12 +2441,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/boba",
+      "id": "boba",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2534,12 +2565,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/cronos",
+      "id": "cronos",
       "brand_theme": "dark",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2583,12 +2615,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/fuse",
+      "id": "fuse",
       "brand_theme": "light",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2633,12 +2666,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/linea",
+      "id": "linea",
       "brand_theme": "dark",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2684,12 +2718,13 @@
       "url": "https://buf.build/streamingfast/firehose-litecoin/docs/main:sf.litecoin.type.v1"
     },
     "icon": {
-      "id": "tokens/ltc",
+      "id": "litecoin",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2734,12 +2769,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/mode",
-      "brand_theme": "light",
+      "id": "mode",
+      "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2784,12 +2820,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/ronin",
+      "id": "ronin",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -2830,12 +2867,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "tokens/sei",
+      "id": "sei-network",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -2876,12 +2914,13 @@
       "url": "https://buf.build/streamingfast/firehose-solana"
     },
     "icon": {
-      "id": "tokens/sol",
+      "id": "solana",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -2922,12 +2961,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/xai",
+      "id": "xai",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -2972,12 +3012,13 @@
       "url": "https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1"
     },
     "icon": {
-      "id": "networks/astar",
+      "id": "astar",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -3093,12 +3134,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/x-layer",
+      "id": "x-layer",
       "brand_theme": "dark",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "firehose": {
@@ -3139,12 +3181,13 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/zksync",
+      "id": "zksync",
       "brand_theme": "dark",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -3188,11 +3231,12 @@
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
     },
     "icon": {
-      "id": "networks/zora-network",
+      "id": "zora",
       "brand_theme": "both",
       "variants": [
         "branded"
-      ]
+      ],
+      "type": "networks"
     },
     "supported_services": {
       "rpc": {
@@ -3237,12 +3281,13 @@
       "url": "https://buf.build/pinax/firehose-antelope/docs/main:sf.antelope.type.v1"
     },
     "icon": {
-      "id": "networks/ore",
+      "id": "ore",
       "brand_theme": "both",
       "variants": [
         "branded",
         "mono"
-      ]
+      ],
+      "type": "missing"
     },
     "supported_services": {
       "rpc": {
@@ -3324,7 +3369,8 @@
       "brand_theme": "both",
       "variants": [
         "branded"
-      ]
+      ],
+      "type": "missing"
     },
     "supported_services": {
       "firehose": {

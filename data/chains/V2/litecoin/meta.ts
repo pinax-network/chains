@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-litecoin/docs/main:sf.litecoin.type.v1',
   },
   icon: {
-    id: 'tokens/ltc',
+    id: 'litecoin',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     rpc: {

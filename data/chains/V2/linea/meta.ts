@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'networks/linea',
+    id: 'linea',
     brand_theme: 'dark',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     rpc: {

@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://github.com/figment-networks/proto-cosmos/blob/main/sf/cosmos/type/v1/type.proto',
   },
   icon: {
-    id: 'networks/osmosis',
+    id: 'osmosis',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     firehose: {

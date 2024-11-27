@@ -12,9 +12,10 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/pinax/firehose-zkevm/docs/main:sf.zkevm.type.v1',
   },
   icon: {
-    id: 'networks/astar',
+    id: 'astar',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
+    type: 'networks',
   },
   supported_services: {
     rpc: {

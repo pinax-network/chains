@@ -44,10 +44,14 @@ existingChains.forEach((chain: string) => {
   }
 });
 
+console.log('existingChains', existingChains);
+
 // Find the missing chains
 const missingChains = directories.filter(
   (chain: string) => !existingChains.includes(chain),
 );
+
+console.log('missingChains', missingChains);
 
 // Add the missing chains
 configCast.missing = missingChains;
