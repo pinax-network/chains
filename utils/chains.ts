@@ -38,6 +38,7 @@ const isServiceSupported = (
 
   return (
     serviceStatusDates.full_released_at !== null &&
+    new Date(serviceStatusDates.full_released_at) < new Date() &&
     serviceStatusDates.deprecated_at === null
   );
 };
@@ -61,6 +62,7 @@ const isServiceBeta = (
   return (
     serviceStatusDates &&
     serviceStatusDates.beta_released_at !== null &&
+    new Date(serviceStatusDates.beta_released_at) < new Date() &&
     serviceStatusDates.deprecated_at === null &&
     !isServiceSupported(chain, service)
   );
