@@ -14,17 +14,17 @@ const meta: ___InternalTestnet = {
   supported_services: {
     rpc: {
       beta_released_at: '2024-11-21T00:00:00.000Z',
-      full_released_at: null,
+      full_released_at: '2024-12-04T00:00:00.000Z',
       deprecated_at: null,
     },
     firehose: {
       beta_released_at: '2024-11-21T00:00:00.000Z',
-      full_released_at: null,
+      full_released_at: '2024-12-04T00:00:00.000Z',
       deprecated_at: null,
     },
     substreams: {
       beta_released_at: '2024-11-21T00:00:00.000Z',
-      full_released_at: null,
+      full_released_at: '2024-12-04T00:00:00.000Z',
       deprecated_at: null,
     },
     datasets: {

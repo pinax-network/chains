@@ -849,7 +849,7 @@
     "name": "Optimism",
     "alt_names": [],
     "standard": "erc20",
-    "is_detailed_blocks": false,
+    "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
       "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
@@ -875,8 +875,8 @@
         "deprecated_at": null
       },
       "rpc": {
-        "beta_released_at": null,
-        "full_released_at": null,
+        "beta_released_at": "2024-01-01T00:00:00.000Z",
+        "full_released_at": "2024-01-01T00:00:00.000Z",
         "deprecated_at": null
       },
       "datasets": {
@@ -1787,17 +1787,17 @@
     "supported_services": {
       "firehose": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
-        "full_released_at": null,
+        "full_released_at": "2024-12-04T00:00:00.000Z",
         "deprecated_at": null
       },
       "substreams": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
-        "full_released_at": null,
+        "full_released_at": "2024-12-04T00:00:00.000Z",
         "deprecated_at": null
       },
       "rpc": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
-        "full_released_at": null,
+        "full_released_at": "2024-12-04T00:00:00.000Z",
         "deprecated_at": null
       },
       "datasets": {
@@ -1825,17 +1825,17 @@
         "supported_services": {
           "rpc": {
             "beta_released_at": "2024-11-21T00:00:00.000Z",
-            "full_released_at": null,
+            "full_released_at": "2024-12-04T00:00:00.000Z",
             "deprecated_at": null
           },
           "firehose": {
             "beta_released_at": "2024-11-21T00:00:00.000Z",
-            "full_released_at": null,
+            "full_released_at": "2024-12-04T00:00:00.000Z",
             "deprecated_at": null
           },
           "substreams": {
             "beta_released_at": "2024-11-21T00:00:00.000Z",
-            "full_released_at": null,
+            "full_released_at": "2024-12-04T00:00:00.000Z",
             "deprecated_at": null
           },
           "datasets": {
