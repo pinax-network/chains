@@ -5,7 +5,7 @@ const meta: ___InternalChain = {
   name: 'Mode Network',
   alt_names: [],
   graph_id: 'mode-mainnet',
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',

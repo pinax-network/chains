@@ -5,7 +5,7 @@ const meta: ___InternalChain = {
   name: 'Boba Network',
   alt_names: [],
   graph_id: 'boba',
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: false,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',

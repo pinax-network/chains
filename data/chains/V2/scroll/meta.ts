@@ -5,7 +5,7 @@ const meta: ___InternalChain = {
   graph_id: 'scroll',
   name: 'Scroll',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: false,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',

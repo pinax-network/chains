@@ -5,7 +5,7 @@ const meta: ___InternalChain = {
   graph_id: 'bsc',
   name: 'BNB',
   alt_names: ['bsc', 'binance'],
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',

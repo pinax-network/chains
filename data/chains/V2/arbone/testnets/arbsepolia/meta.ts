@@ -5,7 +5,7 @@ const meta: ___InternalTestnet = {
   graph_id: 'arbitrum-sepolia',
   name: 'Arbitrum Sepolia',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',

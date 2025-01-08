@@ -9,4 +9,5 @@ export type Standard =
   | 'rrc20'
   | 'sei'
   | 'cardano'
-  | 'starknet';
+  | 'starknet'
+  | 'evm';

@@ -5,7 +5,7 @@ const meta: ___InternalTestnet = {
   name: 'Astar zKyoto',
   alt_names: [],
   graph_id: 'zkyoto-testnet',
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: false,
   block_type: {
     label: 'sf.zkevm.type.v1.Block',
