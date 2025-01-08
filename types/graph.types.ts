@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 12/4/2024, 7:27:17 PM.
+// Last generation on 1/8/2025, 6:03:21 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -20,6 +20,7 @@ export type GraphID =
   | 'boba-bnb'
   | 'boba-bnb-testnet'
   | 'boba-testnet'
+  | 'botanix-testnet'
   | 'bsc'
   | 'btc'
   | 'celo'
@@ -31,6 +32,7 @@ export type GraphID =
   | 'corn-testnet'
   | 'etherlink-mainnet'
   | 'etherlink-testnet'
+  | 'expchain-testnet'
   | 'fantom'
   | 'fantom-testnet'
   | 'fuji'
@@ -41,14 +43,18 @@ export type GraphID =
   | 'gravity-mainnet'
   | 'gravity-testnet'
   | 'harmony'
+  | 'hemi'
+  | 'hemi-sepolia'
   | 'holesky'
   | 'iotex'
   | 'iotex-testnet'
+  | 'joc'
   | 'kaia'
   | 'kaia-testnet'
   | 'lens-testnet'
   | 'linea'
   | 'linea-sepolia'
+  | 'lumia'
   | 'mainnet'
   | 'matic'
   | 'mbase'
@@ -75,6 +81,7 @@ export type GraphID =
   | 'solana-devnet'
   | 'solana-mainnet-beta'
   | 'soneium-testnet'
+  | 'sonic'
   | 'starknet-mainnet'
   | 'unichain-testnet'
   | 'xlayer-mainnet'

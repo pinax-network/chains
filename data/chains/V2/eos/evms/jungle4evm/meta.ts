@@ -5,7 +5,7 @@ const meta: ___InternalEVM = {
   graph_id: null,
   name: 'Jungle4 EVM',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: true,
   is_evm_testnet: true,
   is_evm: true,

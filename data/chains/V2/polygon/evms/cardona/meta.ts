@@ -5,7 +5,7 @@ const meta: ___InternalEVM = {
   graph_id: 'polygon-zkevm-cardona',
   name: 'Polygon zkEVM Cardona',
   alt_names: ['matic'],
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: false,
   is_evm_testnet: true,
   is_evm: true,

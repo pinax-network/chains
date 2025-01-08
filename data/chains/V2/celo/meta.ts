@@ -5,7 +5,7 @@ const meta: ___InternalChain = {
   graph_id: 'celo',
   name: 'Celo',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',

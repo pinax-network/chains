@@ -5,7 +5,7 @@ const meta: ___InternalTestnet = {
   name: 'Astar zKatana',
   alt_names: [],
   graph_id: null,
-  standard: 'erc20',
+  standard: 'evm',
   is_detailed_blocks: false,
   block_type: {
     label: 'sf.zkevm.type.v1.Block',

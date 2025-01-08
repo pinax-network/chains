@@ -4,7 +4,7 @@
     "graph_id": "mainnet",
     "name": "Ethereum",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -51,7 +51,7 @@
         "graph_id": null,
         "name": "Holesky",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -86,7 +86,7 @@
         "graph_id": "sepolia",
         "name": "Sepolia",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -121,7 +121,7 @@
         "graph_id": null,
         "name": "Goerli",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -158,7 +158,7 @@
         "graph_id": null,
         "name": "Ethereum Consensus Layer",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -183,7 +183,7 @@
         "graph_id": null,
         "name": "Holesky Consensus Layer",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -208,7 +208,7 @@
         "graph_id": null,
         "name": "Sepolia Consensus Layer",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -233,7 +233,7 @@
         "graph_id": null,
         "name": "Goerli Consensus Layer",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -311,7 +311,7 @@
     "alt_names": [
       "matic"
     ],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -358,7 +358,7 @@
         "graph_id": "polygon-amoy",
         "name": "Amoy",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -393,7 +393,7 @@
         "graph_id": null,
         "name": "Mumbai",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -432,7 +432,7 @@
         "alt_names": [
           "matic"
         ],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "is_evm_testnet": true,
         "is_evm": true,
@@ -471,7 +471,7 @@
         "alt_names": [
           "matic"
         ],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "is_evm_testnet": false,
         "is_evm": true,
@@ -513,7 +513,7 @@
       "bsc",
       "binance"
     ],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -560,7 +560,7 @@
         "graph_id": "chapel",
         "name": "Chapel",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -597,7 +597,7 @@
         "graph_id": null,
         "name": "opBNB",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_evm": true,
         "is_detailed_blocks": false,
         "block_type": {
@@ -635,7 +635,7 @@
     "graph_id": "arbitrum-one",
     "name": "Arbitrum One",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -682,7 +682,7 @@
         "graph_id": null,
         "name": "Arbitrum Goerli",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -717,7 +717,7 @@
         "graph_id": "arbitrum-sepolia",
         "name": "Arbitrum Sepolia",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -754,7 +754,7 @@
     "graph_id": "arbitrum-nova",
     "name": "Arbitrum Nova",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -801,7 +801,7 @@
     "graph_id": "avalanche",
     "name": "Avalanche",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -848,7 +848,7 @@
     "graph_id": "optimism",
     "name": "Optimism",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -895,7 +895,7 @@
         "graph_id": "optimism-sepolia",
         "name": "Optimism Sepolia",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -932,7 +932,7 @@
     "graph_id": "base",
     "name": "Base",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -979,7 +979,7 @@
         "graph_id": "base-sepolia",
         "name": "Base Sepolia",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -1147,7 +1147,7 @@
     "graph_id": null,
     "name": "Decimal",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -1195,7 +1195,7 @@
     "graph_id": "gnosis",
     "name": "Gnosis",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -1242,7 +1242,7 @@
         "graph_id": null,
         "name": "Gnosis Consensus Layer",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -1267,7 +1267,7 @@
         "graph_id": null,
         "name": "Chiado Consensus Layer",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -1294,7 +1294,7 @@
         "graph_id": null,
         "name": "Chiado",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -1331,7 +1331,7 @@
     "graph_id": "fantom",
     "name": "Fantom",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -1378,7 +1378,7 @@
     "graph_id": "celo",
     "name": "Celo",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -1425,7 +1425,7 @@
         "graph_id": null,
         "name": "Alfajores",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -1675,7 +1675,7 @@
     "graph_id": "moonbeam",
     "name": "Moonbeam",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -1722,7 +1722,7 @@
     "graph_id": "moonriver",
     "name": "Moonriver",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -1769,7 +1769,7 @@
     "graph_id": "scroll",
     "name": "Scroll",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -1816,7 +1816,7 @@
         "graph_id": "scroll-sepolia",
         "name": "Scroll Sepolia",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -1984,7 +1984,7 @@
         "graph_id": null,
         "name": "EOS EVM",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "is_evm": true,
         "block_type": {
@@ -2020,7 +2020,7 @@
         "graph_id": null,
         "name": "Jungle4 EVM",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": true,
         "is_evm_testnet": true,
         "is_evm": true,
@@ -2300,7 +2300,7 @@
     "graph_id": null,
     "name": "Kava",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2348,7 +2348,7 @@
     "alt_names": [],
     "graph_id": "blast-mainnet",
     "index": 58,
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2391,7 +2391,7 @@
         "alt_names": [],
         "graph_id": "blast-testnet",
         "index": 59,
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -2433,7 +2433,7 @@
     "name": "Boba Network",
     "alt_names": [],
     "graph_id": "boba",
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2476,7 +2476,7 @@
         "graph_id": null,
         "name": "Boba Sepolia",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.ethereum.type.v2.Block",
@@ -2514,7 +2514,7 @@
         "graph_id": "boba-bnb",
         "name": "BobaBNB",
         "alt_names": [],
-        "standard": "erc20",
+        "standard": "evm",
         "is_evm": true,
         "is_detailed_blocks": false,
         "block_type": {
@@ -2557,7 +2557,7 @@
     "name": "Cronos",
     "alt_names": [],
     "graph_id": null,
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2607,7 +2607,7 @@
     "name": "Fuse",
     "alt_names": [],
     "graph_id": "fuse",
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2657,7 +2657,7 @@
     "name": "Linea",
     "alt_names": [],
     "graph_id": "linea",
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2760,7 +2760,7 @@
     "name": "Mode Network",
     "alt_names": [],
     "graph_id": "mode-mainnet",
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2810,7 +2810,7 @@
     "graph_id": null,
     "name": "Ronin",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -2951,7 +2951,7 @@
     "name": "XAI",
     "alt_names": [],
     "graph_id": null,
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -3002,7 +3002,7 @@
     "name": "Astar zkEVM",
     "alt_names": [],
     "graph_id": null,
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.zkevm.type.v1.Block",
@@ -3045,7 +3045,7 @@
         "name": "Astar zKatana",
         "alt_names": [],
         "graph_id": null,
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.zkevm.type.v1.Block",
@@ -3080,7 +3080,7 @@
         "name": "Astar zKyoto",
         "alt_names": [],
         "graph_id": "zkyoto-testnet",
-        "standard": "erc20",
+        "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {
           "label": "sf.zkevm.type.v1.Block",
@@ -3124,7 +3124,7 @@
     "graph_id": null,
     "name": "X-Layer",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -3171,7 +3171,7 @@
     "graph_id": "zksync-era",
     "name": "zkSync Era",
     "alt_names": [],
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",
@@ -3221,7 +3221,7 @@
     "name": "Zora Network",
     "alt_names": [],
     "graph_id": null,
-    "standard": "erc20",
+    "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
       "label": "sf.ethereum.type.v2.Block",

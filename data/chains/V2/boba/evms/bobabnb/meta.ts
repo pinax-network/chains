@@ -5,7 +5,7 @@ const meta: ___InternalEVM = {
   graph_id: 'boba-bnb',
   name: 'BobaBNB',
   alt_names: [],
-  standard: 'erc20',
+  standard: 'evm',
   is_evm: true,
   is_detailed_blocks: false,
   block_type: {
