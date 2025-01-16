@@ -313,7 +313,7 @@ const getNumberOfSupportedChains = (
  * Determines the status of a given chain.
  *
  * @param {Chain | ConsensusLayer | EVM | Testnet} chain - The chain to check the status of.
- * @returns {string} The status of the chain, which can be "supported", "beta", "deprecated", or "unsupported".
+ * @returns {string} The status of the chain, which can be "supported", "beta", "deprecated", or "coming-soon".
  */
 const getChainStatus = (chain: Chain | ConsensusLayer | EVM | Testnet) => {
   if (isChainSupported(chain)) {
@@ -325,7 +325,7 @@ const getChainStatus = (chain: Chain | ConsensusLayer | EVM | Testnet) => {
   if (isChainDeprecated(chain)) {
     return 'deprecated';
   }
-  return 'unsupported';
+  return 'coming-soon';
 };
 
 /**
