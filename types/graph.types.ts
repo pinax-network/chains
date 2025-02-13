@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 1/23/2025, 6:27:19 PM.
+// Last generation on 2/10/2025, 12:57:46 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -14,6 +14,7 @@ export type GraphID =
   | 'avalanche'
   | 'base'
   | 'base-sepolia'
+  | 'berachain-bartio'
   | 'blast-mainnet'
   | 'blast-testnet'
   | 'boba'
@@ -35,6 +36,7 @@ export type GraphID =
   | 'expchain-testnet'
   | 'fantom'
   | 'fantom-testnet'
+  | 'fraxtal'
   | 'fuji'
   | 'fuse'
   | 'fuse-testnet'
@@ -59,6 +61,7 @@ export type GraphID =
   | 'matic'
   | 'mbase'
   | 'mint'
+  | 'mint-sepolia'
   | 'mode-mainnet'
   | 'mode-sepolia'
   | 'monad-testnet'
@@ -87,6 +90,9 @@ export type GraphID =
   | 'sonic'
   | 'starknet-mainnet'
   | 'unichain-testnet'
+  | 'vana'
+  | 'vana-moksha'
+  | 'viction'
   | 'xlayer-mainnet'
   | 'xlayer-sepolia'
   | 'zksync-era'

@@ -1,5 +1,5 @@
 export type ConsensusLayerServiceID = 'substreams' | 'firehose';
-export type ServiceID = ConsensusLayerServiceID | 'rpc' | 'datasets';
+export type ServiceID = ConsensusLayerServiceID | 'rpc' | 'datasets' | 'api';
 
 export type ServiceEndpoint = {
   name: string;

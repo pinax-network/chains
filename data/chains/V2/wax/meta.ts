@@ -39,6 +39,11 @@ const meta: ___InternalChain = {
       full_released_at: null,
       deprecated_at: null,
     },
+    api: {
+      beta_released_at: null,
+      full_released_at: null,
+      deprecated_at: null,
+    },
   },
   metadata: {
     website: 'https://wax.io/',
