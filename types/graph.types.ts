@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 3/24/2025, 2:48:10 PM.
+// Last generation on 3/27/2025, 5:16:16 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -10,7 +10,6 @@ export type GraphID =
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
   | 'arweave-mainnet'
-  | 'astar-zkevm-mainnet'
   | 'aurora'
   | 'aurora-testnet'
   | 'autonomys-taurus'
@@ -18,7 +17,7 @@ export type GraphID =
   | 'base'
   | 'base-sepolia'
   | 'berachain'
-  | 'berachain-bartio'
+  | 'berachain-bepolia'
   | 'blast-mainnet'
   | 'blast-testnet'
   | 'boba'
@@ -55,6 +54,7 @@ export type GraphID =
   | 'hemi'
   | 'hemi-sepolia'
   | 'holesky'
+  | 'hoodi'
   | 'ink'
   | 'ink-sepolia'
   | 'iotex'
@@ -68,6 +68,7 @@ export type GraphID =
   | 'linea-sepolia'
   | 'lumia'
   | 'mainnet'
+  | 'manta'
   | 'matic'
   | 'mbase'
   | 'metis'
