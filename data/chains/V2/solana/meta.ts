@@ -2,7 +2,7 @@ import { ___InternalChain } from '../../../../types/chain.types';
 
 const meta: ___InternalChain = {
   id: 'solana',
-  graph_id: 'solana-mainnet-beta',
+  graph_id: null,
   name: 'Solana',
   alt_names: [],
   standard: 'near',

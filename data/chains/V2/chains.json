@@ -41,7 +41,7 @@
         "deprecated_at": null
       },
       "api": {
-        "beta_released_at": null,
+        "beta_released_at": "2025-03-04T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -467,7 +467,7 @@
     "evms": [
       {
         "id": "cardona",
-        "graph_id": "polygon-zkevm-cardona",
+        "graph_id": null,
         "name": "Polygon zkEVM Cardona",
         "alt_names": [
           "matic"
@@ -600,7 +600,7 @@
         "deprecated_at": null
       },
       "api": {
-        "beta_released_at": null,
+        "beta_released_at": "2025-03-04T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -737,7 +737,7 @@
         "deprecated_at": null
       },
       "api": {
-        "beta_released_at": null,
+        "beta_released_at": "2025-03-04T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -1069,7 +1069,7 @@
         "deprecated_at": null
       },
       "api": {
-        "beta_released_at": null,
+        "beta_released_at": "2025-03-04T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2184,7 +2184,7 @@
         "deprecated_at": null
       },
       "api": {
-        "beta_released_at": null,
+        "beta_released_at": "2025-03-04T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -2352,7 +2352,7 @@
             "deprecated_at": null
           },
           "api": {
-            "beta_released_at": null,
+            "beta_released_at": "2025-03-04T00:00:00.000Z",
             "full_released_at": null,
             "deprecated_at": null
           }
@@ -2404,7 +2404,7 @@
         "deprecated_at": null
       },
       "api": {
-        "beta_released_at": null,
+        "beta_released_at": "2025-03-04T00:00:00.000Z",
         "full_released_at": null,
         "deprecated_at": null
       }
@@ -3221,7 +3221,7 @@
   },
   {
     "id": "solana",
-    "graph_id": "solana-mainnet-beta",
+    "graph_id": null,
     "name": "Solana",
     "alt_names": [],
     "standard": "near",
@@ -3419,7 +3419,7 @@
         "id": "zkyoto",
         "name": "Astar zKyoto",
         "alt_names": [],
-        "graph_id": "zkyoto-testnet",
+        "graph_id": null,
         "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {

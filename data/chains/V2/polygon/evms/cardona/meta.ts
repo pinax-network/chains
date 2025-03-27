@@ -2,7 +2,7 @@ import { ___InternalEVM } from '../../../../../../types/chain.types';
 
 const meta: ___InternalEVM = {
   id: 'cardona',
-  graph_id: 'polygon-zkevm-cardona',
+  graph_id: null,
   name: 'Polygon zkEVM Cardona',
   alt_names: ['matic'],
   standard: 'evm',

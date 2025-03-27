@@ -4,7 +4,7 @@ const meta: ___InternalTestnet = {
   id: 'zkyoto',
   name: 'Astar zKyoto',
   alt_names: [],
-  graph_id: 'zkyoto-testnet',
+  graph_id: null,
   standard: 'evm',
   is_detailed_blocks: false,
   block_type: {
