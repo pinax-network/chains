@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 3/27/2025, 5:16:16 PM.
+// Last generation on 4/22/2025, 2:26:33 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -63,6 +63,7 @@ export type GraphID =
   | 'joc-testnet'
   | 'kaia'
   | 'kaia-testnet'
+  | 'lens'
   | 'lens-testnet'
   | 'linea'
   | 'linea-sepolia'
@@ -71,6 +72,7 @@ export type GraphID =
   | 'manta'
   | 'matic'
   | 'mbase'
+  | 'megaeth-testnet'
   | 'metis'
   | 'mint'
   | 'mint-sepolia'

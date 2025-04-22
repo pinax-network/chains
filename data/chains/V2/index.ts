@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 3/27/2025, 5:16:16 PM.
+// Last generation on 4/22/2025, 2:26:32 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -65,6 +65,8 @@ export { default as sepoliaCl } from './eth/consensus/sepolia-cl/meta';
 export { default as starknet } from './starknet/meta';
 export { default as starksepolia } from './starknet/testnets/starksepolia/meta';
 export { default as sei } from './sei/meta';
+export { default as unichain } from './unichain/meta';
+export { default as unisepolia } from './unichain/testnets/unisepolia/meta';
 export { default as cronos } from './cronos/meta';
 export { default as ore } from './ore/meta';
 export { default as orestage } from './ore/testnets/orestage/meta';
@@ -82,4 +84,5 @@ export { default as gnosis } from './gnosis/meta';
 export { default as chiado } from './gnosis/testnets/chiado/meta';
 export { default as chiadoCl } from './gnosis/consensus/chiado-cl/meta';
 export { default as gnosisCl } from './gnosis/consensus/gnosis-cl/meta';
+export { default as chiliz } from './chiliz/meta';
 export { default as litecoin } from './litecoin/meta';

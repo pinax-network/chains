@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 3/27/2025, 5:16:16 PM.
+// Last generation on 4/22/2025, 2:26:32 PM.
 
 export default {
   ordered: {
@@ -16,6 +16,7 @@ export default {
       'goerli-cl',
     ],
     bitcoin: [],
+    chiliz: [],
     polygon: ['amoy', 'mumbai', 'cardona', 'polygonzk'],
     bsc: ['chapel', 'opbnb'],
     arbone: ['arbgoerli', 'arbsepolia'],
@@ -56,6 +57,7 @@ export default {
     zksync: [],
     zora: [],
     ore: ['orestage'],
+    unichain: ['unisepolia'],
     ux: [],
   },
   missing: [],
