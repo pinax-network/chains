@@ -30,7 +30,7 @@ const meta: ___InternalChain = {
     },
     rpc: {
       beta_released_at: '2025-04-24T00:00:00.000Z',
-      full_released_at: null,
+      full_released_at: '2025-04-24T00:00:00.000Z',
       deprecated_at: null,
     },
     datasets: {
@@ -39,8 +39,8 @@ const meta: ___InternalChain = {
       deprecated_at: null,
     },
     api: {
-      beta_released_at: null,
-      full_released_at: null,
+      beta_released_at: '2025-04-24T00:00:00.000Z',
+      full_released_at: '2025-04-24T00:00:00.000Z',
       deprecated_at: null,
     },
   },

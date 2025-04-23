@@ -379,7 +379,49 @@
     "metadata": {
       "website": "https://www.chiliz.com/"
     },
-    "index": 9
+    "index": 9,
+    "testnets": [
+      {
+        "id": "spicy",
+        "graph_id": "chiliz-testnet",
+        "name": "Spicy",
+        "alt_names": [],
+        "standard": "evm",
+        "is_detailed_blocks": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "api": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 10
+      }
+    ]
   },
   {
     "id": "polygon",
@@ -433,7 +475,7 @@
     "metadata": {
       "website": "https://polygon.technology/"
     },
-    "index": 10,
+    "index": 11,
     "testnets": [
       {
         "id": "amoy",
@@ -473,7 +515,7 @@
             "deprecated_at": null
           }
         },
-        "index": 11
+        "index": 12
       },
       {
         "id": "mumbai",
@@ -513,7 +555,7 @@
             "deprecated_at": null
           }
         },
-        "index": 12
+        "index": 13
       }
     ],
     "evms": [
@@ -559,7 +601,7 @@
             "deprecated_at": null
           }
         },
-        "index": 13
+        "index": 14
       },
       {
         "id": "polygonzk",
@@ -603,7 +645,7 @@
             "deprecated_at": null
           }
         },
-        "index": 14
+        "index": 15
       }
     ]
   },
@@ -660,7 +702,7 @@
     "metadata": {
       "website": "https://www.bnbchain.org/en/bnb-smart-chain"
     },
-    "index": 15,
+    "index": 16,
     "testnets": [
       {
         "id": "chapel",
@@ -700,7 +742,7 @@
             "deprecated_at": null
           }
         },
-        "index": 16
+        "index": 17
       }
     ],
     "evms": [
@@ -743,7 +785,7 @@
             "deprecated_at": null
           }
         },
-        "index": 17
+        "index": 18
       }
     ]
   },
@@ -797,7 +839,7 @@
     "metadata": {
       "website": "https://arbitrum.io/"
     },
-    "index": 18,
+    "index": 19,
     "testnets": [
       {
         "id": "arbgoerli",
@@ -837,7 +879,7 @@
             "deprecated_at": null
           }
         },
-        "index": 19
+        "index": 20
       },
       {
         "id": "arbsepolia",
@@ -877,7 +919,7 @@
             "deprecated_at": null
           }
         },
-        "index": 20
+        "index": 21
       }
     ]
   },
@@ -931,7 +973,7 @@
     "metadata": {
       "website": "https://arbitrum.io/"
     },
-    "index": 21
+    "index": 22
   },
   {
     "id": "avalanche",
@@ -983,7 +1025,7 @@
     "metadata": {
       "website": "https://www.avax.network/"
     },
-    "index": 22
+    "index": 23
   },
   {
     "id": "optimism",
@@ -1035,7 +1077,7 @@
     "metadata": {
       "website": "https://optimism.io/"
     },
-    "index": 23,
+    "index": 24,
     "testnets": [
       {
         "id": "opsepolia",
@@ -1075,7 +1117,7 @@
             "deprecated_at": null
           }
         },
-        "index": 24
+        "index": 25
       }
     ]
   },
@@ -1129,7 +1171,7 @@
     "metadata": {
       "website": "https://www.base.org/"
     },
-    "index": 25,
+    "index": 26,
     "testnets": [
       {
         "id": "basesepolia",
@@ -1169,7 +1211,7 @@
             "deprecated_at": null
           }
         },
-        "index": 26
+        "index": 27
       }
     ]
   },
@@ -1223,7 +1265,7 @@
     "metadata": {
       "website": "https://near.org/"
     },
-    "index": 27,
+    "index": 28,
     "testnets": [
       {
         "id": "neartest",
@@ -1263,7 +1305,7 @@
             "deprecated_at": null
           }
         },
-        "index": 28
+        "index": 29
       }
     ]
   },
@@ -1317,7 +1359,7 @@
     "metadata": {
       "website": "https://cardano.org/"
     },
-    "index": 29
+    "index": 30
   },
   {
     "id": "decimal",
@@ -1370,7 +1412,7 @@
     "metadata": {
       "website": "https://www.decimalchain.com/"
     },
-    "index": 30
+    "index": 31
   },
   {
     "id": "gnosis",
@@ -1422,7 +1464,7 @@
     "metadata": {
       "website": "https://gnosis.io/"
     },
-    "index": 31,
+    "index": 32,
     "consensus": [
       {
         "id": "gnosis-cl",
@@ -1447,7 +1489,7 @@
             "deprecated_at": null
           }
         },
-        "index": 32
+        "index": 33
       },
       {
         "id": "chiado-cl",
@@ -1472,7 +1514,7 @@
             "deprecated_at": null
           }
         },
-        "index": 33
+        "index": 34
       }
     ],
     "testnets": [
@@ -1514,7 +1556,7 @@
             "deprecated_at": null
           }
         },
-        "index": 34
+        "index": 35
       }
     ]
   },
@@ -1568,7 +1610,7 @@
     "metadata": {
       "website": "https://fantom.foundation/"
     },
-    "index": 35
+    "index": 36
   },
   {
     "id": "celo",
@@ -1620,7 +1662,7 @@
     "metadata": {
       "website": "https://celo.org/"
     },
-    "index": 36,
+    "index": 37,
     "testnets": [
       {
         "id": "alfajores",
@@ -1660,7 +1702,7 @@
             "deprecated_at": null
           }
         },
-        "index": 37
+        "index": 38
       }
     ]
   },
@@ -1714,7 +1756,7 @@
     "metadata": {
       "website": "https://arweave.org/"
     },
-    "index": 38
+    "index": 39
   },
   {
     "id": "cosmoshub",
@@ -1766,7 +1808,7 @@
     "metadata": {
       "website": "https://cosmos.network/"
     },
-    "index": 39,
+    "index": 40,
     "testnets": [
       {
         "id": "theta",
@@ -1806,7 +1848,7 @@
             "deprecated_at": null
           }
         },
-        "index": 40
+        "index": 41
       },
       {
         "id": "juno",
@@ -1846,7 +1888,7 @@
             "deprecated_at": null
           }
         },
-        "index": 41
+        "index": 42
       }
     ]
   },
@@ -1900,7 +1942,7 @@
     "metadata": {
       "website": "https://osmosis.zone/"
     },
-    "index": 42
+    "index": 43
   },
   {
     "id": "moonbeam",
@@ -1952,7 +1994,7 @@
     "metadata": {
       "website": "https://moonbeam.network/"
     },
-    "index": 43
+    "index": 44
   },
   {
     "id": "moonriver",
@@ -2004,7 +2046,7 @@
     "metadata": {
       "website": "https://moonbeam.network/"
     },
-    "index": 44
+    "index": 45
   },
   {
     "id": "scroll",
@@ -2056,7 +2098,7 @@
     "metadata": {
       "website": "https://scroll.io/"
     },
-    "index": 45,
+    "index": 46,
     "testnets": [
       {
         "id": "scrsepolia",
@@ -2096,7 +2138,7 @@
             "deprecated_at": null
           }
         },
-        "index": 46
+        "index": 47
       }
     ]
   },
@@ -2150,7 +2192,7 @@
     "metadata": {
       "website": "https://www.starknet.io/"
     },
-    "index": 47,
+    "index": 48,
     "testnets": [
       {
         "id": "starksepolia",
@@ -2190,7 +2232,7 @@
             "deprecated_at": null
           }
         },
-        "index": 48
+        "index": 49
       }
     ]
   },
@@ -2244,7 +2286,7 @@
     "metadata": {
       "website": "https://eosnetwork.com/"
     },
-    "index": 49,
+    "index": 50,
     "evms": [
       {
         "id": "eosevm",
@@ -2285,7 +2327,7 @@
             "deprecated_at": null
           }
         },
-        "index": 50
+        "index": 51
       },
       {
         "id": "jungle4evm",
@@ -2327,7 +2369,7 @@
             "deprecated_at": null
           }
         },
-        "index": 51
+        "index": 52
       }
     ],
     "testnets": [
@@ -2369,7 +2411,7 @@
             "deprecated_at": null
           }
         },
-        "index": 52
+        "index": 53
       },
       {
         "id": "kylin",
@@ -2409,7 +2451,7 @@
             "deprecated_at": null
           }
         },
-        "index": 53
+        "index": 54
       }
     ]
   },
@@ -2464,7 +2506,7 @@
     "metadata": {
       "website": "https://wax.io/"
     },
-    "index": 54,
+    "index": 55,
     "testnets": [
       {
         "id": "waxtest",
@@ -2504,7 +2546,7 @@
             "deprecated_at": null
           }
         },
-        "index": 55
+        "index": 56
       }
     ]
   },
@@ -2558,7 +2600,7 @@
     "metadata": {
       "website": "https://telos.net/"
     },
-    "index": 56,
+    "index": 57,
     "testnets": [
       {
         "id": "telostest",
@@ -2598,7 +2640,7 @@
             "deprecated_at": null
           }
         },
-        "index": 57
+        "index": 58
       }
     ]
   },
@@ -2652,14 +2694,14 @@
     "metadata": {
       "website": "https://www.kava.io/"
     },
-    "index": 58
+    "index": 59
   },
   {
     "id": "blast",
     "name": "Blast Network",
     "alt_names": [],
     "graph_id": "blast-mainnet",
-    "index": 59,
+    "index": 60,
     "standard": "evm",
     "is_detailed_blocks": false,
     "block_type": {
@@ -2707,7 +2749,7 @@
         "name": "Blast Network Sepolia",
         "alt_names": [],
         "graph_id": "blast-testnet",
-        "index": 60,
+        "index": 61,
         "standard": "evm",
         "is_detailed_blocks": false,
         "block_type": {
@@ -2836,7 +2878,7 @@
             "deprecated_at": null
           }
         },
-        "index": 62
+        "index": 63
       }
     ],
     "consensus": [],
@@ -2880,14 +2922,14 @@
             "deprecated_at": null
           }
         },
-        "index": 63
+        "index": 64
       }
     ],
     "metadata": {
       "layer": "L2",
       "website": "https://boba.network/"
     },
-    "index": 61
+    "index": 62
   },
   {
     "id": "cronos",
@@ -2942,7 +2984,7 @@
     "metadata": {
       "website": "https://cronos.org/"
     },
-    "index": 64
+    "index": 65
   },
   {
     "id": "fuse",
@@ -2997,7 +3039,7 @@
       "layer": "L1",
       "website": "https://fuse.io/"
     },
-    "index": 65
+    "index": 66
   },
   {
     "id": "linea",
@@ -3052,7 +3094,7 @@
     "metadata": {
       "website": "https://linea.build/"
     },
-    "index": 66
+    "index": 67
   },
   {
     "id": "litecoin",
@@ -3110,7 +3152,7 @@
       "layer": "L1",
       "website": "https://litecoin.org/"
     },
-    "index": 67
+    "index": 68
   },
   {
     "id": "mode",
@@ -3165,7 +3207,7 @@
       "layer": "L2",
       "website": "https://www.mode.network/"
     },
-    "index": 68
+    "index": 69
   },
   {
     "id": "ronin",
@@ -3217,7 +3259,7 @@
     "metadata": {
       "website": "https://roninchain.com/"
     },
-    "index": 69
+    "index": 70
   },
   {
     "id": "sei",
@@ -3269,7 +3311,7 @@
     "metadata": {
       "website": "https://www.sei.io/"
     },
-    "index": 70
+    "index": 71
   },
   {
     "id": "solana",
@@ -3321,7 +3363,7 @@
     "metadata": {
       "website": "https://near.org/"
     },
-    "index": 71
+    "index": 72
   },
   {
     "id": "xai",
@@ -3377,7 +3419,7 @@
       "layer": "L3",
       "website": "https://xai.games/"
     },
-    "index": 72
+    "index": 73
   },
   {
     "id": "zkastar",
@@ -3465,7 +3507,7 @@
             "deprecated_at": null
           }
         },
-        "index": 74
+        "index": 75
       },
       {
         "id": "zkyoto",
@@ -3505,7 +3547,7 @@
             "deprecated_at": null
           }
         },
-        "index": 75
+        "index": 76
       }
     ],
     "consensus": [],
@@ -3514,7 +3556,7 @@
       "layer": "L2",
       "website": "https://astar.network/"
     },
-    "index": 73
+    "index": 74
   },
   {
     "id": "x-layer",
@@ -3566,7 +3608,7 @@
     "metadata": {
       "website": "https://www.okx.com/fr/xlayer"
     },
-    "index": 76
+    "index": 77
   },
   {
     "id": "zksync",
@@ -3621,7 +3663,7 @@
         "zk"
       ]
     },
-    "index": 77
+    "index": 78
   },
   {
     "id": "zora",
@@ -3676,7 +3718,7 @@
       "layer": "L2",
       "website": "https://zora.co/"
     },
-    "index": 78
+    "index": 79
   },
   {
     "id": "ore",
@@ -3728,7 +3770,7 @@
     "metadata": {
       "website": "https://ore.network/"
     },
-    "index": 79,
+    "index": 80,
     "testnets": [
       {
         "id": "orestage",
@@ -3768,7 +3810,7 @@
             "deprecated_at": null
           }
         },
-        "index": 80
+        "index": 81
       }
     ]
   },
@@ -3805,7 +3847,7 @@
       },
       "rpc": {
         "beta_released_at": "2025-04-24T00:00:00.000Z",
-        "full_released_at": null,
+        "full_released_at": "2025-04-24T00:00:00.000Z",
         "deprecated_at": null
       },
       "datasets": {
@@ -3814,15 +3856,15 @@
         "deprecated_at": null
       },
       "api": {
-        "beta_released_at": null,
-        "full_released_at": null,
+        "beta_released_at": "2025-04-24T00:00:00.000Z",
+        "full_released_at": "2025-04-24T00:00:00.000Z",
         "deprecated_at": null
       }
     },
     "metadata": {
       "website": "https://www.unichain.org/"
     },
-    "index": 81,
+    "index": 82,
     "testnets": [
       {
         "id": "unisepolia",
@@ -3862,7 +3904,7 @@
             "deprecated_at": null
           }
         },
-        "index": 82
+        "index": 83
       }
     ]
   },
@@ -3915,6 +3957,6 @@
     "metadata": {
       "website": ""
     },
-    "index": 83
+    "index": 84
   }
 ]

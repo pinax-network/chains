@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "2.1.22",
+  "version": "2.1.23",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",

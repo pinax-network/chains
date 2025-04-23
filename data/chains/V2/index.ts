@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 4/22/2025, 2:26:32 PM.
+// Last generation on 4/23/2025, 4:46:58 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -85,4 +85,5 @@ export { default as chiado } from './gnosis/testnets/chiado/meta';
 export { default as chiadoCl } from './gnosis/consensus/chiado-cl/meta';
 export { default as gnosisCl } from './gnosis/consensus/gnosis-cl/meta';
 export { default as chiliz } from './chiliz/meta';
+export { default as spicy } from './chiliz/testnets/spicy/meta';
 export { default as litecoin } from './litecoin/meta';
