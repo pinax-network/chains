@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 4/23/2025, 4:46:59 PM.
+// Last generation on 6/6/2025, 12:53:34 AM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -22,8 +22,8 @@ export type GraphID =
   | 'blast-testnet'
   | 'boba'
   | 'boba-bnb'
-  | 'boba-bnb-testnet'
   | 'boba-testnet'
+  | 'botanix'
   | 'botanix-testnet'
   | 'bsc'
   | 'btc'
@@ -63,6 +63,8 @@ export type GraphID =
   | 'joc-testnet'
   | 'kaia'
   | 'kaia-testnet'
+  | 'katana'
+  | 'katana-tatara'
   | 'lens'
   | 'lens-testnet'
   | 'linea'
@@ -87,9 +89,11 @@ export type GraphID =
   | 'neox-testnet'
   | 'optimism'
   | 'optimism-sepolia'
+  | 'ozean-poseidon'
   | 'peaq'
   | 'polygon-amoy'
   | 'polygon-zkevm'
+  | 'ronin'
   | 'rootstock'
   | 'rootstock-testnet'
   | 'scroll'
