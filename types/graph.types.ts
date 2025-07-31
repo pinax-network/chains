@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 6/6/2025, 1:41:47 AM.
+// Last generation on 7/31/2025, 8:45:04 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -9,7 +9,6 @@ export type GraphID =
   | 'arbitrum-nova'
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
-  | 'arweave-mainnet'
   | 'aurora'
   | 'aurora-testnet'
   | 'autonomys-taurus'
@@ -35,6 +34,7 @@ export type GraphID =
   | 'clover'
   | 'corn'
   | 'corn-testnet'
+  | 'cronos'
   | 'etherlink-mainnet'
   | 'etherlink-testnet'
   | 'expchain-testnet'
@@ -106,6 +106,7 @@ export type GraphID =
   | 'sonic'
   | 'starknet-mainnet'
   | 'starknet-testnet'
+  | 'status-sepolia'
   | 'swellchain'
   | 'swellchain-sepolia'
   | 'unichain'
@@ -116,6 +117,7 @@ export type GraphID =
   | 'xlayer-mainnet'
   | 'xlayer-sepolia'
   | 'zetachain'
-  | 'zilliqa-protomainnet'
+  | 'zilliqa'
+  | 'zilliqa-testnet'
   | 'zksync-era'
   | 'zksync-era-sepolia';

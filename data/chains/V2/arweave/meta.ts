@@ -8,7 +8,7 @@ import { ___InternalChain } from '../../../../types/chain.types';
 
 const meta: ___InternalChain = {
   id: 'arweave',
-  graph_id: 'arweave-mainnet',
+  graph_id: null,
   name: 'Arweave',
   alt_names: [],
   standard: 'arweave',

@@ -1708,7 +1708,7 @@
   },
   {
     "id": "arweave",
-    "graph_id": "arweave-mainnet",
+    "graph_id": null,
     "name": "Arweave",
     "alt_names": [],
     "standard": "arweave",
