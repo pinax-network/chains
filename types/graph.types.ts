@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 7/31/2025, 8:45:04 PM.
+// Last generation on 8/8/2025, 5:32:13 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -31,7 +31,6 @@ export type GraphID =
   | 'chapel'
   | 'chiliz'
   | 'chiliz-testnet'
-  | 'clover'
   | 'corn'
   | 'corn-testnet'
   | 'cronos'
@@ -73,7 +72,6 @@ export type GraphID =
   | 'mainnet'
   | 'manta'
   | 'matic'
-  | 'mbase'
   | 'megaeth-testnet'
   | 'metis'
   | 'mint'
@@ -93,6 +91,7 @@ export type GraphID =
   | 'peaq'
   | 'polygon-amoy'
   | 'polygon-zkevm'
+  | 'polygon-zkevm-cardona'
   | 'ronin'
   | 'rootstock'
   | 'rootstock-testnet'

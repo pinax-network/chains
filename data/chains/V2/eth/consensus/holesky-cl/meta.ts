@@ -15,12 +15,12 @@ const meta: ___InternalConsensusLayer = {
     firehose: {
       beta_released_at: '2023-03-08T00:00:00.000Z',
       full_released_at: '2023-03-08T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2025-08-08T00:00:00.000Z',
     },
     substreams: {
       beta_released_at: '2023-03-08T00:00:00.000Z',
       full_released_at: '2023-03-08T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2025-08-08T00:00:00.000Z',
     },
   },
 };

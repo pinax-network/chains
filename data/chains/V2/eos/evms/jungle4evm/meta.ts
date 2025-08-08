@@ -16,18 +16,18 @@ const meta: ___InternalEVM = {
   supported_services: {
     firehose: {
       beta_released_at: '2023-09-20T00:00:00.000Z',
-      full_released_at: null,
-      deprecated_at: null,
+      full_released_at: '2025-08-08T00:00:00.000Z',
+      deprecated_at: '2025-08-08T00:00:00.000Z',
     },
     substreams: {
       beta_released_at: '2023-09-20T00:00:00.000Z',
-      full_released_at: null,
-      deprecated_at: null,
+      full_released_at: '2025-08-08T00:00:00.000Z',
+      deprecated_at: '2025-08-08T00:00:00.000Z',
     },
     rpc: {
       beta_released_at: '2023-09-20T00:00:00.000Z',
-      full_released_at: null,
-      deprecated_at: null,
+      full_released_at: '2025-08-08T00:00:00.000Z',
+      deprecated_at: '2025-08-08T00:00:00.000Z',
     },
     datasets: {
       beta_released_at: null,

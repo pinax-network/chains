@@ -10,4 +10,5 @@ export type Standard =
   | 'sei'
   | 'cardano'
   | 'starknet'
-  | 'evm';
+  | 'evm'
+  | 'svm';

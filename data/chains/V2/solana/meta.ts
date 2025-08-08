@@ -5,7 +5,7 @@ const meta: ___InternalChain = {
   graph_id: null,
   name: 'Solana',
   alt_names: [],
-  standard: 'near',
+  standard: 'svm',
   is_detailed_blocks: false,
   block_type: {
     label: 'sf.solana.type.v1.Block',
@@ -39,8 +39,8 @@ const meta: ___InternalChain = {
       deprecated_at: null,
     },
     api: {
-      beta_released_at: null,
-      full_released_at: null,
+      beta_released_at: '2025-07-31T00:00:00.000Z',
+      full_released_at: '2025-07-31T00:00:00.000Z',
       deprecated_at: null,
     },
   },
