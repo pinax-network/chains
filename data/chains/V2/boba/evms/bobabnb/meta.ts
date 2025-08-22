@@ -14,17 +14,17 @@ const meta: ___InternalEVM = {
   },
   supported_services: {
     rpc: {
-      beta_released_at: '2024-11-20T00:00:00.000Z',
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
     firehose: {
-      beta_released_at: '2024-11-20T00:00:00.000Z',
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },
     substreams: {
-      beta_released_at: '2024-11-20T00:00:00.000Z',
+      beta_released_at: null,
       full_released_at: null,
       deprecated_at: null,
     },

@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/14/2025, 5:01:37 PM.
+// Last generation on 8/23/2025, 1:05:03 AM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -29,6 +29,7 @@ export type GraphID =
   | 'btc'
   | 'celo'
   | 'celo-alfajores'
+  | 'celo-sepolia'
   | 'chapel'
   | 'chiliz'
   | 'chiliz-testnet'
@@ -55,6 +56,7 @@ export type GraphID =
   | 'hemi-sepolia'
   | 'holesky'
   | 'hoodi'
+  | 'injective-evm-testnet'
   | 'ink'
   | 'ink-sepolia'
   | 'iotex'
@@ -73,6 +75,7 @@ export type GraphID =
   | 'mainnet'
   | 'manta'
   | 'matic'
+  | 'mbase'
   | 'megaeth-testnet'
   | 'metis'
   | 'mint'
