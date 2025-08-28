@@ -11,4 +11,5 @@ export type Standard =
   | 'cardano'
   | 'starknet'
   | 'evm'
+  | 'tron'
   | 'svm';

@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/23/2025, 1:05:02 AM.
+// Last generation on 8/28/2025, 11:17:26 PM.
 
 export { default as celo } from './celo/meta';
 export { default as alfajores } from './celo/testnets/alfajores/meta';
@@ -46,6 +46,7 @@ export { default as xai } from './xai/meta';
 export { default as osmosis } from './osmosis/meta';
 export { default as bitcoin } from './bitcoin/meta';
 export { default as ux } from './ux/meta';
+export { default as tron } from './tron/meta';
 export { default as zora } from './zora/meta';
 export { default as zksync } from './zksync/meta';
 export { default as moonriver } from './moonriver/meta';

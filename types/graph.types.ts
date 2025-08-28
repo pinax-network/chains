@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 8/23/2025, 1:05:03 AM.
+// Last generation on 8/28/2025, 11:17:27 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
