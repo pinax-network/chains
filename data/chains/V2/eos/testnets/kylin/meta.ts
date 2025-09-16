@@ -35,7 +35,7 @@ const meta: ___InternalTestnet = {
     api: {
       beta_released_at: '2025-03-04T00:00:00.000Z',
       full_released_at: '2025-03-04T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2025-09-16T00:00:00.000Z',
     },
   },
 };
