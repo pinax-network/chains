@@ -20,12 +20,12 @@ describe('chain_is_service_beta', () => {
   });
 
   test('assert_beta_service___returns_true', () => {
-    const chainID = 'mode';
+    const chainID = 'litecoin';
     let chain = findChainById(chains, chainID) as Chain;
     if (chain.id !== chainID) {
       throw new Error('Expected ' + chainID + ', but got ' + chain.id);
     }
-    expect(isServiceBeta(chain, 'rpc')).toBe(true);
+    expect(isServiceBeta(chain, 'firehose')).toBe(true);
   });
 
   test('assert_supported_service___returns_false', () => {
