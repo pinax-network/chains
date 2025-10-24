@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.1.39 (2025-10-24)
+
+### Changes
+- Deprecated Boba Sepolia testnet
+
 ## 2.1.37 (2025-09-16)
 
 ### Changes

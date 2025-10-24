@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 8/28/2025, 11:17:26 PM.
+// Last generation on 10/24/2025, 3:48:29 PM.
 
 export default {
   ordered: {

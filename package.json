@@ -1,6 +1,6 @@
 {
   "name": "@pinax/chains",
-  "version": "2.1.37",
+  "version": "2.1.39",
   "description": "Single-source-of-truth for the metadata of chains supported by Pinax.",
   "keywords": [
     "chains",
@@ -20,7 +20,7 @@
     "/types",
     "dist"
   ],
-   "scripts": {
+  "scripts": {
     "fetch-graph-ids": "bun ./scripts/fetchGraphIDs.ts",
     "format": "prettier --log-level warn --write \"./**/*.{js,jsx,ts,tsx}\"",
     "generate": "bun run generate:data && bun run generate:types && bun run generate:new_icons",
@@ -39,6 +39,7 @@
     "prepare": "husky"
   },
   "devDependencies": {
+    "@pinax/graph-networks-registry": "^0.7.1",
     "@token-icons/core": "^2.14.0",
     "@types/bun": "latest",
     "@types/jest": "^29.5.12",

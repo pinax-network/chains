@@ -12,7 +12,7 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'polygon-pos',
+    id: 'polygon',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
     type: 'networks',

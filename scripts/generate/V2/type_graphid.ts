@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { NetworksRegistry } from '@pinax/graph-networks-registry';
 
 const typesDir = path.join(__dirname, '../../../types');
 const graphTypesFile = path.join(typesDir, 'graph.types.ts');
@@ -8,20 +9,8 @@ console.log('🕑 Generating GraphID type...');
 
 const fetchGraphIDs = async (): Promise<void> => {
   try {
-    const res = await fetch('https://api.studio.thegraph.com/deploy', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        jsonrpc: '2.0',
-        method: 'chain_list',
-        id: 1,
-      }),
-    });
-
-    const data = await res.json();
-    let graphIds = data.result.studio;
+    const registry = await NetworksRegistry.fromLatestVersion();
+    let graphIds = registry.networks.map((network) => network.id);
     let sortedGraphIds = graphIds.sort((a: string, b: string) =>
       a < b ? -1 : 1,
     );
