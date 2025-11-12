@@ -21,17 +21,17 @@ const meta: ___InternalChain = {
     firehose: {
       beta_released_at: '2024-08-01T00:00:00.000Z',
       full_released_at: null,
-      deprecated_at: null,
+      deprecated_at: '2025-11-12T00:00:00.000Z',
     },
     substreams: {
       beta_released_at: '2024-08-01T00:00:00.000Z',
       full_released_at: null,
-      deprecated_at: null,
+      deprecated_at: '2025-11-12T00:00:00.000Z',
     },
     rpc: {
       beta_released_at: '2024-08-01T00:00:00.000Z',
       full_released_at: null,
-      deprecated_at: null,
+      deprecated_at: '2025-11-12T00:00:00.000Z',
     },
     datasets: {
       beta_released_at: null,

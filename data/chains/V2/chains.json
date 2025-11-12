@@ -277,7 +277,7 @@
   },
   {
     "id": "bitcoin",
-    "graph_id": null,
+    "graph_id": "btc",
     "name": "Bitcoin",
     "alt_names": [
       "btc"
@@ -1730,12 +1730,12 @@
       "firehose": {
         "beta_released_at": "2024-03-03T00:00:00.000Z",
         "full_released_at": "2024-03-03T00:00:00.000Z",
-        "deprecated_at": null
+        "deprecated_at": "2025-11-12T00:00:00.000Z"
       },
       "substreams": {
         "beta_released_at": "2024-03-03T00:00:00.000Z",
         "full_released_at": "2024-03-03T00:00:00.000Z",
-        "deprecated_at": null
+        "deprecated_at": "2025-11-12T00:00:00.000Z"
       },
       "rpc": {
         "beta_released_at": null,
@@ -2166,17 +2166,17 @@
       "firehose": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
         "full_released_at": null,
-        "deprecated_at": null
+        "deprecated_at": "2025-11-12T00:00:00.000Z"
       },
       "substreams": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
         "full_released_at": null,
-        "deprecated_at": null
+        "deprecated_at": "2025-11-12T00:00:00.000Z"
       },
       "rpc": {
         "beta_released_at": "2024-08-01T00:00:00.000Z",
         "full_released_at": null,
-        "deprecated_at": null
+        "deprecated_at": "2025-11-12T00:00:00.000Z"
       },
       "datasets": {
         "beta_released_at": null,
@@ -2209,17 +2209,17 @@
           "rpc": {
             "beta_released_at": "2024-11-21T00:00:00.000Z",
             "full_released_at": null,
-            "deprecated_at": null
+            "deprecated_at": "2025-11-12T00:00:00.000Z"
           },
           "firehose": {
             "beta_released_at": "2024-11-21T00:00:00.000Z",
             "full_released_at": null,
-            "deprecated_at": null
+            "deprecated_at": "2025-11-12T00:00:00.000Z"
           },
           "substreams": {
             "beta_released_at": "2024-11-21T00:00:00.000Z",
             "full_released_at": null,
-            "deprecated_at": null
+            "deprecated_at": "2025-11-12T00:00:00.000Z"
           },
           "datasets": {
             "beta_released_at": null,
@@ -3158,7 +3158,7 @@
     "id": "mode",
     "name": "Mode Network",
     "alt_names": [],
-    "graph_id": null,
+    "graph_id": "mode-mainnet",
     "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {

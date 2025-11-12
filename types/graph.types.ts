@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 10/24/2025, 3:48:30 PM.
+// Last generation on 11/12/2025, 5:18:49 PM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -9,6 +9,7 @@ export type GraphID =
   | 'arbitrum-nova'
   | 'arbitrum-one'
   | 'arbitrum-sepolia'
+  | 'arc-testnet'
   | 'arweave-mainnet'
   | 'aurora'
   | 'aurora-testnet'
@@ -41,6 +42,7 @@ export type GraphID =
   | 'cronos'
   | 'eos'
   | 'etherlink-mainnet'
+  | 'etherlink-shadownet'
   | 'etherlink-testnet'
   | 'expchain-testnet'
   | 'fantom'
@@ -64,6 +66,7 @@ export type GraphID =
   | 'holesky-cl'
   | 'hoodi'
   | 'hoodi-cl'
+  | 'injective-evm'
   | 'injective-evm-testnet'
   | 'injective-mainnet'
   | 'injective-testnet'
@@ -94,6 +97,7 @@ export type GraphID =
   | 'matic'
   | 'mbase'
   | 'megaeth-testnet'
+  | 'megaeth-timothy'
   | 'metis'
   | 'mint'
   | 'mint-sepolia'
@@ -110,6 +114,7 @@ export type GraphID =
   | 'optimism'
   | 'optimism-sepolia'
   | 'peaq'
+  | 'polkadot-testnet'
   | 'polygon-amoy'
   | 'polygon-zkevm'
   | 'polygon-zkevm-cardona'
@@ -156,5 +161,4 @@ export type GraphID =
   | 'zilliqa-testnet'
   | 'zksync-era'
   | 'zksync-era-sepolia'
-  | 'zksync-os-devnet'
   | 'zora';
