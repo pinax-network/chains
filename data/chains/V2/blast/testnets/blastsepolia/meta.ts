@@ -1,4 +1,4 @@
-import { ___InternalTestnet } from '../../../../../../types';
+import type { ___InternalTestnet } from '../../../../../../types';
 
 const meta: ___InternalTestnet = {
   id: 'blastsepolia',

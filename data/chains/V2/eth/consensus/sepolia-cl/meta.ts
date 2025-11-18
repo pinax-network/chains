@@ -1,4 +1,4 @@
-import { ___InternalConsensusLayer } from '../../../../../../types/chain.types';
+import type { ___InternalConsensusLayer } from '../../../../../../types/chain.types';
 
 const meta: ___InternalConsensusLayer = {
   id: 'sepolia-cl',

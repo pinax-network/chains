@@ -256,9 +256,7 @@
     "index": 2,
     "graph_id": null,
     "name": "Bitcoin",
-    "alt_names": [
-      "btc"
-    ],
+    "alt_names": ["btc"],
     "mainnet": "bitcoin",
     "standard": "brc20",
     "is_detailed_blocks": false,
@@ -289,10 +287,7 @@
     "index": 2,
     "graph_id": "bsc",
     "name": "BNB",
-    "alt_names": [
-      "bsc",
-      "binance"
-    ],
+    "alt_names": ["bsc", "binance"],
     "mainnet": "bsc",
     "standard": "erc20",
     "is_detailed_blocks": true,
@@ -1236,9 +1231,7 @@
     "index": 3,
     "graph_id": "matic",
     "name": "Polygon",
-    "alt_names": [
-      "matic"
-    ],
+    "alt_names": ["matic"],
     "mainnet": "polygon",
     "standard": "erc20",
     "is_detailed_blocks": true,

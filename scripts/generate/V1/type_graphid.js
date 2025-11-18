@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
 const typesDir = path.join(__dirname, '../../types');
 
@@ -20,8 +20,8 @@ fetch('https://api.studio.thegraph.com/deploy', {
 })
   .then((res) => res.json())
   .then((res) => {
-    let graphIds = res.result.studio;
-    let sortedGraphIds = graphIds.sort((a, b) => (a < b ? -1 : 1));
+    const graphIds = res.result.studio;
+    const sortedGraphIds = graphIds.sort((a, b) => (a < b ? -1 : 1));
 
     // Generate the GraphId type definition
     const graphIdType = `// This file is auto-generated on pre-commit to avoid maintaining it.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type GraphId = '${sortedGraphIds.join("' | '")}'`;

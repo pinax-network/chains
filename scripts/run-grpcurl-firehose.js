@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const { exec } = require('child_process');
+const fs = require('node:fs');
+const path = require('node:path');
+const { exec } = require('node:child_process');
 const { affectedChains } = require('./known-issues-chains');
 const filePath = path.resolve(__dirname, '../data/chains/V2/chains.json');
 const chains = JSON.parse(fs.readFileSync(filePath, 'utf8'));

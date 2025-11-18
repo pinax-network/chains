@@ -1,12 +1,12 @@
-import {
-  ConsensusLayer,
+import type {
   Chain,
-  EVM,
-  Testnet,
   ChainIcon,
+  ConsensusLayer,
   ConsensusLayerServiceID,
+  EVM,
   ServiceID,
   ServiceStatusDates,
+  Testnet,
 } from '../types';
 
 /**
@@ -26,7 +26,7 @@ const isServiceSupported = (
     return false;
   }
 
-  // @ts-ignore
+  // @ts-expect-error
   const serviceStatusDates = chain.supported_services[service] as
     | ServiceStatusDates
     | undefined;
@@ -55,7 +55,7 @@ const isServiceBeta = (
   chain: Chain | Testnet | ConsensusLayer,
   service: ConsensusLayerServiceID | ServiceID,
 ) => {
-  // @ts-ignore
+  // @ts-expect-error
   const serviceStatusDates = chain.supported_services[service] as
     | ServiceStatusDates
     | undefined;
@@ -80,7 +80,7 @@ const isServiceDeprecated = (
   chain: Chain | Testnet | ConsensusLayer,
   service: ConsensusLayerServiceID | ServiceID,
 ) => {
-  // @ts-ignore
+  // @ts-expect-error
   const serviceStatusDates = chain.supported_services[service] as
     | ServiceStatusDates
     | undefined;
@@ -291,24 +291,30 @@ const getNumberOfSupportedChains = (
 ) => {
   let supportedChains = 0;
   chains
-    .filter((c: any) => isChainSupported(c) || isChainBeta(c))
-    .forEach((c: any) => {
+    .filter((c) => isChainSupported(c) || isChainBeta(c))
+    .forEach((c) => {
       supportedChains++;
-      c.consensus?.forEach((consensus: any) => {
-        if (isChainSupported(consensus) || isChainBeta(c)) {
-          supportedChains++;
-        }
-      });
-      c.evms?.forEach((evm: any) => {
-        if (isChainSupported(evm) || isChainBeta(evm)) {
-          supportedChains++;
-        }
-      });
-      c.testnets?.forEach((tn: any) => {
-        if (isChainSupported(tn) || isChainBeta(tn)) {
-          supportedChains++;
-        }
-      });
+      if ('consensus' in c) {
+        c.consensus?.forEach((consensus) => {
+          if (isChainSupported(consensus) || isChainBeta(consensus)) {
+            supportedChains++;
+          }
+        });
+      }
+      if ('evms' in c) {
+        c.evms?.forEach((evm) => {
+          if (isChainSupported(evm) || isChainBeta(evm)) {
+            supportedChains++;
+          }
+        });
+      }
+      if ('testnets' in c) {
+        c.testnets?.forEach((tn) => {
+          if (isChainSupported(tn) || isChainBeta(tn)) {
+            supportedChains++;
+          }
+        });
+      }
     });
   return supportedChains;
 };
@@ -341,18 +347,18 @@ const getChainStatus = (chain: Chain | ConsensusLayer | EVM | Testnet) => {
 const getSupportedServices = (
   chain: Chain | Testnet | ConsensusLayer | EVM,
 ) => {
-  let supServices = [] as Array<[ServiceID, string | null]>;
+  const supServices = [] as Array<[ServiceID, string | null]>;
   (
     ['rpc', 'firehose', 'substreams', 'datasets', 'api'] as Array<ServiceID>
   ).forEach((service) => {
-    if (isServiceBeta(chain as any, service as any)) {
+    if (isServiceBeta(chain, service)) {
       supServices.push([
         service,
         chain.supported_services[
           service as keyof typeof chain.supported_services
         ]?.beta_released_at,
       ]);
-    } else if (isServiceSupported(chain as any, service as any)) {
+    } else if (isServiceSupported(chain, service)) {
       supServices.push([
         service,
         chain.supported_services[
@@ -368,12 +374,16 @@ const getSupportedServices = (
  * Retrieves the subnets of a given chain by concatenating its testnets, evms, and consensus arrays.
  *
  * @param {Chain} chain - The chain object containing testnets, evms, and consensus arrays.
- * @returns {Array<any>} - An array containing all subnets from the testnets, evms, and consensus arrays.
+ * @returns {Array<Testnet | EVM | ConsensusLayer>} - An array containing all subnets from the testnets, evms, and consensus arrays.
  */
-const getChainSubnets = (chain: Chain) => {
-  return (chain.testnets as Array<any>)
-    ?.concat((chain.evms as Array<any>) || [])
-    .concat((chain.consensus as Array<any>) || []);
+const getChainSubnets = (
+  chain: Chain,
+): Array<Testnet | EVM | ConsensusLayer> => {
+  return [
+    ...(chain.testnets || []),
+    ...(chain.evms || []),
+    ...(chain.consensus || []),
+  ];
 };
 
 const getChainIconUrl = (
@@ -383,7 +393,7 @@ const getChainIconUrl = (
 ) => {
   const iconAssetsFolder = '/assets/chains/';
 
-  if (chainIcon?.variants && chainIcon.variants?.includes('branded')) {
+  if (chainIcon?.variants?.includes('branded')) {
     if (chainIcon?.brand_theme === 'both') {
       return `${iconAssetsFolder}${chainId}.branded.svg`;
     } else if (chainIcon.brand_theme === 'light') {

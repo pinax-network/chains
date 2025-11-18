@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://npm.pkg.github.com/
-      - run: npm i --only=dev
+      - run: npm ci --only=dev
       - run: npm run build
       - run: npm publish
         env:

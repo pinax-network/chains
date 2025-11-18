@@ -1,4 +1,4 @@
-import { ___InternalChain } from '../../../../types/chain.types';
+import type { ___InternalChain } from '../../../../types/chain.types';
 
 const meta: ___InternalChain = {
   id: 'eth',

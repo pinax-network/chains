@@ -1,6 +1,6 @@
 import services from '../../data/services';
-import { ServiceEndpoint } from '../../types/service.types';
-import { Chain } from '../../types/chain.types';
+import type { Chain } from '../../types/chain.types';
+import type { ServiceEndpoint } from '../../types/service.types';
 
 const substreams = services.filter(
   (s: ServiceEndpoint) => s.endpoint_slug.indexOf('substreams') > -1,

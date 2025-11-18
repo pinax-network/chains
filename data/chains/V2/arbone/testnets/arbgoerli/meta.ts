@@ -1,4 +1,4 @@
-import { ___InternalTestnet } from '../../../../../../types/chain.types';
+import type { ___InternalTestnet } from '../../../../../../types/chain.types';
 
 const meta: ___InternalTestnet = {
   id: 'arbgoerli',

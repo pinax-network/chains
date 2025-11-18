@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import { NetworksRegistry } from '@pinax/graph-networks-registry';
 
 const typesDir = path.join(__dirname, '../../../types');
@@ -10,8 +10,8 @@ console.log('🕑 Generating GraphID type...');
 const fetchGraphIDs = async (): Promise<void> => {
   try {
     const registry = await NetworksRegistry.fromLatestVersion();
-    let graphIds = registry.networks.map((network) => network.id);
-    let sortedGraphIds = graphIds.sort((a: string, b: string) =>
+    const graphIds = registry.networks.map((network) => network.id);
+    const sortedGraphIds = graphIds.sort((a: string, b: string) =>
       a < b ? -1 : 1,
     );
 

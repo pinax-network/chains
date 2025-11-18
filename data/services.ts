@@ -1,4 +1,4 @@
-import { ServiceEndpoint } from '../types/service.types';
+import type { ServiceEndpoint } from '../types/service.types';
 
 const services: Array<ServiceEndpoint> = [
   {
