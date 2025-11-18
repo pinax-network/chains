@@ -35,10 +35,14 @@
     "generate:copy_token_icons": "bun ./scripts/generate/V2/copy_token_icons.ts",
     "test": "bun test",
     "build": "tsup",
+    "typecheck": "tsc",
+    "fix": "biome check --write --unsafe",
+    "lint": "bun run typecheck && biome check .",
     "prepublishOnly": "npm run build",
     "prepare": "husky"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.3.6",
     "@pinax/graph-networks-registry": "^0.7.1",
     "@token-icons/core": "^2.14.0",
     "@types/bun": "latest",
@@ -46,7 +50,6 @@
     "@web3icons/core": "^3.12.1",
     "husky": "^9.0.11",
     "jest": "^29.7.0",
-    "prettier": "^3.2.5",
     "ts-morph": "^22.0.0",
     "tsup": "^8.2.4"
   },
