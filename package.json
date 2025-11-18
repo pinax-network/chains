@@ -37,7 +37,7 @@
     "build": "tsup",
     "typecheck": "tsc",
     "fix": "biome check --write --unsafe",
-    "lint": "bun run typecheck && biome check .",
+    "lint": "biome check .",
     "prepublishOnly": "npm run build",
     "changeset": "changeset",
     "changeset:version": "changeset version",
