@@ -35,13 +35,17 @@ async function run() {
       const evms = chain?.evms || [];
 
       console.log(
-        `⏳ Running grpcurl for mainnet ==${chain.id}== (${chainIndex + 1} / ${chains?.length})`,
+        `⏳ Running grpcurl for mainnet ==${chain.id}== (${chainIndex + 1} / ${
+          chains?.length
+        })`,
       );
       await runTest(chain, substreamsMainnetService);
 
       for (const [index, testnet] of testnets.entries()) {
         console.log(
-          `⏳ Running grpcurl for testnets ==${testnet.id}== (${index + 1} / ${testnets?.length})`,
+          `⏳ Running grpcurl for testnets ==${testnet.id}== (${index + 1} / ${
+            testnets?.length
+          })`,
         );
         const substreamsService = testnet.supported_services.substreams;
         await runTest(testnet, substreamsService);
@@ -49,7 +53,9 @@ async function run() {
 
       for (const [index, cons] of consensus.entries()) {
         console.log(
-          `⏳ Running grpcurl for consensus-layers ==${cons.id}== (${index + 1} / ${consensus?.length})`,
+          `⏳ Running grpcurl for consensus-layers ==${cons.id}== (${
+            index + 1
+          } / ${consensus?.length})`,
         );
         const substreamsService = cons.supported_services.substreams;
         await runTest(cons, substreamsService);
@@ -57,7 +63,9 @@ async function run() {
 
       for (const [index, evm] of evms.entries()) {
         console.log(
-          `⏳ Running grpcurl for EVMs ==${evm.id}== (${index + 1} / ${evms?.length})`,
+          `⏳ Running grpcurl for EVMs ==${evm.id}== (${index + 1} / ${
+            evms?.length
+          })`,
         );
         const substreamsService = evm.supported_services.substreams;
         await runTest(evm, substreamsService);

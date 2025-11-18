@@ -23,7 +23,9 @@ fs.readdir(chainsDir, (err, files) => {
   const fileNames = filteredFiles.map((file) => path.parse(file).name);
 
   // Generate the PinaxId type definition
-  const pinaxIdType = `// This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type PinaxId = '${fileNames.join("' | '")}'`;
+  const pinaxIdType = `// This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type PinaxId = '${fileNames.join(
+    "' | '",
+  )}'`;
 
   // Write the PinaxId type definition to the types directory
   fs.writeFile(pinaxTypesFile, pinaxIdType, (err) => {

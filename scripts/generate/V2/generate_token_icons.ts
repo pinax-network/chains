@@ -24,7 +24,11 @@ async function downloadAndSaveIcons() {
       }
 
       for (const variant of icon.variants) {
-        const iconUrl = `https://raw.githubusercontent.com/0xa3k5/web3icons/main/raw-svgs/${icon.type}/${variant}/${icon.type === 'networks' ? icon.id : icon.symbol?.toUpperCase()}.svg`;
+        const iconUrl = `https://raw.githubusercontent.com/0xa3k5/web3icons/main/raw-svgs/${
+          icon.type
+        }/${variant}/${
+          icon.type === 'networks' ? icon.id : icon.symbol?.toUpperCase()
+        }.svg`;
         const targetDir = `data/chains/V2/${id}`;
         const targetPath = path.join(targetDir, `${id}.${variant}.svg`);
 

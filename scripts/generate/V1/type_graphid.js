@@ -24,7 +24,9 @@ fetch('https://api.studio.thegraph.com/deploy', {
     const sortedGraphIds = graphIds.sort((a, b) => (a < b ? -1 : 1));
 
     // Generate the GraphId type definition
-    const graphIdType = `// This file is auto-generated on pre-commit to avoid maintaining it.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type GraphId = '${sortedGraphIds.join("' | '")}'`;
+    const graphIdType = `// This file is auto-generated on pre-commit to avoid maintaining it.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type GraphId = '${sortedGraphIds.join(
+      "' | '",
+    )}'`;
 
     // Write the GraphId type definition to the types directory
     fs.writeFile(graphTypesFile, graphIdType, (err) => {

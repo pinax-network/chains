@@ -16,7 +16,9 @@ const fetchGraphIDs = async (): Promise<void> => {
     );
 
     // Generate the GraphId type definition
-    const graphIdType = `// This file is auto-generated on pre-commit to avoid maintaining it.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type GraphID = '${sortedGraphIds.join("' | '")}'`;
+    const graphIdType = `// This file is auto-generated on pre-commit to avoid maintaining it.\n// Do not modify manually as it will be overwritten.\n// Last generation on ${new Date().toLocaleString()}.\nexport type GraphID = '${sortedGraphIds.join(
+      "' | '",
+    )}'`;
 
     // Write the GraphId type definition to the types directory
     fs.writeFile(graphTypesFile, graphIdType, (err) => {
