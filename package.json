@@ -46,6 +46,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.6",
+    "@changesets/cli": "^2.29.7",
     "@pinax/graph-networks-registry": "^0.7.1",
     "@token-icons/core": "^2.14.0",
     "@types/bun": "latest",
