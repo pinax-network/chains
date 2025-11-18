@@ -13,10 +13,7 @@
     "icon": {
       "id": "ethereum",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -279,9 +276,7 @@
     "id": "bitcoin",
     "graph_id": "btc",
     "name": "Bitcoin",
-    "alt_names": [
-      "btc"
-    ],
+    "alt_names": ["btc"],
     "standard": "brc20",
     "is_detailed_blocks": false,
     "block_type": {
@@ -291,10 +286,7 @@
     "icon": {
       "id": "bitcoin",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -343,10 +335,7 @@
     "icon": {
       "id": "chiliz",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -427,9 +416,7 @@
     "id": "polygon",
     "graph_id": "matic",
     "name": "Polygon",
-    "alt_names": [
-      "matic"
-    ],
+    "alt_names": ["matic"],
     "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
@@ -439,10 +426,7 @@
     "icon": {
       "id": "polygon",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -563,9 +547,7 @@
         "id": "cardona",
         "graph_id": null,
         "name": "Polygon zkEVM Cardona",
-        "alt_names": [
-          "matic"
-        ],
+        "alt_names": ["matic"],
         "standard": "evm",
         "is_detailed_blocks": false,
         "is_evm_testnet": true,
@@ -607,9 +589,7 @@
         "id": "polygonzk",
         "graph_id": "polygon-zkevm",
         "name": "Polygon zkEVM",
-        "alt_names": [
-          "matic"
-        ],
+        "alt_names": ["matic"],
         "standard": "evm",
         "is_detailed_blocks": false,
         "is_evm_testnet": false,
@@ -653,10 +633,7 @@
     "id": "bsc",
     "graph_id": "bsc",
     "name": "BNB",
-    "alt_names": [
-      "bsc",
-      "binance"
-    ],
+    "alt_names": ["bsc", "binance"],
     "standard": "evm",
     "is_detailed_blocks": true,
     "block_type": {
@@ -666,10 +643,7 @@
     "icon": {
       "id": "binance-smart-chain",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -803,10 +777,7 @@
     "icon": {
       "id": "arbitrum-one",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -937,10 +908,7 @@
     "icon": {
       "id": "arbitrum-nova",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -989,10 +957,7 @@
     "icon": {
       "id": "avalanche",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1041,10 +1006,7 @@
     "icon": {
       "id": "optimism",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1135,10 +1097,7 @@
     "icon": {
       "id": "base",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1229,10 +1188,7 @@
     "icon": {
       "id": "near-protocol",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1323,10 +1279,7 @@
     "icon": {
       "id": "cardano",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1376,10 +1329,7 @@
       "id": "decimal",
       "symbol": "del",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "tokens"
     },
     "supported_services": {
@@ -1428,10 +1378,7 @@
     "icon": {
       "id": "gnosis",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1574,10 +1521,7 @@
     "icon": {
       "id": "fantom",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1626,10 +1570,7 @@
     "icon": {
       "id": "celo",
       "brand_theme": "light",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1720,10 +1661,7 @@
     "icon": {
       "id": "arweave",
       "brand_theme": "dark",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1772,10 +1710,7 @@
     "icon": {
       "id": "cosmos-hub",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1906,10 +1841,7 @@
     "icon": {
       "id": "osmosis",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -1958,10 +1890,7 @@
     "icon": {
       "id": "moonbeam",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2010,10 +1939,7 @@
     "icon": {
       "id": "moonriver",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2062,10 +1988,7 @@
     "icon": {
       "id": "scroll",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2156,10 +2079,7 @@
     "icon": {
       "id": "starknet",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2250,10 +2170,7 @@
     "icon": {
       "id": "eos",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2470,10 +2387,7 @@
       "id": "wax",
       "symbol": "waxp",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "tokens"
     },
     "supported_services": {
@@ -2564,10 +2478,7 @@
     "icon": {
       "id": "telos",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2658,10 +2569,7 @@
     "icon": {
       "id": "kava",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2711,9 +2619,7 @@
     "icon": {
       "id": "blast",
       "brand_theme": "light",
-      "variants": [
-        "branded"
-      ],
+      "variants": ["branded"],
       "type": "networks"
     },
     "supported_services": {
@@ -2806,10 +2712,7 @@
     "icon": {
       "id": "boba",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -2945,10 +2848,7 @@
     "icon": {
       "id": "cronos",
       "brand_theme": "dark",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3000,9 +2900,7 @@
     "icon": {
       "id": "fuse",
       "brand_theme": "light",
-      "variants": [
-        "branded"
-      ],
+      "variants": ["branded"],
       "type": "networks"
     },
     "supported_services": {
@@ -3055,10 +2953,7 @@
     "icon": {
       "id": "linea",
       "brand_theme": "dark",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3099,9 +2994,7 @@
   {
     "id": "litecoin",
     "name": "Litecoin",
-    "alt_names": [
-      "LTC"
-    ],
+    "alt_names": ["LTC"],
     "graph_id": null,
     "standard": "ltc20",
     "is_detailed_blocks": false,
@@ -3112,10 +3005,7 @@
     "icon": {
       "id": "litecoin",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3168,9 +3058,7 @@
     "icon": {
       "id": "mode",
       "brand_theme": "light",
-      "variants": [
-        "branded"
-      ],
+      "variants": ["branded"],
       "type": "networks"
     },
     "supported_services": {
@@ -3223,10 +3111,7 @@
     "icon": {
       "id": "ronin",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3275,10 +3160,7 @@
     "icon": {
       "id": "sei-network",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3327,10 +3209,7 @@
     "icon": {
       "id": "solana",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3379,10 +3258,7 @@
     "icon": {
       "id": "xai",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3435,10 +3311,7 @@
     "icon": {
       "id": "astar",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3572,10 +3445,7 @@
     "icon": {
       "id": "x-layer",
       "brand_theme": "dark",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3624,10 +3494,7 @@
     "icon": {
       "id": "zksync",
       "brand_theme": "dark",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3659,9 +3526,7 @@
     },
     "metadata": {
       "website": "https://zksync.io/",
-      "tags": [
-        "zk"
-      ]
+      "tags": ["zk"]
     },
     "index": 78
   },
@@ -3679,9 +3544,7 @@
     "icon": {
       "id": "zora",
       "brand_theme": "both",
-      "variants": [
-        "branded"
-      ],
+      "variants": ["branded"],
       "type": "networks"
     },
     "supported_services": {
@@ -3734,10 +3597,7 @@
     "icon": {
       "id": "ore",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "missing"
     },
     "supported_services": {
@@ -3828,10 +3688,7 @@
     "icon": {
       "id": "unichain",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3922,9 +3779,7 @@
     "icon": {
       "id": "networks/ux",
       "brand_theme": "both",
-      "variants": [
-        "branded"
-      ],
+      "variants": ["branded"],
       "type": "missing"
     },
     "supported_services": {
@@ -3973,10 +3828,7 @@
     "icon": {
       "id": "tron",
       "brand_theme": "both",
-      "variants": [
-        "branded",
-        "mono"
-      ],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {

@@ -1,4 +1,4 @@
-import { ___InternalEVM } from '../../../../../../types';
+import type { ___InternalEVM } from '../../../../../../types';
 
 const meta: ___InternalEVM = {
   id: 'bobabnb',

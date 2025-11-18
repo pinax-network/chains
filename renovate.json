@@ -1,32 +1,32 @@
 {
-    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-    "extends": ["config:recommended"],
-    "prHourlyLimit": 4,
-    "reviewers": ["YaroShkvorets"],
-    "recreateWhen": "never",
-    "labels": ["dependencies"],
-    "rebaseWhen": "conflicted",
-    "automerge": false,
-    "lockFileMaintenance": {
-        "enabled": true
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "prHourlyLimit": 4,
+  "reviewers": ["YaroShkvorets"],
+  "recreateWhen": "never",
+  "labels": ["dependencies"],
+  "rebaseWhen": "conflicted",
+  "automerge": false,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch"
     },
-    "packageRules": [
-        {
-            "matchUpdateTypes": ["minor", "patch"],
-            "groupName": "all non-major dependencies",
-            "groupSlug": "all-minor-patch"
-        },
-        {
-            "matchPackageNames": ["@pinax/**", "typescript"],
-            "groupName": null
-        },
-        {
-            "matchUpdateTypes": ["major"],
-            "groupName": null
-        },
-        {
-            "matchManagers": ["github-actions"],
-            "groupName": null
-        }
-    ]
+    {
+      "matchPackageNames": ["@pinax/**", "typescript"],
+      "groupName": null
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": null
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "groupName": null
+    }
+  ]
 }

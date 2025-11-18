@@ -1,12 +1,12 @@
-import {
-  ConsensusLayer,
+import type {
   Chain,
-  EVM,
-  Testnet,
   ChainIcon,
+  ConsensusLayer,
   ConsensusLayerServiceID,
+  EVM,
   ServiceID,
   ServiceStatusDates,
+  Testnet,
 } from '../types';
 
 /**
@@ -26,7 +26,7 @@ const isServiceSupported = (
     return false;
   }
 
-  // @ts-ignore
+  // @ts-expect-error
   const serviceStatusDates = chain.supported_services[service] as
     | ServiceStatusDates
     | undefined;
@@ -55,7 +55,7 @@ const isServiceBeta = (
   chain: Chain | Testnet | ConsensusLayer,
   service: ConsensusLayerServiceID | ServiceID,
 ) => {
-  // @ts-ignore
+  // @ts-expect-error
   const serviceStatusDates = chain.supported_services[service] as
     | ServiceStatusDates
     | undefined;
@@ -80,7 +80,7 @@ const isServiceDeprecated = (
   chain: Chain | Testnet | ConsensusLayer,
   service: ConsensusLayerServiceID | ServiceID,
 ) => {
-  // @ts-ignore
+  // @ts-expect-error
   const serviceStatusDates = chain.supported_services[service] as
     | ServiceStatusDates
     | undefined;
@@ -341,7 +341,7 @@ const getChainStatus = (chain: Chain | ConsensusLayer | EVM | Testnet) => {
 const getSupportedServices = (
   chain: Chain | Testnet | ConsensusLayer | EVM,
 ) => {
-  let supServices = [] as Array<[ServiceID, string | null]>;
+  const supServices = [] as Array<[ServiceID, string | null]>;
   (
     ['rpc', 'firehose', 'substreams', 'datasets', 'api'] as Array<ServiceID>
   ).forEach((service) => {
@@ -383,7 +383,7 @@ const getChainIconUrl = (
 ) => {
   const iconAssetsFolder = '/assets/chains/';
 
-  if (chainIcon?.variants && chainIcon.variants?.includes('branded')) {
+  if (chainIcon?.variants?.includes('branded')) {
     if (chainIcon?.brand_theme === 'both') {
       return `${iconAssetsFolder}${chainId}.branded.svg`;
     } else if (chainIcon.brand_theme === 'light') {

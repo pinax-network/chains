@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import { Chain } from '../types';
+import fs from 'node:fs';
+import path from 'node:path';
+import type { Chain } from '../types';
 import { findChainById, isServiceDeprecated } from '../utils/chains';
 
 const setup = (): Array<Chain> => {
@@ -21,27 +21,27 @@ describe('chain_is_service_deprecated', () => {
 
   test('assert_deprecated_service___returns_true', () => {
     const chainID = 'goerli';
-    let chain = findChainById(chains, chainID) as Chain;
+    const chain = findChainById(chains, chainID) as Chain;
     if (chain.id !== chainID) {
-      throw new Error('Expected ' + chainID + ', but got ' + chain.id);
+      throw new Error(`Expected ${chainID}, but got ${chain.id}`);
     }
     expect(isServiceDeprecated(chain, 'substreams')).toBe(true);
   });
 
   test('assert_supported_service___returns_false', () => {
     const chainID = 'eth';
-    let chain = findChainById(chains, chainID) as Chain;
+    const chain = findChainById(chains, chainID) as Chain;
     if (chain.id !== chainID) {
-      throw new Error('Expected ' + chainID + ', but got ' + chain.id);
+      throw new Error(`Expected ${chainID}, but got ${chain.id}`);
     }
     expect(isServiceDeprecated(chain, 'rpc')).toBe(false);
   });
 
   test('assert_unsupported_service___returns_false', () => {
     const chainID = 'zksync';
-    let chain = findChainById(chains, chainID) as Chain;
+    const chain = findChainById(chains, chainID) as Chain;
     if (chain.id !== chainID) {
-      throw new Error('Expected ' + chainID + ', but got ' + chain.id);
+      throw new Error(`Expected ${chainID}, but got ${chain.id}`);
     }
     expect(isServiceDeprecated(chain, 'firehose')).toBe(false);
   });

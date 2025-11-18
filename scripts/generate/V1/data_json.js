@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
 // Define the directory containing the JSON files
 const directoryPath = path.join(__dirname, '../../../data/chains/V1');
@@ -7,10 +7,10 @@ const directoryPath = path.join(__dirname, '../../../data/chains/V1');
 // Read the directory
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
-    return console.error('Unable to scan directory: ' + err);
+    return console.error(`Unable to scan directory: ${err}`);
   }
 
-  let data = [];
+  const data = [];
 
   // Loop through all the files in the directory
   files.forEach((file) => {

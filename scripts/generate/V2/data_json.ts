@@ -1,10 +1,10 @@
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 import * as chainData from '../../../data/chains/V2/index';
-import { toCamelCase } from '../../../utils/case';
 import indexConf from '../../../data/index.config';
-import { IndexConfig } from './index_config_check';
-import { Chain, SupportedServices } from '../../../types';
+import type { Chain, SupportedServices } from '../../../types';
+import { toCamelCase } from '../../../utils/case';
+import type { IndexConfig } from './index_config_check';
 
 interface SubnetData {
   id: string;
@@ -26,14 +26,14 @@ const data: Chain[] = [];
 
 let indexCounter = 0;
 
-Object.keys(indexConf.ordered).forEach((mainnet, mainnetIndex) => {
-  // @ts-ignore
+Object.keys(indexConf.ordered).forEach((mainnet, _mainnetIndex) => {
+  // @ts-expect-error
   const mainnetData: MainnetData = chainData[toCamelCase(mainnet)];
 
   mainnetData.index = indexCounter++;
 
   (indexConf as IndexConfig).ordered[mainnet].forEach((subnet: any) => {
-    // @ts-ignore
+    // @ts-expect-error
     const subnetData: SubnetData = chainData[toCamelCase(subnet)];
 
     subnetData.index = indexCounter++;

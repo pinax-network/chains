@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import { Chain } from '../types';
+import fs from 'node:fs';
+import path from 'node:path';
+import type { Chain } from '../types';
 import { findChainById, isChainConsensusLayer } from '../utils/chains';
 
 const setup = (): Array<Chain> => {
@@ -21,10 +21,10 @@ describe('chain_is_consensus_layer', () => {
 
   test('assert_consensus_layer___returns_true', () => {
     const chainID = 'eth-cl';
-    let chain = findChainById(chains, chainID) as Chain;
+    const chain = findChainById(chains, chainID) as Chain;
     if (chain.id !== chainID) {
       throw new Error(
-        'Expected ' + chainID + ' Consensus Layer, but got ' + chain.id,
+        `Expected ${chainID} Consensus Layer, but got ${chain.id}`,
       );
     }
     expect(isChainConsensusLayer(chain)).toBe(true);
@@ -32,9 +32,9 @@ describe('chain_is_consensus_layer', () => {
 
   test('assert_non_consensus_layer___returns_false', () => {
     const chainID = 'eth';
-    let chain = findChainById(chains, chainID) as Chain;
+    const chain = findChainById(chains, chainID) as Chain;
     if (chain.id !== chainID) {
-      throw new Error('Expected ' + chainID + ' Mainnet, but got ' + chain.id);
+      throw new Error(`Expected ${chainID} Mainnet, but got ${chain.id}`);
     }
     expect(isChainConsensusLayer(chain)).toBe(false);
   });

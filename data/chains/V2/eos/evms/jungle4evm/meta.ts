@@ -1,4 +1,4 @@
-import { ___InternalEVM } from '../../../../../../types/chain.types';
+import type { ___InternalEVM } from '../../../../../../types/chain.types';
 
 const meta: ___InternalEVM = {
   id: 'jungle4evm',

@@ -4,7 +4,7 @@ const fetchGraphIDs = async (): Promise<void> => {
   console.log('Fetching graph IDs...');
   const registry = await NetworksRegistry.fromLatestVersion();
 
-  let graphIds = registry.networks.map((network) => network.id);
+  const graphIds = registry.networks.map((network) => network.id);
   console.log(graphIds.sort((a: string, b: string) => (a < b ? -1 : 1)));
 };
 

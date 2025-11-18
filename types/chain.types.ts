@@ -1,13 +1,13 @@
-import { BlockType } from './block.types';
-import { GraphID } from './graph.types';
-import { PinaxID } from './pinax.types';
-import {
+import type { BlockType } from './block.types';
+import type { GraphID } from './graph.types';
+import type { PinaxID } from './pinax.types';
+import type {
   ___InternalConsensusLayerServices,
   ___InternalSupportedServices,
   ConsensusLayerServices,
   SupportedServices,
 } from './service.types';
-import { Standard } from './standard.types';
+import type { Standard } from './standard.types';
 
 export type ChainBase = {
   // Testnet ID

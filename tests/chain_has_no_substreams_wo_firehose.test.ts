@@ -1,6 +1,6 @@
-import fs from 'fs';
-import path from 'path';
-import { Chain } from '../types';
+import fs from 'node:fs';
+import path from 'node:path';
+import type { Chain } from '../types';
 
 const setup = (): Array<Chain> => {
   // read the data file as JSON

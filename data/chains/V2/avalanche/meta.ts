@@ -1,4 +1,4 @@
-import { ___InternalChain } from '../../../../types/chain.types';
+import type { ___InternalChain } from '../../../../types/chain.types';
 
 // import branded from "./avalanche.branded.svg"
 // import dark from "./avalanche.dark.svg"

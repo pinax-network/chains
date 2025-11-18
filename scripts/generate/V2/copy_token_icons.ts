@@ -1,6 +1,6 @@
 // Run after `npm run generate:data`
-import fs from 'fs';
-import path from 'path';
+import fs from 'node:fs';
+import path from 'node:path';
 
 interface Icon {
   id: string;
@@ -62,7 +62,7 @@ const networks: Network[] = JSON.parse(
   fs.readFileSync(path.resolve(tokenIconNetworksMetaPath), 'utf8'),
 );
 
-const matchMetaToSVGIDs = (metaIconID: string, exceptions: string[][]) => {
+const matchMetaToSVGIDs = (metaIconID: string, _exceptions: string[][]) => {
   // Find if metaIconID is in exceptions
   const exception = tiExceptions.find(([id]) => id === metaIconID);
 
@@ -100,7 +100,7 @@ const checkIconMetaForChain = (chain: any) => {
       (network) => network.id === chain.icon.id.split('/')[1],
     );
     if (iconMeta) {
-      // @ts-ignore
+      // @ts-expect-error
       chain.icon.variants = iconMeta.variants;
     } else {
       const warnMsg = `⚠️  Could not find icon meta for '${chain.icon.id}'`;
@@ -165,12 +165,12 @@ for (const chain of chains) {
     if (fs.existsSync(monoIconPath)) {
       // Create the light icon by replacing '#fff' with '#fffffe' in the mono icon
       let monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
-      let lightIconContent = monoIconContent.replace(/#fff/g, '#fffffe');
+      const lightIconContent = monoIconContent.replace(/#fff/g, '#fffffe');
       fs.writeFileSync(destLightIconPath, lightIconContent);
 
       // Create the dark icon by replacing '#fff' with '#000001' in the mono icon
       monoIconContent = fs.readFileSync(monoIconPath, 'utf-8');
-      let darkIconContent = monoIconContent.replace(/#fff/g, '#000001');
+      const darkIconContent = monoIconContent.replace(/#fff/g, '#000001');
       fs.writeFileSync(destDarkIconPath, darkIconContent);
     } else {
       if (!iconIsUnavailable(chain.icon.id)) {
