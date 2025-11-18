@@ -351,14 +351,14 @@ const getSupportedServices = (
   (
     ['rpc', 'firehose', 'substreams', 'datasets', 'api'] as Array<ServiceID>
   ).forEach((service) => {
-    if (isServiceBeta(chain as any, service as any)) {
+    if (isServiceBeta(chain, service)) {
       supServices.push([
         service,
         chain.supported_services[
           service as keyof typeof chain.supported_services
         ]?.beta_released_at,
       ]);
-    } else if (isServiceSupported(chain as any, service as any)) {
+    } else if (isServiceSupported(chain, service)) {
       supServices.push([
         service,
         chain.supported_services[

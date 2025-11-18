@@ -32,7 +32,7 @@ Object.keys(indexConf.ordered).forEach((mainnet, _mainnetIndex) => {
 
   mainnetData.index = indexCounter++;
 
-  (indexConf as IndexConfig).ordered[mainnet].forEach((subnet: any) => {
+  (indexConf as IndexConfig).ordered[mainnet].forEach((subnet: string) => {
     // @ts-expect-error
     const subnetData: SubnetData = chainData[toCamelCase(subnet)];
 

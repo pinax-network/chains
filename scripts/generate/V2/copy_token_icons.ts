@@ -75,7 +75,7 @@ const matchMetaToSVGIDs = (metaIconID: string, _exceptions: string[][]) => {
   return metaIconID.split('/')[1].split('-')[0];
 };
 
-const checkIconMetaForChain = (chain: any) => {
+const checkIconMetaForChain = (chain: Network) => {
   if (!chain.icon) {
     // Ignore chains without icons (typically subnets)
     return;

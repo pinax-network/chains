@@ -11,11 +11,8 @@
     "enabled": true,
     "rules": {
       "recommended": true,
-      "suspicious": {
-        "noExplicitAny": "error"
-      },
-      "correctness": {
-        "noUnusedImports": "error"
+      "performance": {
+        "noDynamicNamespaceImportAccess": "off"
       }
     }
   },
@@ -36,9 +33,7 @@
     "includes": [
       "**",
       "!**/dist",
-      "!**/node_modules",
-      "!**/dev/data",
-      "!**/cryptopunks.json"
+      "!**/node_modules"
     ]
   }
 }
