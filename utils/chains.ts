@@ -291,24 +291,30 @@ const getNumberOfSupportedChains = (
 ) => {
   let supportedChains = 0;
   chains
-    .filter((c: any) => isChainSupported(c) || isChainBeta(c))
-    .forEach((c: any) => {
+    .filter((c) => isChainSupported(c) || isChainBeta(c))
+    .forEach((c) => {
       supportedChains++;
-      c.consensus?.forEach((consensus: any) => {
-        if (isChainSupported(consensus) || isChainBeta(c)) {
-          supportedChains++;
-        }
-      });
-      c.evms?.forEach((evm: any) => {
-        if (isChainSupported(evm) || isChainBeta(evm)) {
-          supportedChains++;
-        }
-      });
-      c.testnets?.forEach((tn: any) => {
-        if (isChainSupported(tn) || isChainBeta(tn)) {
-          supportedChains++;
-        }
-      });
+      if ('consensus' in c) {
+        c.consensus?.forEach((consensus) => {
+          if (isChainSupported(consensus) || isChainBeta(consensus)) {
+            supportedChains++;
+          }
+        });
+      }
+      if ('evms' in c) {
+        c.evms?.forEach((evm) => {
+          if (isChainSupported(evm) || isChainBeta(evm)) {
+            supportedChains++;
+          }
+        });
+      }
+      if ('testnets' in c) {
+        c.testnets?.forEach((tn) => {
+          if (isChainSupported(tn) || isChainBeta(tn)) {
+            supportedChains++;
+          }
+        });
+      }
     });
   return supportedChains;
 };
@@ -368,12 +374,16 @@ const getSupportedServices = (
  * Retrieves the subnets of a given chain by concatenating its testnets, evms, and consensus arrays.
  *
  * @param {Chain} chain - The chain object containing testnets, evms, and consensus arrays.
- * @returns {Array<any>} - An array containing all subnets from the testnets, evms, and consensus arrays.
+ * @returns {Array<Testnet | EVM | ConsensusLayer>} - An array containing all subnets from the testnets, evms, and consensus arrays.
  */
-const getChainSubnets = (chain: Chain) => {
-  return (chain.testnets as Array<any>)
-    ?.concat((chain.evms as Array<any>) || [])
-    .concat((chain.consensus as Array<any>) || []);
+const getChainSubnets = (
+  chain: Chain,
+): Array<Testnet | EVM | ConsensusLayer> => {
+  return [
+    ...(chain.testnets || []),
+    ...(chain.evms || []),
+    ...(chain.consensus || []),
+  ];
 };
 
 const getChainIconUrl = (
