@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.2
+
+### Patch Changes
+
+- Deprecated cronos
+
 ## 2.2.0
 
 ### Minor Changes

@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/18/2025, 2:07:04 PM.
+// Last generation on 11/21/2025, 10:43:50 AM.
 export type GraphID =
   | 'abstract'
   | 'abstract-testnet'
@@ -134,6 +134,7 @@ export type GraphID =
   | 'soneium-testnet'
   | 'sonic'
   | 'sonic-testnet'
+  | 'stable'
   | 'starknet-mainnet'
   | 'starknet-testnet'
   | 'status-sepolia'
