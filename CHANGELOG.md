@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.3
+
+### Patch Changes
+
+- deprecated blast-sepolia
+
 ## 2.2.2
 
 ### Patch Changes

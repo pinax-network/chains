@@ -2,7 +2,7 @@ import type { ___InternalEVM } from '../../../../../../types';
 
 const meta: ___InternalEVM = {
   id: 'bobabnb',
-  graph_id: 'boba-bnb',
+  graph_id: null,
   name: 'BobaBNB',
   alt_names: [],
   standard: 'evm',

@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 11/21/2025, 10:43:49 AM.
+// Last generation on 1/7/2026, 10:27:04 AM.
 
 export { default as arbnova } from './arbnova/meta';
 export { default as arbone } from './arbone/meta';

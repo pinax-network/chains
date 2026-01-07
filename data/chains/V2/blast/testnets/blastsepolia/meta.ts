@@ -16,17 +16,17 @@ const meta: ___InternalTestnet = {
     rpc: {
       beta_released_at: '2024-08-01T00:00:000Z',
       full_released_at: '2023-10-16T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2026-01-01T00:00:00.000Z',
     },
     firehose: {
       beta_released_at: '2023-10-16T00:00:00.000Z',
       full_released_at: '2023-10-16T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2026-01-01T00:00:00.000Z',
     },
     substreams: {
       beta_released_at: '2023-10-16T00:00:00.000Z',
       full_released_at: '2023-10-16T00:00:00.000Z',
-      deprecated_at: null,
+      deprecated_at: '2026-01-01T00:00:00.000Z',
     },
     datasets: {
       beta_released_at: null,
