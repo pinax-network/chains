@@ -27,10 +27,10 @@
    - Publish the release to trigger the NPM publishing workflow.
 
 
-### Quick mode
+### Quick mode to quickly deprecate a chain
 
-1. Make, test and regenerate on main branch
-   `bun run update`
-2. Changeset
-   `bun run release`
-3. Commit and publish on github
+1. Deprecate chain in corresponding `meta.ts` file by setting the `deprecated_at` field to the current date.
+2. Build, test and regenerate with `bun run update`, making sure everything succeeds, fixing errors if any.
+3. Set changeset and bump the package version with `bun run release`
+4. Commit
+5. Publish a github release
