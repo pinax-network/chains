@@ -20,7 +20,7 @@ const meta: ___InternalChain = {
   supported_services: {
     rpc: {
       beta_released_at: null,
-      full_released_at: null,
+      full_released_at: '2026-10-03T00:00:00.000Z',
       deprecated_at: null,
     },
     firehose: {
