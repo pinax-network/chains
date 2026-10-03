@@ -1,11 +1,13 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 1/7/2026, 10:27:04 AM.
+// Last generation on 2026-10-03, 2:26:25 a.m..
 
 export { default as arbnova } from './arbnova/meta';
 export { default as arbone } from './arbone/meta';
 export { default as arbgoerli } from './arbone/testnets/arbgoerli/meta';
 export { default as arbsepolia } from './arbone/testnets/arbsepolia/meta';
+export { default as arc } from './arc/meta';
+export { default as arctest } from './arc/testnets/arctest/meta';
 export { default as arweave } from './arweave/meta';
 export { default as avalanche } from './avalanche/meta';
 export { default as base } from './base/meta';
@@ -48,9 +50,12 @@ export { default as chiadoCl } from './gnosis/consensus/chiado-cl/meta';
 export { default as gnosisCl } from './gnosis/consensus/gnosis-cl/meta';
 export { default as gnosis } from './gnosis/meta';
 export { default as chiado } from './gnosis/testnets/chiado/meta';
+export { default as hyperevm } from './hyperevm/meta';
+export { default as ink } from './ink/meta';
 export { default as kava } from './kava/meta';
 export { default as linea } from './linea/meta';
 export { default as litecoin } from './litecoin/meta';
+export { default as megaeth } from './megaeth/meta';
 export { default as mode } from './mode/meta';
 export { default as moonbeam } from './moonbeam/meta';
 export { default as moonriver } from './moonriver/meta';
@@ -71,10 +76,13 @@ export { default as scroll } from './scroll/meta';
 export { default as scrsepolia } from './scroll/testnets/scrsepolia/meta';
 export { default as sei } from './sei/meta';
 export { default as solana } from './solana/meta';
+export { default as soneium } from './soneium/meta';
+export { default as minato } from './soneium/testnets/minato/meta';
 export { default as starknet } from './starknet/meta';
 export { default as starksepolia } from './starknet/testnets/starksepolia/meta';
 export { default as telos } from './telos/meta';
 export { default as telostest } from './telos/testnets/telostest/meta';
+export { default as tempo } from './tempo/meta';
 export { default as tron } from './tron/meta';
 export { default as unichain } from './unichain/meta';
 export { default as unisepolia } from './unichain/testnets/unisepolia/meta';
