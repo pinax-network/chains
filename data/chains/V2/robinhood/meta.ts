@@ -1,10 +1,10 @@
 import type { ___InternalChain } from '../../../../types/chain.types';
 
 const meta: ___InternalChain = {
-  id: 'hyperevm',
-  graph_id: 'hyper-evm',
-  name: 'HyperEVM',
-  alt_names: ['evm-999', 'hyper-evm-mainnet', 'hyperevm'],
+  id: 'robinhood',
+  graph_id: 'robinhood',
+  name: 'Robinhood Chain',
+  alt_names: ['evm-4663', 'robinhood-mainnet', 'robinhood-chain'],
   standard: 'evm',
   is_detailed_blocks: true,
   block_type: {
@@ -12,7 +12,7 @@ const meta: ___InternalChain = {
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
   icon: {
-    id: 'hyperevm',
+    id: 'robinhood',
     brand_theme: 'both',
     variants: ['branded', 'mono'],
     type: 'networks',
@@ -40,12 +40,12 @@ const meta: ___InternalChain = {
     },
     api: {
       beta_released_at: null,
-      full_released_at: '2026-10-03T00:00:00.000Z',
+      full_released_at: null,
       deprecated_at: null,
     },
   },
   metadata: {
-    website: 'https://hyperliquid.xyz/',
+    website: 'https://robinhood.com/chain',
   },
 };
 

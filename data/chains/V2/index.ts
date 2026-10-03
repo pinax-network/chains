@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it.
 // Do not modify manually as it will be overwritten.
-// Last generation on 2026-10-03, 2:26:25 a.m..
+// Last generation on 2026-10-03, 2:39:38 a.m..
 
 export { default as arbnova } from './arbnova/meta';
 export { default as arbone } from './arbone/meta';
@@ -71,6 +71,8 @@ export { default as polygonzk } from './polygon/evms/polygonzk/meta';
 export { default as polygon } from './polygon/meta';
 export { default as amoy } from './polygon/testnets/amoy/meta';
 export { default as mumbai } from './polygon/testnets/mumbai/meta';
+export { default as robinhood } from './robinhood/meta';
+export { default as robsepolia } from './robinhood/testnets/robsepolia/meta';
 export { default as ronin } from './ronin/meta';
 export { default as scroll } from './scroll/meta';
 export { default as scrsepolia } from './scroll/testnets/scrsepolia/meta';

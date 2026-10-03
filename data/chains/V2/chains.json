@@ -3880,7 +3880,7 @@
     "icon": {
       "id": "arc",
       "brand_theme": "both",
-      "variants": ["branded"],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -3971,7 +3971,7 @@
     "icon": {
       "id": "hyperevm",
       "brand_theme": "both",
-      "variants": ["branded"],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -4020,7 +4020,7 @@
     "icon": {
       "id": "ink",
       "brand_theme": "both",
-      "variants": ["branded"],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -4069,7 +4069,7 @@
     "icon": {
       "id": "megaeth",
       "brand_theme": "light",
-      "variants": ["branded"],
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -4105,6 +4105,97 @@
     "index": 90
   },
   {
+    "id": "robinhood",
+    "graph_id": "robinhood",
+    "name": "Robinhood Chain",
+    "alt_names": ["evm-4663", "robinhood-mainnet", "robinhood-chain"],
+    "standard": "evm",
+    "is_detailed_blocks": true,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "robinhood",
+      "brand_theme": "both",
+      "variants": ["branded", "mono"],
+      "type": "networks"
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "api": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://robinhood.com/chain"
+    },
+    "index": 91,
+    "testnets": [
+      {
+        "id": "robsepolia",
+        "graph_id": "robinhood-sepolia",
+        "name": "Robinhood Chain Sepolia",
+        "alt_names": ["evm-46630", "robinhood-testnet"],
+        "standard": "evm",
+        "is_detailed_blocks": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": null,
+            "full_released_at": "2026-10-03T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "api": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 92
+      }
+    ]
+  },
+  {
     "id": "soneium",
     "graph_id": "soneium",
     "name": "Soneium",
@@ -4117,8 +4208,8 @@
     },
     "icon": {
       "id": "soneium",
-      "brand_theme": "dark",
-      "variants": ["branded"],
+      "brand_theme": "light",
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -4151,7 +4242,7 @@
     "metadata": {
       "website": "https://soneium.org/"
     },
-    "index": 91,
+    "index": 93,
     "testnets": [
       {
         "id": "minato",
@@ -4191,7 +4282,7 @@
             "deprecated_at": null
           }
         },
-        "index": 92
+        "index": 94
       }
     ]
   },
@@ -4208,8 +4299,8 @@
     },
     "icon": {
       "id": "tempo",
-      "brand_theme": "dark",
-      "variants": ["branded"],
+      "brand_theme": "light",
+      "variants": ["branded", "mono"],
       "type": "networks"
     },
     "supported_services": {
@@ -4242,6 +4333,6 @@
     "metadata": {
       "website": "https://tempo.xyz/"
     },
-    "index": 93
+    "index": 95
   }
 ]

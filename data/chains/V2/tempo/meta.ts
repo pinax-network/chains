@@ -13,8 +13,8 @@ const meta: ___InternalChain = {
   },
   icon: {
     id: 'tempo',
-    brand_theme: 'dark',
-    variants: ['branded'],
+    brand_theme: 'light',
+    variants: ['branded', 'mono'],
     type: 'networks',
   },
   supported_services: {
