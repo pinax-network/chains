@@ -14,7 +14,7 @@ const meta: ___InternalChain = {
   icon: {
     id: 'ink',
     brand_theme: 'both',
-    variants: ['branded'],
+    variants: ['branded', 'mono'],
     type: 'networks',
   },
   supported_services: {

@@ -14,7 +14,7 @@ const meta: ___InternalChain = {
   icon: {
     id: 'megaeth',
     brand_theme: 'light',
-    variants: ['branded'],
+    variants: ['branded', 'mono'],
     type: 'networks',
   },
   supported_services: {
