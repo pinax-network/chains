@@ -2,7 +2,7 @@
 // Chains under ordered were manually placed, to manage the z-index (priority order) of chains.
 // Chains under missing are generated from available data, make sure to order them.
 // Include deprecated or future chains.
-// Last generation on 1/7/2026, 10:27:04 AM.
+// Last generation on 2026-10-03, 2:26:24 a.m..
 
 export default {
   ordered: {
@@ -60,6 +60,12 @@ export default {
     unichain: ['unisepolia'],
     ux: [],
     tron: [],
+    arc: ['arctest'],
+    hyperevm: [],
+    ink: [],
+    megaeth: [],
+    soneium: ['minato'],
+    tempo: [],
   },
   missing: [],
 };

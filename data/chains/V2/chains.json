@@ -3865,5 +3865,383 @@
       "website": "https://tron.network/"
     },
     "index": 85
+  },
+  {
+    "id": "arc",
+    "graph_id": "arc",
+    "name": "Arc",
+    "alt_names": ["evm-5042", "arc-mainnet"],
+    "standard": "evm",
+    "is_detailed_blocks": true,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "arc",
+      "brand_theme": "both",
+      "variants": ["branded"],
+      "type": "networks"
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "api": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://arc.network/"
+    },
+    "index": 86,
+    "testnets": [
+      {
+        "id": "arctest",
+        "graph_id": "arc-testnet",
+        "name": "Arc Testnet",
+        "alt_names": [],
+        "standard": "evm",
+        "is_detailed_blocks": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": null,
+            "full_released_at": "2026-10-03T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "api": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 87
+      }
+    ]
+  },
+  {
+    "id": "hyperevm",
+    "graph_id": "hyper-evm",
+    "name": "HyperEVM",
+    "alt_names": ["evm-999", "hyper-evm-mainnet", "hyperevm"],
+    "standard": "evm",
+    "is_detailed_blocks": true,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "hyperevm",
+      "brand_theme": "both",
+      "variants": ["branded"],
+      "type": "networks"
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "api": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://hyperliquid.xyz/"
+    },
+    "index": 88
+  },
+  {
+    "id": "ink",
+    "graph_id": "ink",
+    "name": "Ink",
+    "alt_names": ["evm-57073", "ink-mainnet"],
+    "standard": "evm",
+    "is_detailed_blocks": true,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "ink",
+      "brand_theme": "both",
+      "variants": ["branded"],
+      "type": "networks"
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "api": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://inkonchain.com/"
+    },
+    "index": 89
+  },
+  {
+    "id": "megaeth",
+    "graph_id": "megaeth",
+    "name": "MegaETH",
+    "alt_names": ["evm-4326", "megaeth-mainnet"],
+    "standard": "evm",
+    "is_detailed_blocks": false,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "megaeth",
+      "brand_theme": "light",
+      "variants": ["branded"],
+      "type": "networks"
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "api": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://megaeth.com/"
+    },
+    "index": 90
+  },
+  {
+    "id": "soneium",
+    "graph_id": "soneium",
+    "name": "Soneium",
+    "alt_names": ["evm-1868", "soneium-mainnet"],
+    "standard": "evm",
+    "is_detailed_blocks": true,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "soneium",
+      "brand_theme": "dark",
+      "variants": ["branded"],
+      "type": "networks"
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "api": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://soneium.org/"
+    },
+    "index": 91,
+    "testnets": [
+      {
+        "id": "minato",
+        "graph_id": "soneium-testnet",
+        "name": "Soneium Minato",
+        "alt_names": ["soneium-minato", "minato"],
+        "standard": "evm",
+        "is_detailed_blocks": true,
+        "block_type": {
+          "label": "sf.ethereum.type.v2.Block",
+          "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+        },
+        "supported_services": {
+          "firehose": {
+            "beta_released_at": null,
+            "full_released_at": "2026-10-03T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "substreams": {
+            "beta_released_at": null,
+            "full_released_at": "2026-10-03T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "rpc": {
+            "beta_released_at": null,
+            "full_released_at": "2026-10-03T00:00:00.000Z",
+            "deprecated_at": null
+          },
+          "datasets": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          },
+          "api": {
+            "beta_released_at": null,
+            "full_released_at": null,
+            "deprecated_at": null
+          }
+        },
+        "index": 92
+      }
+    ]
+  },
+  {
+    "id": "tempo",
+    "graph_id": "tempo",
+    "name": "Tempo",
+    "alt_names": ["evm-4217", "tempo-mainnet"],
+    "standard": "evm",
+    "is_detailed_blocks": false,
+    "block_type": {
+      "label": "sf.ethereum.type.v2.Block",
+      "url": "https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2"
+    },
+    "icon": {
+      "id": "tempo",
+      "brand_theme": "dark",
+      "variants": ["branded"],
+      "type": "networks"
+    },
+    "supported_services": {
+      "firehose": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "substreams": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "rpc": {
+        "beta_released_at": null,
+        "full_released_at": "2026-10-03T00:00:00.000Z",
+        "deprecated_at": null
+      },
+      "datasets": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      },
+      "api": {
+        "beta_released_at": null,
+        "full_released_at": null,
+        "deprecated_at": null
+      }
+    },
+    "metadata": {
+      "website": "https://tempo.xyz/"
+    },
+    "index": 93
   }
 ]
