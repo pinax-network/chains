@@ -69,10 +69,12 @@ export type ___InternalEVM = ChainBase & {
 };
 
 export type ChainIcon = {
-  // Token Icon ID
-  // See if icon is available on https://tokenicons.io/, if not create PR to add it.
-  // Then go on the Github Repo and find the icon ID under /packages/core/src/metadata/
-  // https://github.com/0xa3k5/token-icons
+  // web3icons name — NOT this chain's own id.
+  // The generator downloads raw-svgs/<type>/<variant>/<id>.svg from the web3icons
+  // repo, so a mismatch fails as a 404 during generation, not as a validation error.
+  // Confirm the name under https://github.com/0xa3k5/web3icons/tree/main/raw-svgs
+  // (e.g. eth -> 'ethereum', bsc -> 'binance-smart-chain', megaeth -> 'mega-eth').
+  // If the chain is absent there, set type: 'missing' and supply the SVGs by hand.
   id: string;
 
   symbol?: string;

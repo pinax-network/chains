@@ -9,7 +9,6 @@ This file is the best place to learn everything there is to know about the chain
    - [Updating an Existing Chain](#updating-an-existing-chain)
    - [Deprecating a Chain](#deprecating-a-chain)
 - [Scripts](#scripts)
-   - [Script: Copy Token Icons](#script-copy-token-icons)
    - [Script: Data Index](#script-data-index)
    - [Script: Index Config Check](#script-index-config-check)
    - [Script: Graph IDs Type](#script-graph-ids-type)
@@ -67,9 +66,6 @@ As maintaining this huge list of chain can become challenging and repetitive, we
 
 Generation scripts use external data or project structure to extrapolate data to automate repetitive tasks.
 
-#### Script: Copy Token Icons
-
-This script iterates through our supported chains and makes sure that every mainnet has its associated token-icons logos. The script will attempt to retrieve the `branded` and `mono` versions of the chains logo. It will then copy those over and with the mono version of the logo create the `dark` and `light` variants. For more information, please read [chain_icons.md](./chain_icons.md).
 
 #### Script: Data Index
 
