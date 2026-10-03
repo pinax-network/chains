@@ -21,7 +21,7 @@ const meta: ___InternalChain = {
     rpc: {
       beta_released_at: '2025-08-28T00:00:00.000Z',
       full_released_at: null,
-      deprecated_at: null,
+      deprecated_at: '2026-10-03T00:00:00.000Z',
     },
     firehose: {
       beta_released_at: null,

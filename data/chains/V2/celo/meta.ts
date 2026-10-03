@@ -20,17 +20,17 @@ const meta: ___InternalChain = {
   supported_services: {
     firehose: {
       beta_released_at: null,
-      full_released_at: null,
+      full_released_at: '2026-10-03T00:00:00.000Z',
       deprecated_at: null,
     },
     substreams: {
       beta_released_at: null,
-      full_released_at: null,
+      full_released_at: '2026-10-03T00:00:00.000Z',
       deprecated_at: null,
     },
     rpc: {
       beta_released_at: null,
-      full_released_at: null,
+      full_released_at: '2026-10-03T00:00:00.000Z',
       deprecated_at: null,
     },
     datasets: {
