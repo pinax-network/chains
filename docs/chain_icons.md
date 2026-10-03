@@ -1,11 +1,36 @@
 # Chain Icons
 
-For our chain icons, we use [Edge & Node's Token Icons library](https://tokenicons.io/). The library is a collection of SVG icons for various blockchain tokens and chains. The library is available on [GitHub](https://github.com/0xa3k5/token-icons), [NPM](https://www.npmjs.com/package/@token-icons/react) and [Figma](https://www.figma.com/community/file/1355517329090639687/token-icons-community).
+Chain icons come from [web3icons](https://github.com/0xa3k5/web3icons) (MIT), the successor to
+Edge & Node's Token Icons library. `@token-icons/core` was renamed to `@web3icons/core`; the old
+package is deprecated on npm and last published in August 2024, so it no longer carries recently
+added chains.
 
-We wrote a script to leverage the library's metadata (in the final data.json generation script), to make sure that the chain icons are up-to-date with the latest changes.
+[`generate_token_icons.ts`](../scripts/generate/V2/generate_token_icons.ts), run by
+`npm run generate:new_icons` as part of `generate`, reads `chains.json` and downloads each chain's
+declared `icon.variants` from the web3icons repository:
 
-The [copy_token_icons.ts script](../scripts/generate/V2/copy_token_icons.ts) iterates through our supported chains and makes sure that every mainnet has its associated token-icons logos. The script will attempt to retrieve the `branded` and `mono` versions of the chains logo. It will then copy those over and with the mono version of the logo create the `dark` and `light` variants. For more information, please read [chain_icons.md](./chain_icons.md).
+```
+https://raw.githubusercontent.com/0xa3k5/web3icons/main/raw-svgs/<type>/<variant>/<icon.id>.svg
+```
 
-If it can't find them, you'll receive an error and may need to provide an ID match in the script's code. 
+## `icon.id` is the web3icons name, not the chain id
 
-See [copy_token_icons.ts](../scripts/generate/V2/copy_token_icons.ts) for more information.
+This is the detail that bites. The downloaded filename is `icon.id`, which often differs from our
+own chain `id`:
+
+| Our `id` | `icon.id` |
+|---|---|
+| `eth` | `ethereum` |
+| `bsc` | `binance-smart-chain` |
+| `arbone` | `arbitrum-one` |
+| `hyperevm` | `hyper-evm` |
+| `megaeth` | `mega-eth` |
+
+Check the name against
+[raw-svgs/networks](https://github.com/0xa3k5/web3icons/tree/main/raw-svgs/networks) when adding a
+chain. A mismatch fails as a 404 during generation, not as a validation error.
+
+## When a chain has no web3icons entry
+
+Set `icon.type: 'missing'`, supply the SVGs by hand, and the generator will skip it rather than
+overwrite them.
