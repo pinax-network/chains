@@ -1,31 +1,25 @@
-import type { ___InternalChain } from '../../../../types/chain.types';
+import type { ___InternalTestnet } from '../../../../../../types/chain.types';
 
-const meta: ___InternalChain = {
-  id: 'hyperevm',
-  graph_id: 'hyper-evm',
-  name: 'HyperEVM',
-  alt_names: ['evm-999', 'hyper-evm-mainnet', 'hyperevm'],
+const meta: ___InternalTestnet = {
+  id: 'robsepolia',
+  graph_id: 'robinhood-sepolia',
+  name: 'Robinhood Chain Sepolia',
+  alt_names: ['evm-46630', 'robinhood-testnet'],
   standard: 'evm',
   is_detailed_blocks: true,
   block_type: {
     label: 'sf.ethereum.type.v2.Block',
     url: 'https://buf.build/streamingfast/firehose-ethereum/docs/main:sf.ethereum.type.v2',
   },
-  icon: {
-    id: 'hyperevm',
-    brand_theme: 'both',
-    variants: ['branded', 'mono'],
-    type: 'networks',
-  },
   supported_services: {
     firehose: {
       beta_released_at: null,
-      full_released_at: '2026-10-03T00:00:00.000Z',
+      full_released_at: null,
       deprecated_at: null,
     },
     substreams: {
       beta_released_at: null,
-      full_released_at: '2026-10-03T00:00:00.000Z',
+      full_released_at: null,
       deprecated_at: null,
     },
     rpc: {
@@ -40,12 +34,9 @@ const meta: ___InternalChain = {
     },
     api: {
       beta_released_at: null,
-      full_released_at: '2026-10-03T00:00:00.000Z',
+      full_released_at: null,
       deprecated_at: null,
     },
-  },
-  metadata: {
-    website: 'https://hyperliquid.xyz/',
   },
 };
 

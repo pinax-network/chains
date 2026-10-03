@@ -1,6 +1,6 @@
 // This file is auto-generated on pre-commit to avoid maintaining it / circular dependencies.
 // Do not modify manually as it will be overwritten.
-// Last generation on 2026-10-03, 2:26:26 a.m..
+// Last generation on 2026-10-03, 2:37:18 a.m..
 export type PinaxID =
   | 'arbnova'
   | 'arbone'
@@ -71,6 +71,8 @@ export type PinaxID =
   | 'polygon'
   | 'amoy'
   | 'mumbai'
+  | 'robinhood'
+  | 'robsepolia'
   | 'ronin'
   | 'scroll'
   | 'scrsepolia'
